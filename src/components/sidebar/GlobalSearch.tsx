@@ -17,7 +17,7 @@ interface SearchResult {
   data?: any;
 }
 
-export default function GlobalSearch({ onLocationSelect, onHighlightFeature }: GlobalSearchProps) {
+export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onNavigateTo }: GlobalSearchProps) {
   const [query, setQuery] = useState("");
   const [allData, setAllData] = useState<{
     plans: any[];
