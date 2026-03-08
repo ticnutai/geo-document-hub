@@ -2,11 +2,15 @@ import { useState, useCallback } from "react";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/sidebar/AppSidebar";
 import MapView from "@/components/map/MapView";
+import MapToolbar from "@/components/map/MapToolbar";
 import FileUploader from "@/components/documents/FileUploader";
 import GitHubLoader from "@/components/documents/GitHubLoader";
 import { useLayers } from "@/hooks/useLayers";
 import { useDocuments } from "@/hooks/useDocuments";
-import { PanelRight } from "lucide-react";
+import { PanelRight, Map } from "lucide-react";
+import QuickActions from "@/components/sidebar/QuickActions";
+import type { GeoLayer } from "@/types/gis";
+import L from "leaflet";
 
 export default function Index() {
   const { layers, toggleVisibility, setOpacity, addLayer, removeLayer, categories } = useLayers();
@@ -17,11 +21,25 @@ export default function Index() {
   const [mapZoom, setMapZoom] = useState(13);
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
   const [measureActive, setMeasureActive] = useState(false);
+  const [mapRef, setMapRef] = useState<L.Map | null>(null);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
     setMapCenter([lat, lng]);
     setMapZoom(15);
   }, []);
+
+  const handleZoomToLayer = useCallback((layer: GeoLayer) => {
+    if (!mapRef || !layer.data) return;
+    try {
+      const geoJsonLayer = L.geoJSON(layer.data);
+      const bounds = geoJsonLayer.getBounds();
+      if (bounds.isValid()) {
+        mapRef.fitBounds(bounds, { padding: [30, 30] });
+      }
+    } catch (e) {
+      console.error("Could not zoom to layer:", e);
+    }
+  }, [mapRef]);
 
   return (
     <SidebarProvider defaultOpen={true}>
@@ -44,18 +62,29 @@ export default function Index() {
           activeWaybackId={waybackReleaseId}
           measureActive={measureActive}
           onMeasureToggle={() => setMeasureActive((prev) => !prev)}
+          onZoomToLayer={handleZoomToLayer}
         />
 
         <div className="flex-1 flex flex-col">
-          <header className="h-10 flex items-center border-b bg-background/80 backdrop-blur-sm px-2 gap-2">
+          {/* Enhanced header */}
+          <header className="h-11 flex items-center border-b bg-background/80 backdrop-blur-sm px-3 gap-2">
             <SidebarTrigger>
               <PanelRight className="h-4 w-4" />
             </SidebarTrigger>
-            <span className="text-xs font-medium text-muted-foreground">
-              {layers.filter((l) => l.visible).length} שכבות פעילות · {documents.length} מסמכים
-              {waybackReleaseId && " · 🛩️ צילום אוויר"}
-              {measureActive && " · 📏 מדידה"}
-            </span>
+            <div className="h-5 w-px bg-border" />
+            <div className="flex items-center gap-1.5">
+              <Map className="h-3.5 w-3.5 text-primary" />
+              <span className="text-xs font-semibold text-foreground">GIS Pro</span>
+            </div>
+            <div className="flex-1" />
+            <QuickActions
+              measureActive={measureActive}
+              onMeasureToggle={() => setMeasureActive((prev) => !prev)}
+              waybackActive={!!waybackReleaseId}
+              onWaybackToggle={() => setWaybackReleaseId(waybackReleaseId ? null : waybackReleaseId)}
+              activeLayers={layers.filter((l) => l.visible).length}
+              totalDocs={documents.length}
+            />
           </header>
 
           <main className="flex-1 relative">
@@ -65,6 +94,12 @@ export default function Index() {
               zoom={mapZoom}
               waybackReleaseId={waybackReleaseId}
               measureActive={measureActive}
+              onMapReady={setMapRef}
+            />
+            <MapToolbar
+              measureActive={measureActive}
+              onMeasureToggle={() => setMeasureActive((prev) => !prev)}
+              waybackActive={!!waybackReleaseId}
             />
           </main>
         </div>

@@ -23,6 +23,7 @@ interface MapViewProps {
   zoom?: number;
   waybackReleaseId?: string | null;
   measureActive?: boolean;
+  onMapReady?: (map: L.Map) => void;
 }
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {
@@ -30,6 +31,14 @@ function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }
   useEffect(() => {
     map.setView(center, zoom);
   }, [center, zoom, map]);
+  return null;
+}
+
+function MapRefReporter({ onMapReady }: { onMapReady: (map: L.Map) => void }) {
+  const map = useMap();
+  useEffect(() => {
+    onMapReady(map);
+  }, [map, onMapReady]);
   return null;
 }
 
@@ -88,6 +97,7 @@ export default function MapView({
   zoom = 13,
   waybackReleaseId,
   measureActive = false,
+  onMapReady,
 }: MapViewProps) {
   return (
     <MapContainer
@@ -117,7 +127,6 @@ export default function MapView({
         </LayersControl.BaseLayer>
       </LayersControl>
 
-      {/* Wayback aerial overlay */}
       {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
       {layers.map((layer) => (
@@ -129,6 +138,7 @@ export default function MapView({
       <LocateButton />
       <MeasureTool active={measureActive} />
       <ScaleBar />
+      {onMapReady && <MapRefReporter onMapReady={onMapReady} />}
     </MapContainer>
   );
 }
