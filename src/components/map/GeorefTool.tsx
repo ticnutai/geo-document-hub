@@ -21,6 +21,7 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
   const markersRef = useRef<L.Marker[]>([]);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [opacity, setOpacity] = useState(0.7);
+  const [rotation, setRotation] = useState(0);
   const [layerName, setLayerName] = useState("תמונה מגואורפרנס");
   const fileRef = useRef<HTMLInputElement | null>(null);
 
