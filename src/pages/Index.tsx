@@ -187,6 +187,8 @@ export default function Index() {
               zoom={mapZoom}
               waybackReleaseId={waybackReleaseId}
               measureActive={measureActive}
+              georefActive={georefActive}
+              onGeorefClose={() => setGeorefActive(false)}
               onMapReady={setMapRef}
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
