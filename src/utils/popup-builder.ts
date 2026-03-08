@@ -126,7 +126,7 @@ function formatValue(key: string, value: unknown): string {
   }
 
   // Format area values
-  if (key === "HelkaArea" || key === "area" || key === "CALC_AREA" || key === "LEGAL_AREA" || key === "SHAPE_AREA") {
+  if (key === "HelkaArea" || key === "Helka_Area" || key === "area" || key === "CALC_AREA" || key === "LEGAL_AREA" || key === "SHAPE_AREA") {
     const num = Number(value);
     if (!isNaN(num) && num > 0) {
       return `${num.toLocaleString("he-IL", { maximumFractionDigits: 1 })} מ״ר`;
