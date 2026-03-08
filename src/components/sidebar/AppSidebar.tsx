@@ -36,6 +36,7 @@ interface AppSidebarProps {
 
 const tabs: { id: SidebarTab; label: string; icon: any }[] = [
   { id: "layers", label: "שכבות", icon: Layers },
+  { id: "catalog", label: "קטלוג", icon: Database },
   { id: "documents", label: "מסמכים", icon: FileText },
   { id: "draw", label: "ציור", icon: PenTool },
   { id: "search", label: "חיפוש", icon: Search },
