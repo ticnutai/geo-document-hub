@@ -132,6 +132,29 @@ export default function AdvancedSearchDialog({
     }
   }, [gush, helka, gushFeatures, onHighlightFeature, getCenterOfFeature, onLocationSelect, onAddRecent, onOpenChange]);
 
+  // Zoning search
+  const zoningYeudTypes = useMemo(() => getUniqueYeudTypes(zoningData), [zoningData]);
+  const filteredZoning = useMemo(() => {
+    let items = zoningData;
+    if (zoningFilter) items = items.filter((z) => z.yeudDesc === zoningFilter);
+    if (zoningSearch.trim()) {
+      const q = zoningSearch.toLowerCase();
+      items = items.filter((z) => z.migrash.includes(q) || z.yeudDesc.toLowerCase().includes(q) || z.tabaYeud.toLowerCase().includes(q));
+    }
+    return items.slice(0, 30);
+  }, [zoningData, zoningFilter, zoningSearch]);
+
+  const handleZoningSelect = useCallback((z: ZoningFeatureSummary) => {
+    const color = getYeudColor(z.yeudCode, z.yeudDesc);
+    onHighlightFeature?.(z.feature, color, `מגרש ${z.migrash} · ${z.yeudDesc}`);
+    const center = getCenterOfFeature(z.feature);
+    if (center) {
+      onLocationSelect(center[0], center[1], `מגרש ${z.migrash}`);
+      onAddRecent({ type: "gush-helka", query: z.migrash, label: `מגרש ${z.migrash} · ${z.yeudDesc}`, lat: center[0], lng: center[1] });
+    }
+    onOpenChange(false);
+  }, [onHighlightFeature, getCenterOfFeature, onLocationSelect, onAddRecent, onOpenChange]);
+
   // Plan search results
   const planResults = useMemo(() => {
     if (!planQuery.trim() || planQuery.length < 2) return [];
