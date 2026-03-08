@@ -1,22 +1,33 @@
 import { useState, useEffect, useMemo } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, ChevronDown, ChevronLeft, MapPinned, Search } from "lucide-react";
+import { Loader2, ChevronDown, ChevronLeft, MapPinned, Search, MapPin } from "lucide-react";
 import { loadAllMigrashimByGush, loadMigrashDataForGush, getAvailableGushim } from "@/data/complot-data";
+import { loadAllGushFeatures } from "@/data/cadastre-data";
 import { Skeleton } from "@/components/ui/skeleton";
+import { toast } from "sonner";
 
-export default function ComplotPanel() {
+interface ComplotPanelProps {
+  onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+}
+
+export default function ComplotPanel({ onHighlightFeature }: ComplotPanelProps) {
   const [migrashimByGush, setMigrashimByGush] = useState<Record<string, any[]>>({});
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [expandedGush, setExpandedGush] = useState<string | null>(null);
   const [migrashDetail, setMigrashDetail] = useState<Record<string, any> | null>(null);
   const [detailLoading, setDetailLoading] = useState(false);
+  const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
 
   const availableGushim = useMemo(() => getAvailableGushim(), []);
 
   useEffect(() => {
-    loadAllMigrashimByGush().then((data) => {
+    Promise.all([
+      loadAllMigrashimByGush(),
+      loadAllGushFeatures(),
+    ]).then(([data, gushGeo]) => {
       setMigrashimByGush(data);
+      setGushFeatures(gushGeo);
       setLoading(false);
     });
   }, []);
@@ -39,6 +50,16 @@ export default function ComplotPanel() {
     const data = await loadMigrashDataForGush(gush);
     setMigrashDetail(data);
     setDetailLoading(false);
+  };
+
+  const handleZoomToGush = (gush: string) => {
+    if (!onHighlightFeature) return;
+    const features = gushFeatures.get(gush);
+    if (features && features.length > 0) {
+      onHighlightFeature(features, "#f59e0b", `גוש ${gush}`);
+    } else {
+      toast.info("לא נמצאה גיאומטריה לגוש זה");
+    }
   };
 
   if (loading) {
@@ -80,6 +101,7 @@ export default function ComplotPanel() {
             const isExpanded = expandedGush === gush;
             const migrashim = migrashimByGush[gush] || [];
             const hasData = availableGushim.includes(gush);
+            const hasGeo = gushFeatures.has(gush);
 
             return (
               <div key={gush} className={`rounded-lg border transition-all duration-200 ${
@@ -95,6 +117,15 @@ export default function ComplotPanel() {
                     <ChevronLeft className="h-3 w-3 shrink-0 text-muted-foreground" />
                   )}
                   <span className="font-medium">גוש {gush}</span>
+                  {hasGeo && (
+                    <button
+                      onClick={(e) => { e.stopPropagation(); handleZoomToGush(gush); }}
+                      className="p-0.5 rounded hover:bg-primary/20 transition-colors"
+                      title="הצג במפה"
+                    >
+                      <MapPin className="h-3 w-3 text-primary" />
+                    </button>
+                  )}
                   <span className="text-[9px] text-muted-foreground mr-auto flex items-center gap-1">
                     {migrashim.length > 0 && <span>{migrashim.length} מגרשים</span>}
                     {hasData && <span className="h-1.5 w-1.5 rounded-full bg-green-500" />}
@@ -103,6 +134,16 @@ export default function ComplotPanel() {
 
                 {isExpanded && (
                   <div className="px-3 pb-2.5 space-y-1.5 animate-fade-in">
+                    {hasGeo && (
+                      <button
+                        onClick={() => handleZoomToGush(gush)}
+                        className="w-full flex items-center justify-center gap-1.5 rounded-md border border-primary/30 bg-primary/5 px-2 py-1.5 text-[10px] text-primary font-medium hover:bg-primary/10 transition-colors"
+                      >
+                        <MapPin className="h-3 w-3" />
+                        הצג גוש במפה
+                      </button>
+                    )}
+
                     {detailLoading ? (
                       <div className="space-y-1.5 py-1">
                         {[1, 2, 3].map((i) => (
