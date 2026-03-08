@@ -18,6 +18,7 @@ export default function BlocksPanel({ onHighlightFeature }: BlocksPanelProps) {
   const [expandedBlock, setExpandedBlock] = useState<string | null>(null);
   const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
   const [gushLoading, setGushLoading] = useState(false);
+  const [helkaByGush, setHelkaByGush] = useState<Map<number, HelkaMappingEntry[]>>(new Map());
 
   useEffect(() => {
     Promise.all([loadBlocksByPlan(), loadPlansByBlock()]).then(([bp, pb]) => {
