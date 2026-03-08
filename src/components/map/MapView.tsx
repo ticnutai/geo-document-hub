@@ -14,14 +14,6 @@ import MiniMap from "./MiniMap";
 import ZoomControls from "./ZoomControls";
 import GoToCoords from "./GoToCoords";
 import "leaflet/dist/leaflet.css";
-import MouseCoords from "./MouseCoords";
-import LocateButton from "./LocateButton";
-import MeasureTool from "./MeasureTool";
-import ScaleBar from "./ScaleBar";
-import MiniMap from "./MiniMap";
-import ZoomControls from "./ZoomControls";
-import GoToCoords from "./GoToCoords";
-import "leaflet/dist/leaflet.css";
 
 // Fix default marker icon
 delete (L.Icon.Default.prototype as any)._getIconUrl;
