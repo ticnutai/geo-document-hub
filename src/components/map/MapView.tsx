@@ -29,6 +29,7 @@ interface MapViewProps {
   measureActive?: boolean;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
+  onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
 }
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {

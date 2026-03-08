@@ -26,7 +26,7 @@ export default function Index() {
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
 
-  const { highlighted, highlightAndZoom, clearHighlight } = useMapHighlight(mapRef);
+  const { highlighted, highlightAndZoom, highlightOnly, clearHighlight } = useMapHighlight(mapRef);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
     // Add tiny random offset to force MapUpdater to detect change even for same location
