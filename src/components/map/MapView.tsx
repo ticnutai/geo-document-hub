@@ -33,8 +33,13 @@ interface MapViewProps {
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {
   const map = useMap();
+  const prevCenter = useRef<string>("");
   useEffect(() => {
-    map.setView(center, zoom);
+    const key = `${center[0]},${center[1]},${zoom}`;
+    if (key !== prevCenter.current) {
+      map.flyTo(center, zoom, { duration: 1 });
+      prevCenter.current = key;
+    }
   }, [center, zoom, map]);
   return null;
 }
