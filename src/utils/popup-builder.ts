@@ -14,17 +14,23 @@ const FIELD_TRANSLATIONS: Record<string, string> = {
   STATUS_NAM: "שם סטטוס",
   IS_ANALITY: "אנליטי",
 
-  // Plan fields
+  // Plan / Zoning fields
   Migrash: "מגרש",
   migrash: "מגרש",
   MIGRASH: "מגרש",
   TabaYeud: 'ייעוד (תב"ע)',
+  Taba_Yeud: 'תב"ע ייעוד',
   YeudDesc: "תיאור ייעוד",
+  Yeud_Desc: "תיאור ייעוד",
+  Yeud_Code: "קוד ייעוד",
   TabaMigra: 'תב"ע מגרש',
+  Taba_Migra: 'תב"ע מגרש',
   bikoret: "ביקורת",
   HelkaArea: "שטח חלקה (מ״ר)",
+  Helka_Area: "שטח חלקה (מ״ר)",
   GushHelka: "גוש-חלקה",
   ToSite: "קישור לאתר",
+  internet: "קישור למידע",
   PLAN_NAME: "שם תוכנית",
   MAVAT_NAME: "שם מאבט",
   MAVAT_CODE: "קוד מאבט",
@@ -99,7 +105,7 @@ const HIDDEN_FIELDS = new Set([
 ]);
 
 // Fields that contain URLs
-const URL_FIELDS = new Set(["ToSite", "GushHelka"]);
+const URL_FIELDS = new Set(["ToSite", "GushHelka", "internet"]);
 
 function translateField(key: string): string {
   return FIELD_TRANSLATIONS[key] || key;
@@ -120,7 +126,7 @@ function formatValue(key: string, value: unknown): string {
   }
 
   // Format area values
-  if (key === "HelkaArea" || key === "area" || key === "CALC_AREA" || key === "LEGAL_AREA" || key === "SHAPE_AREA") {
+  if (key === "HelkaArea" || key === "Helka_Area" || key === "area" || key === "CALC_AREA" || key === "LEGAL_AREA" || key === "SHAPE_AREA") {
     const num = Number(value);
     if (!isNaN(num) && num > 0) {
       return `${num.toLocaleString("he-IL", { maximumFractionDigits: 1 })} מ״ר`;
@@ -201,20 +207,22 @@ function getPriority(key: string): number {
     LOT_NUM: 1, GUSH_NUM: 1, gush: 1, "גוש": 1,
     PARCEL_NUM: 2, HELKA_NUM: 2, helka: 2, "חלקה": 2,
     Migrash: 3, migrash: 3, MIGRASH: 3,
-    Descriptio: 4, "שם": 4,
-    yeshuv: 5, "ישוב": 5,
-    TabaYeud: 6, yeud: 6, YeudDesc: 7,
-    HelkaArea: 8, CALC_AREA: 8,
+    Yeud_Desc: 4, YeudDesc: 4, TabaYeud: 4, Taba_Yeud: 4.5,
+    Descriptio: 5, "שם": 5,
+    yeshuv: 6, "ישוב": 6,
+    Yeud_Code: 6.5,
+    TabaMigra: 7, Taba_Migra: 7,
+    HelkaArea: 8, Helka_Area: 8, CALC_AREA: 8,
     "כתובת": 9, ADDRESS: 9,
     subtype: 10,
     mamad: 11,
     bikoret: 12,
-    TabaMigra: 13,
     phone: 14,
     PLAN_NAME: 15, plan_number: 15, plan_name: 16,
     MAVAT_NAME: 17,
     LABEL: 18,
     REMARKS: 19, "הערות": 19,
+    internet: 20, ToSite: 20,
   };
   return order[key] ?? 50;
 }
