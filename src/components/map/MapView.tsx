@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import { MapContainer, TileLayer, GeoJSON, useMap, LayersControl } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import type { HighlightedFeature } from "@/hooks/useMapHighlight";
