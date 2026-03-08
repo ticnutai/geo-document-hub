@@ -21,12 +21,18 @@ export default function BlocksPanel({ onHighlightFeature }: BlocksPanelProps) {
   const [helkaByGush, setHelkaByGush] = useState<Map<number, HelkaMappingEntry[]>>(new Map());
 
   useEffect(() => {
-    Promise.all([loadBlocksByPlan(), loadPlansByBlock()]).then(([bp, pb]) => {
+    Promise.all([loadBlocksByPlan(), loadPlansByBlock(), loadHelkaMapping()]).then(([bp, pb, helka]) => {
       setBlockData(extractBlocksParcels(bp));
       setPlansByBlock(pb);
+      // Group helka mapping by gush
+      const hMap = new Map<number, HelkaMappingEntry[]>();
+      for (const entry of helka.mapping || []) {
+        if (!hMap.has(entry.gush)) hMap.set(entry.gush, []);
+        hMap.get(entry.gush)!.push(entry);
+      }
+      setHelkaByGush(hMap);
       setLoading(false);
     });
-    // Load gush features in background
     setGushLoading(true);
     loadAllGushFeatures().then((data) => {
       setGushFeatures(data);
