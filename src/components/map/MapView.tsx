@@ -29,6 +29,7 @@ interface MapViewProps {
   measureActive?: boolean;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
+  onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
 }
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {
@@ -68,7 +69,7 @@ function WaybackLayer({ releaseId }: { releaseId: string }) {
   );
 }
 
-function LayerRenderer({ layer }: { layer: GeoLayer }) {
+function LayerRenderer({ layer, onFeatureClick }: { layer: GeoLayer; onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void }) {
   if (!layer.visible || !layer.data) return null;
 
   const style = {
@@ -76,6 +77,18 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
     weight: 2,
     opacity: layer.opacity,
     fillOpacity: layer.opacity * 0.3,
+  };
+
+  const getFeatureLabel = (feature: GeoJSON.Feature) => {
+    const props = (feature.properties || {}) as Record<string, unknown>;
+    const gush = String(props.LOT_NUM ?? props.gush ?? props.GUSH_NUM ?? "").trim();
+    const helka = String(props.PARCEL_NUM ?? props.helka ?? props.HELKA_NUM ?? "").trim();
+    const migrash = String(props.migrash ?? props.MIGRASH ?? "").trim();
+
+    if (gush && helka) return `גוש ${gush} · חלקה ${helka}`;
+    if (gush) return `גוש ${gush}`;
+    if (migrash) return `מגרש ${migrash}`;
+    return layer.name;
   };
 
   return (
@@ -100,6 +113,12 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
             .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
             .join("<br/>");
           if (content) leafletLayer.bindPopup(content);
+        }
+
+        if (onFeatureClick) {
+          leafletLayer.on("click", () => {
+            onFeatureClick(feature, getFeatureLabel(feature));
+          });
         }
       }}
     />
@@ -147,6 +166,7 @@ export default function MapView({
   measureActive = false,
   onMapReady,
   highlighted,
+  onFeatureClick,
 }: MapViewProps) {
   return (
     <MapContainer
@@ -179,7 +199,7 @@ export default function MapView({
       {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
       {layers.map((layer) => (
-        <LayerRenderer key={layer.id} layer={layer} />
+        <LayerRenderer key={layer.id} layer={layer} onFeatureClick={onFeatureClick} />
       ))}
 
       {highlighted && <HighlightLayer highlighted={highlighted} />}
