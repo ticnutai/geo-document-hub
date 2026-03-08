@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, ChevronDown, ChevronLeft, Landmark, MapPin } from "lucide-react";
+import { Loader2, ChevronDown, ChevronLeft, Landmark, MapPin, Link2 } from "lucide-react";
 import { loadBlocksByPlan, loadPlansByBlock, extractBlocksParcels, type BlockParcelEntry } from "@/data/plans-data";
 import { loadAllGushFeatures } from "@/data/cadastre-data";
+import { loadHelkaMapping, type HelkaMappingEntry } from "@/data/building-rights-data";
 import { toast } from "sonner";
 
 interface BlocksPanelProps {
