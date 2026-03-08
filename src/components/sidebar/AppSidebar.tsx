@@ -115,6 +115,10 @@ export default function AppSidebar(props: AppSidebarProps) {
               onToggleVisibility={props.onToggleVisibility}
               onSetOpacity={props.onSetOpacity}
               onSetColor={props.onSetColor}
+              onSetStrokeColor={props.onSetStrokeColor}
+              onSetStrokeOpacity={props.onSetStrokeOpacity}
+              onSetFillColor={props.onSetFillColor}
+              onSetFillOpacity={props.onSetFillOpacity}
               onRemoveLayer={props.onRemoveLayer}
               onZoomToLayer={props.onZoomToLayer}
               onReorderLayers={props.onReorderLayers}

@@ -87,6 +87,10 @@ export default function Index() {
           onToggleVisibility={toggleVisibility}
           onSetOpacity={setOpacity}
           onSetColor={setColor}
+          onSetStrokeColor={setStrokeColor}
+          onSetStrokeOpacity={setStrokeOpacity}
+          onSetFillColor={setFillColor}
+          onSetFillOpacity={setFillOpacity}
           onRemoveLayer={removeLayer}
           onRemoveDocument={removeDocument}
           onUploadClick={() => setUploaderOpen(true)}
