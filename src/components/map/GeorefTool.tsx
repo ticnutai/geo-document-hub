@@ -85,6 +85,14 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
     overlayRef.current?.setOpacity(opacity);
   }, [opacity]);
 
+  useEffect(() => {
+    const el = overlayRef.current?.getElement();
+    if (el) {
+      el.style.transformOrigin = "center center";
+      el.style.transform = `rotate(${rotation}deg)`;
+    }
+  }, [rotation]);
+
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
