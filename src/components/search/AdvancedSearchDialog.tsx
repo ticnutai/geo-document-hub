@@ -260,7 +260,7 @@ export default function AdvancedSearchDialog({
             </div>
             <div>
               <span className="font-bold">חיפוש מתקדם</span>
-              <p className="text-[10px] text-muted-foreground font-normal">גוש · חלקה · תוכנית · כתובת</p>
+              <p className="text-[10px] text-muted-foreground font-normal">גוש · חלקה · תוכנית · כתובת · ייעוד קרקע</p>
             </div>
           </DialogTitle>
         </DialogHeader>
