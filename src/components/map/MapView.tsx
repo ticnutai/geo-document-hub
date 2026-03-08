@@ -109,11 +109,10 @@ function LayerRenderer({ layer, onFeatureClick }: { layer: GeoLayer; onFeatureCl
       }}
       onEachFeature={(feature, leafletLayer) => {
         if (feature.properties) {
-          const content = Object.entries(feature.properties)
-            .filter(([, v]) => v !== null && v !== undefined && v !== "")
-            .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
-            .join("<br/>");
-          if (content) leafletLayer.bindPopup(content);
+          const html = buildFeaturePopupHTML(feature.properties as Record<string, unknown>);
+          if (html) {
+            leafletLayer.bindPopup(html, { maxWidth: 320, minWidth: 200, className: "gis-popup-wrapper" });
+          }
         }
 
         if (onFeatureClick) {
