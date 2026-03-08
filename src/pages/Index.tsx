@@ -223,6 +223,7 @@ export default function Index() {
               measureActive={measureActive}
               georefActive={georefActive}
               onGeorefClose={() => setGeorefActive(false)}
+              onGeorefSave={handleGeorefSave}
               onMapReady={setMapRef}
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}

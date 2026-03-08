@@ -118,6 +118,7 @@ export default function MapView({
   measureActive = false,
   georefActive = false,
   onGeorefClose,
+  onGeorefSave,
   onMapReady,
   highlighted,
   onFeatureClick,
@@ -144,7 +145,7 @@ export default function MapView({
       <LocateButton />
       <ZoomControls />
       <MeasureTool active={measureActive} />
-      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} />
+      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} onSaveAsLayer={onGeorefSave} />
       <ScaleBar />
       <MiniMap />
       <GoToCoords />
