@@ -1,25 +1,25 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Button } from "@/components/ui/button";
-import { Loader2, TrendingUp, DollarSign, BarChart3, Clock, Search, Building2, ArrowUpDown, ChevronDown, ChevronLeft } from "lucide-react";
+import { Loader2, DollarSign, BarChart3, Clock, Building2, ArrowUpDown, Brain, Calculator, PieChart } from "lucide-react";
 import { loadMigrashim, extractMigrashim, type MigrashSummary } from "@/data/plans-data";
 import { loadBuildingRights, loadInstructionsSummary, type BuildingRightsPlan, type InstructionsPlan } from "@/data/building-rights-data";
 import { loadHelkaMapping, type HelkaMappingEntry } from "@/data/building-rights-data";
-import { fetchNadlanTransactions, type NadlanTransaction } from "@/lib/api/nadlan";
-import { toast } from "sonner";
 import ParcelInfoTable from "./ParcelInfoTable";
 import PlanComparisonView from "./PlanComparisonView";
 import PlanTimeline from "./PlanTimeline";
 import TransactionsView from "./TransactionsView";
+import AIAnalysisPanel from "./AIAnalysisPanel";
+import BuildingPotentialCalc from "./BuildingPotentialCalc";
+import AreaStatsCharts from "./AreaStatsCharts";
 
-type AnalysisTab = "parcels" | "compare" | "timeline" | "transactions";
+type AnalysisTab = "parcels" | "compare" | "timeline" | "transactions" | "ai" | "potential" | "charts";
 
 interface PlanningAnalysisPanelProps {
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
 }
 
 export default function PlanningAnalysisPanel({ onHighlightFeature }: PlanningAnalysisPanelProps) {
-  const [activeTab, setActiveTab] = useState<AnalysisTab>("parcels");
+  const [activeTab, setActiveTab] = useState<AnalysisTab>("ai");
   const [loading, setLoading] = useState(true);
   const [migrashim, setMigrashim] = useState<MigrashSummary[]>([]);
   const [buildingRights, setBuildingRights] = useState<Record<string, BuildingRightsPlan>>({});
@@ -42,6 +42,9 @@ export default function PlanningAnalysisPanel({ onHighlightFeature }: PlanningAn
   }, []);
 
   const tabs: { id: AnalysisTab; label: string; icon: any }[] = [
+    { id: "ai", label: "AI", icon: Brain },
+    { id: "potential", label: "פוטנציאל", icon: Calculator },
+    { id: "charts", label: "גרפים", icon: PieChart },
     { id: "parcels", label: "מגרשים", icon: Building2 },
     { id: "compare", label: "השוואה", icon: ArrowUpDown },
     { id: "timeline", label: "ציר זמן", icon: Clock },
@@ -64,22 +67,48 @@ export default function PlanningAnalysisPanel({ onHighlightFeature }: PlanningAn
         <span className="text-xs font-semibold">ניתוח תכנוני מתקדם</span>
       </div>
 
-      <div className="flex gap-0.5 bg-muted/50 rounded-md p-0.5">
-        {tabs.map((tab) => (
-          <button
-            key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`flex-1 flex items-center justify-center gap-1 rounded px-1.5 py-1.5 text-[9px] font-medium transition-all ${
-              activeTab === tab.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
-            }`}
-          >
-            <tab.icon className="h-3 w-3" />
-            {tab.label}
-          </button>
-        ))}
+      {/* Two-row tab bar for better readability */}
+      <div className="space-y-0.5">
+        <div className="flex gap-0.5 bg-muted/50 rounded-md p-0.5">
+          {tabs.slice(0, 4).map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex-1 flex items-center justify-center gap-0.5 rounded px-1 py-1.5 text-[9px] font-medium transition-all ${
+                activeTab === tab.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              <tab.icon className="h-3 w-3" />
+              {tab.label}
+            </button>
+          ))}
+        </div>
+        <div className="flex gap-0.5 bg-muted/50 rounded-md p-0.5">
+          {tabs.slice(4).map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`flex-1 flex items-center justify-center gap-0.5 rounded px-1 py-1.5 text-[9px] font-medium transition-all ${
+                activeTab === tab.id ? "bg-background text-foreground shadow-sm" : "text-muted-foreground hover:text-foreground"
+              }`}
+            >
+              <tab.icon className="h-3 w-3" />
+              {tab.label}
+            </button>
+          ))}
+        </div>
       </div>
 
-      <ScrollArea className="h-[calc(100vh-200px)]">
+      <ScrollArea className="h-[calc(100vh-220px)]">
+        {activeTab === "ai" && (
+          <AIAnalysisPanel migrashim={migrashim} buildingRights={buildingRights} />
+        )}
+        {activeTab === "potential" && (
+          <BuildingPotentialCalc migrashim={migrashim} buildingRights={buildingRights} />
+        )}
+        {activeTab === "charts" && (
+          <AreaStatsCharts migrashim={migrashim} buildingRights={buildingRights} />
+        )}
         {activeTab === "parcels" && (
           <ParcelInfoTable
             migrashim={migrashim}
@@ -89,10 +118,7 @@ export default function PlanningAnalysisPanel({ onHighlightFeature }: PlanningAn
           />
         )}
         {activeTab === "compare" && (
-          <PlanComparisonView
-            buildingRights={buildingRights}
-            instructions={instructions}
-          />
+          <PlanComparisonView buildingRights={buildingRights} instructions={instructions} />
         )}
         {activeTab === "timeline" && (
           <PlanTimeline buildingRights={buildingRights} />
