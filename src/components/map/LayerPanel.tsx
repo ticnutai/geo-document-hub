@@ -50,6 +50,8 @@ export default function LayerPanel({
   onToggleFavorite,
 }: LayerPanelProps) {
   const [openCategories, setOpenCategories] = useState<string[]>(categories);
+  const [editingLayerId, setEditingLayerId] = useState<string | null>(null);
+  const [editingName, setEditingName] = useState("");
 
   const toggleCategory = (cat: string) => {
     setOpenCategories((prev) =>
