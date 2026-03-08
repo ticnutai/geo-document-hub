@@ -174,6 +174,16 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
                   {m.yehidotDiur && <><span>·</span><span>{m.yehidotDiur} יח״ד</span></>}
                   {m.megurimSqm && <><span>·</span><span>{m.megurimSqm} מ״ר</span></>}
                 </div>
+                {helkaEntries && helkaEntries.length > 0 && (
+                  <div className="flex items-center gap-1 mt-0.5 text-[9px] text-accent-foreground">
+                    <Link2 className="h-2.5 w-2.5 text-primary" />
+                    {helkaEntries.map((h, hi) => (
+                      <span key={hi} className="bg-accent/50 px-1 py-0.5 rounded">
+                        חלקה {h.helka} (גוש {h.gush})
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             );
           })}
