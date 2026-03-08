@@ -31,17 +31,21 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
   const [geoLoading, setGeoLoading] = useState(false);
   const [geoResults, setGeoResults] = useState<any[]>([]);
   const debounceRef = useRef<NodeJS.Timeout | null>(null);
+  const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
 
   useEffect(() => {
     setLoading(true);
-    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex()]).then(
-      ([plansRaw, migRaw, blockRaw, docsIdx]) => {
+    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex(), loadPlanBoundaries(), loadAllGushFeatures()]).then(
+      ([plansRaw, migRaw, blockRaw, docsIdx, boundaries, gushGeo]) => {
         setAllData({
           plans: extractPlans(plansRaw),
           migrashim: extractMigrashim(migRaw),
           blocks: blockRaw?.block_plan_map ? Object.keys(blockRaw.block_plan_map) : [],
           docsCount: docsIdx?.total_documents_in_metadata || 0,
         });
+        setPlanBoundaries(boundaries);
+        setGushFeatures(gushGeo);
         setLoading(false);
       }
     );
