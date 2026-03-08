@@ -21,7 +21,9 @@ import BlocksPanel from "@/components/sidebar/BlocksPanel";
 import StatsPanel from "@/components/sidebar/StatsPanel";
 import AerialPanel from "@/components/sidebar/AerialPanel";
 import ComplotPanel from "@/components/sidebar/ComplotPanel";
+import FavoritesPanel from "@/components/sidebar/FavoritesPanel";
 import { Button } from "@/components/ui/button";
+import type { FavoriteItem } from "@/hooks/useFavorites";
 
 interface AppSidebarProps {
   layers: GeoLayer[];
@@ -31,6 +33,7 @@ interface AppSidebarProps {
   onSearchChange: (q: string) => void;
   onToggleVisibility: (id: string) => void;
   onSetOpacity: (id: string, opacity: number) => void;
+  onSetColor?: (id: string, color: string) => void;
   onRemoveLayer: (id: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
@@ -42,8 +45,13 @@ interface AppSidebarProps {
   measureActive: boolean;
   onMeasureToggle: () => void;
   onZoomToLayer?: (layer: GeoLayer) => void;
+  onReorderLayers?: (fromIndex: number, toIndex: number) => void;
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
   onClearHighlight?: () => void;
+  favorites: FavoriteItem[];
+  onToggleFavorite: (item: FavoriteItem) => void;
+  onRemoveFavorite: (id: string) => void;
+  isFavorite: (id: string) => boolean;
 }
 
 export default function AppSidebar(props: AppSidebarProps) {
@@ -51,7 +59,6 @@ export default function AppSidebar(props: AppSidebarProps) {
   const { state } = useSidebar();
   const collapsed = state === "collapsed";
 
-  // User folders state
   const [folders, setFolders] = useState<UserFolder[]>([]);
   const [activeFolderId, setActiveFolderId] = useState<string | null>(null);
 
@@ -65,6 +72,21 @@ export default function AppSidebar(props: AppSidebarProps) {
   const handleFolderRemove = (id: string) => {
     setFolders((prev) => prev.filter((f) => f.id !== id));
     if (activeFolderId === id) setActiveFolderId(null);
+  };
+
+  const favoriteLayerIds = new Set(
+    props.favorites.filter((f) => f.type === "layer").map((f) => f.id)
+  );
+  const favoriteMigrashIds = new Set(
+    props.favorites.filter((f) => f.type === "migrash").map((f) => f.id)
+  );
+
+  const handleToggleLayerFavorite = (layerId: string, layerName: string) => {
+    props.onToggleFavorite({ id: layerId, type: "layer", label: layerName });
+  };
+
+  const handleToggleMigrashFavorite = (id: string, label: string) => {
+    props.onToggleFavorite({ id, type: "migrash", label });
   };
 
   const renderPanel = () => {
@@ -88,8 +110,12 @@ export default function AppSidebar(props: AppSidebarProps) {
               categories={props.categories}
               onToggleVisibility={props.onToggleVisibility}
               onSetOpacity={props.onSetOpacity}
+              onSetColor={props.onSetColor}
               onRemoveLayer={props.onRemoveLayer}
               onZoomToLayer={props.onZoomToLayer}
+              onReorderLayers={props.onReorderLayers}
+              favorites={favoriteLayerIds}
+              onToggleFavorite={handleToggleLayerFavorite}
             />
           </>
         );
@@ -103,7 +129,13 @@ export default function AppSidebar(props: AppSidebarProps) {
           />
         );
       case "migrashim":
-        return <MigrashimPanel onHighlightFeature={props.onHighlightFeature} />;
+        return (
+          <MigrashimPanel
+            onHighlightFeature={props.onHighlightFeature}
+            favorites={favoriteMigrashIds}
+            onToggleFavorite={handleToggleMigrashFavorite}
+          />
+        );
       case "blocks":
         return <BlocksPanel onHighlightFeature={props.onHighlightFeature} />;
       case "complot":
@@ -131,6 +163,13 @@ export default function AppSidebar(props: AppSidebarProps) {
         return <DrawTools onModeChange={() => {}} />;
       case "search":
         return <GlobalSearch onLocationSelect={props.onLocationSelect} />;
+      case "favorites":
+        return (
+          <FavoritesPanel
+            favorites={props.favorites}
+            onRemove={props.onRemoveFavorite}
+          />
+        );
       default:
         return null;
     }
@@ -158,7 +197,6 @@ export default function AppSidebar(props: AppSidebarProps) {
       </SidebarHeader>
 
       <SidebarContent className="bg-background">
-        {/* Grouped navigation */}
         <SidebarGroup>
           <SidebarGroupContent>
             {!collapsed ? (
@@ -172,6 +210,7 @@ export default function AppSidebar(props: AppSidebarProps) {
                 onFolderRemove={handleFolderRemove}
                 activeFolderId={activeFolderId}
                 onFolderSelect={setActiveFolderId}
+                favoritesCount={props.favorites.length}
               />
             ) : (
               <div className="flex flex-col items-center gap-1 py-1">
@@ -181,7 +220,6 @@ export default function AppSidebar(props: AppSidebarProps) {
           </SidebarGroupContent>
         </SidebarGroup>
 
-        {/* Active panel content */}
         {!collapsed && (
           <SidebarGroup>
             <SidebarGroupContent>
