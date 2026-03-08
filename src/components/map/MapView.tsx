@@ -33,6 +33,7 @@ interface MapViewProps {
   measureActive?: boolean;
   georefActive?: boolean;
   onGeorefClose?: () => void;
+  onGeorefSave?: (name: string, imageUrl: string, bounds: [[number, number], [number, number]]) => void;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
   onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
