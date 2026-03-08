@@ -218,6 +218,7 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
             const hasBoundary = planBoundaries?.features.some(
               (f) => f.properties?.plan_number === plan.planName
             );
+            const canZoom = hasBoundary || mmgLayers.length > 0;
             const br = buildingRights[plan.planName];
             const instr = instructions[plan.planName];
 
