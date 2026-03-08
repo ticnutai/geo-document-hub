@@ -1,8 +1,9 @@
 import { useState, useEffect, useMemo } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Grid3X3, MapPin, Download, Star, StarOff } from "lucide-react";
+import { Loader2, Grid3X3, MapPin, Download, Star, StarOff, Link2 } from "lucide-react";
 import { loadMigrashim, extractMigrashim, type MigrashSummary } from "@/data/plans-data";
 import { loadPlanBoundaries, findPlanBoundary } from "@/data/cadastre-data";
+import { loadHelkaMapping, type HelkaMappingEntry } from "@/data/building-rights-data";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
