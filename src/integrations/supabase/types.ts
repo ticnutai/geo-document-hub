@@ -64,9 +64,13 @@ export type Database = {
           color: string
           created_at: string
           data: Json
+          fill_color: string | null
+          fill_opacity: number | null
           id: string
           name: string
           opacity: number
+          stroke_color: string | null
+          stroke_opacity: number | null
           type: string
           updated_at: string
           visible: boolean
@@ -76,9 +80,13 @@ export type Database = {
           color?: string
           created_at?: string
           data: Json
+          fill_color?: string | null
+          fill_opacity?: number | null
           id?: string
           name: string
           opacity?: number
+          stroke_color?: string | null
+          stroke_opacity?: number | null
           type?: string
           updated_at?: string
           visible?: boolean
@@ -88,9 +96,13 @@ export type Database = {
           color?: string
           created_at?: string
           data?: Json
+          fill_color?: string | null
+          fill_opacity?: number | null
           id?: string
           name?: string
           opacity?: number
+          stroke_color?: string | null
+          stroke_opacity?: number | null
           type?: string
           updated_at?: string
           visible?: boolean
