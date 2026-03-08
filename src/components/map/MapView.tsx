@@ -199,7 +199,7 @@ export default function MapView({
       {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
       {layers.map((layer) => (
-        <LayerRenderer key={layer.id} layer={layer} />
+        <LayerRenderer key={layer.id} layer={layer} onFeatureClick={onFeatureClick} />
       ))}
 
       {highlighted && <HighlightLayer highlighted={highlighted} />}
