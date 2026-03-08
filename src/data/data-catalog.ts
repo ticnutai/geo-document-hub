@@ -207,9 +207,9 @@ const GIS_LAYER_MAP: Record<string, string> = {
 };
 
 function getDisplayName(fileName: string): string {
-  const baseName = fileName.replace(/\.(geojson|json)$/i, "");
-  // Check GISnet map first
+  const baseName = fileName.replace(/\.(geojson|json|csv)$/i, "");
   if (GISNET_LAYER_MAP[baseName]) return GISNET_LAYER_MAP[baseName];
+  if (GIS_LAYER_MAP[baseName]) return GIS_LAYER_MAP[baseName];
   return LAYER_NAME_MAP[baseName] || baseName.replace(/_/g, " ");
 }
 
