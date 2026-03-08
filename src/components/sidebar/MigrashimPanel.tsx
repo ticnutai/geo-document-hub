@@ -19,11 +19,20 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
   const [search, setSearch] = useState("");
   const [filterYeud, setFilterYeud] = useState("");
   const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [helkaMap, setHelkaMap] = useState<Map<string, HelkaMappingEntry[]>>(new Map());
 
   useEffect(() => {
-    Promise.all([loadMigrashim(), loadPlanBoundaries()]).then(([data, boundaries]) => {
+    Promise.all([loadMigrashim(), loadPlanBoundaries(), loadHelkaMapping()]).then(([data, boundaries, helka]) => {
       setMigrashim(extractMigrashim(data));
       setPlanBoundaries(boundaries);
+      // Group by migrash number
+      const hMap = new Map<string, HelkaMappingEntry[]>();
+      for (const entry of helka.mapping || []) {
+        const key = entry.migrash;
+        if (!hMap.has(key)) hMap.set(key, []);
+        hMap.get(key)!.push(entry);
+      }
+      setHelkaMap(hMap);
       setLoading(false);
     });
   }, []);
