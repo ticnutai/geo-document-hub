@@ -37,6 +37,9 @@ const CATEGORY_MAP: Record<string, string> = {
   mmg: "תוכניות מתאר (MMG)",
   uploads: "העלאות",
   complot_kfar_chabad: "קומפלוט כפר חב\"ד",
+  data_gov_il: "נתוני ממשל (data.gov.il)",
+  cbs: "למ\"ס (CBS)",
+  docs: "מסמכי תוכניות",
 };
 
 const LAYER_NAME_MAP: Record<string, string> = {
