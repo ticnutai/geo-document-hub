@@ -52,4 +52,5 @@ export type SidebarTab =
   | "stats"
   | "aerial"
   | "complot"
-  | "favorites";
+  | "favorites"
+  | "analysis";

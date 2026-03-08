@@ -37,6 +37,7 @@ export const TAB_GROUPS: TabGroup[] = [
       { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
       { id: "blocks", label: "גושים", icon: Landmark },
       { id: "complot", label: "קומפלוט", icon: MapPinned },
+      { id: "analysis", label: "ניתוח", icon: TrendingUp },
     ],
   },
   {
