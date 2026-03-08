@@ -22,6 +22,7 @@ import StatsPanel from "@/components/sidebar/StatsPanel";
 import AerialPanel from "@/components/sidebar/AerialPanel";
 import ComplotPanel from "@/components/sidebar/ComplotPanel";
 import FavoritesPanel from "@/components/sidebar/FavoritesPanel";
+import PlanningAnalysisPanel from "@/components/sidebar/PlanningAnalysisPanel";
 import { Button } from "@/components/ui/button";
 import type { FavoriteItem } from "@/hooks/useFavorites";
 
