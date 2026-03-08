@@ -25,6 +25,7 @@ interface LayerPanelProps {
   onSetFillColor?: (id: string, color: string) => void;
   onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
+  onRenameLayer?: (id: string, name: string) => void;
   onZoomToLayer?: (layer: GeoLayer) => void;
   onReorderLayers?: (fromIndex: number, toIndex: number) => void;
   favorites?: Set<string>;
