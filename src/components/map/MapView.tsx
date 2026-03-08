@@ -166,6 +166,7 @@ export default function MapView({
   measureActive = false,
   onMapReady,
   highlighted,
+  onFeatureClick,
 }: MapViewProps) {
   return (
     <MapContainer
