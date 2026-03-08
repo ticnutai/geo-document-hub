@@ -4,6 +4,7 @@ import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import type { HighlightedFeature } from "@/hooks/useMapHighlight";
 import { getWaybackTileUrl } from "@/data/wayback-data";
+import { buildFeaturePopupHTML } from "@/utils/popup-builder";
 import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
 import MeasureTool from "./MeasureTool";
