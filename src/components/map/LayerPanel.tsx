@@ -1,5 +1,5 @@
-import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Star, StarOff, ArrowUp, ArrowDown, Download, MoreHorizontal } from "lucide-react";
-import { useState } from "react";
+import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Star, StarOff, ArrowUp, ArrowDown, Download, MoreHorizontal, Pencil } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 import type { GeoLayer } from "@/types/gis";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
@@ -25,6 +25,7 @@ interface LayerPanelProps {
   onSetFillColor?: (id: string, color: string) => void;
   onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
+  onRenameLayer?: (id: string, name: string) => void;
   onZoomToLayer?: (layer: GeoLayer) => void;
   onReorderLayers?: (fromIndex: number, toIndex: number) => void;
   favorites?: Set<string>;
@@ -42,12 +43,15 @@ export default function LayerPanel({
   onSetFillColor,
   onSetFillOpacity,
   onRemoveLayer,
+  onRenameLayer,
   onZoomToLayer,
   onReorderLayers,
   favorites,
   onToggleFavorite,
 }: LayerPanelProps) {
   const [openCategories, setOpenCategories] = useState<string[]>(categories);
+  const [editingLayerId, setEditingLayerId] = useState<string | null>(null);
+  const [editingName, setEditingName] = useState("");
 
   const toggleCategory = (cat: string) => {
     setOpenCategories((prev) =>
@@ -142,8 +146,41 @@ export default function LayerPanel({
                           </PopoverContent>
                         </Popover>
 
-                        {/* Layer name */}
-                        <span className="text-xs font-medium flex-1 truncate">{layer.name}</span>
+                        {/* Layer name - double click to edit */}
+                        {editingLayerId === layer.id ? (
+                          <input
+                            autoFocus
+                            className="text-xs font-medium flex-1 bg-background border border-primary rounded px-1 py-0.5 outline-none"
+                            value={editingName}
+                            onChange={(e) => setEditingName(e.target.value)}
+                            onBlur={() => {
+                              if (editingName.trim() && editingName.trim() !== layer.name) {
+                                onRenameLayer?.(layer.id, editingName.trim());
+                              }
+                              setEditingLayerId(null);
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                if (editingName.trim() && editingName.trim() !== layer.name) {
+                                  onRenameLayer?.(layer.id, editingName.trim());
+                                }
+                                setEditingLayerId(null);
+                              }
+                              if (e.key === "Escape") setEditingLayerId(null);
+                            }}
+                          />
+                        ) : (
+                          <span
+                            className="text-xs font-medium flex-1 truncate cursor-text select-none"
+                            onDoubleClick={() => {
+                              setEditingLayerId(layer.id);
+                              setEditingName(layer.name);
+                            }}
+                            title="לחץ לחיצה כפולה לשינוי שם"
+                          >
+                            {layer.name}
+                          </span>
+                        )}
 
                         {/* Visibility toggle */}
                         <Tooltip>

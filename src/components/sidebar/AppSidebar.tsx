@@ -39,6 +39,7 @@ interface AppSidebarProps {
   onSetFillColor?: (id: string, color: string) => void;
   onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
+  onRenameLayer?: (id: string, name: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
   onGitHubClick: () => void;
@@ -120,6 +121,7 @@ export default function AppSidebar(props: AppSidebarProps) {
               onSetFillColor={props.onSetFillColor}
               onSetFillOpacity={props.onSetFillOpacity}
               onRemoveLayer={props.onRemoveLayer}
+              onRenameLayer={props.onRenameLayer}
               onZoomToLayer={props.onZoomToLayer}
               onReorderLayers={props.onReorderLayers}
               favorites={favoriteLayerIds}

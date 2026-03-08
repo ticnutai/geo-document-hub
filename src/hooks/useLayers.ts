@@ -159,6 +159,13 @@ export function useLayers() {
     setLayers((prev) => prev.filter((l) => l.id !== id));
   }, []);
 
+  const renameLayer = useCallback((id: string, name: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ name }).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, name } : l));
+    });
+  }, []);
+
   const reorderLayers = useCallback((fromIndex: number, toIndex: number) => {
     setLayers((prev) => {
       const next = [...prev];
@@ -170,5 +177,5 @@ export function useLayers() {
 
   const categories = [...new Set(layers.map((l) => l.category))];
 
-  return { layers, loading, toggleVisibility, setOpacity, setColor, setStrokeColor, setStrokeOpacity, setFillColor, setFillOpacity, addLayer, removeLayer, reorderLayers, categories };
+  return { layers, loading, toggleVisibility, setOpacity, setColor, setStrokeColor, setStrokeOpacity, setFillColor, setFillOpacity, addLayer, removeLayer, renameLayer, reorderLayers, categories };
 }
