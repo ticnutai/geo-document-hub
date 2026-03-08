@@ -55,7 +55,7 @@ export default function MiniMap() {
   }, [map, visible]);
 
   return (
-    <div className="absolute bottom-10 right-2 z-[1000]">
+    <div className="absolute bottom-16 right-2 z-[1000]">
       <button
         onClick={() => setVisible(!visible)}
         className="absolute -top-7 right-0 z-10 rounded-t-md bg-background/90 border border-b-0 border-border px-1.5 py-0.5 text-foreground hover:bg-accent transition-colors"
