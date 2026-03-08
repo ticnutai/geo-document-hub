@@ -14,6 +14,7 @@ import ScaleBar from "./ScaleBar";
 import MiniMap from "./MiniMap";
 import ZoomControls from "./ZoomControls";
 import GoToCoords from "./GoToCoords";
+import GeorefTool from "./GeorefTool";
 import "leaflet/dist/leaflet.css";
 
 // Fix default marker icon
