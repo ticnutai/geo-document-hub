@@ -21,6 +21,7 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
   const markersRef = useRef<L.Marker[]>([]);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [opacity, setOpacity] = useState(0.7);
+  const [rotation, setRotation] = useState(0);
   const [layerName, setLayerName] = useState("תמונה מגואורפרנס");
   const fileRef = useRef<HTMLInputElement | null>(null);
 
@@ -83,6 +84,14 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
   useEffect(() => {
     overlayRef.current?.setOpacity(opacity);
   }, [opacity]);
+
+  useEffect(() => {
+    const el = overlayRef.current?.getElement();
+    if (el) {
+      el.style.transformOrigin = "center center";
+      el.style.transform = `rotate(${rotation}deg)`;
+    }
+  }, [rotation]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -162,6 +171,19 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
               className="flex-1 h-1 accent-primary"
             />
             <span className="text-[10px] text-muted-foreground w-8 text-left">{Math.round(opacity * 100)}%</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] text-muted-foreground">סיבוב</span>
+            <input
+              type="range"
+              min={-180}
+              max={180}
+              step={1}
+              value={rotation}
+              onChange={(e) => setRotation(Number(e.target.value))}
+              className="flex-1 h-1 accent-primary"
+            />
+            <span className="text-[10px] text-muted-foreground w-8 text-left">{rotation}°</span>
           </div>
           <button
             onClick={handleSave}
