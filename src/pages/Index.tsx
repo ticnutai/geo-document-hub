@@ -198,6 +198,8 @@ export default function Index() {
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
               waybackActive={!!waybackReleaseId}
+              georefActive={georefActive}
+              onGeorefToggle={() => setGeorefActive((prev) => !prev)}
             />
           </main>
         </div>
