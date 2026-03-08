@@ -115,6 +115,8 @@ export default function MapView({
   zoom = 13,
   waybackReleaseId,
   measureActive = false,
+  georefActive = false,
+  onGeorefClose,
   onMapReady,
   highlighted,
   onFeatureClick,
