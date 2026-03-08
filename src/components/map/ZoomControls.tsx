@@ -8,7 +8,7 @@ export default function ZoomControls() {
   const map = useMap();
 
   return (
-    <div className="absolute top-3 right-14 z-[1000] flex flex-col gap-1">
+    <div className="absolute top-12 right-3 z-[1000] flex flex-col gap-1">
       <button
         onClick={() => map.zoomIn()}
         className="rounded-md bg-background shadow-md border border-border p-1.5 hover:bg-accent transition-colors"

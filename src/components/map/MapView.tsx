@@ -1,11 +1,12 @@
 import { useEffect, useRef } from "react";
-import { MapContainer, TileLayer, GeoJSON, useMap, LayersControl } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import type { HighlightedFeature } from "@/hooks/useMapHighlight";
 import { getWaybackTileUrl } from "@/data/wayback-data";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
 import LayerRenderer from "./LayerRenderer";
+import BaseLayerSwitcher from "./BaseLayerSwitcher";
 import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
 import MeasureTool from "./MeasureTool";
@@ -122,26 +123,7 @@ export default function MapView({
       className="h-full w-full"
       zoomControl={false}
     >
-      <LayersControl position="topright">
-        <LayersControl.BaseLayer checked name="OpenStreetMap">
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-        </LayersControl.BaseLayer>
-        <LayersControl.BaseLayer name="לוויין">
-          <TileLayer
-            attribution="&copy; Esri"
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          />
-        </LayersControl.BaseLayer>
-        <LayersControl.BaseLayer name="טופוגרפי">
-          <TileLayer
-            attribution="&copy; OpenTopoMap"
-            url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
-          />
-        </LayersControl.BaseLayer>
-      </LayersControl>
+      <BaseLayerSwitcher />
 
       {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
