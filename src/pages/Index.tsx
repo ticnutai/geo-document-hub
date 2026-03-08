@@ -128,6 +128,7 @@ export default function Index() {
               waybackReleaseId={waybackReleaseId}
               measureActive={measureActive}
               onMapReady={setMapRef}
+              highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
             />
             <MapToolbar
