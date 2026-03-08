@@ -110,6 +110,7 @@ export default function Index() {
           onSetFillColor={setFillColor}
           onSetFillOpacity={setFillOpacity}
           onRemoveLayer={removeLayer}
+          onRenameLayer={renameLayer}
           onRemoveDocument={removeDocument}
           onUploadClick={() => setUploaderOpen(true)}
           onGitHubClick={() => setGithubOpen(true)}

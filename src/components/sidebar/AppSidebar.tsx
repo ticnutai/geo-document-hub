@@ -121,6 +121,7 @@ export default function AppSidebar(props: AppSidebarProps) {
               onSetFillColor={props.onSetFillColor}
               onSetFillOpacity={props.onSetFillOpacity}
               onRemoveLayer={props.onRemoveLayer}
+              onRenameLayer={props.onRenameLayer}
               onZoomToLayer={props.onZoomToLayer}
               onReorderLayers={props.onReorderLayers}
               favorites={favoriteLayerIds}
