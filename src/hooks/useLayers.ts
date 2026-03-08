@@ -101,6 +101,34 @@ export function useLayers() {
     });
   }, []);
 
+  const setStrokeColor = useCallback((id: string, strokeColor: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ stroke_color: strokeColor } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, strokeColor } : l));
+    });
+  }, []);
+
+  const setStrokeOpacity = useCallback((id: string, strokeOpacity: number) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ stroke_opacity: strokeOpacity } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, strokeOpacity } : l));
+    });
+  }, []);
+
+  const setFillColor = useCallback((id: string, fillColor: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ fill_color: fillColor } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, fillColor } : l));
+    });
+  }, []);
+
+  const setFillOpacity = useCallback((id: string, fillOpacity: number) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ fill_opacity: fillOpacity } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, fillOpacity } : l));
+    });
+  }, []);
+
   const addLayer = useCallback(async (layer: GeoLayer) => {
     const { data, error } = await supabase
       .from("layers")
