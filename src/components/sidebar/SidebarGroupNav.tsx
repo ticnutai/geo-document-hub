@@ -3,7 +3,7 @@ import {
   Map, Layers, Database, Plane,
   ClipboardList, Building2, Grid3X3, Landmark, MapPinned,
   Wrench, PenTool, Ruler, Search,
-  BarChart3, FileText, Star,
+  BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
 } from "lucide-react";
