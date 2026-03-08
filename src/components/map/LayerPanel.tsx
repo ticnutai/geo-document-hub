@@ -315,20 +315,63 @@ export default function LayerPanel({
     );
   }
 
+  const allVisible = layers.every((l) => l.visible);
+  const noneVisible = layers.every((l) => !l.visible);
+
+  const toggleAll = (on: boolean) => {
+    layers.forEach((l) => {
+      if (on ? !l.visible : l.visible) onToggleVisibility(l.id);
+    });
+  };
+
+  // Sort: visible layers first within each category
+  const sortedInCategory = (catLayers: GeoLayer[]) =>
+    [...catLayers].sort((a, b) => (a.visible === b.visible ? 0 : a.visible ? -1 : 1));
+
   return (
     <TooltipProvider delayDuration={200}>
       <div className="space-y-3 px-1 pb-2" dir="rtl">
-        {/* Summary bar */}
+        {/* Summary bar with toggle all */}
         <div className="flex items-center gap-2 px-2 py-1.5 rounded-lg bg-muted/50 text-[10px] text-muted-foreground">
           <Layers className="h-3 w-3" />
           <span>{layers.length} שכבות</span>
           <span className="text-primary font-medium">
             {layers.filter((l) => l.visible).length} מוצגות
           </span>
+          <div className="mr-auto flex items-center gap-1">
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  onClick={() => toggleAll(true)}
+                  disabled={allVisible}
+                  className={`h-5 w-5 flex items-center justify-center rounded transition-colors ${
+                    allVisible ? "text-muted-foreground/30" : "text-primary hover:bg-primary/10"
+                  }`}
+                >
+                  <Eye className="h-3 w-3" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent side="top"><p className="text-xs">הדלק הכול</p></TooltipContent>
+            </Tooltip>
+            <Tooltip>
+              <TooltipTrigger asChild>
+                <button
+                  onClick={() => toggleAll(false)}
+                  disabled={noneVisible}
+                  className={`h-5 w-5 flex items-center justify-center rounded transition-colors ${
+                    noneVisible ? "text-muted-foreground/30" : "text-muted-foreground hover:bg-destructive/10 hover:text-destructive"
+                  }`}
+                >
+                  <EyeOff className="h-3 w-3" />
+                </button>
+              </TooltipTrigger>
+              <TooltipContent side="top"><p className="text-xs">כבה הכול</p></TooltipContent>
+            </Tooltip>
+          </div>
         </div>
 
         {categories.map((cat) => {
-          const catLayers = layers.filter((l) => l.category === cat);
+          const catLayers = sortedInCategory(layers.filter((l) => l.category === cat));
           const isOpen = openCategories.includes(cat);
           const visibleCount = catLayers.filter((l) => l.visible).length;
 
