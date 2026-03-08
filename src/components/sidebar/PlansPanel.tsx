@@ -210,7 +210,7 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                     </button>
                   )}
                   {mmgLayers.length > 0 && <Map className="h-3 w-3 text-primary shrink-0" />}
-                  {br && <Hammer className="h-3 w-3 text-amber-500 shrink-0" title="זכויות בנייה" />}
+                  {br && <Hammer className="h-3 w-3 text-amber-500 shrink-0" />}
                   {plan.status && (
                     <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${STATUS_COLORS[plan.status] || "bg-muted text-muted-foreground"}`}>
                       {plan.status}
