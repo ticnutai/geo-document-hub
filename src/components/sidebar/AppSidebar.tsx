@@ -32,6 +32,7 @@ interface AppSidebarProps {
   onUploadClick: () => void;
   onGitHubClick: () => void;
   onLocationSelect: (lat: number, lng: number, name: string) => void;
+  onLayerAdd: (layer: GeoLayer) => void;
 }
 
 const tabs: { id: SidebarTab; label: string; icon: any }[] = [
