@@ -3,7 +3,7 @@ import {
   Map, Layers, Database, Plane,
   ClipboardList, Building2, Grid3X3, Landmark, MapPinned,
   Wrench, PenTool, Ruler, Search,
-  BarChart3, FileText, Star,
+  BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
 } from "lucide-react";
@@ -37,6 +37,7 @@ export const TAB_GROUPS: TabGroup[] = [
       { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
       { id: "blocks", label: "גושים", icon: Landmark },
       { id: "complot", label: "קומפלוט", icon: MapPinned },
+      { id: "analysis", label: "ניתוח", icon: TrendingUp },
     ],
   },
   {
