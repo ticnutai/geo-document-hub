@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Map, Github } from "lucide-react";
+import { Map, Github, Pin, PinOff, GripVertical } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
