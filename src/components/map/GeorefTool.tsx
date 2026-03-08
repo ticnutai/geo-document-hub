@@ -172,6 +172,19 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
             />
             <span className="text-[10px] text-muted-foreground w-8 text-left">{Math.round(opacity * 100)}%</span>
           </div>
+          <div className="flex items-center gap-2">
+            <span className="text-[10px] text-muted-foreground">סיבוב</span>
+            <input
+              type="range"
+              min={-180}
+              max={180}
+              step={1}
+              value={rotation}
+              onChange={(e) => setRotation(Number(e.target.value))}
+              className="flex-1 h-1 accent-primary"
+            />
+            <span className="text-[10px] text-muted-foreground w-8 text-left">{rotation}°</span>
+          </div>
           <button
             onClick={handleSave}
             className="w-full py-1.5 rounded-lg bg-primary text-primary-foreground text-[10px] font-medium hover:bg-primary/90 transition-colors"
