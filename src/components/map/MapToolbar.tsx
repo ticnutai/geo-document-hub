@@ -53,6 +53,12 @@ export default function MapToolbar({ measureActive, onMeasureToggle, waybackActi
           icon={<Printer className="h-4 w-4" />}
           label="הדפס מפה"
         />
+        <ToolbarButton
+          active={!!georefActive}
+          onClick={onGeorefToggle || (() => {})}
+          icon={<Image className="h-4 w-4" />}
+          label="גיאורפרנס תמונה"
+        />
 
         {waybackActive && (
           <div className="mt-1 rounded-md bg-primary/90 text-primary-foreground px-2 py-1 text-[9px] font-medium shadow-md text-center">
