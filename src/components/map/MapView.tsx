@@ -6,6 +6,7 @@ import type { HighlightedFeature } from "@/hooks/useMapHighlight";
 import { getWaybackTileUrl } from "@/data/wayback-data";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
 import LayerRenderer from "./LayerRenderer";
+import BaseLayerSwitcher from "./BaseLayerSwitcher";
 import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
 import MeasureTool from "./MeasureTool";
