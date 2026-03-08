@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { MapContainer, TileLayer, GeoJSON, useMap, LayersControl } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
+import type { HighlightedFeature } from "@/hooks/useMapHighlight";
 import { getWaybackTileUrl } from "@/data/wayback-data";
 import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
@@ -24,6 +25,7 @@ interface MapViewProps {
   waybackReleaseId?: string | null;
   measureActive?: boolean;
   onMapReady?: (map: L.Map) => void;
+  highlighted?: HighlightedFeature | null;
 }
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {
@@ -91,6 +93,39 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
   );
 }
 
+function HighlightLayer({ highlighted }: { highlighted: HighlightedFeature }) {
+  return (
+    <GeoJSON
+      key={highlighted.id}
+      data={highlighted.data}
+      style={() => ({
+        color: highlighted.color,
+        weight: 4,
+        opacity: 1,
+        fillOpacity: 0.25,
+        fillColor: highlighted.color,
+        dashArray: "6, 3",
+      })}
+      onEachFeature={(feature, layer) => {
+        if (highlighted.label) {
+          layer.bindTooltip(highlighted.label, {
+            permanent: true,
+            direction: "center",
+            className: "highlight-tooltip",
+          });
+        }
+        if (feature.properties) {
+          const content = Object.entries(feature.properties)
+            .filter(([, v]) => v !== null && v !== undefined && v !== "")
+            .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
+            .join("<br/>");
+          if (content) layer.bindPopup(content);
+        }
+      }}
+    />
+  );
+}
+
 export default function MapView({
   layers,
   center = [32.0853, 34.7818],
@@ -98,6 +133,7 @@ export default function MapView({
   waybackReleaseId,
   measureActive = false,
   onMapReady,
+  highlighted,
 }: MapViewProps) {
   return (
     <MapContainer
@@ -132,6 +168,8 @@ export default function MapView({
       {layers.map((layer) => (
         <LayerRenderer key={layer.id} layer={layer} />
       ))}
+
+      {highlighted && <HighlightLayer highlighted={highlighted} />}
 
       <MapUpdater center={center} zoom={zoom} />
       <MouseCoords />

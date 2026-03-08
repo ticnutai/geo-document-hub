@@ -7,6 +7,7 @@ import FileUploader from "@/components/documents/FileUploader";
 import GitHubLoader from "@/components/documents/GitHubLoader";
 import { useLayers } from "@/hooks/useLayers";
 import { useDocuments } from "@/hooks/useDocuments";
+import { useMapHighlight } from "@/hooks/useMapHighlight";
 import { PanelRight, Map } from "lucide-react";
 import QuickActions from "@/components/sidebar/QuickActions";
 import type { GeoLayer } from "@/types/gis";
@@ -22,6 +23,8 @@ export default function Index() {
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
+
+  const { highlighted, highlightAndZoom, clearHighlight } = useMapHighlight(mapRef);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
     setMapCenter([lat, lng]);
@@ -40,6 +43,13 @@ export default function Index() {
       console.error("Could not zoom to layer:", e);
     }
   }, [mapRef]);
+
+  const handleHighlightFeature = useCallback(
+    (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => {
+      highlightAndZoom(feature, color, label);
+    },
+    [highlightAndZoom]
+  );
 
   return (
     <SidebarProvider defaultOpen={true}>
@@ -63,10 +73,12 @@ export default function Index() {
           measureActive={measureActive}
           onMeasureToggle={() => setMeasureActive((prev) => !prev)}
           onZoomToLayer={handleZoomToLayer}
+          onHighlightFeature={handleHighlightFeature}
+          onClearHighlight={clearHighlight}
         />
 
         <div className="flex-1 flex flex-col">
-          {/* Header with gold bottom border */}
+          {/* Header */}
           <header className="h-11 flex items-center border-b-2 border-border bg-background px-3 gap-2" dir="rtl">
             <SidebarTrigger>
               <PanelRight className="h-4 w-4" />
@@ -78,6 +90,14 @@ export default function Index() {
               <span className="text-[10px] text-muted-foreground">| מערכת מידע גיאוגרפי</span>
             </div>
             <div className="flex-1" />
+            {highlighted && (
+              <button
+                onClick={clearHighlight}
+                className="text-[10px] bg-destructive/10 text-destructive px-2 py-1 rounded-md hover:bg-destructive/20 transition-colors"
+              >
+                ✕ נקה סימון
+              </button>
+            )}
             <QuickActions
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
@@ -96,6 +116,7 @@ export default function Index() {
               waybackReleaseId={waybackReleaseId}
               measureActive={measureActive}
               onMapReady={setMapRef}
+              highlighted={highlighted}
             />
             <MapToolbar
               measureActive={measureActive}
