@@ -33,6 +33,7 @@ export default function Index() {
   const [mapZoom, setMapZoom] = useState(13);
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
   const [measureActive, setMeasureActive] = useState(false);
+  const [georefActive, setGeorefActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
   const [legendSelection, setLegendSelection] = useState<Set<string>>(new Set());
   const { width: sidebarWidth, pinned: sidebarPinned, isVisible: sidebarVisible, onDragStart, togglePin } = useSidebarResize();
