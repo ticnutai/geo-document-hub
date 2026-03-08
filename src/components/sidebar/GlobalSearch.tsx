@@ -193,6 +193,30 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
                     <button
                       key={i}
                       onClick={() => {
+                        // Highlight on map
+                        if (r.type === "plan" && onHighlightFeature && planBoundaries) {
+                          const feature = findPlanBoundary(r.title, planBoundaries);
+                          if (feature) {
+                            onHighlightFeature(feature, "#e74c3c", r.title);
+                          } else {
+                            toast.info("לא נמצא גבול תוכנית במפה");
+                          }
+                        } else if (r.type === "block" && onHighlightFeature) {
+                          const features = gushFeatures.get(r.data?.block);
+                          if (features && features.length > 0) {
+                            onHighlightFeature(features, "#2563eb", `גוש ${r.data.block}`);
+                          } else {
+                            toast.info("לא נמצאה גיאומטריה לגוש זה");
+                          }
+                        } else if (r.type === "migrash" && onHighlightFeature && planBoundaries) {
+                          const feature = findPlanBoundary(r.data?.plan, planBoundaries);
+                          if (feature) {
+                            onHighlightFeature(feature, "#22c55e", `מגרש ${r.data.migrash} (${r.data.plan})`);
+                          } else {
+                            toast.info("לא נמצא גבול תוכנית למגרש זה");
+                          }
+                        }
+                        // Navigate to tab
                         if (r.type === "plan" && onNavigateTo) {
                           onNavigateTo("plans", r.title);
                         } else if (r.type === "migrash" && onNavigateTo) {
