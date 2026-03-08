@@ -5,6 +5,7 @@ import L from "leaflet";
 interface GeorefToolProps {
   active: boolean;
   onClose: () => void;
+  onSaveAsLayer?: (name: string, imageUrl: string, bounds: [[number, number], [number, number]]) => void;
 }
 
 const CORNER_ICON = L.divIcon({
@@ -14,12 +15,13 @@ const CORNER_ICON = L.divIcon({
   iconAnchor: [7, 7],
 });
 
-export default function GeorefTool({ active, onClose }: GeorefToolProps) {
+export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToolProps) {
   const map = useMap();
   const overlayRef = useRef<L.ImageOverlay | null>(null);
   const markersRef = useRef<L.Marker[]>([]);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
   const [opacity, setOpacity] = useState(0.7);
+  const [layerName, setLayerName] = useState("תמונה מגואורפרנס");
   const fileRef = useRef<HTMLInputElement | null>(null);
 
   const clearOverlay = useCallback(() => {
@@ -30,7 +32,6 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
     setImageUrl(null);
   }, []);
 
-  // Cleanup on deactivate
   useEffect(() => {
     if (!active) {
       clearOverlay();
@@ -40,7 +41,6 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
   const updateOverlay = useCallback(() => {
     if (!overlayRef.current || markersRef.current.length < 4) return;
     const corners = markersRef.current.map((m) => m.getLatLng());
-    // Use SW and NE to form bounds
     const lats = corners.map((c) => c.lat);
     const lngs = corners.map((c) => c.lng);
     const bounds = L.latLngBounds(
@@ -55,7 +55,6 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
       clearOverlay();
       const center = map.getCenter();
       const zoom = map.getZoom();
-      // Size proportional to zoom
       const spread = 0.005 * Math.pow(2, 15 - zoom);
 
       const sw: L.LatLngTuple = [center.lat - spread, center.lng - spread * 1.4];
@@ -65,12 +64,11 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
       const overlay = L.imageOverlay(url, bounds, { opacity, interactive: true }).addTo(map);
       overlayRef.current = overlay;
 
-      // Create 4 draggable corner markers
       const cornerLatLngs: L.LatLngTuple[] = [
-        [sw[0], sw[1]], // SW
-        [sw[0], ne[1]], // SE
-        [ne[0], ne[1]], // NE
-        [ne[0], sw[1]], // NW
+        [sw[0], sw[1]],
+        [sw[0], ne[1]],
+        [ne[0], ne[1]],
+        [ne[0], sw[1]],
       ];
 
       cornerLatLngs.forEach((ll) => {
@@ -82,7 +80,6 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
     [map, clearOverlay, updateOverlay, opacity]
   );
 
-  // Update opacity live
   useEffect(() => {
     overlayRef.current?.setOpacity(opacity);
   }, [opacity]);
@@ -92,7 +89,25 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
     if (!file) return;
     const url = URL.createObjectURL(file);
     setImageUrl(url);
+    setLayerName(file.name.replace(/\.[^.]+$/, ""));
     placeImage(url);
+  };
+
+  const handleSave = () => {
+    if (!overlayRef.current || !imageUrl || markersRef.current.length < 4) return;
+    const corners = markersRef.current.map((m) => m.getLatLng());
+    const lats = corners.map((c) => c.lat);
+    const lngs = corners.map((c) => c.lng);
+    const bounds: [[number, number], [number, number]] = [
+      [Math.min(...lats), Math.min(...lngs)],
+      [Math.max(...lats), Math.max(...lngs)],
+    ];
+    onSaveAsLayer?.(layerName, imageUrl, bounds);
+    // Remove markers but keep overlay as a permanent layer
+    markersRef.current.forEach((m) => m.remove());
+    markersRef.current = [];
+    overlayRef.current = null;
+    setImageUrl(null);
   };
 
   if (!active) return null;
@@ -128,6 +143,13 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
           <p className="text-[10px] text-muted-foreground">
             גרור את הנקודות האדומות כדי למקם את התמונה
           </p>
+          <input
+            type="text"
+            value={layerName}
+            onChange={(e) => setLayerName(e.target.value)}
+            placeholder="שם השכבה"
+            className="w-full px-2 py-1.5 rounded-lg border border-border bg-background text-xs text-foreground placeholder:text-muted-foreground"
+          />
           <div className="flex items-center gap-2">
             <span className="text-[10px] text-muted-foreground">שקיפות</span>
             <input
@@ -141,6 +163,12 @@ export default function GeorefTool({ active, onClose }: GeorefToolProps) {
             />
             <span className="text-[10px] text-muted-foreground w-8 text-left">{Math.round(opacity * 100)}%</span>
           </div>
+          <button
+            onClick={handleSave}
+            className="w-full py-1.5 rounded-lg bg-primary text-primary-foreground text-[10px] font-medium hover:bg-primary/90 transition-colors"
+          >
+            💾 שמור כשכבה קבועה
+          </button>
           <div className="flex gap-1.5">
             <button
               onClick={clearOverlay}
