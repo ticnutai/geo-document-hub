@@ -7,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onNavigateTo?: (tab: string, search?: string) => void;
 }
 
 interface SearchResult {
