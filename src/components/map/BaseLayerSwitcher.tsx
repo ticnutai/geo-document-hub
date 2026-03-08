@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
-import { Map, ChevronDown } from "lucide-react";
+import { Map, ChevronDown, SlidersHorizontal } from "lucide-react";
 
 export interface BaseMapOption {
   id: string;
