@@ -14,7 +14,89 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      documents: {
+        Row: {
+          created_at: string
+          file_path: string | null
+          id: string
+          layer_id: string | null
+          location: Json | null
+          name: string
+          size: number
+          type: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          file_path?: string | null
+          id?: string
+          layer_id?: string | null
+          location?: Json | null
+          name: string
+          size?: number
+          type?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          file_path?: string | null
+          id?: string
+          layer_id?: string | null
+          location?: Json | null
+          name?: string
+          size?: number
+          type?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "documents_layer_id_fkey"
+            columns: ["layer_id"]
+            isOneToOne: false
+            referencedRelation: "layers"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      layers: {
+        Row: {
+          category: string
+          color: string
+          created_at: string
+          data: Json
+          id: string
+          name: string
+          opacity: number
+          type: string
+          updated_at: string
+          visible: boolean
+        }
+        Insert: {
+          category?: string
+          color?: string
+          created_at?: string
+          data: Json
+          id?: string
+          name: string
+          opacity?: number
+          type?: string
+          updated_at?: string
+          visible?: boolean
+        }
+        Update: {
+          category?: string
+          color?: string
+          created_at?: string
+          data?: Json
+          id?: string
+          name?: string
+          opacity?: number
+          type?: string
+          updated_at?: string
+          visible?: boolean
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
