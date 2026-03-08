@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
+import { useSidebarResize } from "@/hooks/useSidebarResize";
 import { generatePlanningSheet } from "@/utils/planning-sheet";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/sidebar/AppSidebar";
