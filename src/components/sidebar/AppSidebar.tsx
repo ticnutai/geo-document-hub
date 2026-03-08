@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map } from "lucide-react";
+import { Layers, FileText, PenTool, Search, Map, Github } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -16,6 +16,7 @@ import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
 import SearchLocation from "@/components/map/SearchLocation";
+import { Button } from "@/components/ui/button";
 
 interface AppSidebarProps {
   layers: GeoLayer[];
@@ -28,6 +29,7 @@ interface AppSidebarProps {
   onRemoveLayer: (id: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
+  onGitHubClick: () => void;
   onLocationSelect: (lat: number, lng: number, name: string) => void;
 }
 
@@ -79,13 +81,26 @@ export default function AppSidebar(props: AppSidebarProps) {
           <SidebarGroup>
             <SidebarGroupContent>
               {activeTab === "layers" && (
-                <LayerPanel
-                  layers={props.layers}
-                  categories={props.categories}
-                  onToggleVisibility={props.onToggleVisibility}
-                  onSetOpacity={props.onSetOpacity}
-                  onRemoveLayer={props.onRemoveLayer}
-                />
+                <>
+                  <div className="px-1 mb-2">
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      className="w-full gap-2 text-xs"
+                      onClick={props.onGitHubClick}
+                    >
+                      <Github className="h-3.5 w-3.5" />
+                      טען GeoJSON מ-GitHub
+                    </Button>
+                  </div>
+                  <LayerPanel
+                    layers={props.layers}
+                    categories={props.categories}
+                    onToggleVisibility={props.onToggleVisibility}
+                    onSetOpacity={props.onSetOpacity}
+                    onRemoveLayer={props.onRemoveLayer}
+                  />
+                </>
               )}
               {activeTab === "documents" && (
                 <DocumentPanel
