@@ -234,7 +234,7 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                     <ChevronLeft className="h-3 w-3 shrink-0 text-muted-foreground" />
                   )}
                   <span className="flex-1 text-right truncate font-medium">{plan.planName}</span>
-                  {hasBoundary && (
+                  {canZoom && (
                     <button
                       onClick={(e) => { e.stopPropagation(); handleZoomToPlan(plan.planName); }}
                       className="p-0.5 rounded hover:bg-primary/20 transition-colors"
