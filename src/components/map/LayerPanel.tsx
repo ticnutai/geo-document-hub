@@ -67,7 +67,7 @@ export default function LayerPanel({
                         className="h-3 w-3 rounded-full shrink-0 ring-2 ring-offset-1"
                         style={{
                           backgroundColor: layer.color,
-                          ringColor: layer.visible ? layer.color : "transparent",
+                          boxShadow: layer.visible ? `0 0 0 2px ${layer.color}` : "none",
                         }}
                       />
                       <span className="text-xs font-medium flex-1 truncate">{layer.name}</span>

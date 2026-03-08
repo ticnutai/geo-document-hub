@@ -8,15 +8,13 @@ interface MeasureToolProps {
 
 function computeArea(points: L.LatLng[]): number {
   if (points.length < 3) return 0;
-  // Use Leaflet's built-in geodesic area
-  return L.GeometryUtil
-    ? 0
-    : Math.abs(
-        points.reduce((area, p, i) => {
-          const j = (i + 1) % points.length;
-          return area + (p.lng * points[j].lat - points[j].lng * p.lat);
-        }, 0) / 2 * 111320 * 111320 * Math.cos((points[0].lat * Math.PI) / 180)
-      );
+  // Shoelace formula with geodesic approximation
+  return Math.abs(
+    points.reduce((area, p, i) => {
+      const j = (i + 1) % points.length;
+      return area + (p.lng * points[j].lat - points[j].lng * p.lat);
+    }, 0) / 2 * 111320 * 111320 * Math.cos((points[0].lat * Math.PI) / 180)
+  );
 }
 
 export default function MeasureTool({ active }: MeasureToolProps) {
