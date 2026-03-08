@@ -143,6 +143,7 @@ export default function MapView({
       <LocateButton />
       <ZoomControls />
       <MeasureTool active={measureActive} />
+      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} />
       <ScaleBar />
       <MiniMap />
       <GoToCoords />
