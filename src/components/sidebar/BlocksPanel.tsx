@@ -163,6 +163,31 @@ export default function BlocksPanel({ onHighlightFeature }: BlocksPanelProps) {
                         </div>
                       </div>
                     )}
+
+                    {/* Helka-Migrash mapping */}
+                    {helkaByGush.has(Number(block)) && (
+                      <div>
+                        <p className="text-[10px] font-semibold text-muted-foreground mb-0.5 flex items-center gap-1">
+                          <Link2 className="h-3 w-3" />
+                          מיפוי חלקה↔מגרש ({helkaByGush.get(Number(block))!.length}):
+                        </p>
+                        <div className="space-y-0.5">
+                          {helkaByGush.get(Number(block))!.map((h, i) => (
+                            <div key={i} className="text-[10px] bg-accent/30 rounded px-1.5 py-1">
+                              <div className="flex justify-between">
+                                <span className="font-medium">חלקה {h.helka} → מגרש {h.migrash}</span>
+                                <span className="text-[9px] text-muted-foreground">{h.plan}</span>
+                              </div>
+                              <div className="text-muted-foreground flex gap-2">
+                                <span>{h.yeud}</span>
+                                {h.shetach_dunam > 0 && <span>{h.shetach_dunam} דונם</span>}
+                                {h.yehidot_diur > 0 && <span>{h.yehidot_diur} יח״ד</span>}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
