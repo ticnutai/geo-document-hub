@@ -36,4 +36,4 @@ export interface DrawFeature {
   properties: Record<string, any>;
 }
 
-export type SidebarTab = "layers" | "documents" | "draw" | "search" | "catalog";
+export type SidebarTab = "layers" | "documents" | "draw" | "search" | "catalog" | "plans" | "migrashim" | "blocks" | "stats";

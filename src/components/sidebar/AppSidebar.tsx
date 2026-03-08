@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map, Github, Database } from "lucide-react";
+import { Layers, FileText, PenTool, Search, Map, Github, Database, Building2, Grid3X3, Landmark, BarChart3 } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -17,6 +17,10 @@ import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
 import SearchLocation from "@/components/map/SearchLocation";
 import DataCatalog from "@/components/sidebar/DataCatalog";
+import PlansPanel from "@/components/sidebar/PlansPanel";
+import MigrashimPanel from "@/components/sidebar/MigrashimPanel";
+import BlocksPanel from "@/components/sidebar/BlocksPanel";
+import StatsPanel from "@/components/sidebar/StatsPanel";
 import { Button } from "@/components/ui/button";
 
 interface AppSidebarProps {
@@ -38,6 +42,10 @@ interface AppSidebarProps {
 const tabs: { id: SidebarTab; label: string; icon: any }[] = [
   { id: "layers", label: "שכבות", icon: Layers },
   { id: "catalog", label: "קטלוג", icon: Database },
+  { id: "plans", label: "תוכניות", icon: Building2 },
+  { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
+  { id: "blocks", label: "גושים", icon: Landmark },
+  { id: "stats", label: "סטטיסטיקות", icon: BarChart3 },
   { id: "documents", label: "מסמכים", icon: FileText },
   { id: "draw", label: "ציור", icon: PenTool },
   { id: "search", label: "חיפוש", icon: Search },
@@ -108,6 +116,10 @@ export default function AppSidebar(props: AppSidebarProps) {
               {activeTab === "catalog" && (
                 <DataCatalog onLayerAdd={props.onLayerAdd} />
               )}
+              {activeTab === "plans" && <PlansPanel />}
+              {activeTab === "migrashim" && <MigrashimPanel />}
+              {activeTab === "blocks" && <BlocksPanel />}
+              {activeTab === "stats" && <StatsPanel />}
               {activeTab === "documents" && (
                 <DocumentPanel
                   documents={props.documents}
