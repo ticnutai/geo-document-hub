@@ -1,7 +1,8 @@
-import { useState, useEffect, useMemo, useCallback } from "react";
-import { Search, Building2, Grid3X3, Landmark, FileText, Layers, Loader2 } from "lucide-react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import { Search, Building2, Grid3X3, Landmark, FileText, Layers, Loader2, MapPin } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { loadPlans, extractPlans, loadMigrashim, extractMigrashim, loadPlansByBlock, loadDocsIndex } from "@/data/plans-data";
+import { Skeleton } from "@/components/ui/skeleton";
 
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
@@ -25,6 +26,7 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
   const [loading, setLoading] = useState(false);
   const [geoLoading, setGeoLoading] = useState(false);
   const [geoResults, setGeoResults] = useState<any[]>([]);
+  const debounceRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     setLoading(true);
@@ -41,18 +43,21 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
     );
   }, []);
 
-  const searchGeo = useCallback(async (q: string) => {
-    if (!q.trim()) return;
-    setGeoLoading(true);
-    try {
-      const res = await fetch(
-        `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=3`
-      );
-      setGeoResults(await res.json());
-    } catch {
-      setGeoResults([]);
-    }
-    setGeoLoading(false);
+  const searchGeo = useCallback((q: string) => {
+    if (!q.trim() || q.length < 3) return;
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(async () => {
+      setGeoLoading(true);
+      try {
+        const res = await fetch(
+          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=3`
+        );
+        setGeoResults(await res.json());
+      } catch {
+        setGeoResults([]);
+      }
+      setGeoLoading(false);
+    }, 400);
   }, []);
 
   const results = useMemo<SearchResult[]>(() => {
@@ -60,7 +65,6 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
     const q = query.toLowerCase();
     const res: SearchResult[] = [];
 
-    // Plans
     for (const p of allData.plans) {
       if (p.planName.toLowerCase().includes(q) || p.title.toLowerCase().includes(q)) {
         res.push({ type: "plan", title: p.planName, subtitle: p.title || p.status || "", data: p });
@@ -68,7 +72,6 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
       if (res.length > 50) break;
     }
 
-    // Migrashim
     for (const m of allData.migrashim) {
       if (m.migrash.includes(q) || m.plan.toLowerCase().includes(q) || m.yeud.toLowerCase().includes(q)) {
         res.push({ type: "migrash", title: `מגרש ${m.migrash}`, subtitle: `${m.plan} · ${m.yeud}` });
@@ -76,7 +79,6 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
       if (res.length > 80) break;
     }
 
-    // Blocks
     for (const b of allData.blocks) {
       if (b.includes(q)) {
         res.push({ type: "block", title: `גוש ${b}`, subtitle: "" });
@@ -96,59 +98,80 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
     return groups;
   }, [results]);
 
-  const typeLabel: Record<string, { label: string; icon: any }> = {
-    plan: { label: "תוכניות", icon: Building2 },
-    migrash: { label: "מגרשים", icon: Grid3X3 },
-    block: { label: "גושים", icon: Landmark },
-    document: { label: "מסמכים", icon: FileText },
+  const typeConfig: Record<string, { label: string; icon: any; color: string }> = {
+    plan: { label: "תוכניות", icon: Building2, color: "text-blue-500" },
+    migrash: { label: "מגרשים", icon: Grid3X3, color: "text-green-500" },
+    block: { label: "גושים", icon: Landmark, color: "text-amber-500" },
+    document: { label: "מסמכים", icon: FileText, color: "text-purple-500" },
+  };
+
+  // Highlight match in text
+  const highlight = (text: string) => {
+    if (!query.trim()) return text;
+    const idx = text.toLowerCase().indexOf(query.toLowerCase());
+    if (idx === -1) return text;
+    return (
+      <>
+        {text.slice(0, idx)}
+        <mark className="bg-primary/20 text-foreground rounded-sm px-0.5">{text.slice(idx, idx + query.length)}</mark>
+        {text.slice(idx + query.length)}
+      </>
+    );
   };
 
   return (
-    <div className="space-y-2 p-1" dir="rtl">
+    <div className="space-y-2 p-1 animate-fade-in" dir="rtl">
       <div className="flex items-center gap-2">
-        <Search className="h-4 w-4 text-primary shrink-0" />
+        <div className="h-6 w-6 rounded-md bg-primary/10 flex items-center justify-center">
+          <Search className="h-3.5 w-3.5 text-primary" />
+        </div>
         <span className="text-xs font-semibold">חיפוש גלובלי</span>
       </div>
 
-      <input
-        type="text"
-        placeholder="חיפוש תוכנית, מגרש, גוש, מיקום..."
-        value={query}
-        onChange={(e) => {
-          setQuery(e.target.value);
-          if (e.target.value.length > 2) searchGeo(e.target.value);
-        }}
-        className="w-full rounded-md border border-border bg-background px-2 py-1.5 text-xs placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
-      />
+      <div className="relative">
+        <Search className="absolute right-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground" />
+        <input
+          type="text"
+          placeholder="חיפוש תוכנית, מגרש, גוש, מיקום..."
+          value={query}
+          onChange={(e) => {
+            setQuery(e.target.value);
+            searchGeo(e.target.value);
+          }}
+          className="w-full rounded-lg border border-border bg-background pr-8 pl-2 py-2 text-xs placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-shadow"
+        />
+      </div>
 
       {loading && (
-        <div className="flex items-center justify-center py-4">
-          <Loader2 className="h-4 w-4 animate-spin text-primary" />
+        <div className="space-y-2">
+          {[1, 2, 3].map((i) => (
+            <Skeleton key={i} className="h-8 w-full rounded-lg" />
+          ))}
         </div>
       )}
 
-      <ScrollArea className="h-[calc(100vh-280px)]">
-        <div className="space-y-2 pr-1">
-          {/* Data results */}
+      <ScrollArea className="h-[calc(100vh-300px)]">
+        <div className="space-y-3 pr-1">
           {Object.entries(grouped).map(([type, items]) => {
-            const { label, icon: Icon } = typeLabel[type] || { label: type, icon: Layers };
+            const config = typeConfig[type] || { label: type, icon: Layers, color: "text-foreground" };
+            const Icon = config.icon;
             return (
-              <div key={type}>
-                <div className="flex items-center gap-1.5 mb-0.5">
-                  <Icon className="h-3 w-3 text-muted-foreground" />
+              <div key={type} className="animate-fade-in">
+                <div className="flex items-center gap-1.5 mb-1 px-1">
+                  <Icon className={`h-3 w-3 ${config.color}`} />
                   <span className="text-[10px] font-semibold text-muted-foreground">
-                    {label} ({items.length})
+                    {config.label} ({items.length})
                   </span>
                 </div>
                 <div className="space-y-0.5">
                   {items.slice(0, 10).map((r, i) => (
                     <div
                       key={i}
-                      className="rounded-md px-2 py-1 text-[11px] hover:bg-accent/50 cursor-pointer transition-colors"
+                      className="rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
                     >
-                      <div className="font-medium truncate">{r.title}</div>
+                      <div className="font-medium truncate">{highlight(r.title)}</div>
                       {r.subtitle && (
-                        <div className="text-[9px] text-muted-foreground truncate">{r.subtitle}</div>
+                        <div className="text-[9px] text-muted-foreground truncate">{highlight(r.subtitle)}</div>
                       )}
                     </div>
                   ))}
@@ -164,17 +187,18 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
 
           {/* Geo results */}
           {geoResults.length > 0 && (
-            <div>
-              <div className="flex items-center gap-1.5 mb-0.5">
-                <Search className="h-3 w-3 text-muted-foreground" />
+            <div className="animate-fade-in">
+              <div className="flex items-center gap-1.5 mb-1 px-1">
+                <MapPin className="h-3 w-3 text-red-500" />
                 <span className="text-[10px] font-semibold text-muted-foreground">מיקומים</span>
               </div>
               {geoResults.map((r: any, i: number) => (
                 <button
                   key={i}
                   onClick={() => onLocationSelect(parseFloat(r.lat), parseFloat(r.lon), r.display_name)}
-                  className="flex w-full items-start gap-2 rounded-md px-2 py-1 text-right hover:bg-accent/50 transition-colors"
+                  className="flex w-full items-start gap-2 rounded-lg px-2.5 py-1.5 text-right hover:bg-accent/50 transition-all duration-150 hover:translate-x-0.5"
                 >
+                  <MapPin className="h-3 w-3 text-red-400 shrink-0 mt-0.5" />
                   <span className="text-[11px] leading-tight truncate">{r.display_name}</span>
                 </button>
               ))}
@@ -182,14 +206,24 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
           )}
 
           {geoLoading && (
-            <div className="flex items-center gap-1 px-2">
-              <Loader2 className="h-3 w-3 animate-spin" />
-              <span className="text-[10px]">מחפש מיקום...</span>
+            <div className="flex items-center gap-1.5 px-2 py-1">
+              <Loader2 className="h-3 w-3 animate-spin text-primary" />
+              <span className="text-[10px] text-muted-foreground">מחפש מיקום...</span>
             </div>
           )}
 
           {query && results.length === 0 && geoResults.length === 0 && !loading && !geoLoading && (
-            <p className="text-xs text-muted-foreground text-center py-4">לא נמצאו תוצאות</p>
+            <div className="text-center py-8 space-y-2">
+              <Search className="h-8 w-8 text-muted-foreground/50 mx-auto" />
+              <p className="text-xs text-muted-foreground">לא נמצאו תוצאות</p>
+            </div>
+          )}
+
+          {!query && (
+            <div className="text-center py-8 space-y-2">
+              <Search className="h-8 w-8 text-muted-foreground/30 mx-auto" />
+              <p className="text-xs text-muted-foreground">הקלד לחיפוש בתוכניות, מגרשים, גושים ומיקומים</p>
+            </div>
           )}
         </div>
       </ScrollArea>

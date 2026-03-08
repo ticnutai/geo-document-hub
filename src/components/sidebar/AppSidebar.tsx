@@ -1,17 +1,15 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map, Github, Database, Building2, Grid3X3, Landmark, BarChart3, Plane, MapPinned, Ruler } from "lucide-react";
+import { Map, Github } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
   useSidebar,
 } from "@/components/ui/sidebar";
 import type { GeoLayer, GISDocument, SidebarTab } from "@/types/gis";
+import SidebarGroupNav from "@/components/sidebar/SidebarGroupNav";
 import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
@@ -43,120 +41,125 @@ interface AppSidebarProps {
   activeWaybackId: string | null;
   measureActive: boolean;
   onMeasureToggle: () => void;
+  onZoomToLayer?: (layer: GeoLayer) => void;
 }
-
-const tabs: { id: SidebarTab; label: string; icon: any }[] = [
-  { id: "layers", label: "שכבות", icon: Layers },
-  { id: "catalog", label: "קטלוג", icon: Database },
-  { id: "plans", label: "תוכניות", icon: Building2 },
-  { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
-  { id: "blocks", label: "גושים", icon: Landmark },
-  { id: "complot", label: "קומפלוט", icon: MapPinned },
-  { id: "aerial", label: "צילומי אוויר", icon: Plane },
-  { id: "stats", label: "סטטיסטיקות", icon: BarChart3 },
-  { id: "documents", label: "מסמכים", icon: FileText },
-  { id: "draw", label: "ציור", icon: PenTool },
-  { id: "search", label: "חיפוש", icon: Search },
-];
 
 export default function AppSidebar(props: AppSidebarProps) {
   const [activeTab, setActiveTab] = useState<SidebarTab>("layers");
   const { state } = useSidebar();
   const collapsed = state === "collapsed";
 
+  const renderPanel = () => {
+    switch (activeTab) {
+      case "layers":
+        return (
+          <>
+            <div className="px-1 mb-2 flex gap-1">
+              <Button
+                variant="outline"
+                size="sm"
+                className="flex-1 gap-2 text-xs"
+                onClick={props.onGitHubClick}
+              >
+                <Github className="h-3.5 w-3.5" />
+                GitHub
+              </Button>
+            </div>
+            <LayerPanel
+              layers={props.layers}
+              categories={props.categories}
+              onToggleVisibility={props.onToggleVisibility}
+              onSetOpacity={props.onSetOpacity}
+              onRemoveLayer={props.onRemoveLayer}
+              onZoomToLayer={props.onZoomToLayer}
+            />
+          </>
+        );
+      case "catalog":
+        return <DataCatalog onLayerAdd={props.onLayerAdd} />;
+      case "plans":
+        return <PlansPanel onLayerAdd={props.onLayerAdd} />;
+      case "migrashim":
+        return <MigrashimPanel />;
+      case "blocks":
+        return <BlocksPanel />;
+      case "complot":
+        return <ComplotPanel />;
+      case "aerial":
+        return (
+          <AerialPanel
+            onReleaseSelect={props.onWaybackSelect}
+            activeReleaseId={props.activeWaybackId}
+          />
+        );
+      case "stats":
+        return <StatsPanel />;
+      case "documents":
+        return (
+          <DocumentPanel
+            documents={props.documents}
+            searchQuery={props.searchQuery}
+            onSearchChange={props.onSearchChange}
+            onRemove={props.onRemoveDocument}
+            onUploadClick={props.onUploadClick}
+          />
+        );
+      case "draw":
+        return <DrawTools onModeChange={() => {}} />;
+      case "search":
+        return <GlobalSearch onLocationSelect={props.onLocationSelect} />;
+      default:
+        return null;
+    }
+  };
+
   return (
     <Sidebar collapsible="icon" side="right" className="border-r-0 border-l">
-      <SidebarHeader className="border-b border-border/50 p-3">
+      <SidebarHeader className="border-b border-sidebar-border p-3">
         {!collapsed && (
           <div className="flex items-center gap-2" dir="rtl">
-            <Map className="h-5 w-5 text-primary" />
-            <span className="font-bold text-sm">GIS Pro</span>
+            <div className="h-7 w-7 rounded-lg bg-sidebar-primary flex items-center justify-center">
+              <Map className="h-4 w-4 text-sidebar-primary-foreground" />
+            </div>
+            <div>
+              <span className="font-bold text-sm text-sidebar-foreground">GIS Pro</span>
+              <p className="text-[9px] text-sidebar-foreground/50">מערכת מידע גיאוגרפי</p>
+            </div>
           </div>
         )}
-        {collapsed && <Map className="h-5 w-5 text-primary mx-auto" />}
+        {collapsed && (
+          <div className="h-7 w-7 rounded-lg bg-sidebar-primary flex items-center justify-center mx-auto">
+            <Map className="h-4 w-4 text-sidebar-primary-foreground" />
+          </div>
+        )}
       </SidebarHeader>
 
       <SidebarContent>
+        {/* Grouped navigation */}
         <SidebarGroup>
           <SidebarGroupContent>
-            <SidebarMenu>
-              {tabs.map((tab) => (
-                <SidebarMenuItem key={tab.id}>
-                  <SidebarMenuButton
-                    onClick={() => setActiveTab(tab.id)}
-                    isActive={activeTab === tab.id}
-                    tooltip={tab.label}
-                  >
-                    <tab.icon className="h-4 w-4" />
-                    {!collapsed && <span>{tab.label}</span>}
-                  </SidebarMenuButton>
-                </SidebarMenuItem>
-              ))}
-            </SidebarMenu>
+            {!collapsed ? (
+              <SidebarGroupNav
+                activeTab={activeTab}
+                onTabChange={setActiveTab}
+                measureActive={props.measureActive}
+                onMeasureToggle={props.onMeasureToggle}
+              />
+            ) : (
+              <div className="flex flex-col items-center gap-1 py-1">
+                <Map className="h-4 w-4 text-sidebar-foreground/50" />
+              </div>
+            )}
           </SidebarGroupContent>
         </SidebarGroup>
 
+        {/* Active panel content */}
         {!collapsed && (
           <SidebarGroup>
             <SidebarGroupContent>
-              {activeTab === "layers" && (
-                <>
-                  <div className="px-1 mb-2 flex gap-1">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="flex-1 gap-2 text-xs"
-                      onClick={props.onGitHubClick}
-                    >
-                      <Github className="h-3.5 w-3.5" />
-                      GitHub
-                    </Button>
-                    <Button
-                      variant={props.measureActive ? "default" : "outline"}
-                      size="sm"
-                      className="gap-1 text-xs"
-                      onClick={props.onMeasureToggle}
-                    >
-                      <Ruler className="h-3.5 w-3.5" />
-                      מדידה
-                    </Button>
-                  </div>
-                  <LayerPanel
-                    layers={props.layers}
-                    categories={props.categories}
-                    onToggleVisibility={props.onToggleVisibility}
-                    onSetOpacity={props.onSetOpacity}
-                    onRemoveLayer={props.onRemoveLayer}
-                  />
-                </>
-              )}
-              {activeTab === "catalog" && (
-                <DataCatalog onLayerAdd={props.onLayerAdd} />
-              )}
-              {activeTab === "plans" && <PlansPanel onLayerAdd={props.onLayerAdd} />}
-              {activeTab === "migrashim" && <MigrashimPanel />}
-              {activeTab === "blocks" && <BlocksPanel />}
-              {activeTab === "complot" && <ComplotPanel />}
-              {activeTab === "aerial" && (
-                <AerialPanel
-                  onReleaseSelect={props.onWaybackSelect}
-                  activeReleaseId={props.activeWaybackId}
-                />
-              )}
-              {activeTab === "stats" && <StatsPanel />}
-              {activeTab === "documents" && (
-                <DocumentPanel
-                  documents={props.documents}
-                  searchQuery={props.searchQuery}
-                  onSearchChange={props.onSearchChange}
-                  onRemove={props.onRemoveDocument}
-                  onUploadClick={props.onUploadClick}
-                />
-              )}
-              {activeTab === "draw" && <DrawTools onModeChange={() => {}} />}
-              {activeTab === "search" && (
-                <GlobalSearch onLocationSelect={props.onLocationSelect} />
-              )}
+              <div className="animate-fade-in" key={activeTab}>
+                {renderPanel()}
+              </div>
             </SidebarGroupContent>
           </SidebarGroup>
         )}
