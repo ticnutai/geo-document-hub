@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import {
   Search, Building2, Landmark, MapPin, Star, Clock, X, Loader2,
-  ChevronLeft, Heart, Trash2, Navigation,
+  ChevronLeft, Heart, Trash2, Navigation, Palette,
 } from "lucide-react";
 import L from "leaflet";
 import {
@@ -16,6 +16,7 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 import { loadPlans, extractPlans, loadPlansByBlock } from "@/data/plans-data";
 import { loadPlanBoundaries, findPlanBoundary, loadAllGushFeatures } from "@/data/cadastre-data";
+import { loadZoningLayer, extractZoningSummaries, getUniqueYeudTypes, getYeudColor, type ZoningFeatureSummary } from "@/data/zoning-data";
 import type { RecentSearch } from "@/hooks/useRecentSearches";
 import type { SearchFavorite } from "@/hooks/useSearchFavorites";
 
