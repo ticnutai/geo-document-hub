@@ -42,6 +42,8 @@ interface AppSidebarProps {
   measureActive: boolean;
   onMeasureToggle: () => void;
   onZoomToLayer?: (layer: GeoLayer) => void;
+  onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onClearHighlight?: () => void;
 }
 
 export default function AppSidebar(props: AppSidebarProps) {
@@ -94,13 +96,18 @@ export default function AppSidebar(props: AppSidebarProps) {
       case "catalog":
         return <DataCatalog onLayerAdd={props.onLayerAdd} />;
       case "plans":
-        return <PlansPanel onLayerAdd={props.onLayerAdd} />;
+        return (
+          <PlansPanel
+            onLayerAdd={props.onLayerAdd}
+            onHighlightFeature={props.onHighlightFeature}
+          />
+        );
       case "migrashim":
-        return <MigrashimPanel />;
+        return <MigrashimPanel onHighlightFeature={props.onHighlightFeature} />;
       case "blocks":
-        return <BlocksPanel />;
+        return <BlocksPanel onHighlightFeature={props.onHighlightFeature} />;
       case "complot":
-        return <ComplotPanel />;
+        return <ComplotPanel onHighlightFeature={props.onHighlightFeature} />;
       case "aerial":
         return (
           <AerialPanel
