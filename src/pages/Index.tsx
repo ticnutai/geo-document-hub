@@ -1,4 +1,5 @@
 import { useState, useCallback, useEffect } from "react";
+import { useSidebarResize } from "@/hooks/useSidebarResize";
 import { generatePlanningSheet } from "@/utils/planning-sheet";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/sidebar/AppSidebar";
@@ -34,6 +35,7 @@ export default function Index() {
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
   const [legendSelection, setLegendSelection] = useState<Set<string>>(new Set());
+  const { width: sidebarWidth, pinned: sidebarPinned, isVisible: sidebarVisible, onDragStart, togglePin } = useSidebarResize();
 
   const toggleLegendItem = useCallback((id: string) => {
     setLegendSelection((prev) => {
@@ -128,6 +130,11 @@ export default function Index() {
           onToggleFavorite={toggleFavorite}
           onRemoveFavorite={removeFavorite}
           isFavorite={isFavorite}
+          sidebarWidth={sidebarWidth}
+          sidebarPinned={sidebarPinned}
+          sidebarVisible={sidebarVisible}
+          onDragStart={onDragStart}
+          onTogglePin={togglePin}
         />
 
         <div className="flex-1 flex flex-col">
