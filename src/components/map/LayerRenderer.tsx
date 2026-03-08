@@ -1,5 +1,5 @@
 import { useRef, useEffect, useCallback } from "react";
-import { GeoJSON, useMap } from "react-leaflet";
+import { GeoJSON, ImageOverlay, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
