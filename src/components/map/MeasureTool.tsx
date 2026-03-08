@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { useMapEvents, useMap } from "react-leaflet";
 import L from "leaflet";
 
@@ -19,52 +19,80 @@ function computeArea(points: L.LatLng[]): number {
 
 export default function MeasureTool({ active }: MeasureToolProps) {
   const [points, setPoints] = useState<L.LatLng[]>([]);
-  const [polyline, setPolyline] = useState<L.Polyline | null>(null);
-  const [polygon, setPolygon] = useState<L.Polygon | null>(null);
+  const polylineRef = useRef<L.Polyline | null>(null);
+  const polygonRef = useRef<L.Polygon | null>(null);
+  const markersRef = useRef<L.CircleMarker[]>([]);
   const map = useMap();
+
+  // Clear all layers from map
+  const clearLayers = useCallback(() => {
+    if (polylineRef.current) { map.removeLayer(polylineRef.current); polylineRef.current = null; }
+    if (polygonRef.current) { map.removeLayer(polygonRef.current); polygonRef.current = null; }
+    markersRef.current.forEach((m) => map.removeLayer(m));
+    markersRef.current = [];
+  }, [map]);
 
   // Clear on deactivate
   useEffect(() => {
     if (!active) {
       setPoints([]);
-      if (polyline) { map.removeLayer(polyline); setPolyline(null); }
-      if (polygon) { map.removeLayer(polygon); setPolygon(null); }
+      clearLayers();
     }
-  }, [active]);
+  }, [active, clearLayers]);
 
   // Update drawn shapes
   useEffect(() => {
-    if (polyline) map.removeLayer(polyline);
-    if (polygon) map.removeLayer(polygon);
+    clearLayers();
+
+    if (points.length >= 1) {
+      // Add markers at each point
+      points.forEach((p, i) => {
+        const marker = L.circleMarker([p.lat, p.lng], {
+          radius: 5,
+          fillColor: "hsl(210, 80%, 45%)",
+          color: "#fff",
+          weight: 2,
+          fillOpacity: 1,
+        }).addTo(map);
+        if (i > 0) {
+          const dist = points[i - 1].distanceTo(p);
+          marker.bindTooltip(formatDist(dist), {
+            permanent: true,
+            direction: "top",
+            className: "measure-tooltip",
+          });
+        }
+        markersRef.current.push(marker);
+      });
+    }
 
     if (points.length >= 2) {
       const latlngs = points.map((p) => [p.lat, p.lng] as [number, number]);
-      const newLine = L.polyline(latlngs, {
+      polylineRef.current = L.polyline(latlngs, {
         color: "hsl(210, 80%, 45%)",
         weight: 3,
         dashArray: "8, 4",
       }).addTo(map);
-      setPolyline(newLine);
 
       if (points.length >= 3) {
-        const newPoly = L.polygon(latlngs, {
+        polygonRef.current = L.polygon(latlngs, {
           color: "hsl(210, 80%, 45%)",
           weight: 1,
           fillOpacity: 0.1,
           dashArray: "4, 4",
         }).addTo(map);
-        setPolygon(newPoly);
-      } else {
-        setPolygon(null);
       }
-    } else {
-      setPolyline(null);
-      setPolygon(null);
     }
 
-    // Add markers at each point
-    return () => {};
-  }, [points]);
+    return () => {
+      // Cleanup handled by clearLayers on next render
+    };
+  }, [points, map, clearLayers]);
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => clearLayers();
+  }, [clearLayers]);
 
   useMapEvents({
     click(e) {
@@ -80,11 +108,6 @@ export default function MeasureTool({ active }: MeasureToolProps) {
     }
     return dist;
   }, [points]);
-
-  const formatDist = (m: number) => {
-    if (m > 1000) return `${(m / 1000).toFixed(2)} ק״מ`;
-    return `${m.toFixed(1)} מ׳`;
-  };
 
   const handleClear = () => {
     setPoints([]);
@@ -136,4 +159,9 @@ export default function MeasureTool({ active }: MeasureToolProps) {
       </div>
     </div>
   );
+}
+
+function formatDist(m: number) {
+  if (m > 1000) return `${(m / 1000).toFixed(2)} ק״מ`;
+  return `${m.toFixed(1)} מ׳`;
 }
