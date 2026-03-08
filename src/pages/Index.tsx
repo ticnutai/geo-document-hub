@@ -3,6 +3,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/sidebar/AppSidebar";
 import MapView from "@/components/map/MapView";
 import FileUploader from "@/components/documents/FileUploader";
+import GitHubLoader from "@/components/documents/GitHubLoader";
 import { useLayers } from "@/hooks/useLayers";
 import { useDocuments } from "@/hooks/useDocuments";
 import { PanelRight } from "lucide-react";
@@ -11,6 +12,7 @@ export default function Index() {
   const { layers, toggleVisibility, setOpacity, addLayer, removeLayer, categories } = useLayers();
   const { documents, addDocument, removeDocument, searchQuery, setSearchQuery } = useDocuments();
   const [uploaderOpen, setUploaderOpen] = useState(false);
+  const [githubOpen, setGithubOpen] = useState(false);
   const [mapCenter, setMapCenter] = useState<[number, number]>([32.0853, 34.7818]);
   const [mapZoom, setMapZoom] = useState(13);
 
@@ -33,6 +35,7 @@ export default function Index() {
           onRemoveLayer={removeLayer}
           onRemoveDocument={removeDocument}
           onUploadClick={() => setUploaderOpen(true)}
+          onGitHubClick={() => setGithubOpen(true)}
           onLocationSelect={handleLocationSelect}
         />
 
@@ -56,6 +59,12 @@ export default function Index() {
         open={uploaderOpen}
         onOpenChange={setUploaderOpen}
         onFileAdd={addDocument}
+      />
+
+      <GitHubLoader
+        open={githubOpen}
+        onOpenChange={setGithubOpen}
+        onLayerAdd={addLayer}
       />
     </SidebarProvider>
   );
