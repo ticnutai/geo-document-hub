@@ -58,6 +58,9 @@ export default function AdvancedSearchDialog({
   const [blockMap, setBlockMap] = useState<Record<string, string[]>>({});
   const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
   const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
+  const [zoningData, setZoningData] = useState<ZoningFeatureSummary[]>([]);
+  const [zoningSearch, setZoningSearch] = useState("");
+  const [zoningFilter, setZoningFilter] = useState("");
   const [dataLoaded, setDataLoaded] = useState(false);
 
   // Address search
