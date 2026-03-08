@@ -238,9 +238,13 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                     <button
                       onClick={(e) => { e.stopPropagation(); handleZoomToPlan(plan.planName); }}
                       className="p-0.5 rounded hover:bg-primary/20 transition-colors"
-                      title="הצג במפה"
+                      title={hasBoundary ? "הצג גבול מדויק במפה" : "הצג מיקום משוער (MMG)"}
                     >
-                      <MapPin className="h-3 w-3 text-primary" />
+                      {hasBoundary ? (
+                        <MapPin className="h-3 w-3 text-primary" />
+                      ) : (
+                        <Map className="h-3 w-3 text-amber-500" />
+                      )}
                     </button>
                   )}
                   {mmgLayers.length > 0 && <Map className="h-3 w-3 text-primary shrink-0" />}
@@ -285,11 +289,15 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                           <Button
                             variant="outline"
                             size="sm"
-                            className="w-full h-7 text-[10px] gap-1.5 border-primary/30 text-primary hover:bg-primary/10"
+                            className={`w-full h-7 text-[10px] gap-1.5 ${
+                              hasBoundary
+                                ? "border-primary/30 text-primary hover:bg-primary/10"
+                                : "border-amber-500/30 text-amber-600 hover:bg-amber-500/10"
+                            }`}
                             onClick={() => handleZoomToPlan(plan.planName)}
                           >
-                            <MapPin className="h-3 w-3" />
-                            הצג תוכנית במפה
+                            {hasBoundary ? <MapPin className="h-3 w-3" /> : <Map className="h-3 w-3" />}
+                            {hasBoundary ? "הצג גבול מדויק במפה" : "הצג מיקום משוער במפה"}
                           </Button>
                         )}
 
