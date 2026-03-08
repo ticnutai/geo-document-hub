@@ -37,17 +37,23 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
 
   useEffect(() => {
     setLoading(true);
-    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex(), loadPlanBoundaries(), loadAllGushFeatures()]).then(
-      ([plansRaw, migRaw, blockRaw, docsIdx, boundaries, gushGeo]) => {
+    // Load only lightweight data first (plans, migrashim, blocks) for fast search
+    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex()]).then(
+      ([plansRaw, migRaw, blockRaw, docsIdx]) => {
         setAllData({
           plans: extractPlans(plansRaw),
           migrashim: extractMigrashim(migRaw),
           blocks: blockRaw?.block_plan_map ? Object.keys(blockRaw.block_plan_map) : [],
           docsCount: docsIdx?.total_documents_in_metadata || 0,
         });
+        setLoading(false);
+      }
+    );
+    // Load heavy geo data in background (boundaries + gush geometry)
+    Promise.all([loadPlanBoundaries(), loadAllGushFeatures()]).then(
+      ([boundaries, gushGeo]) => {
         setPlanBoundaries(boundaries);
         setGushFeatures(gushGeo);
-        setLoading(false);
       }
     );
   }, []);
