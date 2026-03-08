@@ -281,7 +281,7 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                       <>
                         {plan.title && <p className="text-muted-foreground">{plan.title}</p>}
 
-                        {hasBoundary && (
+                        {canZoom && (
                           <Button
                             variant="outline"
                             size="sm"
@@ -289,7 +289,7 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                             onClick={() => handleZoomToPlan(plan.planName)}
                           >
                             <MapPin className="h-3 w-3" />
-                            הצג גבול תוכנית במפה
+                            הצג תוכנית במפה
                           </Button>
                         )}
 
