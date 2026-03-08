@@ -3,6 +3,7 @@ import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import AppSidebar from "@/components/sidebar/AppSidebar";
 import MapView from "@/components/map/MapView";
 import MapToolbar from "@/components/map/MapToolbar";
+import MapLegend from "@/components/map/MapLegend";
 import FileUploader from "@/components/documents/FileUploader";
 import GitHubLoader from "@/components/documents/GitHubLoader";
 import AdvancedSearchDialog from "@/components/search/AdvancedSearchDialog";
@@ -164,6 +165,7 @@ export default function Index() {
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
             />
+            <MapLegend layers={layers} />
             <MapToolbar
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
