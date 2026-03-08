@@ -157,6 +157,8 @@ export default function AppSidebar(props: AppSidebarProps) {
         return <BlocksPanel onHighlightFeature={props.onHighlightFeature} />;
       case "complot":
         return <ComplotPanel onHighlightFeature={props.onHighlightFeature} />;
+      case "analysis":
+        return <PlanningAnalysisPanel onHighlightFeature={props.onHighlightFeature} />;
       case "aerial":
         return (
           <AerialPanel
