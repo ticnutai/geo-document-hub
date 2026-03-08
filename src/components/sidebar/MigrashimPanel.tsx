@@ -137,6 +137,7 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
           {filtered.slice(0, 200).map((m, i) => {
             const migId = `migrash-${m.plan}-${m.migrash}`;
             const isFav = favorites?.has(migId);
+            const helkaEntries = helkaMap.get(m.migrash);
             return (
               <div key={`${m.plan}-${m.migrash}-${i}`} className="border border-border/40 rounded-md px-2 py-1.5 hover:bg-accent/30 transition-colors">
                 <div className="flex items-center justify-between">
