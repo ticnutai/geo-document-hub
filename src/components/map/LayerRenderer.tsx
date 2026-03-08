@@ -55,6 +55,23 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
 
   if (!layer.data) return null;
 
+  // Check if this is a georef image layer
+  const features = layer.data?.features || [];
+  const georefFeature = features[0]?.properties?.type === "georef-image" ? features[0] : null;
+  if (georefFeature) {
+    const { imageUrl, bounds } = georefFeature.properties as any;
+    if (imageUrl && bounds) {
+      return layer.visible ? (
+        <ImageOverlay
+          url={imageUrl}
+          bounds={bounds}
+          opacity={layer.opacity}
+          interactive
+        />
+      ) : null;
+    }
+  }
+
   const style = {
     color: layer.strokeColor || layer.color,
     weight: 2,
