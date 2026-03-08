@@ -170,5 +170,5 @@ export function useLayers() {
 
   const categories = [...new Set(layers.map((l) => l.category))];
 
-  return { layers, loading, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories };
+  return { layers, loading, toggleVisibility, setOpacity, setColor, setStrokeColor, setStrokeOpacity, setFillColor, setFillOpacity, addLayer, removeLayer, reorderLayers, categories };
 }
