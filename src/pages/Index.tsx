@@ -37,6 +37,7 @@ export default function Index() {
           onUploadClick={() => setUploaderOpen(true)}
           onGitHubClick={() => setGithubOpen(true)}
           onLocationSelect={handleLocationSelect}
+          onLayerAdd={addLayer}
         />
 
         <div className="flex-1 flex flex-col">

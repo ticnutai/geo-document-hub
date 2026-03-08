@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map, Github } from "lucide-react";
+import { Layers, FileText, PenTool, Search, Map, Github, Database } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -16,6 +16,7 @@ import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
 import SearchLocation from "@/components/map/SearchLocation";
+import DataCatalog from "@/components/sidebar/DataCatalog";
 import { Button } from "@/components/ui/button";
 
 interface AppSidebarProps {
@@ -31,10 +32,12 @@ interface AppSidebarProps {
   onUploadClick: () => void;
   onGitHubClick: () => void;
   onLocationSelect: (lat: number, lng: number, name: string) => void;
+  onLayerAdd: (layer: GeoLayer) => void;
 }
 
 const tabs: { id: SidebarTab; label: string; icon: any }[] = [
   { id: "layers", label: "שכבות", icon: Layers },
+  { id: "catalog", label: "קטלוג", icon: Database },
   { id: "documents", label: "מסמכים", icon: FileText },
   { id: "draw", label: "ציור", icon: PenTool },
   { id: "search", label: "חיפוש", icon: Search },
@@ -101,6 +104,9 @@ export default function AppSidebar(props: AppSidebarProps) {
                     onRemoveLayer={props.onRemoveLayer}
                   />
                 </>
+              )}
+              {activeTab === "catalog" && (
+                <DataCatalog onLayerAdd={props.onLayerAdd} />
               )}
               {activeTab === "documents" && (
                 <DocumentPanel
