@@ -11,26 +11,33 @@ export interface HighlightedFeature {
 export function useMapHighlight(mapRef: L.Map | null) {
   const [highlighted, setHighlighted] = useState<HighlightedFeature | null>(null);
 
-  const highlightAndZoom = useCallback(
-    (feature: GeoJSON.Feature | GeoJSON.Feature[], color = "#e74c3c", label?: string) => {
-      if (!mapRef) return;
-
+  const buildHighlight = useCallback(
+    (feature: GeoJSON.Feature | GeoJSON.Feature[], color = "#e74c3c", label?: string): HighlightedFeature => {
       const features = Array.isArray(feature) ? feature : [feature];
       const fc: GeoJSON.FeatureCollection = {
         type: "FeatureCollection",
         features,
       };
 
-      setHighlighted({
+      return {
         id: `hl-${Date.now()}`,
         data: fc,
         color,
         label,
-      });
+      };
+    },
+    []
+  );
 
-      // Zoom to bounds
+  const highlightAndZoom = useCallback(
+    (feature: GeoJSON.Feature | GeoJSON.Feature[], color = "#e74c3c", label?: string) => {
+      const nextHighlight = buildHighlight(feature, color, label);
+      setHighlighted(nextHighlight);
+
+      if (!mapRef) return;
+
       try {
-        const geoLayer = L.geoJSON(fc as any);
+        const geoLayer = L.geoJSON(nextHighlight.data as any);
         const bounds = geoLayer.getBounds();
         if (bounds.isValid()) {
           mapRef.fitBounds(bounds, { padding: [50, 50], maxZoom: 18 });
@@ -39,12 +46,20 @@ export function useMapHighlight(mapRef: L.Map | null) {
         console.warn("Could not zoom to highlight:", e);
       }
     },
-    [mapRef]
+    [buildHighlight, mapRef]
+  );
+
+  const highlightOnly = useCallback(
+    (feature: GeoJSON.Feature | GeoJSON.Feature[], color = "#e74c3c", label?: string) => {
+      const nextHighlight = buildHighlight(feature, color, label);
+      setHighlighted(nextHighlight);
+    },
+    [buildHighlight]
   );
 
   const clearHighlight = useCallback(() => {
     setHighlighted(null);
   }, []);
 
-  return { highlighted, highlightAndZoom, clearHighlight };
+  return { highlighted, highlightAndZoom, highlightOnly, clearHighlight };
 }
