@@ -1,4 +1,4 @@
-import { LocateFixed, Ruler, Plane, Maximize, Minimize, Printer } from "lucide-react";
+import { LocateFixed, Ruler, Plane, Maximize, Minimize, Printer, Image } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useState } from "react";
 
@@ -7,6 +7,8 @@ interface MapToolbarProps {
   onMeasureToggle: () => void;
   waybackActive: boolean;
   onPrintMap?: () => void;
+  georefActive?: boolean;
+  onGeorefToggle?: () => void;
 }
 
 export default function MapToolbar({ measureActive, onMeasureToggle, waybackActive, onPrintMap }: MapToolbarProps) {
