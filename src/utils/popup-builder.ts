@@ -105,7 +105,7 @@ const HIDDEN_FIELDS = new Set([
 ]);
 
 // Fields that contain URLs
-const URL_FIELDS = new Set(["ToSite", "GushHelka"]);
+const URL_FIELDS = new Set(["ToSite", "GushHelka", "internet"]);
 
 function translateField(key: string): string {
   return FIELD_TRANSLATIONS[key] || key;
