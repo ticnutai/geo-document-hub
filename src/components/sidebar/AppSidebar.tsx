@@ -57,6 +57,12 @@ interface AppSidebarProps {
   onToggleFavorite: (item: FavoriteItem) => void;
   onRemoveFavorite: (id: string) => void;
   isFavorite: (id: string) => boolean;
+  // Resize & pin props
+  sidebarWidth?: number;
+  sidebarPinned?: boolean;
+  sidebarVisible?: boolean;
+  onDragStart?: (e: React.MouseEvent) => void;
+  onTogglePin?: () => void;
 }
 
 export default function AppSidebar(props: AppSidebarProps) {
