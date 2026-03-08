@@ -8,26 +8,56 @@ const FIELD_TRANSLATIONS: Record<string, string> = {
   PARCEL_NUM: "חלקה",
   GUSH_NUM: "גוש",
   HELKA_NUM: "חלקה",
-  OBJECTID: "מזהה",
-  OBJECTID1: "מזהה",
-  
+  GUSH_SUFFI: "סיומת גוש",
+  CALC_AREA: "שטח מחושב (מ״ר)",
+  LEGAL_AREA: "שטח רשום (מ״ר)",
+  STATUS_NAM: "שם סטטוס",
+  IS_ANALITY: "אנליטי",
+
   // Plan fields
   Migrash: "מגרש",
   migrash: "מגרש",
   MIGRASH: "מגרש",
-  TabaYeud: "ייעוד (תב\"ע)",
+  TabaYeud: 'ייעוד (תב"ע)',
   YeudDesc: "תיאור ייעוד",
-  TabaMigra: "תב\"ע מגרש",
+  TabaMigra: 'תב"ע מגרש',
   bikoret: "ביקורת",
   HelkaArea: "שטח חלקה (מ״ר)",
   GushHelka: "גוש-חלקה",
   ToSite: "קישור לאתר",
-  
+  PLAN_NAME: "שם תוכנית",
+  MAVAT_NAME: "שם מאבט",
+  MAVAT_CODE: "קוד מאבט",
+
+  // GISNet layer fields
+  Descriptio: "תיאור",
+  yeshuv: "ישוב",
+  subtype: "תת-סוג",
+  phone: "טלפון",
+  layer_n: "שכבה",
+  yeud: "ייעוד",
+  mamad: "ממ״ד",
+  helka: "חלקה",
+  gush: "גוש",
+
+  // Hebrew field names (already in Hebrew but need mapping)
+  "מס_": "מספר",
+  "מס__הג": "מספר הגנה",
+  "שם": "שם",
+  "ישוב": "ישוב",
+  "כתובת": "כתובת",
+  "גוש": "גוש",
+  "חלקה": "חלקה",
+  "סטטוס": "סטטוס",
+  "הערות": "הערות",
+
   // Common GIS fields
   Shape_Area: "שטח",
   Shape_Leng: "היקף",
   SHAPE_Area: "שטח",
   SHAPE_Leng: "היקף",
+  SHAPE_AREA: "שטח (מ״ר)",
+  SHAPE_LEN: "היקף (מ׳)",
   area: "שטח",
   perimeter: "היקף",
   name: "שם",
@@ -37,7 +67,17 @@ const FIELD_TRANSLATIONS: Record<string, string> = {
   status: "סטטוס",
   STATUS: "סטטוס",
   description: "תיאור",
-  
+  LABEL: "תווית",
+  ADDRESS: "כתובת",
+  LENGTH: "אורך",
+  WIDTH: "רוחב",
+  REMARKS: "הערות",
+  DATE_DEC: "תאריך החלטה",
+  STAGE: "שלב",
+  SCALE: "קנ״מ",
+  PAGE: "עמוד",
+  PAGES: "עמודים",
+
   // Plan metadata
   plan_number: "מספר תוכנית",
   plan_name: "שם תוכנית",
@@ -46,8 +86,16 @@ const FIELD_TRANSLATIONS: Record<string, string> = {
 
 // Fields to hide (internal/technical)
 const HIDDEN_FIELDS = new Set([
-  "OBJECTID", "OBJECTID1", "FID", "fid", "id", "ID",
+  "OBJECTID", "OBJECTID1", "OBJECTID_1", "FID", "fid", "id", "ID",
   "Shape_Area", "Shape_Leng", "SHAPE_Area", "SHAPE_Leng",
+  "LAYER_ID", "GROUP_ID", "DEFQ", "AGAM_ID", "VER_ID",
+  "TYPE_CODE", "Type_Code", "SOURCE_COD", "IS_ANALITY",
+  "FONT_SIZE", "ROTATION", "BLOCKNAME", "PAGE_SIZE",
+  "SCENARIO", "PL_CHANGE", "PLACE_NO",
+  "TAGNAME1", "TAGNAME2", "TAGNAME3",
+  "VALUE1", "VALUE2", "VALUE3",
+  "DATA_DATE", "MAVAT_CODE",
+  "X", "Y",
 ]);
 
 // Fields that contain URLs
@@ -59,9 +107,10 @@ function translateField(key: string): string {
 
 function formatValue(key: string, value: unknown): string {
   if (value === null || value === undefined || value === "") return "";
-  
-  const strVal = String(value);
-  
+
+  const strVal = String(value).trim();
+  if (!strVal) return "";
+
   // Format URLs as clickable links
   if (URL_FIELDS.has(key) || strVal.startsWith("http")) {
     return `<a href="${strVal}" target="_blank" rel="noopener" 
@@ -69,21 +118,32 @@ function formatValue(key: string, value: unknown): string {
       🔗 פתח קישור
     </a>`;
   }
-  
+
   // Format area values
-  if (key === "HelkaArea" || key === "area") {
+  if (key === "HelkaArea" || key === "area" || key === "CALC_AREA" || key === "LEGAL_AREA" || key === "SHAPE_AREA") {
     const num = Number(value);
-    if (!isNaN(num)) {
-      return `${num.toLocaleString("he-IL")} מ״ר`;
+    if (!isNaN(num) && num > 0) {
+      return `${num.toLocaleString("he-IL", { maximumFractionDigits: 1 })} מ״ר`;
     }
   }
-  
+
+  // Format length values
+  if (key === "SHAPE_LEN" || key === "LENGTH") {
+    const num = Number(value);
+    if (!isNaN(num) && num > 0) {
+      return `${num.toLocaleString("he-IL", { maximumFractionDigits: 1 })} מ׳`;
+    }
+  }
+
+  // Skip zero/empty numeric values for technical fields
+  if (typeof value === "number" && value === 0) return "";
+
   return strVal;
 }
 
 export function buildFeaturePopupHTML(properties: Record<string, unknown>): string {
   if (!properties) return "";
-  
+
   const entries = Object.entries(properties)
     .filter(([k, v]) => v !== null && v !== undefined && v !== "" && !HIDDEN_FIELDS.has(k))
     .map(([k, v]) => ({
@@ -94,14 +154,15 @@ export function buildFeaturePopupHTML(properties: Record<string, unknown>): stri
     }))
     .filter(e => e.value)
     .sort((a, b) => a.priority - b.priority);
-  
+
   if (entries.length === 0) return "";
-  
+
   // Build header from key fields
-  const gush = properties.LOT_NUM ?? properties.GUSH_NUM ?? properties.gush;
-  const helka = properties.PARCEL_NUM ?? properties.HELKA_NUM ?? properties.helka;
+  const gush = properties.LOT_NUM ?? properties.GUSH_NUM ?? properties.gush ?? properties["גוש"];
+  const helka = properties.PARCEL_NUM ?? properties.HELKA_NUM ?? properties.helka ?? properties["חלקה"];
   const migrash = properties.Migrash ?? properties.migrash ?? properties.MIGRASH;
-  
+  const desc = properties.Descriptio ?? properties["שם"];
+
   let header = "";
   if (gush && helka) {
     header = `<div class="popup-header">גוש ${gush} · חלקה ${helka}</div>`;
@@ -109,10 +170,12 @@ export function buildFeaturePopupHTML(properties: Record<string, unknown>): stri
     header = `<div class="popup-header">גוש ${gush}</div>`;
   } else if (migrash) {
     header = `<div class="popup-header">מגרש ${migrash}</div>`;
+  } else if (desc) {
+    header = `<div class="popup-header">${String(desc)}</div>`;
   }
-  
+
   const rows = entries
-    .filter(e => !e.isUrl || entries.length <= 8) // Hide URLs if too many fields
+    .filter(e => !e.isUrl || entries.length <= 8)
     .slice(0, 12)
     .map(e => `
       <div class="popup-row">
@@ -121,7 +184,7 @@ export function buildFeaturePopupHTML(properties: Record<string, unknown>): stri
       </div>
     `)
     .join("");
-  
+
   // Link row at bottom
   const links = entries.filter(e => e.isUrl);
   const linkRow = links.length > 0 ? `
@@ -129,20 +192,29 @@ export function buildFeaturePopupHTML(properties: Record<string, unknown>): stri
       ${links.map(l => l.value).join(" ")}
     </div>
   ` : "";
-  
+
   return `<div class="gis-popup" dir="rtl">${header}<div class="popup-body">${rows}</div>${linkRow}</div>`;
 }
 
 function getPriority(key: string): number {
   const order: Record<string, number> = {
-    LOT_NUM: 1, GUSH_NUM: 1, gush: 1,
-    PARCEL_NUM: 2, HELKA_NUM: 2, helka: 2,
+    LOT_NUM: 1, GUSH_NUM: 1, gush: 1, "גוש": 1,
+    PARCEL_NUM: 2, HELKA_NUM: 2, helka: 2, "חלקה": 2,
     Migrash: 3, migrash: 3, MIGRASH: 3,
-    TabaYeud: 4, YeudDesc: 5,
-    HelkaArea: 6,
-    bikoret: 7,
-    TabaMigra: 8,
-    plan_number: 9, plan_name: 10,
+    Descriptio: 4, "שם": 4,
+    yeshuv: 5, "ישוב": 5,
+    TabaYeud: 6, yeud: 6, YeudDesc: 7,
+    HelkaArea: 8, CALC_AREA: 8,
+    "כתובת": 9, ADDRESS: 9,
+    subtype: 10,
+    mamad: 11,
+    bikoret: 12,
+    TabaMigra: 13,
+    phone: 14,
+    PLAN_NAME: 15, plan_number: 15, plan_name: 16,
+    MAVAT_NAME: 17,
+    LABEL: 18,
+    REMARKS: 19, "הערות": 19,
   };
   return order[key] ?? 50;
 }
