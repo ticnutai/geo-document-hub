@@ -32,6 +32,18 @@ export default function Index() {
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
 
+  // Keyboard shortcut: Ctrl+K / ⌘K to open search
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === "k") {
+        e.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, []);
+
   const { highlighted, highlightAndZoom, highlightOnly, clearHighlight } = useMapHighlight(mapRef);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
