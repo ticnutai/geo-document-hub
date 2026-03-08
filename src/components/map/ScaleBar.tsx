@@ -101,7 +101,7 @@ export default function ScaleBar() {
       </button>
 
       {showMenu && (
-        <div className="absolute bottom-8 right-0 bg-background/95 backdrop-blur-sm border border-border rounded-lg shadow-lg py-1 min-w-[130px]">
+        <div className="absolute bottom-8 left-0 bg-background/95 backdrop-blur-sm border border-border rounded-lg shadow-lg py-1 min-w-[130px]">
           <p className="text-[9px] text-muted-foreground px-3 py-1 font-medium">בחר קנה מידה</p>
           {PRESET_SCALES.map((ps) => {
             const isCurrent = Math.abs(currentScale - ps.value) / ps.value < 0.15;
