@@ -1,4 +1,4 @@
-import { LocateFixed, Ruler, Plane, Maximize, Minimize } from "lucide-react";
+import { LocateFixed, Ruler, Plane, Maximize, Minimize, Printer } from "lucide-react";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { useState } from "react";
 
@@ -6,9 +6,10 @@ interface MapToolbarProps {
   measureActive: boolean;
   onMeasureToggle: () => void;
   waybackActive: boolean;
+  onPrintMap?: () => void;
 }
 
-export default function MapToolbar({ measureActive, onMeasureToggle, waybackActive }: MapToolbarProps) {
+export default function MapToolbar({ measureActive, onMeasureToggle, waybackActive, onPrintMap }: MapToolbarProps) {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const toggleFullscreen = () => {
@@ -18,6 +19,14 @@ export default function MapToolbar({ measureActive, onMeasureToggle, waybackActi
     } else {
       document.exitFullscreen();
       setIsFullscreen(false);
+    }
+  };
+
+  const handlePrint = () => {
+    if (onPrintMap) {
+      onPrintMap();
+    } else {
+      window.print();
     }
   };
 
@@ -35,6 +44,12 @@ export default function MapToolbar({ measureActive, onMeasureToggle, waybackActi
           onClick={toggleFullscreen}
           icon={isFullscreen ? <Minimize className="h-4 w-4" /> : <Maximize className="h-4 w-4" />}
           label="מסך מלא"
+        />
+        <ToolbarButton
+          active={false}
+          onClick={handlePrint}
+          icon={<Printer className="h-4 w-4" />}
+          label="הדפס מפה"
         />
 
         {waybackActive && (
