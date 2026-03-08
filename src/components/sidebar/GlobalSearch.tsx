@@ -2,7 +2,9 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { Search, Building2, Grid3X3, Landmark, FileText, Layers, Loader2, MapPin } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { loadPlans, extractPlans, loadMigrashim, extractMigrashim, loadPlansByBlock, loadDocsIndex } from "@/data/plans-data";
+import { loadPlanBoundaries, findPlanBoundary, loadAllGushFeatures } from "@/data/cadastre-data";
 import { Skeleton } from "@/components/ui/skeleton";
+import { toast } from "sonner";
 
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
@@ -29,17 +31,21 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
   const [geoLoading, setGeoLoading] = useState(false);
   const [geoResults, setGeoResults] = useState<any[]>([]);
   const debounceRef = useRef<NodeJS.Timeout | null>(null);
+  const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
 
   useEffect(() => {
     setLoading(true);
-    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex()]).then(
-      ([plansRaw, migRaw, blockRaw, docsIdx]) => {
+    Promise.all([loadPlans(), loadMigrashim(), loadPlansByBlock(), loadDocsIndex(), loadPlanBoundaries(), loadAllGushFeatures()]).then(
+      ([plansRaw, migRaw, blockRaw, docsIdx, boundaries, gushGeo]) => {
         setAllData({
           plans: extractPlans(plansRaw),
           migrashim: extractMigrashim(migRaw),
           blocks: blockRaw?.block_plan_map ? Object.keys(blockRaw.block_plan_map) : [],
           docsCount: docsIdx?.total_documents_in_metadata || 0,
         });
+        setPlanBoundaries(boundaries);
+        setGushFeatures(gushGeo);
         setLoading(false);
       }
     );
@@ -187,6 +193,30 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
                     <button
                       key={i}
                       onClick={() => {
+                        // Highlight on map
+                        if (r.type === "plan" && onHighlightFeature && planBoundaries) {
+                          const feature = findPlanBoundary(r.title, planBoundaries);
+                          if (feature) {
+                            onHighlightFeature(feature, "#e74c3c", r.title);
+                          } else {
+                            toast.info("לא נמצא גבול תוכנית במפה");
+                          }
+                        } else if (r.type === "block" && onHighlightFeature) {
+                          const features = gushFeatures.get(r.data?.block);
+                          if (features && features.length > 0) {
+                            onHighlightFeature(features, "#2563eb", `גוש ${r.data.block}`);
+                          } else {
+                            toast.info("לא נמצאה גיאומטריה לגוש זה");
+                          }
+                        } else if (r.type === "migrash" && onHighlightFeature && planBoundaries) {
+                          const feature = findPlanBoundary(r.data?.plan, planBoundaries);
+                          if (feature) {
+                            onHighlightFeature(feature, "#22c55e", `מגרש ${r.data.migrash} (${r.data.plan})`);
+                          } else {
+                            toast.info("לא נמצא גבול תוכנית למגרש זה");
+                          }
+                        }
+                        // Navigate to tab
                         if (r.type === "plan" && onNavigateTo) {
                           onNavigateTo("plans", r.title);
                         } else if (r.type === "migrash" && onNavigateTo) {
