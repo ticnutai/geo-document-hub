@@ -238,9 +238,13 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                     <button
                       onClick={(e) => { e.stopPropagation(); handleZoomToPlan(plan.planName); }}
                       className="p-0.5 rounded hover:bg-primary/20 transition-colors"
-                      title="הצג במפה"
+                      title={hasBoundary ? "הצג גבול מדויק במפה" : "הצג מיקום משוער (MMG)"}
                     >
-                      <MapPin className="h-3 w-3 text-primary" />
+                      {hasBoundary ? (
+                        <MapPin className="h-3 w-3 text-primary" />
+                      ) : (
+                        <Map className="h-3 w-3 text-amber-500" />
+                      )}
                     </button>
                   )}
                   {mmgLayers.length > 0 && <Map className="h-3 w-3 text-primary shrink-0" />}
