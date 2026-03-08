@@ -7,6 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onNavigateTo?: (tab: string, search?: string) => void;
 }
 
 interface SearchResult {
@@ -16,7 +17,7 @@ interface SearchResult {
   data?: any;
 }
 
-export default function GlobalSearch({ onLocationSelect, onHighlightFeature }: GlobalSearchProps) {
+export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onNavigateTo }: GlobalSearchProps) {
   const [query, setQuery] = useState("");
   const [allData, setAllData] = useState<{
     plans: any[];
@@ -183,15 +184,24 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature }: G
                 </div>
                 <div className="space-y-0.5">
                   {items.slice(0, 15).map((r, i) => (
-                    <div
+                    <button
                       key={i}
-                      className="rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
+                      onClick={() => {
+                        if (r.type === "plan" && onNavigateTo) {
+                          onNavigateTo("plans", r.title);
+                        } else if (r.type === "migrash" && onNavigateTo) {
+                          onNavigateTo("migrashim", r.data?.migrash);
+                        } else if (r.type === "block" && onNavigateTo) {
+                          onNavigateTo("blocks", r.data?.block);
+                        }
+                      }}
+                      className="flex flex-col w-full text-right rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
                     >
                       <div className="font-medium truncate">{highlight(r.title)}</div>
                       {r.subtitle && (
                         <div className="text-[9px] text-muted-foreground truncate">{highlight(r.subtitle)}</div>
                       )}
-                    </div>
+                    </button>
                   ))}
                   {items.length > 15 && (
                     <p className="text-[9px] text-muted-foreground px-2">

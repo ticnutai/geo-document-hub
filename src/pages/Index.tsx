@@ -29,8 +29,9 @@ export default function Index() {
   const { highlighted, highlightAndZoom, clearHighlight } = useMapHighlight(mapRef);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
-    setMapCenter([lat, lng]);
-    setMapZoom(15);
+    // Add tiny random offset to force MapUpdater to detect change even for same location
+    setMapCenter([lat + Math.random() * 0.000001, lng + Math.random() * 0.000001]);
+    setMapZoom(16);
   }, []);
 
   const handleZoomToLayer = useCallback((layer: GeoLayer) => {

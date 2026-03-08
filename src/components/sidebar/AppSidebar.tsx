@@ -166,6 +166,14 @@ export default function AppSidebar(props: AppSidebarProps) {
           <GlobalSearch
             onLocationSelect={props.onLocationSelect}
             onHighlightFeature={props.onHighlightFeature}
+            onNavigateTo={(tab, search) => {
+              const tabMap: Record<string, SidebarTab> = {
+                plans: "plans",
+                migrashim: "migrashim",
+                blocks: "blocks",
+              };
+              if (tabMap[tab]) setActiveTab(tabMap[tab]);
+            }}
           />
         );
       case "favorites":
