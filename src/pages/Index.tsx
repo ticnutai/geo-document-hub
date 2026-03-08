@@ -5,11 +5,14 @@ import MapView from "@/components/map/MapView";
 import MapToolbar from "@/components/map/MapToolbar";
 import FileUploader from "@/components/documents/FileUploader";
 import GitHubLoader from "@/components/documents/GitHubLoader";
+import AdvancedSearchDialog from "@/components/search/AdvancedSearchDialog";
 import { useLayers } from "@/hooks/useLayers";
 import { useDocuments } from "@/hooks/useDocuments";
 import { useMapHighlight } from "@/hooks/useMapHighlight";
 import { useFavorites } from "@/hooks/useFavorites";
-import { PanelRight, Map } from "lucide-react";
+import { useRecentSearches } from "@/hooks/useRecentSearches";
+import { useSearchFavorites } from "@/hooks/useSearchFavorites";
+import { PanelRight, Map, Search } from "lucide-react";
 import QuickActions from "@/components/sidebar/QuickActions";
 import type { GeoLayer } from "@/types/gis";
 import L from "leaflet";
@@ -18,8 +21,11 @@ export default function Index() {
   const { layers, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories } = useLayers();
   const { documents, addDocument, removeDocument, searchQuery, setSearchQuery } = useDocuments();
   const { favorites, toggleFavorite, removeFavorite, isFavorite } = useFavorites();
+  const { recents, addRecent, clearRecents } = useRecentSearches();
+  const { favorites: searchFavorites, addFavorite: addSearchFav, removeFavorite: removeSearchFav, isFavorite: isSearchFav } = useSearchFavorites();
   const [uploaderOpen, setUploaderOpen] = useState(false);
   const [githubOpen, setGithubOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const [mapCenter, setMapCenter] = useState<[number, number]>([32.0853, 34.7818]);
   const [mapZoom, setMapZoom] = useState(13);
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
@@ -29,7 +35,6 @@ export default function Index() {
   const { highlighted, highlightAndZoom, highlightOnly, clearHighlight } = useMapHighlight(mapRef);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
-    // Add tiny random offset to force MapUpdater to detect change even for same location
     setMapCenter([lat + Math.random() * 0.000001, lng + Math.random() * 0.000001]);
     setMapZoom(16);
   }, []);
@@ -101,6 +106,18 @@ export default function Index() {
               <span className="text-xs font-bold text-primary">GIS Pro</span>
               <span className="text-[10px] text-muted-foreground">| מערכת מידע גיאוגרפי</span>
             </div>
+
+            {/* Persistent search button */}
+            <button
+              onClick={() => setSearchOpen(true)}
+              className="flex items-center gap-1.5 mr-2 px-3 py-1.5 rounded-lg border border-border/60 bg-muted/30 hover:bg-accent/60 hover:border-ring/40 transition-all text-muted-foreground hover:text-foreground group"
+              title="חיפוש מתקדם (Ctrl+K)"
+            >
+              <Search className="h-3.5 w-3.5" />
+              <span className="text-[10px]">חיפוש מתקדם...</span>
+              <kbd className="hidden sm:inline text-[9px] px-1.5 py-0.5 rounded bg-background border border-border/60 text-muted-foreground font-mono">⌘K</kbd>
+            </button>
+
             <div className="flex-1" />
             {highlighted && (
               <button
@@ -150,6 +167,20 @@ export default function Index() {
         open={githubOpen}
         onOpenChange={setGithubOpen}
         onLayerAdd={addLayer}
+      />
+
+      <AdvancedSearchDialog
+        open={searchOpen}
+        onOpenChange={setSearchOpen}
+        onLocationSelect={handleLocationSelect}
+        onHighlightFeature={handleHighlightFeature}
+        recents={recents}
+        onAddRecent={addRecent}
+        onClearRecents={clearRecents}
+        searchFavorites={searchFavorites}
+        onAddSearchFavorite={addSearchFav}
+        onRemoveSearchFavorite={removeSearchFav}
+        isSearchFavorite={isSearchFav}
       />
     </SidebarProvider>
   );
