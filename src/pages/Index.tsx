@@ -33,6 +33,16 @@ export default function Index() {
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
+  const [legendSelection, setLegendSelection] = useState<Set<string>>(new Set());
+
+  const toggleLegendItem = useCallback((id: string) => {
+    setLegendSelection((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }, []);
 
   // Register global planning sheet function for popup buttons
   useEffect(() => {
@@ -172,7 +182,7 @@ export default function Index() {
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
             />
-            <MapLegend layers={layers} />
+            <MapLegend layers={layers} legendSelection={legendSelection} onToggleLegendItem={toggleLegendItem} />
             <MapToolbar
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
