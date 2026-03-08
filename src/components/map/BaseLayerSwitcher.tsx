@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
-import { Map, ChevronDown } from "lucide-react";
+import { Map, ChevronDown, SlidersHorizontal } from "lucide-react";
 
 export interface BaseMapOption {
   id: string;
@@ -127,11 +127,14 @@ export const BASE_MAPS: BaseMapOption[] = [
 export default function BaseLayerSwitcher() {
   const map = useMap();
   const [open, setOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const [activeId, setActiveId] = useState("osm");
+  const [opacity, setOpacity] = useState(100);
+  const [saturation, setSaturation] = useState(100);
+  const [brightness, setBrightness] = useState(100);
   const tileRef = useRef<L.TileLayer | null>(null);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Initialize with default tile layer
   useEffect(() => {
     const base = BASE_MAPS[0];
     const layer = L.tileLayer(base.url, {
@@ -141,35 +144,38 @@ export default function BaseLayerSwitcher() {
     });
     layer.addTo(map);
     tileRef.current = layer;
-
-    return () => {
-      layer.remove();
-    };
+    return () => { layer.remove(); };
   }, [map]);
 
-  // Close on outside click
   useEffect(() => {
-    if (!open) return;
+    if (!open && !settingsOpen) return;
     const handler = (e: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(e.target as Node)) {
         setOpen(false);
+        setSettingsOpen(false);
       }
     };
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
-  }, [open]);
+  }, [open, settingsOpen]);
+
+  // Apply CSS filters to tile pane
+  useEffect(() => {
+    const pane = map.getPane("tilePane");
+    if (pane) {
+      pane.style.opacity = String(opacity / 100);
+      pane.style.filter = `saturate(${saturation}%) brightness(${brightness}%)`;
+    }
+  }, [opacity, saturation, brightness, map]);
 
   const switchBase = (opt: BaseMapOption) => {
-    if (tileRef.current) {
-      tileRef.current.remove();
-    }
+    if (tileRef.current) tileRef.current.remove();
     const layer = L.tileLayer(opt.url, {
       attribution: opt.attribution,
       maxZoom: opt.maxZoom || 19,
       subdomains: opt.subdomains || "abc",
     });
     layer.addTo(map);
-    // Ensure base layer is behind everything
     layer.setZIndex(0);
     tileRef.current = layer;
     setActiveId(opt.id);
@@ -180,14 +186,25 @@ export default function BaseLayerSwitcher() {
 
   return (
     <div ref={menuRef} className="absolute top-3 right-3 z-[1000]" dir="rtl">
-      <button
-        onClick={() => setOpen((p) => !p)}
-        className="flex items-center gap-1.5 rounded-lg bg-background/95 backdrop-blur-sm shadow-md border border-border px-2.5 py-1.5 hover:bg-accent transition-colors text-xs font-medium text-foreground"
-      >
-        <Map className="h-3.5 w-3.5 text-primary" />
-        <span>{activeName}</span>
-        <ChevronDown className={`h-3 w-3 transition-transform ${open ? "rotate-180" : ""}`} />
-      </button>
+      <div className="flex items-center gap-1">
+        <button
+          onClick={() => { setOpen((p) => !p); setSettingsOpen(false); }}
+          className="flex items-center gap-1.5 rounded-lg bg-background/95 backdrop-blur-sm shadow-md border border-border px-2.5 py-1.5 hover:bg-accent transition-colors text-xs font-medium text-foreground"
+        >
+          <Map className="h-3.5 w-3.5 text-primary" />
+          <span>{activeName}</span>
+          <ChevronDown className={`h-3 w-3 transition-transform ${open ? "rotate-180" : ""}`} />
+        </button>
+        <button
+          onClick={() => { setSettingsOpen((p) => !p); setOpen(false); }}
+          className={`rounded-lg bg-background/95 backdrop-blur-sm shadow-md border border-border p-1.5 hover:bg-accent transition-colors ${
+            settingsOpen ? "bg-primary/10 border-primary/40" : ""
+          }`}
+          title="הגדרות תצוגת מפה"
+        >
+          <SlidersHorizontal className="h-3.5 w-3.5 text-muted-foreground" />
+        </button>
+      </div>
 
       {open && (
         <div className="mt-1 rounded-lg bg-background/95 backdrop-blur-sm shadow-lg border border-border max-h-[320px] overflow-y-auto w-[180px]">
@@ -201,14 +218,50 @@ export default function BaseLayerSwitcher() {
                   : "text-foreground hover:bg-accent/60"
               }`}
             >
-              <span
-                className={`h-2 w-2 rounded-full shrink-0 ${
-                  activeId === opt.id ? "bg-primary" : "bg-muted-foreground/30"
-                }`}
-              />
+              <span className={`h-2 w-2 rounded-full shrink-0 ${activeId === opt.id ? "bg-primary" : "bg-muted-foreground/30"}`} />
               <span className="truncate">{opt.nameHe}</span>
             </button>
           ))}
+        </div>
+      )}
+
+      {settingsOpen && (
+        <div className="mt-1 rounded-lg bg-background/95 backdrop-blur-sm shadow-lg border border-border w-[200px] p-3 space-y-3">
+          <p className="text-[10px] font-semibold text-foreground">הגדרות מפת רקע</p>
+
+          <div className="space-y-1">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] text-muted-foreground">שקיפות</span>
+              <span className="text-[10px] text-muted-foreground">{opacity}%</span>
+            </div>
+            <input type="range" min={0} max={100} value={opacity} onChange={(e) => setOpacity(Number(e.target.value))}
+              className="w-full h-1.5 rounded-full appearance-none bg-secondary accent-primary cursor-pointer" />
+          </div>
+
+          <div className="space-y-1">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] text-muted-foreground">רוויה</span>
+              <span className="text-[10px] text-muted-foreground">{saturation}%</span>
+            </div>
+            <input type="range" min={0} max={200} value={saturation} onChange={(e) => setSaturation(Number(e.target.value))}
+              className="w-full h-1.5 rounded-full appearance-none bg-secondary accent-primary cursor-pointer" />
+          </div>
+
+          <div className="space-y-1">
+            <div className="flex items-center justify-between">
+              <span className="text-[10px] text-muted-foreground">בהירות</span>
+              <span className="text-[10px] text-muted-foreground">{brightness}%</span>
+            </div>
+            <input type="range" min={20} max={200} value={brightness} onChange={(e) => setBrightness(Number(e.target.value))}
+              className="w-full h-1.5 rounded-full appearance-none bg-secondary accent-primary cursor-pointer" />
+          </div>
+
+          <button
+            onClick={() => { setOpacity(100); setSaturation(100); setBrightness(100); }}
+            className="w-full text-[10px] text-center text-primary hover:underline"
+          >
+            איפוס לברירת מחדל
+          </button>
         </div>
       )}
     </div>
