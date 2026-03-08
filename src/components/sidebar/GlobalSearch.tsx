@@ -1,5 +1,6 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { Search, Building2, Grid3X3, Landmark, FileText, Layers, Loader2, MapPin } from "lucide-react";
+import L from "leaflet";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { loadPlans, extractPlans, loadMigrashim, extractMigrashim, loadPlansByBlock, loadDocsIndex } from "@/data/plans-data";
 import { loadPlanBoundaries, findPlanBoundary, loadAllGushFeatures } from "@/data/cadastre-data";
@@ -193,29 +194,52 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
                     <button
                       key={i}
                       onClick={() => {
-                        // Highlight on map
-                        if (r.type === "plan" && onHighlightFeature && planBoundaries) {
+                        const getCenterOfFeature = (f: GeoJSON.Feature | GeoJSON.Feature[]): [number, number] | null => {
+                          try {
+                            const features = Array.isArray(f) ? f : [f];
+                            const fc: GeoJSON.FeatureCollection = { type: "FeatureCollection", features };
+                            const geoLayer = L.geoJSON(fc as any);
+                            const bounds = geoLayer.getBounds();
+                            if (bounds.isValid()) {
+                              const c = bounds.getCenter();
+                              return [c.lat, c.lng];
+                            }
+                          } catch {}
+                          return null;
+                        };
+
+                        let didHighlight = false;
+
+                        if (r.type === "plan" && planBoundaries) {
                           const feature = findPlanBoundary(r.title, planBoundaries);
                           if (feature) {
-                            onHighlightFeature(feature, "#e74c3c", r.title);
-                          } else {
-                            toast.info("לא נמצא גבול תוכנית במפה");
+                            onHighlightFeature?.(feature, "#e74c3c", r.title);
+                            const center = getCenterOfFeature(feature);
+                            if (center) onLocationSelect(center[0], center[1], r.title);
+                            didHighlight = true;
                           }
-                        } else if (r.type === "block" && onHighlightFeature) {
+                        } else if (r.type === "block") {
                           const features = gushFeatures.get(r.data?.block);
                           if (features && features.length > 0) {
-                            onHighlightFeature(features, "#2563eb", `גוש ${r.data.block}`);
-                          } else {
-                            toast.info("לא נמצאה גיאומטריה לגוש זה");
+                            onHighlightFeature?.(features, "#2563eb", `גוש ${r.data.block}`);
+                            const center = getCenterOfFeature(features);
+                            if (center) onLocationSelect(center[0], center[1], `גוש ${r.data.block}`);
+                            didHighlight = true;
                           }
-                        } else if (r.type === "migrash" && onHighlightFeature && planBoundaries) {
+                        } else if (r.type === "migrash" && planBoundaries) {
                           const feature = findPlanBoundary(r.data?.plan, planBoundaries);
                           if (feature) {
-                            onHighlightFeature(feature, "#22c55e", `מגרש ${r.data.migrash} (${r.data.plan})`);
-                          } else {
-                            toast.info("לא נמצא גבול תוכנית למגרש זה");
+                            onHighlightFeature?.(feature, "#22c55e", `מגרש ${r.data.migrash} (${r.data.plan})`);
+                            const center = getCenterOfFeature(feature);
+                            if (center) onLocationSelect(center[0], center[1], `מגרש ${r.data.migrash}`);
+                            didHighlight = true;
                           }
                         }
+
+                        if (!didHighlight) {
+                          toast.info("לא נמצאה גיאומטריה במפה");
+                        }
+
                         // Navigate to tab
                         if (r.type === "plan" && onNavigateTo) {
                           onNavigateTo("plans", r.title);
