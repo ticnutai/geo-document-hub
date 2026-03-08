@@ -49,10 +49,10 @@ export default function ScaleBar() {
   const [showMenu, setShowMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Add Leaflet's built-in scale bar
+  // Add Leaflet's built-in scale bar on bottom-left
   useEffect(() => {
     const scale = L.control.scale({
-      position: "bottomright",
+      position: "bottomleft",
       metric: true,
       imperial: false,
       maxWidth: 150,
