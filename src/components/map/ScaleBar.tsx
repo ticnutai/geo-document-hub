@@ -90,8 +90,7 @@ export default function ScaleBar() {
   return (
     <div
       ref={menuRef}
-      className="leaflet-bottom leaflet-right"
-      style={{ position: "absolute", bottom: 28, right: 10, zIndex: 1000 }}
+      style={{ position: "absolute", bottom: 8, left: 10, zIndex: 1000 }}
     >
       <button
         onClick={() => setShowMenu((p) => !p)}
