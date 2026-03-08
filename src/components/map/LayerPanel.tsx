@@ -43,6 +43,7 @@ export default function LayerPanel({
   onSetFillColor,
   onSetFillOpacity,
   onRemoveLayer,
+  onRenameLayer,
   onZoomToLayer,
   onReorderLayers,
   favorites,
