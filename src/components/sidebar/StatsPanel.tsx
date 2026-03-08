@@ -2,14 +2,17 @@ import { useState, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Loader2, BarChart3, Users, MapPin, Home } from "lucide-react";
 import { loadCBS, loadPlans, loadMigrashim, loadDocsIndex, extractPlans, extractMigrashim } from "@/data/plans-data";
+import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
+
+const CHART_COLORS = ["#3b82f6", "#ef4444", "#22c55e", "#f59e0b", "#8b5cf6", "#06b6d4", "#ec4899", "#14b8a6"];
 
 interface Stats {
   population: any;
   totalPlans: number;
   totalMigrashim: number;
   totalDocs: number;
-  plansByStatus: Record<string, number>;
-  plansByCategory: Record<string, number>;
+  plansByStatus: { name: string; value: number }[];
+  plansByCategory: { name: string; value: number }[];
   yeudBreakdown: { yeud: string; count: number; area: number }[];
 }
 
@@ -23,13 +26,13 @@ export default function StatsPanel() {
         const plans = extractPlans(plansRaw);
         const migrashim = extractMigrashim(migrashimRaw);
 
-        const plansByStatus: Record<string, number> = {};
-        const plansByCategory: Record<string, number> = {};
+        const statusMap: Record<string, number> = {};
+        const catMap: Record<string, number> = {};
         for (const p of plans) {
           const s = p.status || "לא ידוע";
-          plansByStatus[s] = (plansByStatus[s] || 0) + 1;
+          statusMap[s] = (statusMap[s] || 0) + 1;
           const c = p.category || "לא ידוע";
-          plansByCategory[c] = (plansByCategory[c] || 0) + 1;
+          catMap[c] = (catMap[c] || 0) + 1;
         }
 
         const yeudMap = new Map<string, { count: number; area: number }>();
@@ -40,18 +43,21 @@ export default function StatsPanel() {
           existing.area += m.shetachDunam;
           yeudMap.set(key, existing);
         }
-        const yeudBreakdown = Array.from(yeudMap.entries())
-          .map(([yeud, { count, area }]) => ({ yeud, count, area }))
-          .sort((a, b) => b.area - a.area);
 
         setStats({
           population: Array.isArray(cbs) ? cbs[0] : null,
           totalPlans: plans.length,
           totalMigrashim: migrashim.length,
           totalDocs: docsIdx?.total_documents_in_metadata || 0,
-          plansByStatus,
-          plansByCategory,
-          yeudBreakdown,
+          plansByStatus: Object.entries(statusMap)
+            .map(([name, value]) => ({ name, value }))
+            .sort((a, b) => b.value - a.value),
+          plansByCategory: Object.entries(catMap)
+            .map(([name, value]) => ({ name, value }))
+            .sort((a, b) => b.value - a.value),
+          yeudBreakdown: Array.from(yeudMap.entries())
+            .map(([yeud, { count, area }]) => ({ yeud, count, area }))
+            .sort((a, b) => b.area - a.area),
         });
         setLoading(false);
       }
@@ -100,34 +106,95 @@ export default function StatsPanel() {
             </Section>
           )}
 
-          {/* Plans by status */}
+          {/* Plans by status - Pie Chart */}
           <Section title="תוכניות לפי סטטוס">
-            <div className="space-y-0.5">
-              {Object.entries(stats.plansByStatus).sort(([,a],[,b]) => b - a).map(([status, count]) => (
-                <div key={status} className="flex justify-between text-[10px]">
-                  <span>{status}</span>
-                  <span className="font-medium">{count}</span>
+            <div className="h-40">
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={stats.plansByStatus}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={25}
+                    outerRadius={55}
+                    dataKey="value"
+                    label={({ name, percent }) =>
+                      `${name.slice(0, 10)} ${(percent * 100).toFixed(0)}%`
+                    }
+                    labelLine={false}
+                  >
+                    {stats.plansByStatus.map((_, i) => (
+                      <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                </PieChart>
+              </ResponsiveContainer>
+            </div>
+            <div className="space-y-0.5 mt-1">
+              {stats.plansByStatus.map((s, i) => (
+                <div key={s.name} className="flex items-center gap-1.5 text-[10px]">
+                  <div className="w-2.5 h-2.5 rounded-sm shrink-0" style={{ backgroundColor: CHART_COLORS[i % CHART_COLORS.length] }} />
+                  <span className="flex-1">{s.name}</span>
+                  <span className="font-medium">{s.value}</span>
                 </div>
               ))}
+            </div>
+          </Section>
+
+          {/* Land use - Bar Chart */}
+          <Section title="ייעודי קרקע - שטח (דונם)">
+            <div className="h-48">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart data={stats.yeudBreakdown.slice(0, 8)} layout="vertical" margin={{ left: 0, right: 10 }}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis type="number" tick={{ fontSize: 9 }} />
+                  <YAxis
+                    type="category"
+                    dataKey="yeud"
+                    tick={{ fontSize: 9 }}
+                    width={80}
+                  />
+                  <Tooltip
+                    formatter={(value: number) => [`${value.toFixed(1)} דונם`, "שטח"]}
+                    labelStyle={{ fontSize: 10 }}
+                  />
+                  <Bar dataKey="area" fill="hsl(210, 80%, 45%)" radius={[0, 4, 4, 0]} />
+                </BarChart>
+              </ResponsiveContainer>
             </div>
           </Section>
 
           {/* Plans by category */}
           <Section title="תוכניות לפי קטגוריה">
-            <div className="space-y-0.5">
-              {Object.entries(stats.plansByCategory).sort(([,a],[,b]) => b - a).map(([cat, count]) => (
-                <div key={cat} className="flex justify-between text-[10px]">
-                  <span>{cat}</span>
-                  <span className="font-medium">{count}</span>
-                </div>
-              ))}
+            <div className="h-36">
+              <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
+                  <Pie
+                    data={stats.plansByCategory.slice(0, 6)}
+                    cx="50%"
+                    cy="50%"
+                    outerRadius={50}
+                    dataKey="value"
+                  >
+                    {stats.plansByCategory.slice(0, 6).map((_, i) => (
+                      <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />
+                    ))}
+                  </Pie>
+                  <Tooltip />
+                  <Legend
+                    formatter={(value) => <span className="text-[9px]">{value}</span>}
+                    wrapperStyle={{ fontSize: 9 }}
+                  />
+                </PieChart>
+              </ResponsiveContainer>
             </div>
           </Section>
 
-          {/* Land use breakdown */}
-          <Section title="ייעודי קרקע (מגרשים)">
+          {/* Full yeud breakdown table */}
+          <Section title="פירוט ייעודי קרקע">
             <div className="space-y-0.5">
-              {stats.yeudBreakdown.slice(0, 15).map((y) => (
+              {stats.yeudBreakdown.slice(0, 20).map((y) => (
                 <div key={y.yeud} className="flex justify-between text-[10px]">
                   <span className="truncate flex-1">{y.yeud}</span>
                   <span className="text-muted-foreground mr-2">{y.count}</span>
@@ -162,6 +229,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 }
 
 function DemoRow({ label, value, total }: { label: string; value: number; total: number }) {
+  if (!value || !total) return null;
   const pct = ((value / total) * 100).toFixed(1);
   return (
     <div className="flex items-center gap-1 text-[10px]">

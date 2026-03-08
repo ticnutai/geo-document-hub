@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map, Github, Database, Building2, Grid3X3, Landmark, BarChart3 } from "lucide-react";
+import { Layers, FileText, PenTool, Search, Map, Github, Database, Building2, Grid3X3, Landmark, BarChart3, Plane, MapPinned, Ruler } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -15,12 +15,14 @@ import type { GeoLayer, GISDocument, SidebarTab } from "@/types/gis";
 import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
-import SearchLocation from "@/components/map/SearchLocation";
+import GlobalSearch from "@/components/sidebar/GlobalSearch";
 import DataCatalog from "@/components/sidebar/DataCatalog";
 import PlansPanel from "@/components/sidebar/PlansPanel";
 import MigrashimPanel from "@/components/sidebar/MigrashimPanel";
 import BlocksPanel from "@/components/sidebar/BlocksPanel";
 import StatsPanel from "@/components/sidebar/StatsPanel";
+import AerialPanel from "@/components/sidebar/AerialPanel";
+import ComplotPanel from "@/components/sidebar/ComplotPanel";
 import { Button } from "@/components/ui/button";
 
 interface AppSidebarProps {
@@ -37,6 +39,10 @@ interface AppSidebarProps {
   onGitHubClick: () => void;
   onLocationSelect: (lat: number, lng: number, name: string) => void;
   onLayerAdd: (layer: GeoLayer) => void;
+  onWaybackSelect: (releaseId: string | null) => void;
+  activeWaybackId: string | null;
+  measureActive: boolean;
+  onMeasureToggle: () => void;
 }
 
 const tabs: { id: SidebarTab; label: string; icon: any }[] = [
@@ -45,6 +51,8 @@ const tabs: { id: SidebarTab; label: string; icon: any }[] = [
   { id: "plans", label: "תוכניות", icon: Building2 },
   { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
   { id: "blocks", label: "גושים", icon: Landmark },
+  { id: "complot", label: "קומפלוט", icon: MapPinned },
+  { id: "aerial", label: "צילומי אוויר", icon: Plane },
   { id: "stats", label: "סטטיסטיקות", icon: BarChart3 },
   { id: "documents", label: "מסמכים", icon: FileText },
   { id: "draw", label: "ציור", icon: PenTool },
@@ -93,15 +101,24 @@ export default function AppSidebar(props: AppSidebarProps) {
             <SidebarGroupContent>
               {activeTab === "layers" && (
                 <>
-                  <div className="px-1 mb-2">
+                  <div className="px-1 mb-2 flex gap-1">
                     <Button
                       variant="outline"
                       size="sm"
-                      className="w-full gap-2 text-xs"
+                      className="flex-1 gap-2 text-xs"
                       onClick={props.onGitHubClick}
                     >
                       <Github className="h-3.5 w-3.5" />
-                      טען GeoJSON מ-GitHub
+                      GitHub
+                    </Button>
+                    <Button
+                      variant={props.measureActive ? "default" : "outline"}
+                      size="sm"
+                      className="gap-1 text-xs"
+                      onClick={props.onMeasureToggle}
+                    >
+                      <Ruler className="h-3.5 w-3.5" />
+                      מדידה
                     </Button>
                   </div>
                   <LayerPanel
@@ -116,9 +133,16 @@ export default function AppSidebar(props: AppSidebarProps) {
               {activeTab === "catalog" && (
                 <DataCatalog onLayerAdd={props.onLayerAdd} />
               )}
-              {activeTab === "plans" && <PlansPanel />}
+              {activeTab === "plans" && <PlansPanel onLayerAdd={props.onLayerAdd} />}
               {activeTab === "migrashim" && <MigrashimPanel />}
               {activeTab === "blocks" && <BlocksPanel />}
+              {activeTab === "complot" && <ComplotPanel />}
+              {activeTab === "aerial" && (
+                <AerialPanel
+                  onReleaseSelect={props.onWaybackSelect}
+                  activeReleaseId={props.activeWaybackId}
+                />
+              )}
               {activeTab === "stats" && <StatsPanel />}
               {activeTab === "documents" && (
                 <DocumentPanel
@@ -131,7 +155,7 @@ export default function AppSidebar(props: AppSidebarProps) {
               )}
               {activeTab === "draw" && <DrawTools onModeChange={() => {}} />}
               {activeTab === "search" && (
-                <SearchLocation onLocationSelect={props.onLocationSelect} />
+                <GlobalSearch onLocationSelect={props.onLocationSelect} />
               )}
             </SidebarGroupContent>
           </SidebarGroup>

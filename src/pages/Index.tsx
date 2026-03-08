@@ -15,6 +15,8 @@ export default function Index() {
   const [githubOpen, setGithubOpen] = useState(false);
   const [mapCenter, setMapCenter] = useState<[number, number]>([32.0853, 34.7818]);
   const [mapZoom, setMapZoom] = useState(13);
+  const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
+  const [measureActive, setMeasureActive] = useState(false);
 
   const handleLocationSelect = useCallback((lat: number, lng: number, _name: string) => {
     setMapCenter([lat, lng]);
@@ -38,6 +40,10 @@ export default function Index() {
           onGitHubClick={() => setGithubOpen(true)}
           onLocationSelect={handleLocationSelect}
           onLayerAdd={addLayer}
+          onWaybackSelect={setWaybackReleaseId}
+          activeWaybackId={waybackReleaseId}
+          measureActive={measureActive}
+          onMeasureToggle={() => setMeasureActive((prev) => !prev)}
         />
 
         <div className="flex-1 flex flex-col">
@@ -47,11 +53,19 @@ export default function Index() {
             </SidebarTrigger>
             <span className="text-xs font-medium text-muted-foreground">
               {layers.filter((l) => l.visible).length} שכבות פעילות · {documents.length} מסמכים
+              {waybackReleaseId && " · 🛩️ צילום אוויר"}
+              {measureActive && " · 📏 מדידה"}
             </span>
           </header>
 
           <main className="flex-1 relative">
-            <MapView layers={layers} center={mapCenter} zoom={mapZoom} />
+            <MapView
+              layers={layers}
+              center={mapCenter}
+              zoom={mapZoom}
+              waybackReleaseId={waybackReleaseId}
+              measureActive={measureActive}
+            />
           </main>
         </div>
       </div>
