@@ -184,6 +184,13 @@ export default function GeorefTool({ active, onClose, onSaveAsLayer }: GeorefToo
               className="flex-1 h-1 accent-primary"
             />
             <span className="text-[10px] text-muted-foreground w-8 text-left">{rotation}°</span>
+            <button
+              onClick={() => setRotation(0)}
+              className="text-[9px] px-1.5 py-0.5 rounded bg-muted text-muted-foreground hover:bg-accent transition-colors"
+              title="איפוס סיבוב"
+            >
+              ↺
+            </button>
           </div>
           <button
             onClick={handleSave}
