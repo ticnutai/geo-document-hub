@@ -2,7 +2,7 @@ import type { GeoLayer, GISDocument } from "@/types/gis";
 
 export const sampleLayers: GeoLayer[] = [
   {
-    id: "layer-1",
+    id: crypto.randomUUID(),
     name: "אזורי תעשייה",
     type: "geojson",
     visible: true,
@@ -24,7 +24,7 @@ export const sampleLayers: GeoLayer[] = [
     },
   },
   {
-    id: "layer-2",
+    id: crypto.randomUUID(),
     name: "נקודות עניין",
     type: "markers",
     visible: true,
@@ -48,7 +48,7 @@ export const sampleLayers: GeoLayer[] = [
     },
   },
   {
-    id: "layer-3",
+    id: crypto.randomUUID(),
     name: "כבישים ראשיים",
     type: "polyline",
     visible: false,
@@ -73,32 +73,30 @@ export const sampleLayers: GeoLayer[] = [
 
 export const sampleDocuments: GISDocument[] = [
   {
-    id: "doc-1",
+    id: crypto.randomUUID(),
     name: "תוכנית בינוי מרכז העיר.pdf",
     type: "pdf",
     size: 2400000,
     uploadedAt: new Date("2024-01-15"),
     location: [32.0853, 34.7818],
-    layerId: "layer-2",
   },
   {
-    id: "doc-2",
+    id: crypto.randomUUID(),
     name: "מדידות_שטח_2024.csv",
     type: "csv",
     size: 150000,
     uploadedAt: new Date("2024-02-20"),
   },
   {
-    id: "doc-3",
+    id: crypto.randomUUID(),
     name: "תצלום_אוויר_צפון.jpg",
     type: "image",
     size: 5200000,
     uploadedAt: new Date("2024-03-10"),
     location: [32.10, 34.78],
-    layerId: "layer-1",
   },
   {
-    id: "doc-4",
+    id: crypto.randomUUID(),
     name: "שכבת_גבולות.geojson",
     type: "geojson",
     size: 89000,

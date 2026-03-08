@@ -8,14 +8,16 @@ import GitHubLoader from "@/components/documents/GitHubLoader";
 import { useLayers } from "@/hooks/useLayers";
 import { useDocuments } from "@/hooks/useDocuments";
 import { useMapHighlight } from "@/hooks/useMapHighlight";
+import { useFavorites } from "@/hooks/useFavorites";
 import { PanelRight, Map } from "lucide-react";
 import QuickActions from "@/components/sidebar/QuickActions";
 import type { GeoLayer } from "@/types/gis";
 import L from "leaflet";
 
 export default function Index() {
-  const { layers, toggleVisibility, setOpacity, addLayer, removeLayer, categories } = useLayers();
+  const { layers, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories } = useLayers();
   const { documents, addDocument, removeDocument, searchQuery, setSearchQuery } = useDocuments();
+  const { favorites, toggleFavorite, removeFavorite, isFavorite } = useFavorites();
   const [uploaderOpen, setUploaderOpen] = useState(false);
   const [githubOpen, setGithubOpen] = useState(false);
   const [mapCenter, setMapCenter] = useState<[number, number]>([32.0853, 34.7818]);
@@ -62,6 +64,7 @@ export default function Index() {
           onSearchChange={setSearchQuery}
           onToggleVisibility={toggleVisibility}
           onSetOpacity={setOpacity}
+          onSetColor={setColor}
           onRemoveLayer={removeLayer}
           onRemoveDocument={removeDocument}
           onUploadClick={() => setUploaderOpen(true)}
@@ -73,12 +76,16 @@ export default function Index() {
           measureActive={measureActive}
           onMeasureToggle={() => setMeasureActive((prev) => !prev)}
           onZoomToLayer={handleZoomToLayer}
+          onReorderLayers={reorderLayers}
           onHighlightFeature={handleHighlightFeature}
           onClearHighlight={clearHighlight}
+          favorites={favorites}
+          onToggleFavorite={toggleFavorite}
+          onRemoveFavorite={removeFavorite}
+          isFavorite={isFavorite}
         />
 
         <div className="flex-1 flex flex-col">
-          {/* Header */}
           <header className="h-11 flex items-center border-b-2 border-border bg-background px-3 gap-2" dir="rtl">
             <SidebarTrigger>
               <PanelRight className="h-4 w-4" />

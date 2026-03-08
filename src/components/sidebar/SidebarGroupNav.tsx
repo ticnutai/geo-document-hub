@@ -3,7 +3,7 @@ import {
   Map, Layers, Database, Plane,
   ClipboardList, Building2, Grid3X3, Landmark, MapPinned,
   Wrench, PenTool, Ruler, Search,
-  BarChart3, FileText,
+  BarChart3, FileText, Star,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
 } from "lucide-react";
@@ -55,6 +55,7 @@ export const TAB_GROUPS: TabGroup[] = [
     tabs: [
       { id: "stats", label: "סטטיסטיקות", icon: BarChart3 },
       { id: "documents", label: "מסמכים", icon: FileText },
+      { id: "favorites" as SidebarTab, label: "מועדפים", icon: Star },
     ],
   },
 ];
@@ -76,11 +77,13 @@ interface SidebarGroupNavProps {
   onFolderRemove: (id: string) => void;
   activeFolderId: string | null;
   onFolderSelect: (id: string | null) => void;
+  favoritesCount?: number;
 }
 
 export default function SidebarGroupNav({
   activeTab, onTabChange, measureActive, onMeasureToggle,
   folders, onFolderAdd, onFolderRemove, activeFolderId, onFolderSelect,
+  favoritesCount = 0,
 }: SidebarGroupNavProps) {
   const [expandedGroup, setExpandedGroup] = useState<string | null>(() => {
     for (const g of TAB_GROUPS) {
@@ -221,6 +224,13 @@ export default function SidebarGroupNav({
                     >
                       <TabIcon className="h-3.5 w-3.5 shrink-0" />
                       <span>{tab.label}</span>
+                      {tab.id === "favorites" && favoritesCount > 0 && (
+                        <span className={`mr-auto text-[9px] px-1.5 py-0.5 rounded-full ${
+                          isActive ? "bg-primary-foreground/20" : "bg-ring/20 text-ring"
+                        }`}>
+                          {favoritesCount}
+                        </span>
+                      )}
                     </button>
                   );
                 })}

@@ -42,7 +42,6 @@ export function useLayers() {
 
   const seedSampleLayers = async () => {
     const inserts = sampleLayers.map((l) => ({
-      id: l.id,
       name: l.name,
       type: l.type,
       visible: l.visible,
@@ -87,6 +86,13 @@ export function useLayers() {
     });
   }, []);
 
+  const setColor = useCallback((id: string, color: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ color }).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, color } : l));
+    });
+  }, []);
+
   const addLayer = useCallback(async (layer: GeoLayer) => {
     const { data, error } = await supabase
       .from("layers")
@@ -117,7 +123,16 @@ export function useLayers() {
     setLayers((prev) => prev.filter((l) => l.id !== id));
   }, []);
 
+  const reorderLayers = useCallback((fromIndex: number, toIndex: number) => {
+    setLayers((prev) => {
+      const next = [...prev];
+      const [moved] = next.splice(fromIndex, 1);
+      next.splice(toIndex, 0, moved);
+      return next;
+    });
+  }, []);
+
   const categories = [...new Set(layers.map((l) => l.category))];
 
-  return { layers, loading, toggleVisibility, setOpacity, addLayer, removeLayer, categories };
+  return { layers, loading, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories };
 }

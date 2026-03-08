@@ -32,13 +32,13 @@ export function useDocuments() {
           }))
         );
       } else {
-        // Seed sample documents
+        // Seed sample documents (without layer_id references to avoid FK issues)
         const inserts = sampleDocuments.map((d) => ({
           name: d.name,
           type: d.type,
           size: d.size,
           location: d.location ? { lat: (d.location as number[])[0], lng: (d.location as number[])[1] } : null,
-          layer_id: d.layerId ?? null,
+          layer_id: null,
         }));
         const { data: seeded } = await supabase.from("documents").insert(inserts).select();
         if (seeded) {
