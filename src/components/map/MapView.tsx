@@ -5,6 +5,7 @@ import type { GeoLayer } from "@/types/gis";
 import type { HighlightedFeature } from "@/hooks/useMapHighlight";
 import { getWaybackTileUrl } from "@/data/wayback-data";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
+import LayerRenderer from "./LayerRenderer";
 import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
 import MeasureTool from "./MeasureTool";
@@ -70,60 +71,7 @@ function WaybackLayer({ releaseId }: { releaseId: string }) {
   );
 }
 
-function LayerRenderer({ layer, onFeatureClick }: { layer: GeoLayer; onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void }) {
-  if (!layer.visible || !layer.data) return null;
-
-  const style = {
-    color: layer.color,
-    weight: 2,
-    opacity: layer.opacity,
-    fillOpacity: layer.opacity * 0.3,
-  };
-
-  const getFeatureLabel = (feature: GeoJSON.Feature) => {
-    const props = (feature.properties || {}) as Record<string, unknown>;
-    const gush = String(props.LOT_NUM ?? props.gush ?? props.GUSH_NUM ?? "").trim();
-    const helka = String(props.PARCEL_NUM ?? props.helka ?? props.HELKA_NUM ?? "").trim();
-    const migrash = String(props.migrash ?? props.MIGRASH ?? "").trim();
-
-    if (gush && helka) return `גוש ${gush} · חלקה ${helka}`;
-    if (gush) return `גוש ${gush}`;
-    if (migrash) return `מגרש ${migrash}`;
-    return layer.name;
-  };
-
-  return (
-    <GeoJSON
-      key={`${layer.id}-${layer.visible}-${layer.opacity}-${layer.color}`}
-      data={layer.data}
-      style={() => style}
-      pointToLayer={(_feature, latlng) => {
-        return L.circleMarker(latlng, {
-          radius: 8,
-          fillColor: layer.color,
-          color: "#fff",
-          weight: 2,
-          opacity: layer.opacity,
-          fillOpacity: layer.opacity * 0.8,
-        });
-      }}
-      onEachFeature={(feature, leafletLayer) => {
-        if (feature.properties) {
-          const html = buildFeaturePopupHTML(feature.properties as Record<string, unknown>);
-          if (html) {
-            leafletLayer.bindPopup(html, { maxWidth: 320, minWidth: 200, className: "gis-popup-wrapper" });
-          }
-        }
-
-        if (onFeatureClick) {
-          leafletLayer.on("click", () => {
-            onFeatureClick(feature, getFeatureLabel(feature));
-          });
-        }
-      }}
-    />
-  );
-}
+// LayerRenderer moved to separate file
 
 function HighlightLayer({ highlighted }: { highlighted: HighlightedFeature }) {
   return (

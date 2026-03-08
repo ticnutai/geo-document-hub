@@ -27,6 +27,10 @@ export function useLayers() {
             visible: row.visible,
             opacity: Number(row.opacity),
             color: row.color,
+            strokeColor: (row as any).stroke_color || row.color,
+            strokeOpacity: Number((row as any).stroke_opacity ?? 1),
+            fillColor: (row as any).fill_color || row.color,
+            fillOpacity: Number((row as any).fill_opacity ?? 0.3),
             category: row.category,
             data: row.data,
           }))
@@ -60,6 +64,10 @@ export function useLayers() {
           visible: row.visible,
           opacity: Number(row.opacity),
           color: row.color,
+          strokeColor: (row as any).stroke_color || row.color,
+          strokeOpacity: Number((row as any).stroke_opacity ?? 1),
+          fillColor: (row as any).fill_color || row.color,
+          fillOpacity: Number((row as any).fill_opacity ?? 0.3),
           category: row.category,
           data: row.data,
         }))
@@ -90,6 +98,34 @@ export function useLayers() {
     setLayers((prev) => {
       supabase.from("layers").update({ color }).eq("id", id).then();
       return prev.map((l) => (l.id === id ? { ...l, color } : l));
+    });
+  }, []);
+
+  const setStrokeColor = useCallback((id: string, strokeColor: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ stroke_color: strokeColor } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, strokeColor } : l));
+    });
+  }, []);
+
+  const setStrokeOpacity = useCallback((id: string, strokeOpacity: number) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ stroke_opacity: strokeOpacity } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, strokeOpacity } : l));
+    });
+  }, []);
+
+  const setFillColor = useCallback((id: string, fillColor: string) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ fill_color: fillColor } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, fillColor } : l));
+    });
+  }, []);
+
+  const setFillOpacity = useCallback((id: string, fillOpacity: number) => {
+    setLayers((prev) => {
+      supabase.from("layers").update({ fill_opacity: fillOpacity } as any).eq("id", id).then();
+      return prev.map((l) => (l.id === id ? { ...l, fillOpacity } : l));
     });
   }, []);
 
@@ -134,5 +170,5 @@ export function useLayers() {
 
   const categories = [...new Set(layers.map((l) => l.category))];
 
-  return { layers, loading, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories };
+  return { layers, loading, toggleVisibility, setOpacity, setColor, setStrokeColor, setStrokeOpacity, setFillColor, setFillOpacity, addLayer, removeLayer, reorderLayers, categories };
 }

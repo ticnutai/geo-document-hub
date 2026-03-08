@@ -34,6 +34,10 @@ interface AppSidebarProps {
   onToggleVisibility: (id: string) => void;
   onSetOpacity: (id: string, opacity: number) => void;
   onSetColor?: (id: string, color: string) => void;
+  onSetStrokeColor?: (id: string, color: string) => void;
+  onSetStrokeOpacity?: (id: string, opacity: number) => void;
+  onSetFillColor?: (id: string, color: string) => void;
+  onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
@@ -111,6 +115,10 @@ export default function AppSidebar(props: AppSidebarProps) {
               onToggleVisibility={props.onToggleVisibility}
               onSetOpacity={props.onSetOpacity}
               onSetColor={props.onSetColor}
+              onSetStrokeColor={props.onSetStrokeColor}
+              onSetStrokeOpacity={props.onSetStrokeOpacity}
+              onSetFillColor={props.onSetFillColor}
+              onSetFillOpacity={props.onSetFillOpacity}
               onRemoveLayer={props.onRemoveLayer}
               onZoomToLayer={props.onZoomToLayer}
               onReorderLayers={props.onReorderLayers}
