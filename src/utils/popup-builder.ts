@@ -199,7 +199,18 @@ export function buildFeaturePopupHTML(properties: Record<string, unknown>): stri
     </div>
   ` : "";
 
-  return `<div class="gis-popup" dir="rtl">${header}<div class="popup-body">${rows}</div>${linkRow}</div>`;
+  // Add planning sheet download button with inline onclick that stores data globally
+  const dataKey = `_gis_feat_${Date.now()}`;
+  (window as any)[dataKey] = properties;
+  const downloadBtn = `
+    <div style="margin-top:6px;text-align:center;">
+      <button onclick="(function(){var p=window['${dataKey}'];if(p&&window.__gisPlanningSheet){window.__gisPlanningSheet(p)}})()" 
+        style="background:linear-gradient(135deg,#1e3a5f,#2a5298);color:#fff;border:none;padding:5px 14px;border-radius:6px;font-size:11px;cursor:pointer;font-family:inherit;">
+        📋 הורד דף מידע תכנוני
+      </button>
+    </div>`;
+
+  return `<div class="gis-popup" dir="rtl">${header}<div class="popup-body">${rows}</div>${linkRow}${downloadBtn}</div>`;
 }
 
 function getPriority(key: string): number {
