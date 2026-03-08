@@ -35,6 +35,7 @@ export default function Index() {
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
   const [legendSelection, setLegendSelection] = useState<Set<string>>(new Set());
+  const { width: sidebarWidth, pinned: sidebarPinned, isVisible: sidebarVisible, onDragStart, togglePin } = useSidebarResize();
 
   const toggleLegendItem = useCallback((id: string) => {
     setLegendSelection((prev) => {
