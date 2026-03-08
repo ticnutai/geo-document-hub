@@ -1,4 +1,4 @@
-import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Palette, Star, StarOff, ArrowUp, ArrowDown, Download } from "lucide-react";
+import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Star, StarOff, ArrowUp, ArrowDown, Download, MoreHorizontal } from "lucide-react";
 import { useState } from "react";
 import type { GeoLayer } from "@/types/gis";
 import { Button } from "@/components/ui/button";
@@ -102,8 +102,9 @@ export default function LayerPanel({
                           : "border-border/50 bg-card/50 opacity-60"
                       }`}
                     >
+                      {/* Main row: color dot, name, eye, more, trash */}
                       <div className="flex items-center gap-1.5">
-                        {/* Color indicator with picker */}
+                        {/* Color indicator */}
                         <Popover>
                           <PopoverTrigger asChild>
                             <button
@@ -141,85 +142,10 @@ export default function LayerPanel({
                           </PopoverContent>
                         </Popover>
 
+                        {/* Layer name */}
                         <span className="text-xs font-medium flex-1 truncate">{layer.name}</span>
 
-                        {/* Favorite */}
-                        {onToggleFavorite && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Button
-                                variant="ghost"
-                                size="icon"
-                                className="h-5 w-5"
-                                onClick={() => onToggleFavorite(layer.id, layer.name)}
-                              >
-                                {isFav ? (
-                                  <Star className="h-3 w-3 text-ring fill-ring" />
-                                ) : (
-                                  <StarOff className="h-3 w-3 text-muted-foreground" />
-                                )}
-                              </Button>
-                            </TooltipTrigger>
-                            <TooltipContent side="top">
-                              <p className="text-xs">{isFav ? "הסר ממועדפים" : "הוסף למועדפים"}</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-
-                        {/* Reorder */}
-                        {onReorderLayers && (
-                          <div className="flex flex-col">
-                            <button
-                              onClick={() => layerIdx > 0 && onReorderLayers(layerIdx, layerIdx - 1)}
-                              className="text-muted-foreground hover:text-foreground transition-colors disabled:opacity-30"
-                              disabled={layerIdx === 0}
-                            >
-                              <ArrowUp className="h-2.5 w-2.5" />
-                            </button>
-                            <button
-                              onClick={() => layerIdx < layers.length - 1 && onReorderLayers(layerIdx, layerIdx + 1)}
-                              className="text-muted-foreground hover:text-foreground transition-colors disabled:opacity-30"
-                              disabled={layerIdx === layers.length - 1}
-                            >
-                              <ArrowDown className="h-2.5 w-2.5" />
-                            </button>
-                          </div>
-                        )}
-
-                        {onZoomToLayer && (
-                          <Tooltip>
-                            <TooltipTrigger asChild>
-                              <Button
-                                variant="ghost"
-                                size="icon"
-                                className="h-5 w-5"
-                                onClick={() => onZoomToLayer(layer)}
-                              >
-                                <ZoomIn className="h-3 w-3 text-muted-foreground" />
-                              </Button>
-                            </TooltipTrigger>
-                            <TooltipContent side="top">
-                              <p className="text-xs">זום לשכבה</p>
-                            </TooltipContent>
-                          </Tooltip>
-                        )}
-
-                        <Tooltip>
-                          <TooltipTrigger asChild>
-                            <Button
-                              variant="ghost"
-                              size="icon"
-                              className="h-5 w-5"
-                              onClick={() => exportLayerGeoJSON(layer)}
-                            >
-                              <Download className="h-3 w-3 text-muted-foreground" />
-                            </Button>
-                          </TooltipTrigger>
-                          <TooltipContent side="top">
-                            <p className="text-xs">ייצא GeoJSON</p>
-                          </TooltipContent>
-                        </Tooltip>
-
+                        {/* Visibility toggle */}
                         <Tooltip>
                           <TooltipTrigger asChild>
                             <Button
@@ -240,6 +166,79 @@ export default function LayerPanel({
                           </TooltipContent>
                         </Tooltip>
 
+                        {/* More actions popover */}
+                        <Popover>
+                          <PopoverTrigger asChild>
+                            <Button variant="ghost" size="icon" className="h-5 w-5">
+                              <MoreHorizontal className="h-3 w-3 text-muted-foreground" />
+                            </Button>
+                          </PopoverTrigger>
+                          <PopoverContent className="w-auto p-2 space-y-1" side="left" align="start">
+                            <p className="text-[10px] font-semibold text-muted-foreground mb-1">פעולות נוספות</p>
+
+                            {/* Favorite */}
+                            {onToggleFavorite && (
+                              <button
+                                onClick={() => onToggleFavorite(layer.id, layer.name)}
+                                className="flex items-center gap-2 w-full px-2 py-1 rounded text-xs hover:bg-accent transition-colors"
+                              >
+                                {isFav ? (
+                                  <Star className="h-3 w-3 text-ring fill-ring" />
+                                ) : (
+                                  <StarOff className="h-3 w-3 text-muted-foreground" />
+                                )}
+                                <span>{isFav ? "הסר ממועדפים" : "הוסף למועדפים"}</span>
+                              </button>
+                            )}
+
+                            {/* Zoom to layer */}
+                            {onZoomToLayer && (
+                              <button
+                                onClick={() => onZoomToLayer(layer)}
+                                className="flex items-center gap-2 w-full px-2 py-1 rounded text-xs hover:bg-accent transition-colors"
+                              >
+                                <ZoomIn className="h-3 w-3 text-muted-foreground" />
+                                <span>זום לשכבה</span>
+                              </button>
+                            )}
+
+                            {/* Export */}
+                            <button
+                              onClick={() => exportLayerGeoJSON(layer)}
+                              className="flex items-center gap-2 w-full px-2 py-1 rounded text-xs hover:bg-accent transition-colors"
+                            >
+                              <Download className="h-3 w-3 text-muted-foreground" />
+                              <span>ייצא GeoJSON</span>
+                            </button>
+
+                            {/* Reorder */}
+                            {onReorderLayers && (
+                              <div className="flex items-center gap-1 px-2 py-1">
+                                <span className="text-xs text-muted-foreground">סדר:</span>
+                                <Button
+                                  variant="outline"
+                                  size="icon"
+                                  className="h-5 w-5"
+                                  disabled={layerIdx === 0}
+                                  onClick={() => layerIdx > 0 && onReorderLayers(layerIdx, layerIdx - 1)}
+                                >
+                                  <ArrowUp className="h-2.5 w-2.5" />
+                                </Button>
+                                <Button
+                                  variant="outline"
+                                  size="icon"
+                                  className="h-5 w-5"
+                                  disabled={layerIdx === layers.length - 1}
+                                  onClick={() => layerIdx < layers.length - 1 && onReorderLayers(layerIdx, layerIdx + 1)}
+                                >
+                                  <ArrowDown className="h-2.5 w-2.5" />
+                                </Button>
+                              </div>
+                            )}
+                          </PopoverContent>
+                        </Popover>
+
+                        {/* Delete */}
                         <Tooltip>
                           <TooltipTrigger asChild>
                             <Button
@@ -257,9 +256,9 @@ export default function LayerPanel({
                         </Tooltip>
                       </div>
 
+                      {/* Stroke / Fill controls */}
                       {layer.visible && (
                         <div className="space-y-1.5 px-1">
-                          {/* Stroke controls */}
                           <div className="flex items-center gap-2">
                             <div className="flex items-center gap-1 min-w-[52px]">
                               <input
@@ -282,7 +281,6 @@ export default function LayerPanel({
                               {Math.round((layer.strokeOpacity ?? 1) * 100)}%
                             </span>
                           </div>
-                          {/* Fill controls */}
                           <div className="flex items-center gap-2">
                             <div className="flex items-center gap-1 min-w-[52px]">
                               <input
