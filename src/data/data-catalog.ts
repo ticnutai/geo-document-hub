@@ -9,6 +9,18 @@ const geojsonModules = import.meta.glob<string>('/data/**/*.geojson', {
   import: 'default',
 });
 
+// Also index JSON data files (non-geojson)
+const jsonModules = import.meta.glob<string>('/data/**/*.json', {
+  query: '?raw',
+  import: 'default',
+});
+
+// CSV files
+const csvModules = import.meta.glob<string>('/data/**/*.csv', {
+  query: '?raw',
+  import: 'default',
+});
+
 export interface CatalogEntry {
   path: string;
   fileName: string;
