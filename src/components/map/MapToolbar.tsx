@@ -11,7 +11,7 @@ interface MapToolbarProps {
   onGeorefToggle?: () => void;
 }
 
-export default function MapToolbar({ measureActive, onMeasureToggle, waybackActive, onPrintMap }: MapToolbarProps) {
+export default function MapToolbar({ measureActive, onMeasureToggle, waybackActive, onPrintMap, georefActive, onGeorefToggle }: MapToolbarProps) {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const toggleFullscreen = () => {
