@@ -182,7 +182,7 @@ export default function Index() {
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
             />
-            <MapLegend layers={layers} />
+            <MapLegend layers={layers} legendSelection={legendSelection} onToggleLegendItem={toggleLegendItem} />
             <MapToolbar
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
