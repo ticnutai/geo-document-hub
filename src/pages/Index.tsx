@@ -33,6 +33,7 @@ export default function Index() {
   const [mapZoom, setMapZoom] = useState(13);
   const [waybackReleaseId, setWaybackReleaseId] = useState<string | null>(null);
   const [measureActive, setMeasureActive] = useState(false);
+  const [georefActive, setGeorefActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
   const [legendSelection, setLegendSelection] = useState<Set<string>>(new Set());
   const { width: sidebarWidth, pinned: sidebarPinned, isVisible: sidebarVisible, onDragStart, togglePin } = useSidebarResize();
@@ -186,6 +187,8 @@ export default function Index() {
               zoom={mapZoom}
               waybackReleaseId={waybackReleaseId}
               measureActive={measureActive}
+              georefActive={georefActive}
+              onGeorefClose={() => setGeorefActive(false)}
               onMapReady={setMapRef}
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}
@@ -195,6 +198,8 @@ export default function Index() {
               measureActive={measureActive}
               onMeasureToggle={() => setMeasureActive((prev) => !prev)}
               waybackActive={!!waybackReleaseId}
+              georefActive={georefActive}
+              onGeorefToggle={() => setGeorefActive((prev) => !prev)}
             />
           </main>
         </div>

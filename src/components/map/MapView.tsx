@@ -14,6 +14,7 @@ import ScaleBar from "./ScaleBar";
 import MiniMap from "./MiniMap";
 import ZoomControls from "./ZoomControls";
 import GoToCoords from "./GoToCoords";
+import GeorefTool from "./GeorefTool";
 import "leaflet/dist/leaflet.css";
 
 // Fix default marker icon
@@ -30,6 +31,8 @@ interface MapViewProps {
   zoom?: number;
   waybackReleaseId?: string | null;
   measureActive?: boolean;
+  georefActive?: boolean;
+  onGeorefClose?: () => void;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
   onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
@@ -112,6 +115,8 @@ export default function MapView({
   zoom = 13,
   waybackReleaseId,
   measureActive = false,
+  georefActive = false,
+  onGeorefClose,
   onMapReady,
   highlighted,
   onFeatureClick,
@@ -138,6 +143,7 @@ export default function MapView({
       <LocateButton />
       <ZoomControls />
       <MeasureTool active={measureActive} />
+      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} />
       <ScaleBar />
       <MiniMap />
       <GoToCoords />
