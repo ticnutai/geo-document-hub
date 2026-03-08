@@ -96,6 +96,40 @@ export default function Index() {
     highlightOnly(feature, undefined, label);
   }, [highlightOnly]);
 
+  const handleGeorefSave = useCallback((name: string, imageUrl: string, bounds: [[number, number], [number, number]]) => {
+    // Create a GeoJSON polygon from the bounds to store as layer data
+    const sw = bounds[0];
+    const ne = bounds[1];
+    const polygon: GeoJSON.FeatureCollection = {
+      type: "FeatureCollection",
+      features: [{
+        type: "Feature",
+        properties: { name, imageUrl, bounds, type: "georef-image" },
+        geometry: {
+          type: "Polygon",
+          coordinates: [[
+            [sw[1], sw[0]],
+            [ne[1], sw[0]],
+            [ne[1], ne[0]],
+            [sw[1], ne[0]],
+            [sw[1], sw[0]],
+          ]],
+        },
+      }],
+    };
+    addLayer({
+      id: crypto.randomUUID(),
+      name,
+      type: "geojson",
+      visible: true,
+      opacity: 0.8,
+      color: "#f43f5e",
+      data: polygon,
+      category: "גיאורפרנס",
+    });
+    setGeorefActive(false);
+  }, [addLayer]);
+
   return (
     <SidebarProvider defaultOpen={true}>
       <div className="min-h-screen flex w-full" dir="rtl">
@@ -189,6 +223,7 @@ export default function Index() {
               measureActive={measureActive}
               georefActive={georefActive}
               onGeorefClose={() => setGeorefActive(false)}
+              onGeorefSave={handleGeorefSave}
               onMapReady={setMapRef}
               highlighted={highlighted}
               onFeatureClick={handleMapFeatureClick}

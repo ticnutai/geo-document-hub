@@ -33,6 +33,7 @@ interface MapViewProps {
   measureActive?: boolean;
   georefActive?: boolean;
   onGeorefClose?: () => void;
+  onGeorefSave?: (name: string, imageUrl: string, bounds: [[number, number], [number, number]]) => void;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
   onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
@@ -117,6 +118,7 @@ export default function MapView({
   measureActive = false,
   georefActive = false,
   onGeorefClose,
+  onGeorefSave,
   onMapReady,
   highlighted,
   onFeatureClick,
@@ -143,7 +145,7 @@ export default function MapView({
       <LocateButton />
       <ZoomControls />
       <MeasureTool active={measureActive} />
-      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} />
+      <GeorefTool active={georefActive} onClose={onGeorefClose || (() => {})} onSaveAsLayer={onGeorefSave} />
       <ScaleBar />
       <MiniMap />
       <GoToCoords />

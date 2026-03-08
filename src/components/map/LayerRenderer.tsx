@@ -1,5 +1,5 @@
 import { useRef, useEffect, useCallback } from "react";
-import { GeoJSON, useMap } from "react-leaflet";
+import { GeoJSON, ImageOverlay, useMap } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
@@ -54,6 +54,23 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
   }, [layer.name]);
 
   if (!layer.data) return null;
+
+  // Check if this is a georef image layer
+  const features = layer.data?.features || [];
+  const georefFeature = features[0]?.properties?.type === "georef-image" ? features[0] : null;
+  if (georefFeature) {
+    const { imageUrl, bounds } = georefFeature.properties as any;
+    if (imageUrl && bounds) {
+      return layer.visible ? (
+        <ImageOverlay
+          url={imageUrl}
+          bounds={bounds}
+          opacity={layer.opacity}
+          interactive
+        />
+      ) : null;
+    }
+  }
 
   const style = {
     color: layer.strokeColor || layer.color,
