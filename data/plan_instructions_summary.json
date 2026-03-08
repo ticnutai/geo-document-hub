@@ -1,0 +1,1592 @@
+{
+  "425-0117390": {
+    "plan_name": "כפר חב\"ד חלקה 97 בגוש 7196 שינוי זכויות בניה",
+    "plan_number": "425-0117390",
+    "status": "נדחתה",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "המבנה הקיים בשטח אינו תואם את זכויות הבניה המאושרות הן בגודלו והן בקווי הבנין, תכנית זו באה להתאים הזכויות למבנה הקיים.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000051469411.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000276125.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000276125.pdf",
+        "DOC_EDITING_DATE_TIME": "20130616            ",
+        "DOC_CREATE_DATE_TIME": "20130616 2021       ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6002310583.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0449702": {
+    "plan_name": "שינוי תשריט והוראות מעון יום כפר חבד",
+    "plan_number": "425-0449702",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "הגדלת שטח לבניניי ציבור ע\"ח שפ\"פ \r\nשינוי בהוראות הבינוי",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000164356265.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000210935.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000210935.pdf",
+        "DOC_EDITING_DATE_TIME": "20161102            ",
+        "DOC_CREATE_DATE_TIME": "20161102 140014     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6005694113.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0486316": {
+    "plan_name": "תוספת יח\"ד כפר חב\"ד מגרש 124 דרעי",
+    "plan_number": "425-0486316",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לאור מצוקת הדיור הידועה בכפר חב\"ד ולצורך מתן מענה לריבוי הטבעי ב\"ה,\r\nמדובר במגרש הקיים בקו הקיצוני של כפר חב\"ד.\r\nמבוקש תוספת 4 יח\"ד במגרש גדול כ-1 דונם וזאת לפי תמ\"א 35 עד 6 יח\"ד לדונם..\r\nתוספת 6% משטח המגרש  לשטח עיקרי.\r\nוכן שטחי שרות לדירות החדשות למטרות אחסון, חניה, מתקנים טכניים, וכו'.\r\nהסיבה לבקשה לשינוי קו בניין כי גבולות המגרש שונו, והמרפסת מופיעה בהיתר מספר 940522\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000190630243.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000218361.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000218361.pdf",
+        "DOC_EDITING_DATE_TIME": "20180522            ",
+        "DOC_CREATE_DATE_TIME": "20180522 215920     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6006134523.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0498865": {
+    "plan_name": "תוספת יח\"ד ושינוי קווי בניין",
+    "plan_number": "425-0498865",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לאור הצרכים החדשים ולאור מצוקת הדיור הקשה ברחבי הארץ ובכפר חבד בפרט \r\nמבוקש תוספת יח\"ד 1 במגרש של יותר מ-1 דונם",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000200403653.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000220923.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000220923.pdf",
+        "DOC_EDITING_DATE_TIME": "20170122            ",
+        "DOC_CREATE_DATE_TIME": "20170122 143516     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6006300891.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0541870": {
+    "plan_name": "תוספת יח\"ד ושינוי בקווי בניין מגרש 140 מינסקי כפר חב\"ד",
+    "plan_number": "425-0541870",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "התכנית המוצעת מבקשת לשנות את קווי הבניין במגרש, כך שקווי הבניין הקדמי והצדדיים יועמדו על\r\nקו בניין למבנה קיים כמסומן בתשריט ועל קווי בניין כאמור בתכנית גז/ 12/525 למבנים חדשים. עוד\r\nמוצע כי קו הבניין האחורי יעמוד על קו אפס. כל זאת מתוך מטרה לאפשר הכשרת המבנים הקיימים\r\nבמגרש.\r\n\r\nהבקשה עומדת בתקן צפיפות יח\"ד לדונם לפי תמ\"א 35.\r\n\r\n\r\nתוספת יח\"ד לא תפגע ולא תהווה עומס יתר על תשתיות התחבורה, חינוך, תעבורה, מים, וביוב..  \r\n\r\n\r\nלאור מצוקת הדיור בכפר חב\"ד רצ\"ב בקשה לשינוי תב\"ע לתוספת יח\"ד   וזאת בכדי לתת מענה תכנוני למצוקת הדיור בכפר חב\"ד.\r\n\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000227691505.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000229615.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000229615.pdf",
+        "DOC_EDITING_DATE_TIME": "20180715            ",
+        "DOC_CREATE_DATE_TIME": "20180715 111014     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6007032143.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0589184": {
+    "plan_name": "שינוי קו בניין אחורי מגרש 225 כפר חב\"ד",
+    "plan_number": "425-0589184",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "כתוצאה משינוי הגבולות הוזזו גבולות מגרש ויש צורך להסדיר קו בניין אחורי",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000297476943.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000239175.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000239175.pdf",
+        "DOC_EDITING_DATE_TIME": "20180510            ",
+        "DOC_CREATE_DATE_TIME": "20180510 123121     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6008118607.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0712950": {
+    "plan_name": "תוספת יח\"ד 3 בנחלה מגרש 45 כפר חב\"ד",
+    "plan_number": "425-0712950",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לאור הצורך ביח\"ד נוספות ברחבי הארץ ובכפר חב\"ד בפרט\r\nולאור החלטת רשות מקרקעי ישראל להוסיף יח\"ד שלישית בנחלה\r\nמבוקש תוספת יח\"ד 1 ",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 4000973658053.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4000979965.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20240225            ",
+        "DOC_CREATE_DATE_TIME": "20240225 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 4000026480275.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "הוראות התכנית - מאושרות"
+      }
+    ]
+  },
+  "425-0736678": {
+    "plan_name": "תוספת יח\"ד שלישית בנחלה 22 כפר חב\"ד",
+    "plan_number": "425-0736678",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לאור הצורך ביח\"ד נוספות ברחבי הארץ ובכפר חב\"ד בפרט\r\nולאור החלטת רשות מקרקעי ישראל להוסיף יח\"ד שלישית בנחלה\r\nמבוקש תוספת יח\"ד 1 ",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000448410893.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000276587.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000276587.pdf",
+        "DOC_EDITING_DATE_TIME": "20190807            ",
+        "DOC_CREATE_DATE_TIME": "20190807 094528     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6010535709.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0774018": {
+    "plan_name": "שינוי קו בניי אחורי מגרש 225 כפר חב\"ד",
+    "plan_number": "425-0774018",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "כתוצאה משינוי הגבולות הוזזו גבולות מגרש ויש צורך להסדיר קו בניין אחורי.\r\n\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000487052231.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000286179.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000286179.pdf",
+        "DOC_EDITING_DATE_TIME": "20190721            ",
+        "DOC_CREATE_DATE_TIME": "20190721 141931     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6012231637.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-0800557": {
+    "plan_name": "שינוי קו בניי אחורי ותוספת קומה במגרש 225 כפר חב\"ד",
+    "plan_number": "425-0800557",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "כתוצאה משינוי הגבולות הוזזו גבולות מגרש ויש צורך להסדיר קו בניין אחורי, וכן ע\"מ לתת פתרון להרחבת דירה קיימת מבוקש תוספת קומה.\r\n\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000509056801.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000291935.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000291935.pdf",
+        "DOC_EDITING_DATE_TIME": "20191124            ",
+        "DOC_CREATE_DATE_TIME": "20191124 115325     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6012903701.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1030113": {
+    "plan_name": "מגרש 255 כפר חב\"ד- שינוי קו בניין תוספת קומה וזכויות .",
+    "plan_number": "425-1030113",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "כתוצאה משינוי גבולות הוזזו גבולות מגרש ויש צורך להסדיר קו בניין קדמי ואחורי,\r\nהתוכנית באה לתת פתרון תכנוני לסגירת מרפסות לדירה קיימת ו\r\nכן ע\"מ לתת פתרון להרחבת דירה קיימת מבוקש תוספת קומה.\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000826574591.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005261096.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005261096.pdf",
+        "DOC_EDITING_DATE_TIME": "20221003            ",
+        "DOC_CREATE_DATE_TIME": "20221003 020325     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6021874851.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1153212": {
+    "plan_name": "חלוקת מגרש שצ\"פ לשני מגרשים ללא שינוי יעוד - תוכנית חלוקה",
+    "plan_number": "425-1153212",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "תוכנית זו באה לחלק מגרש שצ\"פ גדול לשני מגרשים ללא שינוי יעוד קרקע לטובת תכנון עתידי של המועצה.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000912626769.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005325010.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005325010.pdf",
+        "DOC_EDITING_DATE_TIME": "20230730            ",
+        "DOC_CREATE_DATE_TIME": "20230730 132325     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6024584175.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1248244": {
+    "plan_name": "פיצול מגרש 73 כפ\"ח",
+    "plan_number": "425-1248244",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מטרת התוכנית פיצול מגרש קיים ביעוד מגורים א' בגודל של 1.199 דונם ל-3 מגרשי מגורים בגודל של כ- 400 מ\"ר כל אחד ללא שינוי יעוד הקרקע ותוספת 2 יח\"ד עבור פיצול זה ובתוספת 6% שטחים\r\nבמסגרת סמכות מקומית ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000913044707.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000392317.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000392317.pdf",
+        "DOC_EDITING_DATE_TIME": "20240212            ",
+        "DOC_CREATE_DATE_TIME": "20240212 163130     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6024603111.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1254218": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 22 כפר חב\"ד",
+    "plan_number": "425-1254218",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לפי סעיף 62 (א) א 25 לחוק התכנון והבניה ניתן לפצל 2 מגרשי מגורים א' מנחלה בסמכות\r\nועדה מקומית.\r\nבתכנית זו מבוקש פיצול 2 מגרשי מגורים א' מנחלה וכן תוספת יח\"ד, זה ובתוספת 6%\r\nשטחים במסגרת סמכות מקומית ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.\r\nבכפ\"ח אין מגבלה למספר יח\"ד לפי תמ\"א 35 (ישוב מיוחד)",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 4001132299533.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4005328970.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20250831            ",
+        "DOC_CREATE_DATE_TIME": "20250831 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 4000032205393.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "הוראות התוכנית"
+      }
+    ]
+  },
+  "425-1279140": {
+    "plan_name": "תוספת יח\"ד מגרש 593, כפר חב\"ד",
+    "plan_number": "425-1279140",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "בתכנית מבוקש תוספת יח\"ד במגרש ביעוד מגורים א', תוספת יח\"ד זו עומדת בצפיפות המותרת בכפר חב\"ד\r\nבנוסף, מבוקש עדכון קוי בנין ותוספת זכויות של 7% המותרים בסמכות מקומית.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001133819205.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005495036.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005495036.pdf",
+        "DOC_EDITING_DATE_TIME": "20251020            ",
+        "DOC_CREATE_DATE_TIME": "20251020 154411     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77032634297.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1279793": {
+    "plan_name": "איחוד וחלוקה באיזון ל-4 מגרשים, שכונת לוי יצחק, כפר חב\"ד",
+    "plan_number": "425-1279793",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "הסדרת שטחי גבולות חלקות מגורים והחלפת שטחים בין שטחים פתוחים ושטחי דרך משולבת ומגורים לצורך שיפור התכנון והכל ללא שינוי הסך הכולל של שטחי המקור.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6000938931501.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000399395.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000399395.pdf",
+        "DOC_EDITING_DATE_TIME": "20240908            ",
+        "DOC_CREATE_DATE_TIME": "20240908 122610     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6025424583.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1285790": {
+    "plan_name": "החלפת מיקום מגרשי מגורים, הרחבה צפונית כפר חב\"ד",
+    "plan_number": "425-1285790",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לצורך יצירת גישה ישירה למספר מגרשים מוגשת תכנית זו אשר מסדירה את מיקום המגרשים, ע\"י שינוי מיקומם.\r\nהתכנית באה לתקן מיקום מגרשים ודרכים מתכנית גז/מק/39/525 ואינה משנה/מוסיפה זכויות.\r\nהתכנית באה לשפר תכנון במקום' כל זאת באיזון ובסמכות ועדה מקומית.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001113059905.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005471388.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005471388.pdf",
+        "DOC_EDITING_DATE_TIME": "20250925            ",
+        "DOC_CREATE_DATE_TIME": "20250925 081512     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77031493455.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1303775": {
+    "plan_name": "הסדרת קווי בניין מגרש 225 כפ\"ח",
+    "plan_number": "425-1303775",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "התוכנית המבוקשת באה להסדיר קווי בניין, תוספת קומות ויחידות סמך, על מנת לאפשר ניצול אחוזי בניה והסדרת מצב קיים.\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001121892259.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005478192.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005478192.pdf",
+        "DOC_EDITING_DATE_TIME": "20250908            ",
+        "DOC_CREATE_DATE_TIME": "20250908 112210     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77031841313.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1306505": {
+    "plan_name": "הגדלת אחוזי בניה במגרש מגורים 172, כפר חבד",
+    "plan_number": "425-1306505",
+    "status": "במילוי תנאים להפקדה",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "תוספת אחוזי בניה ותוספת יח\"ד במגרש מגורים 172 ,כפר חב\"ד \r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001134422511.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005511948.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005511948.pdf",
+        "DOC_EDITING_DATE_TIME": "20251230            ",
+        "DOC_CREATE_DATE_TIME": "20251230 135011     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77033425315.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1308469": {
+    "plan_name": "איחוד וחלוקה באיזון מגרש 101,כפר חב\"ד",
+    "plan_number": "425-1308469",
+    "status": "הפקדה להתנגדויות/השגות",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מבוקש פיצול המגרש לשניים תוך הסדרת שטחי גבולות המגרש והחלפת שטחים בין שטחים פתוחים, שטחי דרך משולבת ומגורים לצורך שיפור התכנון ללא שינוי סך השטח של כל יעוד\r\nוכן ותוספת יח\"ד, תוספת קומה זכויות והקלות.\r\nכפר חב\"ד נמצא בתחום תוכנית תמ\"א 35  ובתוך לוח 3 ואינו במגבלת יחידות ומסגרת הצפיפות הינה  6 יחידות לדונם",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001134578651.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005516228.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005516228.pdf",
+        "DOC_EDITING_DATE_TIME": "20260112            ",
+        "DOC_CREATE_DATE_TIME": "20260112 072910     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77033630865.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1313394": {
+    "plan_name": "מגרש 595 כפ\"ח תוספת יח\"ד",
+    "plan_number": "425-1313394",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מטרת התוכנית:\r\nתוספת יח\"ד ראשית ועוד יחידת סמך למגרש קיים ביעוד מגורים א'  ללא שינוי יעוד הקרקע ו ובתוספת 7% שטחים\r\nבמסגרת סמכות מקומית ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד זו מתאימה לצורך הקיים בישוב.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001085400013.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005448356.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005448356.pdf",
+        "DOC_EDITING_DATE_TIME": "20250312            ",
+        "DOC_CREATE_DATE_TIME": "20250312 013311     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77030362621.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1348390": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 50 כפר חב\"ד",
+    "plan_number": "425-1348390",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "לפי סעיף 62 (א) א 25 לחוק התכנון והבניה ניתן לפצל 2 מגרשי מגורים א' מנחלה בסמכות ועדה מקומית.\r\nבתכנית זו מבוקש פיצול 2 מגרשי מגורים א' מנחלה וכן תוספת יח\"ד ותוספת 6% שטח עיקרי ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.\r\nבכפ\"ח אין מגבלה למספר יח\"ד לפי תמ\"א 35 (ישוב מיוחד)",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6001006910487.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000414927.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000414927.pdf",
+        "DOC_EDITING_DATE_TIME": "20240909            ",
+        "DOC_CREATE_DATE_TIME": "20240909 180009     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6027501341.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1348440": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 30 כפר חב\"ד",
+    "plan_number": "425-1348440",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "בתכנית זו מבוקש פיצול 2 מגרשי מגורים א' מנחלה וכן תוספת יח\"ד\r\nבנוסף מבוקש תוספת שטחים במסגרת  6% משטח המגרש ושטחי שירות תת קרקעיים\r\n\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.\r\nבכפ\"ח אין מגבלה למספר יח\"ד לפי תמ\"א 35 (ישוב מיוחד)",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 6001006913885.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000414937.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000414937.pdf",
+        "DOC_EDITING_DATE_TIME": "20240731            ",
+        "DOC_CREATE_DATE_TIME": "20240731 102011     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 6027501583.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1348473": {
+    "plan_name": "פיצול מגרש 137 כפר חב\"ד",
+    "plan_number": "425-1348473",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מטרת התוכנית פיצול מגרש קיים ביעוד מגורים א' בגודל של 729 מ\"ר ל-3 מגרשי מגורים בגודל של כ- 250 מ\"ר כל אחד ללא שינוי יעוד הקרקע ותוספת 2 יח\"ד עבור פיצול זה ובתוספת 7% שטחים\r\nבמסגרת סמכות מקומית ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001133558511.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005487590.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005487590.pdf",
+        "DOC_EDITING_DATE_TIME": "20250908            ",
+        "DOC_CREATE_DATE_TIME": "20250908 195110     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77032297011.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1383173": {
+    "plan_name": "הגדלת אחוזי בניה מגרש 142, כפר חבד",
+    "plan_number": "425-1383173",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מטרת התוכנית תוספת יח\"ד במגרש קיים ביעוד מגורים א' בגודל של 686 מ\"ר בסה\"כ 3 יח\"ד במגרש\r\nעדכון קוי בנין, תוספת קומה, תוספת זכויות הניתנות בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001102454753.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005463422.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005463422.pdf",
+        "DOC_EDITING_DATE_TIME": "20250519            ",
+        "DOC_CREATE_DATE_TIME": "20250519 130211     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77031078203.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1393933": {
+    "plan_name": "שינוי צורת מגרש מגורים באיזון מגרש 532, כפר חב\"ד",
+    "plan_number": "425-1393933",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "בתכנית מבוקש תוספת יח\"ד ראשית ועוד יחידת סמך למגרש קיים ביעוד מגורים א'  ללא שינוי יעוד הקרקע ובתוספת 7% שטחים וכן שטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד זו מתאימה לצורך הקיים בישוב.\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001134035041.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4005501396.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4005501396.pdf",
+        "DOC_EDITING_DATE_TIME": "20251120            ",
+        "DOC_CREATE_DATE_TIME": "20251120 024710     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77032916747.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1405075": {
+    "plan_name": "שינוי הוראות בינוי ותוספת יח\"ד, נחלה 20 כפר חב\"ד",
+    "plan_number": "425-1405075",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "התוכנית באה לשנות את הוראות הבינוי בנחלה 20 בכפר חב\"ד ע\"מ למקסם את אפשרויות ניצול הבניה בנחלה כולל הטמעת כל הניתן לאשר בדרך של הקלה וכן תוספת יח\"ד\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.\r\nבכפ\"ח אין מגבלה למספר יח\"ד לפי תמ\"א 35 (ישוב מיוחד)",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001055322317.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000428535.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000428535.pdf",
+        "DOC_EDITING_DATE_TIME": "20241201            ",
+        "DOC_CREATE_DATE_TIME": "20241201 104114     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77029207949.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1467992": {
+    "plan_name": "פיצול מגרשים מנחלה 8 -כפר חב\"ד",
+    "plan_number": "425-1467992",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מבוקש לפצל מגרשי מגורים ביעוד \"מגורים א' \" מנחלה , בסמכות וועדה  מקומית. \r\nהתכנית מציעה הצרחת שטחים  ללא שינוי בסה\"כ השטח הכולל של כל יעוד ויעוד ,כך שתחום המגורים יגמר .\r\nבזוית ישרה ותתאפשר פעילות חקלאית נאותה .\r\nבנוסף התכנית כוללת תוספת זכויות,  קביעת הוראות ומגבלות תכנוניות בכל תא שטח.\r\nכפר חב\"ד מוגדר  כ- \"ישוב מיוחד \" עפ\"י תמ\"א 35 - אין מגבלה למס' יח\"ד דיור. \r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001100278331.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000442723.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000442723.pdf",
+        "DOC_EDITING_DATE_TIME": "20260106            ",
+        "DOC_CREATE_DATE_TIME": "20260106 132712     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77031009783.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "425-1560473": {
+    "plan_name": "פיצול שני מגרשים והוספת יחד וזכויות מנחלה 5, כפר חב\"ד",
+    "plan_number": "425-1560473",
+    "status": "בבדיקה תכנונית",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "התכנית מבקשת לפצל מגרש/ים מנחלה לפי סעיף 62 (א) א 25 לחוק התכנון והבניה, וכן תוספת יח\"ד, תוספת שטח עיקרי של 6% משטח המגרש ושטחי שירות הניתנים לתוספת בסמכות מקומית.\r\nתוספת יח\"ד אלו מתאימות לצורך הקיים בישוב.\r\nבכפ\"ח אין מגבלה למספר יח\"ד לפי תמ\"א 35 (ישוב מיוחד)\r\n\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77001134678569.0,
+        "ENTITY_TYPE": 1.0,
+        "ENTITY_ID": 4000468119.0,
+        "DOC_SOURCE": 40.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "4000468119.pdf",
+        "DOC_EDITING_DATE_TIME": "20260131            ",
+        "DOC_CREATE_DATE_TIME": "20260131 221412     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 77033760549.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית",
+        "DOC_INFO": null
+      }
+    ]
+  },
+  "455-0812289": {
+    "plan_name": "בית דגן שכונת האתרוג",
+    "plan_number": "455-0812289",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "תכנית שכונת האתרוג מהווה המשך ישיר לבינוי הקיים והמאושר של בית דגן לכוון דרום מזרח.\r\nהתכנית כוללת 2261 יח\"ד, מבני ושטחי ציבור. \r\nבתכנית תמהיל יח\"ד הכולל בתים בגובה של 3-16 קומות. כ- 20% מיח\"ד בתכנית תהיינה דירות קטנות, בשטח כולל של עד 80 מ\"ר.\r\nהבנוי גובל בשטחים חקלאיים ממזרחו אשר מהווים רצף ירוק התחום בין בית דגן לכפר חב\"ד.\r\nהבינוי מורכב ממתחמי מגורים הכוללים בתוכם גם מבני ושטחי ציבור ואשר יוצרים \"רשת\" עירונית שלמה הקשורה לבינוי הקיים והמתוכנן.\r\nהפארק השכונתי המרכזי ממוקם בלב התכנית  וישרת את השכונה ואת תושבי בית דגן.\r\nהבניה לאורך הרחובות כוללת שני רחובות ראשיים עם חזית מסחרית וכן אזור למסחר ותעסוקה לאורך הכניסה לשכונה מכביש 44.\r\nבשכונה מתוכננים בתי ספר על יסודיים וכן 3 מגרשים לבתי ספר יסודיים.\r\nבקטע הצפוני של התכנית בניה בצפיפות נמוכה יותר הקשורה לבינוי צמוד הקרקע הקיים.\r\nהתכנית משתרעת על פני כ-720 דונם וכוללת גם כ-27,000 מ\"ר לתעסוקה ומסחר.\r\nהתכנית כוללת שני מתחמים: אחד עם איחוד וחלוקה והשני ללא.\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 4001049190373.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4005042224.0,
+        "DOC_SOURCE": 12.0,
+        "DOC_TYPE": 40001.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20241107            ",
+        "DOC_CREATE_DATE_TIME": "20241107 000000     ",
+        "DOC_PAGE_NO": 1.0,
+        "ATTACHMENT_ID": 4000029002667.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "תדפיס הוראות התכנית",
+        "DOC_INFO": "חתום לאישור"
+      }
+    ]
+  },
+  "גז_ 45": {
+    "plan_name": "תכנית מס' גז/45",
+    "plan_number": "גז/ 45",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 236728.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4078586.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\pnim-vm5\\mmi\\takanonim\\MERKAZ\\4009298.pdf",
+        "DOC_EDITING_DATE_TIME": "20100719            ",
+        "DOC_CREATE_DATE_TIME": "20100719 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 399080.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "גז_ 525_ 12": {
+    "plan_name": "שינוי תכנית מיתאר מקומית מס' גז/12/525",
+    "plan_number": "גז/ 525/ 12",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 234050.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4063057.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\pnim-vm5\\mmi\\takanonim\\MERKAZ\\4010163.pdf",
+        "DOC_EDITING_DATE_TIME": "20100719            ",
+        "DOC_CREATE_DATE_TIME": "20100719 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 393724.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "גז_ 525_ 21": {
+    "plan_name": "מעון יום",
+    "plan_number": "גז/ 525/ 21",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 252637.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4053050.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\178573.pdf",
+        "DOC_EDITING_DATE_TIME": "20091213            ",
+        "DOC_CREATE_DATE_TIME": "20091213 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 422636.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גז_ 525_ 23_ א": {
+    "plan_name": "יצירת 2 מגרשים נוספים באזור מגורים א'",
+    "plan_number": "גז/ 525/ 23/ א",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 251365.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4053040.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\173581.pdf",
+        "DOC_EDITING_DATE_TIME": "20091021            ",
+        "DOC_CREATE_DATE_TIME": "20091021 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 420894.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גז_ 525_ 27_ א": {
+    "plan_name": "הוחלף מ-גז / 525 / 27.",
+    "plan_number": "גז/ 525/ 27/ א",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 251732.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4053041.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\174784.pdf",
+        "DOC_EDITING_DATE_TIME": "20091109            ",
+        "DOC_CREATE_DATE_TIME": "20091109 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 421324.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גז_ 624": {
+    "plan_name": "פרדסי מהדרין סרפנד- ספרייה",
+    "plan_number": "גז/ 624",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 1147885671.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4000211049.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20121226            ",
+        "DOC_CREATE_DATE_TIME": "20121226 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 1001917223.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "גז_ מק_ 525_ 28": {
+    "plan_name": "הרחבת פסי רכבת.",
+    "plan_number": "גז/ מק/ 525/ 28",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 255050.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4052863.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\184444.pdf",
+        "DOC_EDITING_DATE_TIME": "20100204            ",
+        "DOC_CREATE_DATE_TIME": "20100204 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 426990.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גז_ מק_ 525_ 30": {
+    "plan_name": "שינוי הוראות בנוי",
+    "plan_number": "גז/ מק/ 525/ 30",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 252387.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4052870.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\177720.pdf",
+        "DOC_EDITING_DATE_TIME": "20091206            ",
+        "DOC_CREATE_DATE_TIME": "20091206 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 422194.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גז_ מק_ 525_ 34": {
+    "plan_name": "חלוקת מגרש בהסכמה, שינוי בקוי בנין",
+    "plan_number": "גז/ מק/ 525/ 34",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 250739.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4066502.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\169933.pdf",
+        "DOC_EDITING_DATE_TIME": "20090830            ",
+        "DOC_CREATE_DATE_TIME": "20090830 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 419954.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "גמ_ 525": {
+    "plan_name": "כפר- חב\"ד",
+    "plan_number": "גמ/ 525",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 1147886135.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4000210219.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20121226            ",
+        "DOC_CREATE_DATE_TIME": "20121226 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 1001918063.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "גמ_ 548": {
+    "plan_name": "תכנית מס' גמ/548",
+    "plan_number": "גמ/ 548",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 1147886447.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4077325.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20121226            ",
+        "DOC_CREATE_DATE_TIME": "20121226 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 1001918687.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "יד_ מק_ 6137": {
+    "plan_name": "מתן אפשרות להגגדלת יח\"ד",
+    "plan_number": "יד/ מק/ 6137",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 251161.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4052285.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\172162.pdf",
+        "DOC_EDITING_DATE_TIME": "20091001            ",
+        "DOC_CREATE_DATE_TIME": "20091001 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 420614.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "יוש_ 51_ 51": {
+    "plan_name": "שמורת טבע ואדי אל אחמר",
+    "plan_number": "יוש/ 51/ 51",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 77000774393777.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 7005221710.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 186.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20220330            ",
+        "DOC_CREATE_DATE_TIME": "20220330 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 7000020287881.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - ערבית",
+        "DOC_INFO": "תקנון תוקף עברית"
+      }
+    ]
+  },
+  "מח_ 150": {
+    "plan_name": "שינוי ייעוד שטח חקלאי ודרך למתחם \"חנה וסע\"",
+    "plan_number": "מח/ 150",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 251696.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4059059.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\174599.pdf",
+        "DOC_EDITING_DATE_TIME": "20091108            ",
+        "DOC_CREATE_DATE_TIME": "20091108 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 421268.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "מח_ 150_ 1": {
+    "plan_name": "חניון \"חנה וסע\" מחלף שפירים.",
+    "plan_number": "מח/ 150/ 1",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 249804.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4070916.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\165986.pdf",
+        "DOC_EDITING_DATE_TIME": "20090707            ",
+        "DOC_CREATE_DATE_TIME": "20090707 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 418552.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תקנון"
+      }
+    ]
+  },
+  "משמ_ 115_ גז": {
+    "plan_name": "תכנית מפורטת מס' משמ/115(גז)",
+    "plan_number": "משמ/ 115/ גז",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 236355.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4078045.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\pnim-vm5\\mmi\\takanonim\\MERKAZ\\4009678.pdf",
+        "DOC_EDITING_DATE_TIME": "20100719            ",
+        "DOC_CREATE_DATE_TIME": "20100719 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 398334.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "על_ 525_ 48": {
+    "plan_name": "כפר חב\"ד שינוי ייעוד לצרכי ציבור",
+    "plan_number": "על/ 525/ 48",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 4463141763.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4000232647.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20140508            ",
+        "DOC_CREATE_DATE_TIME": "00000000 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 4003143695.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "תוכנית מאושרת"
+      }
+    ]
+  },
+  "פת_ 1205_ 22": {
+    "plan_name": "תכנית מיתאר מקומית מס' פת/22/1205 פרטית+שילטו",
+    "plan_number": "פת/ 1205/ 22",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 108947723829.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4089512.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20121220            ",
+        "DOC_CREATE_DATE_TIME": "20121220 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 99001815621.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "תמא_ 4_ 2_ א_ 2": {
+    "plan_name": "מחלף כניסה מערבי לנמל התעופה בן גוריון",
+    "plan_number": "תמא/ 4/ 2/ א/ 2",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מחלף הכניסה לנתב\"ג מצפון לכפר חב\"ד כלול בתכנית מתאר ארצית חלקית תמ\"א/2/4/א, שאושרה ביום 19.8.1997, החלה על כל שטח נמל התעופה.\r\nתכנית זו מוגשת בהמשך להחלטת בג\"ץ 6788/01 מיום 5.6.2006, לתת תוקף להסדר שבין כפר חב\"ד והמועצה האזורית עמק לוד ובין מדינת ישראל, ובהתאם להחלטת המועצה הארצית לתו\"ב מיום 4.01.2011 .\r\nהתכנית כוללת שינויים בתכנון המחלף שעיקרם:\r\n-\tשיקוע הרמפה מכיוון מערב לכיוון צפון (נתב\"ג).\r\n-\tשיקוע הרמפה מצפון (נתב\"ג) למזרח (לכיוון ירושלים).\r\n-\tהוספת גשר להולכי רגל ולרוכבי אופניים מעל רצועת מסילת הברזל בין כפר חב\"ד ובין צפריה - בית        רבקה.\r\n-\tהעתקה והארכת קיר המסתור הקיים לאורך רמפת היציאה מחניון הנתיב המהיר מזרחה. \r\n-\tצמצום שטח המחלף.\r\n\r\nהתכנית קובעת הוראות והנחיות לטיפול ושיקום נופי סביבתי.\r\nביום 7.3.17 החליטה המועצה הארצית לתכנון ובניה להעביר את התכנית להערות הועדות המחוזיות ולהשגות הציבור לתקופה של 60 יום.\r\n\r\n\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 99000375936783.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 99000395267.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20180815            ",
+        "DOC_CREATE_DATE_TIME": "00000000 000000     ",
+        "DOC_PAGE_NO": 0.0,
+        "ATTACHMENT_ID": 99000009249615.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "תממ_ 3_ 21_ 42": {
+    "plan_name": "בית דגן",
+    "plan_number": "תממ/ 3/ 21/ 42",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 99000630816861.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 99000991251.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20201206            ",
+        "DOC_CREATE_DATE_TIME": "00000000 000000     ",
+        "DOC_PAGE_NO": 0.0,
+        "ATTACHMENT_ID": 99000015946793.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": "הוראות התכנית מאושרות"
+      }
+    ]
+  },
+  "תתל_ 26_ 202": {
+    "plan_name": "הפרדה מפלסית כפר חב\"ד",
+    "plan_number": "תתל/ 26/ 202",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": null,
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 301727.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 99005712.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": "\\\\pnim6_new\\mgfac8\\utils\\docs2\\63485.pdf",
+        "DOC_EDITING_DATE_TIME": "20091019            ",
+        "DOC_CREATE_DATE_TIME": "20091019 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 494634.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "תתל_ 33": {
+    "plan_name": "מסילה רביעית באיילון, קטע ת\"א מרכז - לוד",
+    "plan_number": "תתל/ 33",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "תת\"ל 33 הינה תכנית תשתית לאומית עם הוראות של תכנית מפורטת לשדרוג ותוספת מסילות למסילת החוף בקטע שבין תחנת תל-אביב מרכז (סבידור), דרך נתיבי איילון (דרך מס' 20), לאורך קטע מדרך מס' 1, ועד חיבורה למסילה המזרחית בלוד.\r\nמטרת התכנית הינה לאפשר קיבולת מסילתית ראויה, ההולמת את תחזיות הנוסעים לשנת היעד 2040, ואף מעבר לכך.\r\nהתכנית משתרעת לאורך כ-22 ק\"מ ומייעדת הוספת מסילה רביעית, המופעלת באמצעות הינע חשמלי עילי, במקטע האיילון מתחנת תל-אביב מרכז (סבידור) ועד מתחם ת\"א - דרום, והוספת מסילות שלישית ורביעית ממתחם ת\"א - דרום ועד לוד, תוך שינויים בהתוויית צירים מסילתיים קיימים וכן שיפורים גיאומטריים מסילתיים (כדוגמת הכניסה ללוד). \r\nהתכנית כוללת הרחבת שטחי רציפי תחנות רכבת קיימות - סבידור, השלום, ההגנה,  גני אביב, וכן התווייה גאומטרית שמאפשרת הקמת תחנות רכבת עתידיות - אזור, יצחק שדה ושפירים (מאושרת), והתוויה גיאומטרית  שמאפשרת הרחבה עתידית של רציפים בתחנת רכבת קיימת כפר חב\"ד.\r\nעוד כוללת התכנית מבני דרך נוספים וחיבורים מסילתיים עם מסילות ורצועות מסילתיות ברשת הארצית דוגמת המסילה המזרחית. במקטע המרכזי של התוואי, בין דרום תל אביב לבין מחלף שפירים, מוסיפה התוכנית לצד המסילות נתיב רביעי לכיוון ירושלים בדרך מספר 1.\r\n\r\nהתכנית מהווה תנאי הכרחי להמשך תפקודה של מסילת החוף כעמוד השדרה המסילתי במרכז הארץ, ומשום כך גם  להמשך תפקודו התקין של מערך השירות המסילתי הארצי, וכלולה בהחלטת ממשלה מס' 1421 מתאריך 24/2/2010 (\"נתיבי ישראל\").\r\n\r\nבמקביל לתכנית התוואי המסילתי בתת\"ל 33 תקודם תכנית משלימה לניהול הנגר באגן האיילון, אשר כוללת פתרונות משולבים של הטיה, איגום, החדרה והשהיה כדלהלן: איגום מוגבר בפארק אריאל שרון, לרבות מאגר לקליטת 6.2 מלמ\"ק כפי שהוחלט במליאת הות\"ל, פשט ההצפה בשטחי מקווה ישראל, איגום והחדרה במחצבות מודיעין ונשר, מובל לים והסתמכות על מחצבת נטוף ועל מאגר משמר איילון הקיימים.\r\nבכל מקרה, במסגרת ביצוע תת\"ל 33 צפוי שיפור תקופת החזרה (הסתברות) של ההצפות באיילון לעומת המצב כיום.",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 99000438170989.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 99000310859.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20190207            ",
+        "DOC_CREATE_DATE_TIME": "00000000 000000     ",
+        "DOC_PAGE_NO": 0.0,
+        "ATTACHMENT_ID": 99000010269207.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  },
+  "תתל_ 66": {
+    "plan_name": "\"חנה וסע\" שפירים",
+    "plan_number": "תתל/ 66",
+    "status": "אישור",
+    "explanation": {
+      "RN": 1.0,
+      "EXPLANATION": "מתחם \"חנה וסע\" הסמוך למחלף שפירים (להלן: \"המתחם\") והנתיב המהיר בכביש מס' 1 בכניסה לתל אביב, הינו מיזם תחבורתי -  סביבתי מובהק, שהוקם מטעם ממשלת ישראל ומכח תכניות מאושרות מס' מח/150 ומח/150/ 1.\r\nהמתחם פועל בהצלחה מזה כארבע שנים ותורם משמעותית להפחתת הגודש בכניסה לתל אביב והמע\"ר, ועל ידי כך תורם לאיכות הסביבה, הפחתת זיהום אויר ולאיכות החיים.\r\n\r\nלאורך השנים, מתרחש במתחם הליך הדרגתי, אך קבוע, של גידול בכמות כלי הרכב החונים בו.  תהליך זה יואץ עם פתיחת קווי שאטל נוספים וכמו כן, לאחר שתוקם תחנת הרכבת במתחם.\r\n\r\nתכנית מח/150 ייעדה את המתחם כ\"אזור חניה\", המיועד לחניית כלי רכב פרטיים (על קרקעי ותת קרקעי- מרתף חניה). \r\nמטרת תת\"ל/66 הינה הגדלת קיבולת מקומות החנייה במתחם ע\"י בניית קומת חנייה מעל החניון הקיים, על-מנת לתת מענה מיידי לגידול המהיר בכמות כלי הרכב החונים במתחם, ולביקושים העתידיים הצפויים, תוך צמצום הפגיעה בפעילות החניון הקיים  למינימום האפשרי בזמן הבנייה.  \r\nהתכנית  מציעה קומת חנייה עילית, במקום  חניון תת-קרקעי (המאושר במח/ 150), ומאפשרת הוספת קומה נוספת שלישית עילית (שניה מעל הקרקע) בעתיד, בהתאם לצרכים תחבורתיים עתידיים,  לאחר שיוצגו לוועדה ע\"י יזם התכנית או משרד התחבורה.\r\n",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null
+    },
+    "instructions": [
+      {
+        "RN": -1.0,
+        "ENTITY_DOC_ID": 99000142344799.0,
+        "ENTITY_TYPE": 310.0,
+        "ENTITY_ID": 4000266689.0,
+        "DOC_SOURCE": 50.0,
+        "DOC_TYPE": 1.0,
+        "DOC_NAME": " ",
+        "DOC_EDITING_DATE_TIME": "20160410            ",
+        "DOC_CREATE_DATE_TIME": "00000000 000000     ",
+        "DOC_PAGE_NO": null,
+        "ATTACHMENT_ID": 99000005313867.0,
+        "FILE_TYPE": "pdf       ",
+        "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+        "DOC_INFO": " "
+      }
+    ]
+  }
+}

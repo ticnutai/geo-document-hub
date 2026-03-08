@@ -1,0 +1,3902 @@
+{
+  "planDetails": {
+    "ID": 99005712.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "תתל/ 26/ 202",
+    "ENTITY_SUBTYPE": "תכנית לתשתית לאומית",
+    "ENTITY_SUBTYPE_ID": 15.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "הפרדה מפלסית כפר חב\"ד",
+    "AUTH": "ארצית",
+    "PERMISSIONS": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 1090.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "מטרות התכנית:\r\n1. יצירת מסגרת תכנונית להפרדה מפלסית במפגש בין דרך לבין מסילת ברזל, תוך קביעת מעבר מעל לרצועת המסילה ומעל רצועת נחל.\r\n2. התווית דרך חדשה. \r\n3. ביטול המפגש הקיים על פני הקרקע בין מסילה לבין דרך. \r\n4. קביעת הנחיות לתכנון ועיצוב נוף, כולל שיקום דרכי גישה, טיפול נופי בשטחים כלואים, דרכי שירות ומחנות קבלן. \r\n5. קביעת תנאים למתן הרשאה למבנה דרך.",
+    "INSTRACTIONS": " ",
+    "ARTICLE": null,
+    "MASTER_ID": 99005712.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 406.0,
+      "PLAN_AREA": "לוד",
+      "JURST_AREA_CODE": 0.0,
+      "JURST_AREA": null,
+      "CITY_COUNTY_CODE": 0.0,
+      "CITY_COUNTY": null,
+      "STREET_CODE": null,
+      "STREET_NAME": null,
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6255",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "31, 59, 121, 126"
+    },
+    {
+      "BLOCKS": "6260",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "9 - 11, 13 - 14, 44"
+    },
+    {
+      "BLOCKS": "6262",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "1 - 2, 7, 40 - 42"
+    },
+    {
+      "BLOCKS": "6263",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "1 - 4, 6, 48 - 49"
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "פרסום לאישור ברשומות",
+      "EIS_DATE": "16/08/2007",
+      "DETAILS": "תאריך פרסום: 16/08/2007.  מס' ילקוט פרסומים: 5704.  שנה עברית: התשסז   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-5704.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 5704.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4470.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "התכנית אושרה",
+      "EIS_DATE": "16/08/2007",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 36521206.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "רישום התכנית שהטיפול בה הסתיים",
+      "EIS_DATE": "16/08/2007",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 36521204.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "דיון ממשלה / ועדת שרים באישור תכנית - התכנית אושרה",
+      "EIS_DATE": "24/06/2007",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 27201091.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "המלצה לממשלה לאישור תכנית בתנאים",
+      "EIS_DATE": "30/04/2007",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 36521211.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "רישום נתוני פרסום ברשומות על העברה להערות והשגות",
+      "EIS_DATE": "26/03/2007",
+      "DETAILS": "תאריך פרסום: 26/03/2007.  מס' ילקוט פרסומים: 5645.  עמוד: 2151.  שנה עברית: התשסז   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-5645.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 5645.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4411.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "רישום נתוני פרסום בעיתונות על העברה להערות והשגות",
+      "EIS_DATE": "09/03/2007",
+      "DETAILS": "תאריך פרסום בעיתון: 08/03/2007.  עיתון: מעריב.  תאריך פרסום בעיתון: 08/03/2007.  עיתון: הארץ.  תאריך פרסום בעיתון: 08/03/2007.  עיתון: הצופה.  תאריך פרסום בעיתון: 09/03/2007.  עיתון: כל אל ערב.  תאריך פרסום בעיתון: 09/03/2007.  עיתון: עיתון מקומי א.",
+      "ED_PUBLICATION_FILE": 0.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4412.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "טיפול בתסקיר השפעה על הסביבה-הוגש תסקיר",
+      "EIS_DATE": "28/01/2007",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 30301012.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "התכנית פורסמה להערות והשגות",
+      "EIS_DATE": "04/12/2006",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 36521210.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "בדיקת תנאי סף-קיום תנאי סף",
+      "EIS_DATE": "20/11/2006",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 23301020.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "הוחלט להעביר את התכנית להערות והשגות",
+      "EIS_DATE": "13/11/2006",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 27082000.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "פרסום הכנת תכנית בעיתונים",
+      "EIS_DATE": "19/09/2006",
+      "DETAILS": "תאריך פרסום בעיתון: 19/09/2006.  עיתון: מעריב.  תאריך פרסום בעיתון: 14/09/2006.  עיתון: הארץ.  תאריך פרסום בעיתון: 14/09/2006.  עיתון: הצופה.  תאריך פרסום בעיתון: 15/09/2006.  עיתון: כל אל ערב.  תאריך פרסום בעיתון: 15/09/2006.  עיתון: עיתון מקומי א.",
+      "ED_PUBLICATION_FILE": 0.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4150.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "טיפול בתסקיר השפעה על הסביבה",
+      "EIS_DATE": "06/09/2006",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 30300000.0
+    },
+    {
+      "EIS_ENTITY_ID": 99005712.0,
+      "LIS_DESC": "קבלת תכנית בות\"ל",
+      "EIS_DATE": "29/06/2006",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 1180.0
+    }
+  ],
+  "rsDes": [
+    {
+      "MMI_MEETING_ID": 99000052180.0,
+      "DISTINCT_NAME": "מטה",
+      "COMMITTE_NAME": "ועדה ארצית - ועדת משנה לאישור מסמכי תכנון מפורט לפני ביצוע",
+      "CM_NAME": "ועדה ארצית",
+      "FO_NAME": "ועדת משנה לאישור מסמכי תכנון מפורט לפני ביצוע",
+      "FO_SUB_FORUM_OF": 200.0,
+      "MEETING_NO": 2018008.0,
+      "MEETING_DATE": "03/09/2018",
+      "ENTITY_DOC_ID": 88000406077493.0,
+      "ATTACHMENT_ID": 88000009709713.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": 88000406077495.0,
+      "ATTACHMENT_ID1": 88000009709717.0,
+      "FILE_TYPE1": "pdf       ",
+      "ENTITY_DOC_ID_10": 99000379747985.0,
+      "ATTACHMENT_ID_10": 99000009319095.0,
+      "FILE_TYPE_10": "doc       ",
+      "ENTITY_DOC_ID_110": 88000406077497.0,
+      "ATTACHMENT_ID_110": 88000009709721.0,
+      "FILE_TYPE_110": "pdf       ",
+      "MEETING_CODE": 99000052180.0,
+      "MMI_DESICIONS": "החלטה  כפי שפורסמה במסמך החלטות מתאריך 05.09.18: \r\nלאחר שהוועדה שמעה את הנימוקים לשינויים והשתכנעה בנחיצותם לצורך ביצוע ההפרדה המפלסית, מחליטה לאשרם.\r\n\r\nההחלטה התקבלה פה אחד.\r\n",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    },
+    {
+      "MMI_MEETING_ID": 6021568.0,
+      "DISTINCT_NAME": "דרום",
+      "COMMITTE_NAME": "ועדה מחוזית לתכנון ולבניה מחוז הדרום - הועדה המחוזית לתכנון ולבניה מחוז הדרום",
+      "CM_NAME": "ועדה מחוזית לתכנון ולבניה מחוז הדרום",
+      "FO_NAME": "הועדה המחוזית לתכנון ולבניה מחוז הדרום",
+      "FO_SUB_FORUM_OF": 0.0,
+      "MEETING_NO": 2007004.0,
+      "MEETING_DATE": "30/04/2007",
+      "ENTITY_DOC_ID": 47984079.0,
+      "ATTACHMENT_ID": 1972163.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": 47984083.0,
+      "ATTACHMENT_ID1": 1972169.0,
+      "FILE_TYPE1": "pdf       ",
+      "ENTITY_DOC_ID_10": null,
+      "ATTACHMENT_ID_10": null,
+      "FILE_TYPE_10": null,
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 6021568.0,
+      "MMI_DESICIONS": "לועדה אין הערות לתכנית.",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    },
+    {
+      "MMI_MEETING_ID": 99006997.0,
+      "DISTINCT_NAME": "מטה",
+      "COMMITTE_NAME": "ועדה ארצית - הוועדה לתשתיות לאומיות (ות\"ל)",
+      "CM_NAME": "ועדה ארצית",
+      "FO_NAME": "הוועדה לתשתיות לאומיות (ות\"ל)",
+      "FO_SUB_FORUM_OF": 0.0,
+      "MEETING_NO": 2007009.0,
+      "MEETING_DATE": "30/04/2007",
+      "ENTITY_DOC_ID": 1848541.0,
+      "ATTACHMENT_ID": 1207087.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": null,
+      "ATTACHMENT_ID1": null,
+      "FILE_TYPE1": null,
+      "ENTITY_DOC_ID_10": null,
+      "ATTACHMENT_ID_10": null,
+      "FILE_TYPE_10": null,
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 99006997.0,
+      "MMI_DESICIONS": "הוועדה מחליטה להעביר את התכנית לאישור הממשלה, בכפוף לתיקונים על פי החלטותיה ולתיקונים טכניים בהנחיית מתכננת הוועדה.",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    },
+    {
+      "MMI_MEETING_ID": 4031325.0,
+      "DISTINCT_NAME": "מרכז",
+      "COMMITTE_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז - ועדת המשנה הנקודתית",
+      "CM_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז",
+      "FO_NAME": "ועדת המשנה הנקודתית",
+      "FO_SUB_FORUM_OF": 10.0,
+      "MEETING_NO": 2007007.0,
+      "MEETING_DATE": "17/04/2007",
+      "ENTITY_DOC_ID": 54570413.0,
+      "ATTACHMENT_ID": 2554209.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": 54570415.0,
+      "ATTACHMENT_ID1": 2554213.0,
+      "FILE_TYPE1": "pdf       ",
+      "ENTITY_DOC_ID_10": 368651.0,
+      "ATTACHMENT_ID_10": 626711.0,
+      "FILE_TYPE_10": "doc       ",
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 4031325.0,
+      "MMI_DESICIONS": "תתל/ 26/ 202 (התכנית נדונה בישיבת ועדת המשנה הנקודתית ביום 17.4.07)\r\n\r\nרקע:\r\nהתכנית הנדונה עניינה קביעת הפרדה מפלסית במפגש מס' 202  בין מסילת הרכבת ת\"א - לוד לדרך המחברת את כפר חב\"ד עם מושב צפריה.\r\nמטרת הדיון, העברת התייחסות הועדה המחוזית לתכנית בהתאם לסעיף 76 ג' (6) ו-(8)  בחוק התכנון והבניה.\r\n\r\nהחלטה:\r\nהועדה מצינת כי בעת הדיונים בות\"ל הוטמעו הערות לשכת התכנון. לועדה אין הערות נוספות לתכנית.\r\n",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    },
+    {
+      "MMI_MEETING_ID": 5024974.0,
+      "DISTINCT_NAME": "תל-אביב",
+      "COMMITTE_NAME": "ועדה מחוזית לתכנון ולבניה מחוז תל אביב - הועדה המחוזית לתכנון ולבניה מחוז תל אביב",
+      "CM_NAME": "ועדה מחוזית לתכנון ולבניה מחוז תל אביב",
+      "FO_NAME": "הועדה המחוזית לתכנון ולבניה מחוז תל אביב",
+      "FO_SUB_FORUM_OF": 0.0,
+      "MEETING_NO": 730.0,
+      "MEETING_DATE": "26/03/2007",
+      "ENTITY_DOC_ID": 211981145.0,
+      "ATTACHMENT_ID": 6648045.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": 211981147.0,
+      "ATTACHMENT_ID1": 6648049.0,
+      "FILE_TYPE1": "pdf       ",
+      "ENTITY_DOC_ID_10": 370917.0,
+      "ATTACHMENT_ID_10": 631231.0,
+      "FILE_TYPE_10": "doc       ",
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 5024974.0,
+      "MMI_DESICIONS": "אין הערות לוועדה המחוזית.",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    },
+    {
+      "MMI_MEETING_ID": 99006589.0,
+      "DISTINCT_NAME": "מטה",
+      "COMMITTE_NAME": "ועדה ארצית - הוועדה לתשתיות לאומיות (ות\"ל)",
+      "CM_NAME": "ועדה ארצית",
+      "FO_NAME": "הוועדה לתשתיות לאומיות (ות\"ל)",
+      "FO_SUB_FORUM_OF": 0.0,
+      "MEETING_NO": 2006019.0,
+      "MEETING_DATE": "04/12/2006",
+      "ENTITY_DOC_ID": 1848539.0,
+      "ATTACHMENT_ID": 1207083.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": null,
+      "ATTACHMENT_ID1": null,
+      "FILE_TYPE1": null,
+      "ENTITY_DOC_ID_10": null,
+      "ATTACHMENT_ID_10": null,
+      "FILE_TYPE_10": null,
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 99006589.0,
+      "MMI_DESICIONS": " ",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    }
+  ],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 812,
+      "PRP_FULL_NAME": "טל אור ישי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 99012105,
+      "PRP_FULL_NAME": "בולר תמי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 7012629,
+      "PRP_FULL_NAME": "אלברט טלי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 7011247,
+      "PRP_FULL_NAME": "משה ניר"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 7010307,
+      "PRP_FULL_NAME": "וולסקו רענן"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4007035,
+      "PRP_FULL_NAME": "ענתבי יובל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1007939,
+      "PRP_FULL_NAME": "וכסלר אריאל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 26407,
+      "PRP_FULL_NAME": "זילבר דלית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 13271,
+      "PRP_FULL_NAME": "מתכנן ות\"ל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 12977,
+      "PRP_FULL_NAME": "נציג משרד החקלאות"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 12975,
+      "PRP_FULL_NAME": "בליטשטיין יעקב"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 12663,
+      "PRP_FULL_NAME": "לפלר דוד"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 12605,
+      "PRP_FULL_NAME": "גומרוב בן מיכאל רנטה"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 8509,
+      "PRP_FULL_NAME": "פירסט בני"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 8075,
+      "PRP_FULL_NAME": "שמואלי דורון"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 6147,
+      "PRP_FULL_NAME": "אלמוג רם"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5548,
+      "PRP_FULL_NAME": "סעדון אבנר"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5505,
+      "PRP_FULL_NAME": "זהר אהרון"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5337,
+      "PRP_FULL_NAME": "גלדמן איילה"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5253,
+      "PRP_FULL_NAME": "ברנר חגית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5146,
+      "PRP_FULL_NAME": "כהן רינת"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 5145,
+      "PRP_FULL_NAME": "וגנר יהונתן"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4793,
+      "PRP_FULL_NAME": "אלה צדוק"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4792,
+      "PRP_FULL_NAME": "צור עלמא"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4744,
+      "PRP_FULL_NAME": "צלניקר יואב"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4560,
+      "PRP_FULL_NAME": "סגל הלה"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4554,
+      "PRP_FULL_NAME": "דרסלר רן"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4553,
+      "PRP_FULL_NAME": "שער שלומית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4552,
+      "PRP_FULL_NAME": "שושני רויטל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4551,
+      "PRP_FULL_NAME": "רוטהברט אמיר"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4550,
+      "PRP_FULL_NAME": "קליידר אייל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4549,
+      "PRP_FULL_NAME": "לומברזו מני"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4548,
+      "PRP_FULL_NAME": "כרמלי שמואל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4547,
+      "PRP_FULL_NAME": "כפרי כהן אורית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4546,
+      "PRP_FULL_NAME": "ידין ליטל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4545,
+      "PRP_FULL_NAME": "טורק רונית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4544,
+      "PRP_FULL_NAME": "וייס איציק"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4543,
+      "PRP_FULL_NAME": "ברנד שירה"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4538,
+      "PRP_FULL_NAME": "כהן רחלי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4527,
+      "PRP_FULL_NAME": "קראוס איילת"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4526,
+      "PRP_FULL_NAME": "גרטל שולמית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4242,
+      "PRP_FULL_NAME": "טייכמן אילן"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3687,
+      "PRP_FULL_NAME": "פורת דורית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3609,
+      "PRP_FULL_NAME": "קליידר אייל"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2919,
+      "PRP_FULL_NAME": "פרום אריכא רותי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2789,
+      "PRP_FULL_NAME": "לנקין אלנבלום לינור"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2763,
+      "PRP_FULL_NAME": "גנון עינת"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2725,
+      "PRP_FULL_NAME": "אמרני ד\"ר שוקי"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2338,
+      "PRP_FULL_NAME": "אלינסקי רדעי נאוה"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2316,
+      "PRP_FULL_NAME": "פיינשטיין נטע"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1624,
+      "PRP_FULL_NAME": "מירון פיסטנר סיגלית"
+    },
+    {
+      "MM_ID": 99000052180.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99000052180,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 978,
+      "PRP_FULL_NAME": "פלד נחום-זאב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 812,
+      "PRP_FULL_NAME": "טל אור ישי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3294,
+      "PRP_FULL_NAME": "וייס אמיר"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3186,
+      "PRP_FULL_NAME": "נחמיאס דרור"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3185,
+      "PRP_FULL_NAME": "לב תמיר אריאלה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3184,
+      "PRP_FULL_NAME": "נעים עין דר אורלי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3132,
+      "PRP_FULL_NAME": "דאר סייף איימן"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3035,
+      "PRP_FULL_NAME": "אלוק ענת"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3034,
+      "PRP_FULL_NAME": "כהן פנינה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3024,
+      "PRP_FULL_NAME": "הייב חסן"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3022,
+      "PRP_FULL_NAME": "הרן מרים"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3021,
+      "PRP_FULL_NAME": "דוכן אלדר"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2991,
+      "PRP_FULL_NAME": "אסיף אדר' שמאי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2981,
+      "PRP_FULL_NAME": "רונן אלי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2919,
+      "PRP_FULL_NAME": "פרום אריכא רותי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2818,
+      "PRP_FULL_NAME": "בר לב גדעון"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2808,
+      "PRP_FULL_NAME": "טוראל ירון"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2744,
+      "PRP_FULL_NAME": "רותם גל"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2715,
+      "PRP_FULL_NAME": "יצחקי אביגדור"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2476,
+      "PRP_FULL_NAME": "אפרתי יעקב"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2474,
+      "PRP_FULL_NAME": "דשן דויטש דוד"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2473,
+      "PRP_FULL_NAME": "ישי יוסי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2401,
+      "PRP_FULL_NAME": "בורל רענן"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2385,
+      "PRP_FULL_NAME": "גמליאלי יוסף"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2338,
+      "PRP_FULL_NAME": "אלינסקי רדעי נאוה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2281,
+      "PRP_FULL_NAME": "בן ארי אלי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2203,
+      "PRP_FULL_NAME": "האן איריס"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1994,
+      "PRP_FULL_NAME": "דיין עו\"ד משה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1960,
+      "PRP_FULL_NAME": "בילסקי זאב"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1744,
+      "PRP_FULL_NAME": "פורטן אבי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1731,
+      "PRP_FULL_NAME": "שוורץ מילנר בינת"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1431,
+      "PRP_FULL_NAME": "שפול אלכס"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1387,
+      "PRP_FULL_NAME": "קולמן אדר' אדם"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1228,
+      "PRP_FULL_NAME": "דרוקמן דורון"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1195,
+      "PRP_FULL_NAME": "קדמן צבי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1131,
+      "PRP_FULL_NAME": "אנגל נעמי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1111,
+      "PRP_FULL_NAME": "בן יצחק יצחק"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1109,
+      "PRP_FULL_NAME": "שגיא יואב"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1081,
+      "PRP_FULL_NAME": "שר שלום אביעד"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1075,
+      "PRP_FULL_NAME": "קופ יוסי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1071,
+      "PRP_FULL_NAME": "ליבנה עפרה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 992,
+      "PRP_FULL_NAME": "רונן אינג' ישעיהו"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 988,
+      "PRP_FULL_NAME": "דרור דלית"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 982,
+      "PRP_FULL_NAME": "גולן גבי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 979,
+      "PRP_FULL_NAME": "עלוני אורי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 974,
+      "PRP_FULL_NAME": "אלדור אדר' סופיה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 970,
+      "PRP_FULL_NAME": "פלאוט ירדנה"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 968,
+      "PRP_FULL_NAME": "שלאין אפרים"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 967,
+      "PRP_FULL_NAME": "ברכיה ולרי"
+    },
+    {
+      "MM_ID": 99006997.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006997,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 905,
+      "PRP_FULL_NAME": "סיבר אליסיה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4494,
+      "PRP_FULL_NAME": "דה-קלו עו\"ד מירה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4488,
+      "PRP_FULL_NAME": "סונטג פלביה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4487,
+      "PRP_FULL_NAME": "סבוראי יונה אור"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4476,
+      "PRP_FULL_NAME": "ישורון אילן"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4445,
+      "PRP_FULL_NAME": "צדוק נירה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4365,
+      "PRP_FULL_NAME": "שלמון בני"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4185,
+      "PRP_FULL_NAME": "רביד עו\"ד סילביה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4184,
+      "PRP_FULL_NAME": "פרידזאיציק אלכסנדר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4166,
+      "PRP_FULL_NAME": "רון חווה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4118,
+      "PRP_FULL_NAME": "גלין בשמת"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4015,
+      "PRP_FULL_NAME": "ספיר סיגלית"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3304,
+      "PRP_FULL_NAME": "ברוש נעה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3293,
+      "PRP_FULL_NAME": "שאולקר עופר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3268,
+      "PRP_FULL_NAME": "אבו ערער נאיף"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3258,
+      "PRP_FULL_NAME": "יוסף יגאל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3229,
+      "PRP_FULL_NAME": "שאולקר תמי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3228,
+      "PRP_FULL_NAME": "רוזיליו ישראל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3212,
+      "PRP_FULL_NAME": "רוטמן גיורא"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3089,
+      "PRP_FULL_NAME": "סימן טוב בנימין"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3075,
+      "PRP_FULL_NAME": "שוורץ רון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3053,
+      "PRP_FULL_NAME": "ליבנה ד\"ר דן"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3051,
+      "PRP_FULL_NAME": "לביוב יואב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3050,
+      "PRP_FULL_NAME": "גל שרון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3049,
+      "PRP_FULL_NAME": "ויסמן נילי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3000,
+      "PRP_FULL_NAME": "איילון גיא"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2997,
+      "PRP_FULL_NAME": "לרר אידה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2996,
+      "PRP_FULL_NAME": "ורטש גבי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2995,
+      "PRP_FULL_NAME": "גיא מיכאל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2993,
+      "PRP_FULL_NAME": "זיו אורלי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2974,
+      "PRP_FULL_NAME": "סלע חגי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2967,
+      "PRP_FULL_NAME": "בונפלד דוד"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2959,
+      "PRP_FULL_NAME": "גבעון בלהה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2944,
+      "PRP_FULL_NAME": "שוסטר אלון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2894,
+      "PRP_FULL_NAME": "דהרי אבירם"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2893,
+      "PRP_FULL_NAME": "בריל מרדכי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2892,
+      "PRP_FULL_NAME": "כהן מאיר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2889,
+      "PRP_FULL_NAME": "מהצרי רוני"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2882,
+      "PRP_FULL_NAME": "יוסטמן אהוד"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2825,
+      "PRP_FULL_NAME": "נעמתי אורי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2824,
+      "PRP_FULL_NAME": "גרינבאום עזרא"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2823,
+      "PRP_FULL_NAME": "לביא בקין רסן עופר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2817,
+      "PRP_FULL_NAME": "לאנין סרן יעקב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2609,
+      "PRP_FULL_NAME": "אמיתי מיטל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2418,
+      "PRP_FULL_NAME": "אלקרינאוי טלאל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2308,
+      "PRP_FULL_NAME": "שטראוס אפרת"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2211,
+      "PRP_FULL_NAME": "דשא רותם"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2210,
+      "PRP_FULL_NAME": "חגין נחמיה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2209,
+      "PRP_FULL_NAME": "אבירם אייל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2208,
+      "PRP_FULL_NAME": "קיטלרו ניצן"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2152,
+      "PRP_FULL_NAME": "סיבר אליסיה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2109,
+      "PRP_FULL_NAME": "ניידמן סילביאן"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2100,
+      "PRP_FULL_NAME": "אבו רביעה סאלים"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2091,
+      "PRP_FULL_NAME": "ריטוב עמיר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1995,
+      "PRP_FULL_NAME": "צימרמן משה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1994,
+      "PRP_FULL_NAME": "דיין עו\"ד משה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1993,
+      "PRP_FULL_NAME": "רוייטמן פרידה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1892,
+      "PRP_FULL_NAME": "כהן סלומון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1730,
+      "PRP_FULL_NAME": "כהן דוד (דודו)"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1129,
+      "PRP_FULL_NAME": "בר אושר אבישי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1007,
+      "PRP_FULL_NAME": "פורת בן ציון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1006,
+      "PRP_FULL_NAME": "בן ישי דוד"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1005,
+      "PRP_FULL_NAME": "טחנאי שי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1004,
+      "PRP_FULL_NAME": "גולד ענת"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1003,
+      "PRP_FULL_NAME": "שפירא אודי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1001,
+      "PRP_FULL_NAME": "אלון עזרי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1000,
+      "PRP_FULL_NAME": "גבאי גלעד"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 999,
+      "PRP_FULL_NAME": "אבנרי מירה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 998,
+      "PRP_FULL_NAME": "ברעם עדינה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 997,
+      "PRP_FULL_NAME": "קנובל לובה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 994,
+      "PRP_FULL_NAME": "כהן אתגר מריה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 993,
+      "PRP_FULL_NAME": "להמן אורנה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 971,
+      "PRP_FULL_NAME": "מימרן דר' יעקב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 961,
+      "PRP_FULL_NAME": "בורונין-רויף אילנה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 958,
+      "PRP_FULL_NAME": "מורי אבנר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 954,
+      "PRP_FULL_NAME": "בדש פיני"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 949,
+      "PRP_FULL_NAME": "צילקר צבי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 947,
+      "PRP_FULL_NAME": "טרנר יעקב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 944,
+      "PRP_FULL_NAME": "ששפורטה פאני"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 942,
+      "PRP_FULL_NAME": "פינצ'י אברהם"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 939,
+      "PRP_FULL_NAME": "אוליבסקי יהודית"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 935,
+      "PRP_FULL_NAME": "איפרגן חנה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 934,
+      "PRP_FULL_NAME": "ארגז ירון"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 929,
+      "PRP_FULL_NAME": "מורג יואב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 924,
+      "PRP_FULL_NAME": "שחם ראובן"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 923,
+      "PRP_FULL_NAME": "זעירא דפנה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 922,
+      "PRP_FULL_NAME": "צפנת עופרי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 921,
+      "PRP_FULL_NAME": "יצחקי עמיר"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 920,
+      "PRP_FULL_NAME": "אדן הדסה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 918,
+      "PRP_FULL_NAME": "בלידשטיין רבקה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 915,
+      "PRP_FULL_NAME": "ניידמן אירנה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 914,
+      "PRP_FULL_NAME": "קלרמן מוטי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 910,
+      "PRP_FULL_NAME": "קמלמן יעקב"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 909,
+      "PRP_FULL_NAME": "גולוב ליאורה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 908,
+      "PRP_FULL_NAME": "בר שדה אריק"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 907,
+      "PRP_FULL_NAME": "פודים טל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 906,
+      "PRP_FULL_NAME": "פורטי עלי"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 905,
+      "PRP_FULL_NAME": "סיבר אליסיה"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 831,
+      "PRP_FULL_NAME": "ברקן רחל"
+    },
+    {
+      "MM_ID": 6021568.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 6021568,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 820,
+      "PRP_FULL_NAME": "אברמוביץ עמליה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 977,
+      "PRP_FULL_NAME": "אבלסון רבקה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4475,
+      "PRP_FULL_NAME": "לגו עמליה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4345,
+      "PRP_FULL_NAME": "רוטשילד אלון"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4243,
+      "PRP_FULL_NAME": "קפלן גיא"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4192,
+      "PRP_FULL_NAME": "ראם עמית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4094,
+      "PRP_FULL_NAME": "קויתי טל רביב"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4079,
+      "PRP_FULL_NAME": "דבורסקי בן ארי טל"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4075,
+      "PRP_FULL_NAME": "חי דרור"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4074,
+      "PRP_FULL_NAME": "אוחיון כרמית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4067,
+      "PRP_FULL_NAME": "קויתי אביב"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4060,
+      "PRP_FULL_NAME": "צוות צפון מחוז מרכז"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4059,
+      "PRP_FULL_NAME": "צוות דרום מחוז מרכז"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4022,
+      "PRP_FULL_NAME": "אומן-שוורץ דניאלה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4006,
+      "PRP_FULL_NAME": "סולר שחר"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3308,
+      "PRP_FULL_NAME": "בלומברג עדנה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3213,
+      "PRP_FULL_NAME": "קופטש בת שבע"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3187,
+      "PRP_FULL_NAME": "מוסקוביץ מירה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3087,
+      "PRP_FULL_NAME": "קדמי חיים רמה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3033,
+      "PRP_FULL_NAME": "גנזל רימה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3026,
+      "PRP_FULL_NAME": "שמידט יהודית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3015,
+      "PRP_FULL_NAME": "ראם וגנר תמי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3013,
+      "PRP_FULL_NAME": "נאטור מוחמד"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3012,
+      "PRP_FULL_NAME": "רייזנר שגיא"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3011,
+      "PRP_FULL_NAME": "רגב ליאור"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3009,
+      "PRP_FULL_NAME": "ורדי גיטה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3008,
+      "PRP_FULL_NAME": "לוי אפרת"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3007,
+      "PRP_FULL_NAME": "פיילר אורית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3006,
+      "PRP_FULL_NAME": "פרימן מוטי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3002,
+      "PRP_FULL_NAME": "דון יחייא-סטולמן אפרת"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3001,
+      "PRP_FULL_NAME": "תמם גולנית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2999,
+      "PRP_FULL_NAME": "הדר נועה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2993,
+      "PRP_FULL_NAME": "זיו אורלי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2991,
+      "PRP_FULL_NAME": "אסיף אדר' שמאי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2980,
+      "PRP_FULL_NAME": "גופר עמית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2979,
+      "PRP_FULL_NAME": "סרי כמיל"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2976,
+      "PRP_FULL_NAME": "מירון אירית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2931,
+      "PRP_FULL_NAME": "בורלא אתי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2919,
+      "PRP_FULL_NAME": "פרום אריכא רותי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2882,
+      "PRP_FULL_NAME": "יוסטמן אהוד"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2799,
+      "PRP_FULL_NAME": "שרעבי ריקי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2798,
+      "PRP_FULL_NAME": "פרנקל שפרה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2797,
+      "PRP_FULL_NAME": "אהרון נוחם סמדר"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2796,
+      "PRP_FULL_NAME": "פיק דוד"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2725,
+      "PRP_FULL_NAME": "אמרני ד\"ר שוקי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2316,
+      "PRP_FULL_NAME": "פיינשטיין נטע"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2263,
+      "PRP_FULL_NAME": "ובר אלה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2262,
+      "PRP_FULL_NAME": "בר שמעון שמעון"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2159,
+      "PRP_FULL_NAME": "אדרי ורד"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2133,
+      "PRP_FULL_NAME": "חג'ג' רונית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1991,
+      "PRP_FULL_NAME": "בר יוסף עדית"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1285,
+      "PRP_FULL_NAME": "אמגדי דוד"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1279,
+      "PRP_FULL_NAME": "ואזה נדיה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1217,
+      "PRP_FULL_NAME": "פרלמוטר משה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1216,
+      "PRP_FULL_NAME": "גולדשטיין שלמה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1213,
+      "PRP_FULL_NAME": "דלג'ו מרדכי"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1210,
+      "PRP_FULL_NAME": "פיירברג מרים"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1206,
+      "PRP_FULL_NAME": "לביא יואל"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1205,
+      "PRP_FULL_NAME": "פלג גבאי מירב"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1202,
+      "PRP_FULL_NAME": "חבקין עפרה"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1201,
+      "PRP_FULL_NAME": "שיבר רחל"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1200,
+      "PRP_FULL_NAME": "מתיה עינב"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1156,
+      "PRP_FULL_NAME": "חיים בני"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1130,
+      "PRP_FULL_NAME": "ביבי ירון"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1094,
+      "PRP_FULL_NAME": "ישועה יצחק"
+    },
+    {
+      "MM_ID": 4031325.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 4031325,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1073,
+      "PRP_FULL_NAME": "גרידינגר עפר"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 597,
+      "PRP_FULL_NAME": "אלרוד אילנה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4477,
+      "PRP_FULL_NAME": "בן שחר ראובן"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4439,
+      "PRP_FULL_NAME": "נציג שר הבטחון"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4419,
+      "PRP_FULL_NAME": "גרינבאום עו\"ד שרית"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4197,
+      "PRP_FULL_NAME": "עג'מי משה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4079,
+      "PRP_FULL_NAME": "דבורסקי בן ארי טל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 4058,
+      "PRP_FULL_NAME": "מימרן רועי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3304,
+      "PRP_FULL_NAME": "ברוש נעה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3292,
+      "PRP_FULL_NAME": "קורן נטלי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3291,
+      "PRP_FULL_NAME": "שוורץ אברהם"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3290,
+      "PRP_FULL_NAME": "שניר חגי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3254,
+      "PRP_FULL_NAME": "אבורזק אוסקר"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3112,
+      "PRP_FULL_NAME": "נשרי יוסף"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3019,
+      "PRP_FULL_NAME": "דותן טלי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2965,
+      "PRP_FULL_NAME": "מנגן דפנה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2964,
+      "PRP_FULL_NAME": "מהדב שלמה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2957,
+      "PRP_FULL_NAME": "דורי יעל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2948,
+      "PRP_FULL_NAME": "אלשיך ענת"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2921,
+      "PRP_FULL_NAME": "לחיאני שלמה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2920,
+      "PRP_FULL_NAME": "רוכברגר יצחק"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2919,
+      "PRP_FULL_NAME": "פרום אריכא רותי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2882,
+      "PRP_FULL_NAME": "יוסטמן אהוד"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2842,
+      "PRP_FULL_NAME": "פרנקנטל יששכר"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2790,
+      "PRP_FULL_NAME": "אורון גילה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2752,
+      "PRP_FULL_NAME": "פרידלנד מנחם"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2751,
+      "PRP_FULL_NAME": "דרור רונן"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2744,
+      "PRP_FULL_NAME": "רותם גל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2713,
+      "PRP_FULL_NAME": "אמויאל רענן"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2549,
+      "PRP_FULL_NAME": "טסלר גילי נועה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2158,
+      "PRP_FULL_NAME": "בן דב כהן טל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1230,
+      "PRP_FULL_NAME": "גולדפרב אסף"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1205,
+      "PRP_FULL_NAME": "פלג גבאי מירב"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1171,
+      "PRP_FULL_NAME": "בר צבי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1163,
+      "PRP_FULL_NAME": "אלשייך ענת"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1162,
+      "PRP_FULL_NAME": "פרי יעל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1161,
+      "PRP_FULL_NAME": "דוד רחל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1160,
+      "PRP_FULL_NAME": "אלינסון טובה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1157,
+      "PRP_FULL_NAME": "פוהורילס ולרי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1156,
+      "PRP_FULL_NAME": "חיים בני"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1139,
+      "PRP_FULL_NAME": "חכם אורה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1138,
+      "PRP_FULL_NAME": "בוכובזה יצחק צוריאל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1136,
+      "PRP_FULL_NAME": "זך אמנון"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1134,
+      "PRP_FULL_NAME": "גרמן יעל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1133,
+      "PRP_FULL_NAME": "ששון מוטי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1132,
+      "PRP_FULL_NAME": "חולדאי רון"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1131,
+      "PRP_FULL_NAME": "אנגל נעמי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1130,
+      "PRP_FULL_NAME": "ביבי ירון"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1128,
+      "PRP_FULL_NAME": "בן ידידיה רמה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1127,
+      "PRP_FULL_NAME": "שאקר נחלה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1126,
+      "PRP_FULL_NAME": "כפול עינב מתיה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1123,
+      "PRP_FULL_NAME": "כהן אביטל"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1122,
+      "PRP_FULL_NAME": "יוגב נילי"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1118,
+      "PRP_FULL_NAME": "ברון יוסף"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 989,
+      "PRP_FULL_NAME": "מיוחס רינה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 935,
+      "PRP_FULL_NAME": "איפרגן חנה"
+    },
+    {
+      "MM_ID": 5024974.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 5024974,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 918,
+      "PRP_FULL_NAME": "בלידשטיין רבקה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 905,
+      "PRP_FULL_NAME": "סיבר אליסיה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 967,
+      "PRP_FULL_NAME": "ברכיה ולרי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 968,
+      "PRP_FULL_NAME": "שלאין אפרים"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 970,
+      "PRP_FULL_NAME": "פלאוט ירדנה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 974,
+      "PRP_FULL_NAME": "אלדור אדר' סופיה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 979,
+      "PRP_FULL_NAME": "עלוני אורי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 982,
+      "PRP_FULL_NAME": "גולן גבי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 988,
+      "PRP_FULL_NAME": "דרור דלית"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 992,
+      "PRP_FULL_NAME": "רונן אינג' ישעיהו"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1071,
+      "PRP_FULL_NAME": "ליבנה עפרה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1075,
+      "PRP_FULL_NAME": "קופ יוסי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1081,
+      "PRP_FULL_NAME": "שר שלום אביעד"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1109,
+      "PRP_FULL_NAME": "שגיא יואב"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1111,
+      "PRP_FULL_NAME": "בן יצחק יצחק"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1131,
+      "PRP_FULL_NAME": "אנגל נעמי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1195,
+      "PRP_FULL_NAME": "קדמן צבי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1228,
+      "PRP_FULL_NAME": "דרוקמן דורון"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1387,
+      "PRP_FULL_NAME": "קולמן אדר' אדם"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1431,
+      "PRP_FULL_NAME": "שפול אלכס"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1731,
+      "PRP_FULL_NAME": "שוורץ מילנר בינת"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1744,
+      "PRP_FULL_NAME": "פורטן אבי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1960,
+      "PRP_FULL_NAME": "בילסקי זאב"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 1994,
+      "PRP_FULL_NAME": "דיין עו\"ד משה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2203,
+      "PRP_FULL_NAME": "האן איריס"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2281,
+      "PRP_FULL_NAME": "בן ארי אלי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2338,
+      "PRP_FULL_NAME": "אלינסקי רדעי נאוה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2385,
+      "PRP_FULL_NAME": "גמליאלי יוסף"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2401,
+      "PRP_FULL_NAME": "בורל רענן"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2473,
+      "PRP_FULL_NAME": "ישי יוסי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2474,
+      "PRP_FULL_NAME": "דשן דויטש דוד"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2476,
+      "PRP_FULL_NAME": "אפרתי יעקב"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2715,
+      "PRP_FULL_NAME": "יצחקי אביגדור"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2744,
+      "PRP_FULL_NAME": "רותם גל"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2808,
+      "PRP_FULL_NAME": "טוראל ירון"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2818,
+      "PRP_FULL_NAME": "בר לב גדעון"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2919,
+      "PRP_FULL_NAME": "פרום אריכא רותי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2981,
+      "PRP_FULL_NAME": "רונן אלי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2991,
+      "PRP_FULL_NAME": "אסיף אדר' שמאי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3021,
+      "PRP_FULL_NAME": "דוכן אלדר"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3022,
+      "PRP_FULL_NAME": "הרן מרים"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3024,
+      "PRP_FULL_NAME": "הייב חסן"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3034,
+      "PRP_FULL_NAME": "כהן פנינה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3035,
+      "PRP_FULL_NAME": "אלוק ענת"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3132,
+      "PRP_FULL_NAME": "דאר סייף איימן"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3184,
+      "PRP_FULL_NAME": "נעים עין דר אורלי"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3185,
+      "PRP_FULL_NAME": "לב תמיר אריאלה"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3186,
+      "PRP_FULL_NAME": "נחמיאס דרור"
+    },
+    {
+      "MM_ID": 99006589.0,
+      "MMI_ENTITY_ID": 99005712.0,
+      "MIF_MM_ID": 99006589,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 3294,
+      "PRP_FULL_NAME": "וייס אמיר"
+    }
+  ],
+  "rsPubDocs": [],
+  "locationDesc": " ",
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [],
+  "rsTopic": [
+    {
+      "ID": 7700178551.0,
+      "PLAN_ID": 99005712.0,
+      "ORG_ID": 99000338149.0,
+      "REL_ID": 99005712.0,
+      "ORG_TYPE": 1.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "תתל/ 26/ 202",
+      "PLAN_NAME": "הפרדה מפלסית כפר חב\"ד",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "ORG_N": "תתל/ 64",
+      "COMMENTS": "תכנית זו משנה רק את המפורט בתכנית זו וכל יתר הוראות תכנית תתל/ 26/ 202 ממשיכות לחול.",
+      "PUBLICATION_FILE": 5704.0,
+      "PUBLICATION_PAGE": 0.0,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": "16/08/2007",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 99000304103.0
+    },
+    {
+      "ID": 7701155739.0,
+      "PLAN_ID": 99005712.0,
+      "ORG_ID": 4005274170.0,
+      "REL_ID": 99005712.0,
+      "ORG_TYPE": 1.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "תתל/ 26/ 202",
+      "PLAN_NAME": "הפרדה מפלסית כפר חב\"ד",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 50.0,
+      "RELATION_TYPE": "כפיפות",
+      "ORG_N": "406-1112754",
+      "COMMENTS": "תכנית זו אינה פוגעת בהוראות תכנית תתל/ 26/ 202. הוראות תכנית תתל/ 26/ 202 תחולנה על תכנית זו.",
+      "PUBLICATION_FILE": 5704.0,
+      "PUBLICATION_PAGE": 0.0,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": "16/08/2007",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4005239612.0
+    }
+  ],
+  "rsPlanDocs": [
+    {
+      "ID": 301727.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "05/05/2015",
+      "EDITING_DATE": "19/10/2009",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 494634.0,
+      "FILE_TYPE": "pdf       ",
+      "RUB_CODE": 3.0,
+      "RUB_DESC": "הוראות התכנית",
+      "ORD": 3.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "10517A12E5A3B72066583229D700C36EB10003EFB2E158BE77F42B46C8823412",
+        "fname": "DOC_301727.pdf",
+        "ficon": "ft/file_PDF.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "1FCD30DB9C9AA9BC2A026CFA1854503597C5BA595CF46015252002B0F9D09847"
+    },
+    {
+      "ID": 9901191825.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "נספח נוף",
+      "INTERNAL_OPEN_DATE": "24/10/2011",
+      "EDITING_DATE": "24/10/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068083.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 6.0,
+      "RUB_DESC": "תשריט התכנית",
+      "ORD": 6.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "F03D7F2E061B2D6C8D5D1DEF2FD74D43BDB0182D0B1543322DC2EA88CC708F9E",
+        "fname": "DOC_9901191825.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "539624E5EBE85BFBD35F550A4AAE8A0E296B722E9A696444988454B2681F50E5"
+    },
+    {
+      "ID": 9901191823.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "תנוחה, תשתיות וניקוז",
+      "INTERNAL_OPEN_DATE": "24/10/2011",
+      "EDITING_DATE": "24/10/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068081.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 6.0,
+      "RUB_DESC": "תשריט התכנית",
+      "ORD": 6.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "324BCE5D979A8653DB42B7CBB5CB9DA57492E4A0A2F8794316FE70E304159C9B",
+        "fname": "DOC_9901191823.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "9AA8D17B55B4FB8F91B31A77126656789B9CFF060C67045BF7FC8DEB21445385"
+    },
+    {
+      "ID": 9900735575.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "תשריט מצב מוצע",
+      "INTERNAL_OPEN_DATE": "05/05/2015",
+      "EDITING_DATE": "07/03/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068079.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 6.0,
+      "RUB_DESC": "תשריט התכנית",
+      "ORD": 6.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "576E8F15CDF29742704BC2B1FFB21DF815EE0D7ED7B57F9901806D1F2EC110EA",
+        "fname": "DOC_9900735575.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "30F4E8D93FAF8FB848133D18072AB3F4C5FBA6C5C65D119A472652975F82A152"
+    }
+  ],
+  "rsPlanDocsAdd": [
+    {
+      "ID": 99000062083075.0,
+      "DOC_NAME": "תשריט ממ\"ג - shp",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "13/04/2014",
+      "EDITING_DATE": "13/04/2014",
+      "DOC_PAGES": 0.0,
+      "ATTACHMENT_ID": 99003091709.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 134.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "2C268F126CE5620F1161F45AE22BEAC7B8D2753CCA4EB0C48D900748DC123D78",
+        "fname": "DOC_99000062083075.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "7AC8A19C6AC51F168AC8FDF8B2660259B21431817B655B6E1745B8997774EE7C"
+    },
+    {
+      "ID": 99000062083077.0,
+      "DOC_NAME": "תשריט ממ\"ג - dwg",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "13/04/2014",
+      "EDITING_DATE": "13/04/2014",
+      "DOC_PAGES": 0.0,
+      "ATTACHMENT_ID": 99003091713.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 133.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "260B13BE1495D5C89790E99F6E83FEFD1D21EAD40C48B7648CCCE8ED2971363B",
+        "fname": "DOC_99000062083077.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "180E02621CA8A0EC71C2D5865BF78D9F7ABBA6443916057E6CBDEDE4DB0A1200"
+    },
+    {
+      "ID": 6000507442969.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "10/10/2019",
+      "EDITING_DATE": "10/10/2019",
+      "DOC_PAGES": 1.0,
+      "ATTACHMENT_ID": 6012865527.0,
+      "FILE_TYPE": "kml       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "77CE654A5F8DB9B4CDE76FDDCB09C628B28C32E10F5A56C407930D71FB50092C",
+        "fname": "DOC_6000507442969.kml",
+        "ficon": "ft/file_KML.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "74607B2B901783A8F7CC825495E2553D4FCCCA6BD223EA0285C550C85CA642BD"
+    }
+  ],
+  "rsPlanDocsGen": [
+    {
+      "ID": 301727.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "05/05/2015",
+      "EDITING_DATE": "19/10/2009",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 494634.0,
+      "FILE_TYPE": "pdf       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 105.0,
+      "CAT_C_TITLE": "הוראות ",
+      "CAT_C_ORDER": 1001.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "הוראות התכנית - מאושרות - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 9901191825.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "נספח נוף",
+      "INTERNAL_OPEN_DATE": "24/10/2011",
+      "EDITING_DATE": "24/10/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068083.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 110.0,
+      "CAT_C_TITLE": "תשריט ",
+      "CAT_C_ORDER": 1010.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט התכנית - מאושר - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 9901191823.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "תנוחה, תשתיות וניקוז",
+      "INTERNAL_OPEN_DATE": "24/10/2011",
+      "EDITING_DATE": "24/10/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068081.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 110.0,
+      "CAT_C_TITLE": "תשריט ",
+      "CAT_C_ORDER": 1010.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט התכנית - מאושר - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 9900735575.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": "תשריט מצב מוצע",
+      "INTERNAL_OPEN_DATE": "05/05/2015",
+      "EDITING_DATE": "07/03/2011",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068079.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 110.0,
+      "CAT_C_TITLE": "תשריט ",
+      "CAT_C_ORDER": 1010.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט התכנית - מאושר - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 6000507442969.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "10/10/2019",
+      "EDITING_DATE": "10/10/2019",
+      "DOC_PAGES": 1.0,
+      "DOC_PAGE_NO": 1.0,
+      "ATTACHMENT_ID": 6012865527.0,
+      "FILE_TYPE": "kml       ",
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": null,
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 99000062083077.0,
+      "DOC_NAME": "תשריט ממ\"ג - dwg",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "13/04/2014",
+      "EDITING_DATE": "13/04/2014",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99003091713.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 133.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט ממ\"ג - dwg",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 99000062083075.0,
+      "DOC_NAME": "תשריט ממ\"ג - shp",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "13/04/2014",
+      "EDITING_DATE": "13/04/2014",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99003091709.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 134.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט ממ\"ג - shp",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    }
+  ],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 79.0,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 1.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 9900735575.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 99005712.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 2.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "DOC_EDITING_DATE_TIME": "07/03/2011          ",
+      "DOC_CREATE_DATE_TIME": "07/03/2011          ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 99001068079.0,
+      "FILE_TYPE": "zip       ",
+      "LUT_DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "DOC_INFO": "תשריט מצב מוצע"
+    }
+  ],
+  "rsInstructions": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 301727.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 99005712.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 1.0,
+      "DOC_NAME": "\\\\pnim6_new\\mgfac8\\utils\\docs2\\63485.pdf",
+      "DOC_EDITING_DATE_TIME": "20091019            ",
+      "DOC_CREATE_DATE_TIME": "20091019 000000     ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 494634.0,
+      "FILE_TYPE": "pdf       ",
+      "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "DOC_INFO": " "
+    }
+  ],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "התכנית אושרה",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": "20070508",
+    "OPP_DATE_DISPLAY": 1.0,
+    "IS_RELEVANT": 1.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "אישור",
+  "statusTextColor": "569246",
+  "mainStatus": "מאושרת",
+  "statusDate": "24/06/2007",
+  "iconPath": "assets/images/sv4-icon-ok-status.svg",
+  "rsVoice": []
+}

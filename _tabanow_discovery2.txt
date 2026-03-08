@@ -1,0 +1,25 @@
+https://www.tabanow.co.il/ -> status=200, len=6042
+https://www.tabanow.co.il/sitemap.xml -> status=HTTP Error 404: Not Found, len=0
+https://www.tabanow.co.il/robots.txt -> status=HTTP Error 404: Not Found, len=0
+Main page saved, 6042 bytes
+Links on main page: 13
+  /
+  /אודות
+  /נגישות
+  /צור-קשר
+  /תבע/חיפוש
+  /תוכנית-מדינה/חיפוש
+  /תנאי-שימוש
+  /css/site.css
+  https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.1.3/yeti/bootstrap.min.css
+  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css
+  https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.rtl.min.css
+  https://fonts.googleapis.com/css?family=Alef
+  https://he.wikipedia.org/wiki/תוכנית_בניין_עיר
+
+--- Testing plan URLs ---
+FAIL גז/12/525 -> HTTP Error 404: Not Found
+FAIL גז/18/525 -> HTTP Error 404: Not Found
+FAIL משמ/96/גז -> HTTP Error 404: Not Found
+FAIL תמל/1087 -> HTTP Error 404: Not Found
+FAIL גז/7/392 -> HTTP Error 404: Not Found

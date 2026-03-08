@@ -1,0 +1,368 @@
+{
+  "planDetails": {
+    "ID": 6000223579.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "6/ 03/ 230",
+    "ENTITY_SUBTYPE": "תכנית מפורטת",
+    "ENTITY_SUBTYPE_ID": 40.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "תכנית מפורטת למ. ק 419,867,880",
+    "AUTH": "מחוזית",
+    "PERMISSIONS": null,
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 1090.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "א. התאמת גבולות החלקות לתוכניות מדידה מדוייקות שהוכנו לצרכי רישום.\r\nב. ביטול ואחוד חלקות קיימות וחלוקתן מחדש בהתאם למצב הקיים והפיתוח בעתיד.\r\nג. קביעת יעדים ואזורים.\r\nד. ביטול תכנית מפורטת 8/ 03/ 150",
+    "INSTRACTIONS": null,
+    "ARTICLE": null,
+    "MASTER_ID": 6000223579.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 6.0,
+      "DISTRICT_AREA": "דרום",
+      "PLAN_AREA_CODE": 631.0,
+      "PLAN_AREA": "שפיר",
+      "JURST_AREA_CODE": 6134.0,
+      "JURST_AREA": "שפיר",
+      "CITY_COUNTY_CODE": 0.0,
+      "CITY_COUNTY": null,
+      "STREET_CODE": null,
+      "STREET_NAME": null,
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "2779 - 27780",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": ""
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "פרסום לאישור ברשומות",
+      "EIS_DATE": "01/07/1982",
+      "DETAILS": "תאריך פרסום: 01/07/1982.  מס' ילקוט פרסומים: 2831.  עמוד: 2406.  שנה עברית: התשמב   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-2831.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 2831.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4470.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "רישום התכנית שהטיפול בה הסתיים",
+      "EIS_DATE": "01/07/1982",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 36521204.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "פרסום לאישור בעיתונים",
+      "EIS_DATE": "23/05/1982",
+      "DETAILS": "תאריך פרסום בעיתון: 23/05/1982.  עיתון: מעריב.  תאריך פרסום בעיתון: 23/05/1982.  עיתון: הארץ.  תאריך פרסום בעיתון: 23/05/1982.  עיתון: עיתון יומי א.",
+      "ED_PUBLICATION_FILE": 0.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4480.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "החלטה בדיון באישור תכנית",
+      "EIS_DATE": "05/04/1982",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 26600000.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "07/01/1982",
+      "DETAILS": "תאריך פרסום: 07/01/1982.  מס' ילקוט פרסומים: 2776.  עמוד: 749.  שנה עברית: התשמב   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-2776.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 2776.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "פרסום להפקדה בעיתונים",
+      "EIS_DATE": "06/12/1981",
+      "DETAILS": "תאריך פרסום בעיתון: 06/12/1981.  עיתון: מעריב.  תאריך פרסום בעיתון: 06/12/1981.  עיתון: הארץ.  תאריך פרסום בעיתון: 06/12/1981.  עיתון: עיתון יומי א.",
+      "ED_PUBLICATION_FILE": 0.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4410.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "החלטה בדיון בהפקדה",
+      "EIS_DATE": "26/10/1981",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 25700000.0
+    },
+    {
+      "EIS_ENTITY_ID": 6000223579.0,
+      "LIS_DESC": "קבלת תכנית",
+      "EIS_DATE": "12/10/1981",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 1030.0
+    }
+  ],
+  "rsDes": [],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [],
+  "rsPubDocs": [],
+  "locationDesc": null,
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 600169447.0,
+      "PLAN_ID": null,
+      "ORG_ID": null,
+      "TYPE_ITEM": null,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "8/ 03/ 150",
+      "PLAN_NAME": null,
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 20.0,
+      "RELATION_TYPE": "החלפה",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 0.0,
+      "PUBLICATION_PAGE": 0.0,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": null,
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": null,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [
+    {
+      "ID": 7700140217.0,
+      "PLAN_ID": 6000223579.0,
+      "ORG_ID": 6000237495.0,
+      "REL_ID": 6000223579.0,
+      "ORG_TYPE": 1.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "6/ 03/ 230",
+      "PLAN_NAME": "תכנית מפורטת למ. ק 419,867,880",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "ORG_N": "6/ 03/ 320",
+      "COMMENTS": "תכנית זו מהווה שינוי לתכניות מאושרות בתחום הקו הכחול.",
+      "PUBLICATION_FILE": 2831.0,
+      "PUBLICATION_PAGE": 2406.0,
+      "PUBLICATION_PAGE_P": 2406.0,
+      "PUBLICATION_DATE": "01/07/1982",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 6000237495.0
+    },
+    {
+      "ID": 7700398375.0,
+      "PLAN_ID": 6000223579.0,
+      "ORG_ID": 6000885203.0,
+      "REL_ID": 6000223579.0,
+      "ORG_TYPE": 1.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "6/ 03/ 230",
+      "PLAN_NAME": "תכנית מפורטת למ. ק 419,867,880",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "ORG_N": "631-0189472",
+      "COMMENTS": "תכנית זו משנה רק את המפורט בתכנית זו וכל יתר הוראות תכנית 6/ 03/ 230 ממשיכות לחול.",
+      "PUBLICATION_FILE": 2831.0,
+      "PUBLICATION_PAGE": 2406.0,
+      "PUBLICATION_PAGE_P": 2406.0,
+      "PUBLICATION_DATE": "01/07/1982",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 6000295121.0
+    }
+  ],
+  "rsPlanDocs": [],
+  "rsPlanDocsAdd": [
+    {
+      "ID": 6000507198869.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "08/10/2019",
+      "EDITING_DATE": "08/10/2019",
+      "DOC_PAGES": 1.0,
+      "ATTACHMENT_ID": 6012863035.0,
+      "FILE_TYPE": "kml       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "C18E6893194CD499E5C27559B240F000A134BD882C38AA705F4E736480CA84A6",
+        "fname": "DOC_6000507198869.kml",
+        "ficon": "ft/file_KML.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "AE2CC9705F62F582FEEE9AF48DA15FD2B05C18B6E110F2E88847E12F56E583E8"
+    }
+  ],
+  "rsPlanDocsGen": [
+    {
+      "ID": 6000507198869.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "08/10/2019",
+      "EDITING_DATE": "08/10/2019",
+      "DOC_PAGES": 1.0,
+      "DOC_PAGE_NO": 1.0,
+      "ATTACHMENT_ID": 6012863035.0,
+      "FILE_TYPE": "kml       ",
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": null,
+      "GROUP_DOCNAME": 1.0
+    }
+  ],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 1536.0,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 2.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [],
+  "rsInstructions": [],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "סיום טיפול",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": "19820204",
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 1.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "אישור",
+  "statusTextColor": "569246",
+  "mainStatus": "מאושרת",
+  "statusDate": "01/07/1982",
+  "iconPath": "assets/images/sv4-icon-ok-status.svg",
+  "rsVoice": []
+}

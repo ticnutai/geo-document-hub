@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_heritage",
+  "description": "תמ\"מ 3/21 – אתר הנצחה",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 3,
+        "MAPKEY": "3387D3",
+        "LAYER": "0",
+        "BLOCK": "ATAR",
+        "X_COORD": 190071.86,
+        "Y_COORD": 659905.95,
+        "NAME": "אתר הנצחה ואתר לאומי",
+        "TYPECODE": 103001,
+        "TYPENAME": "אתר הנצחה ואתר לאומי",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190071.85723583086,
+          659905.9513562745
+        ]
+      }
+    }
+  ]
+}

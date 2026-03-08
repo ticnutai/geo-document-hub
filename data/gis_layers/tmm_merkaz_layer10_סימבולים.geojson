@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm_merkaz_סימבולים",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185031.13690000027,
+          653517.1157000009
+        ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "NAME": "מחלפון עירוני",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "מחלפון עירוני",
+        "YEUD_COMP": "מחלפון עירוני",
+        "זוית": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 74,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185535.49459999986,
+          657913.6320999991
+        ]
+      },
+      "properties": {
+        "OBJECTID": 74,
+        "NAME": "מחלף",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "מחלף",
+        "YEUD_COMP": "מחלף/ מחלף קיים/ מחלף מוצע",
+        "זוית": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184736.38090000022,
+          657207.9399999995
+        ]
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "NAME": "מחלף",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "מחלף",
+        "YEUD_COMP": "מחלף/ מחלף קיים/ מחלף מוצע",
+        "זוית": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186531.93369999994,
+          655685.5962000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "NAME": "מחלף",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "מחלף",
+        "YEUD_COMP": "מחלף/ מחלף קיים/ מחלף מוצע",
+        "זוית": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183643.1043999996,
+          656453.5096000005
+        ]
+      },
+      "properties": {
+        "OBJECTID": 161,
+        "NAME": "בית דגן",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "שמות ישובים",
+        "YEUD_COMP": "שמות ישובים",
+        "זוית": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187987.8513000002,
+          656241.3535999991
+        ]
+      },
+      "properties": {
+        "OBJECTID": 255,
+        "NAME": "מרכז תחבורה",
+        "NOTES": " ",
+        "PLAN_NAME": "תממ/ 3/ 21",
+        "TYPE_NAME": "מרכז תחבורה",
+        "YEUD_COMP": "מרכז תחבורה",
+        "זוית": null
+      }
+    }
+  ]
+}

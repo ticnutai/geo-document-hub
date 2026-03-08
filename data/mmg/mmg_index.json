@@ -1,0 +1,52 @@
+{
+  "425-1308469": [
+    {
+      "name": "MVT_ARC",
+      "name_heb": "קווים",
+      "features": 10,
+      "file": "MVT_ARC.geojson"
+    },
+    {
+      "name": "MVT_GVUL",
+      "name_heb": "גבול תכנית",
+      "features": 1,
+      "file": "MVT_GVUL.geojson"
+    },
+    {
+      "name": "MVT_LABEL",
+      "name_heb": "תוויות",
+      "features": 8,
+      "file": "MVT_LABEL.geojson"
+    },
+    {
+      "name": "MVT_PLAN",
+      "name_heb": "תחום תכנית",
+      "features": 5,
+      "file": "MVT_PLAN.geojson"
+    },
+    {
+      "name": "MVT_PLAN_NUM",
+      "name_heb": "מספר תכנית",
+      "features": 5,
+      "file": "MVT_PLAN_NUM.geojson"
+    },
+    {
+      "name": "MVT_POL",
+      "name_heb": "MVT_POL",
+      "features": 2,
+      "file": "MVT_POL.geojson"
+    },
+    {
+      "name": "MVT_PRINT_FRAME",
+      "name_heb": "מסגרת הדפסה",
+      "features": 1,
+      "file": "MVT_PRINT_FRAME.geojson"
+    },
+    {
+      "name": "MVT_SYMBOL",
+      "name_heb": "סמלים",
+      "features": 9,
+      "file": "MVT_SYMBOL.geojson"
+    }
+  ]
+}

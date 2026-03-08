@@ -1,0 +1,513 @@
+[
+  {
+    "name": "xplan_points",
+    "description": "ישויות נקודתיות – תכניות כפר חב\"ד",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "xplan_lines",
+    "description": "ישויות קוויות – תכניות כפר חב\"ד",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "xplan_polygons",
+    "description": "ישויות פוליגונליות – תכניות כפר חב\"ד",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "xplan_land_use",
+    "description": "יעודי קרקע – תכניות כפר חב\"ד",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_land_use",
+    "description": "תמ\"מ 3/21 – יעודי קרקע",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_roads",
+    "description": "תמ\"מ 3/21 – כבישים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_rail",
+    "description": "תמ\"מ 3/21 – מסילת ברזל",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_interchanges",
+    "description": "תמ\"מ 3/21 – מחלפים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_noise_natbag",
+    "description": "תמ\"מ 3/21 – מגבלות רעש נתב\"ג",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_birds_natbag",
+    "description": "תמ\"מ 3/21 – מגבלת ציפורים נתב\"ג",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_height_limit",
+    "description": "תמ\"מ 3/21 – מגבלת גובה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_electricity",
+    "description": "תמ\"מ 3/21 – קווי חשמל",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_gas",
+    "description": "תמ\"מ 3/21 – קו גז",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_water",
+    "description": "תמ\"מ 3/21 – קו מים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_streams",
+    "description": "תמ\"מ 3/21 – נחלים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_sewage",
+    "description": "תמ\"מ 3/21 – אתר טיהור שפכים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_heritage",
+    "description": "תמ\"מ 3/21 – אתר הנצחה ואתר לאומי",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_valued_area",
+    "description": "תמ\"מ 3/21 – שטח ערכי",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_waste",
+    "description": "תמ\"מ 3/21 – אתר אשפה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_municipal_border",
+    "description": "תמ\"מ 3/21 – גבול מוניציפלי",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_plan_border",
+    "description": "תמ\"מ 3/21 – גבול תכנית",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_nature",
+    "description": "תמ\"מ 3/21 – שמורה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_stations",
+    "description": "תמ\"מ 3/21 – תחנות",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_scenic_road",
+    "description": "תמ\"מ 3/21 – דרך נופית",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_fire_area",
+    "description": "תמ\"מ 3/21 – גבול שטח אש",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tmm321_transport_center",
+    "description": "תמ\"מ 3/21 – מרכז תחבורה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "road_compilation_roads",
+    "description": "קומפילציית דרכים – דרכים",
+    "status": "ok",
+    "features": 156,
+    "size_kb": 340.4
+  },
+  {
+    "name": "road_compilation_interchanges",
+    "description": "קומפילציית דרכים – מחלפים",
+    "status": "ok",
+    "features": 60,
+    "size_kb": 53.8
+  },
+  {
+    "name": "road_compilation_detailed",
+    "description": "קומפילציית דרכים – תכניות מפורטות",
+    "status": "ok",
+    "features": 96,
+    "size_kb": 795.3
+  },
+  {
+    "name": "train_compilation",
+    "description": "קומפילציית מסילות ברזל",
+    "status": "ok",
+    "features": 17,
+    "size_kb": 102.0
+  },
+  {
+    "name": "gas_stations",
+    "description": "גז טבעי – תחנות",
+    "status": "ok",
+    "features": 2,
+    "size_kb": 2.0
+  },
+  {
+    "name": "gas_pipelines",
+    "description": "גז טבעי – תוואי הולכה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gas_fuel_pipes",
+    "description": "גז טבעי – צנרות דלק",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gas_survey_area",
+    "description": "גז טבעי – תחום סקירה",
+    "status": "ok",
+    "features": 13,
+    "size_kb": 11.7
+  },
+  {
+    "name": "gvulot_district",
+    "description": "גבולות – מחוז",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gvulot_municipal",
+    "description": "גבולות – שיפוט",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gvulot_local_councils",
+    "description": "גבולות – ועדים מקומיים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gvulot_planning_areas",
+    "description": "גבולות – מרחבי תכנון",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "gvulot_sub_districts",
+    "description": "גבולות – נפות",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "shimour_points",
+    "description": "שימור – ישויות נקודתיות",
+    "status": "ok",
+    "features": 207,
+    "size_kb": 162.3
+  },
+  {
+    "name": "shimour_polygons",
+    "description": "שימור – ישויות פוליגונליות",
+    "status": "ok",
+    "features": 329,
+    "size_kb": 720.6
+  },
+  {
+    "name": "ttl_blue_lines",
+    "description": "קווים כחולים – כל התת\"לים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "vatmal_compounds",
+    "description": "ותמ\"ל – מתחמים מוכרזים",
+    "status": "ok",
+    "features": 35,
+    "size_kb": 1411.1
+  },
+  {
+    "name": "tama35_textures",
+    "description": "תמ\"א 35 – מרקמים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_eco_corridor",
+    "description": "תמ\"א 35 – מסדרון אקולוגי",
+    "status": "ok",
+    "features": 1,
+    "size_kb": 4.2
+  },
+  {
+    "name": "tama35_conservation",
+    "description": "תמ\"א 35 – מכלול שימור",
+    "status": "ok",
+    "features": 3,
+    "size_kb": 1.5
+  },
+  {
+    "name": "tama35_roads",
+    "description": "תמ\"א 35 – דרכים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_train",
+    "description": "תמ\"א 35 – מסילות ברזל",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_landscape",
+    "description": "תמ\"א 35 – מכלולי נוף",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_nature_reserves",
+    "description": "תמ\"א 35 – שמורות וגנים",
+    "status": "ok",
+    "features": 4,
+    "size_kb": 33.5
+  },
+  {
+    "name": "tama35_forests",
+    "description": "תמ\"א 35 – יער ויעור",
+    "status": "ok",
+    "features": 6,
+    "size_kb": 86.8
+  },
+  {
+    "name": "tama1_roads",
+    "description": "תמ\"א 1 – דרכים",
+    "status": "ok",
+    "features": 19,
+    "size_kb": 162.2
+  },
+  {
+    "name": "tama1_train",
+    "description": "תמ\"א 1 – מסילות ברזל",
+    "status": "ok",
+    "features": 17,
+    "size_kb": 165.8
+  },
+  {
+    "name": "tama1_electricity",
+    "description": "תמ\"א 1 – קו חשמל ארצי",
+    "status": "ok",
+    "features": 2,
+    "size_kb": 17.0
+  },
+  {
+    "name": "tama1_gas_pipeline",
+    "description": "תמ\"א 1 – קו גז טבעי",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama1_water_storage",
+    "description": "תמ\"א 1 – אתר איגום והחדרה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama1_water_pipe",
+    "description": "תמ\"א 1 – רצועת קו מים",
+    "status": "ok",
+    "features": 16,
+    "size_kb": 56.6
+  },
+  {
+    "name": "tama1_waste",
+    "description": "תמ\"א 1 – אתר פסולת",
+    "status": "ok",
+    "features": 1,
+    "size_kb": 1.2
+  },
+  {
+    "name": "tama1_quarry",
+    "description": "תמ\"א 1 – אתר כריה וחציבה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama1_forest",
+    "description": "תמ\"א 1 – יער",
+    "status": "ok",
+    "features": 5,
+    "size_kb": 321.2
+  },
+  {
+    "name": "tama1_nature",
+    "description": "תמ\"א 1 – שמורה וגן",
+    "status": "ok",
+    "features": 1,
+    "size_kb": 3.2
+  },
+  {
+    "name": "tama1_stream",
+    "description": "תמ\"א 1 – נחל",
+    "status": "ok",
+    "features": 13,
+    "size_kb": 485.3
+  },
+  {
+    "name": "tama1_flood",
+    "description": "תמ\"א 1 – שטח הצפה",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama1_water_protect",
+    "description": "תמ\"א 1 – שטח רגישות הידרולוגית",
+    "status": "ok",
+    "features": 5,
+    "size_kb": 230.9
+  },
+  {
+    "name": "drainage_projects",
+    "description": "מפעלי ניקוז מאושרים",
+    "status": "ok",
+    "features": 22,
+    "size_kb": 208.7
+  },
+  {
+    "name": "raw_materials",
+    "description": "מרבצי חומרי גלם",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_noise",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: תחום רעש מטוסים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_electricity",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: קו חשמל ראשי",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_water_protect",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: שימור משאבי מים",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_landscape",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: רגישות נופית-סביבתית",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_security",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: שטח בטחוני",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "tama35_env_recharge",
+    "description": "תמ\"א 35 – הנחיות סביבתיות: אזורי החדרה ואיגום",
+    "status": "empty",
+    "features": 0,
+    "size_kb": 0
+  },
+  {
+    "name": "functional_areas",
+    "description": "אזורי תפקוד – תכנית אסטרטגית",
+    "status": "ok",
+    "features": 2,
+    "size_kb": 1714.0
+  }
+]

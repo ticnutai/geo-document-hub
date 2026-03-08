@@ -1,0 +1,26 @@
+OK  גז/12/525 -> 143671 bytes, migrashim=True, title=תוכנית גז/12/525 שדות דן - תב&quot;ע עכשיו
+OK  גז/18/525 -> 67721 bytes, migrashim=True, title=תוכנית גז/18/525 שדות דן - תב&quot;ע עכשיו
+OK  גז/27/525/א -> 86071 bytes, migrashim=True, title=תוכנית גז/27/525/א שדות דן - תב&quot;ע עכשיו
+OK  משמ/96/גז -> 104364 bytes, migrashim=True, title=תוכנית משמ/96/גז שדות דן - תב&quot;ע עכשיו
+OK  משמ/62/גז -> 73849 bytes, migrashim=True, title=תוכנית משמ/62/גז שדות דן - תב&quot;ע עכשיו
+OK  משמ/63/גז -> 68977 bytes, migrashim=True, title=תוכנית משמ/63/גז שדות דן - תב&quot;ע עכשיו
+OK  משמ/61/גז -> 62897 bytes, migrashim=True, title=תוכנית משמ/61/גז שדות דן - תב&quot;ע עכשיו
+OK  משמ/53/גז -> 63399 bytes, migrashim=True, title=תוכנית משמ/53/גז שדות דן - תב&quot;ע עכשיו
+OK  משמ/60/גז -> 67654 bytes, migrashim=True, title=תוכנית משמ/60/גז שדות דן - תב&quot;ע עכשיו
+OK  גז/7/392 -> 42225 bytes, migrashim=True, title=תוכנית גז/7/392 שדות דן - תב&quot;ע עכשיו
+OK  גז/מק/24/391 -> 53673 bytes, migrashim=True, title=תוכנית גז/מק/24/391 שדות דן - תב&quot;ע עכשיו
+ERR תמל/1087 -> HTTP Error 404: Not Found
+ERR גמ/548 -> HTTP Error 404: Not Found
+OK  גז/624 -> 109595 bytes, migrashim=True, title=תוכנית גז/624 שדות דן - תב&quot;ע עכשיו
+OK  גז/13/391 -> 37501 bytes, migrashim=True, title=תוכנית גז/13/391 שדות דן - תב&quot;ע עכשיו
+OK  גז/17/475 -> 19687 bytes, migrashim=True, title=תוכנית גז/17/475 שדות דן - תב&quot;ע עכשיו
+OK  גז/14/392 -> 19513 bytes, migrashim=True, title=תוכנית גז/14/392 שדות דן - תב&quot;ע עכשיו
+OK  גז/10/391 -> 21620 bytes, migrashim=True, title=תוכנית גז/10/391 שדות דן - תב&quot;ע עכשיו
+OK  גז/5/342 -> 22258 bytes, migrashim=True, title=תוכנית גז/5/342 שדות דן - תב&quot;ע עכשיו
+OK  על/גז/מק/18/487א -> 40839 bytes, migrashim=True, title=תוכנית על/גז/מק/18/487א שדות דן - תב&quot;ע עכשיו
+
+Summary: 18 found, 2 not found
+Not found: ['תמל/1087', 'גמ/548']
+
+Sections with תוכניות: 5
+Plan links on גז/12/525 page: 0

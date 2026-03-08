@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_תממ_3__21___מספרי_כבישים",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185551.0772,
+          653138.4958
+        ]
+      },
+      "properties": {
+        "FID": 18,
+        "VALUE": 44,
+        "EHANDLE": "48",
+        "X1": 185551.0772,
+        "Y1": 653138.4958,
+        "LAYER": "ROAD-NUM",
+        "ROTATION": 305.3542637,
+        "TYPECODE": 102003,
+        "TYPENAME": "מספר דרך",
+        "TCODE": "3"
+      }
+    }
+  ]
+}

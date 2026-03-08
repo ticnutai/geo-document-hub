@@ -1,0 +1,261 @@
+{
+  "planDetails": {
+    "ID": 4000210219.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "גמ/ 525",
+    "ENTITY_SUBTYPE": "תכנית מתאר מקומית",
+    "ENTITY_SUBTYPE_ID": 30.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "כפר- חב\"ד",
+    "AUTH": "מחוזית",
+    "PERMISSIONS": null,
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 1090.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "לא נמצאה מטרת התכנית בתקנון",
+    "INSTRACTIONS": null,
+    "ARTICLE": null,
+    "MASTER_ID": 4000210219.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": null,
+      "STREET_NAME": null,
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6260 - 6262, 6269 - 6270, 6272",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": ""
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4000210219.0,
+      "LIS_DESC": "פרסום לאישור ברשומות",
+      "EIS_DATE": "12/09/1957",
+      "DETAILS": "תאריך פרסום: 12/09/1957.  מס' ילקוט פרסומים: 555.  שנה עברית: התשיז   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-555.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 555.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4470.0
+    },
+    {
+      "EIS_ENTITY_ID": 4000210219.0,
+      "LIS_DESC": "קבלת תכנית",
+      "EIS_DATE": "16/08/1956",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 1030.0
+    },
+    {
+      "EIS_ENTITY_ID": 4000210219.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "16/08/1956",
+      "DETAILS": "תאריך פרסום: 16/08/1956.  מס' ילקוט פרסומים: 493.  שנה עברית: התשטז   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-493.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 493.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    }
+  ],
+  "rsDes": [],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [],
+  "rsPubDocs": [],
+  "locationDesc": null,
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [],
+  "rsTopic": [],
+  "rsPlanDocs": [
+    {
+      "ID": 1147886135.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "26/12/2012",
+      "EDITING_DATE": "26/12/2012",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001918063.0,
+      "FILE_TYPE": "pdf       ",
+      "RUB_CODE": 3.0,
+      "RUB_DESC": "הוראות התכנית",
+      "ORD": 3.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "E12E9032B8929FC684410666FA0B16B8B826B2C13C9A4EBA10E75B697B4F506A",
+        "fname": "DOC_1147886135.pdf",
+        "ficon": "ft/file_PDF.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "9B9497207816CB756AB5A151AFF3F9D2F0734DBAED9825027B00D5F1B7238F5D"
+    }
+  ],
+  "rsPlanDocsAdd": [],
+  "rsPlanDocsGen": [
+    {
+      "ID": 1147886135.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "26/12/2012",
+      "EDITING_DATE": "26/12/2012",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001918063.0,
+      "FILE_TYPE": "pdf       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 105.0,
+      "CAT_C_TITLE": "הוראות ",
+      "CAT_C_ORDER": 1001.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "הוראות התכנית - מאושרות - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    }
+  ],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 975.0,
+  "iconType": "1",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 2.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [],
+  "rsInstructions": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 1147886135.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 4000210219.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 1.0,
+      "DOC_NAME": " ",
+      "DOC_EDITING_DATE_TIME": "20121226            ",
+      "DOC_CREATE_DATE_TIME": "20121226 000000     ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001918063.0,
+      "FILE_TYPE": "pdf       ",
+      "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "DOC_INFO": " "
+    }
+  ],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "פרסום אישור",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "אישור",
+  "statusTextColor": "569246",
+  "mainStatus": "מאושרת",
+  "statusDate": "12/09/1957",
+  "iconPath": "assets/images/sv4-icon-ok-status.svg",
+  "rsVoice": []
+}

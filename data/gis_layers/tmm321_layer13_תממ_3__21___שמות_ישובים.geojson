@@ -1,0 +1,27 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_תממ_3__21___שמות_ישובים",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183643.1044,
+          656453.5096
+        ]
+      },
+      "properties": {
+        "FID": 26,
+        "ID": 27,
+        "X": 183643.1044,
+        "Y": 656453.5096,
+        "NAME": "בית דגן",
+        "TYPECODE": 101001,
+        "TYPENAME": "שמות ישובים",
+        "TCODE": "3"
+      }
+    }
+  ]
+}

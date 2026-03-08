@@ -1,0 +1,334 @@
+{
+  "planDetails": {
+    "ID": 4052920.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "גז/ במ/ 525/ 19",
+    "ENTITY_SUBTYPE": "תכנית ול\"לית",
+    "ENTITY_SUBTYPE_ID": 50.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "כפר חב\"ד.",
+    "AUTH": "מחוזית",
+    "PERMISSIONS": null,
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 1090.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "א. הפיכת קרקע חקלאית למגורים, דרכים, שבילים       \n   ושטח פרטי פתוח.                                \nב. שינוי מפרטי פתוח למגורים.                      \nג. איחוד וחלוקה בהסכמת הבעלים.",
+    "INSTRACTIONS": " ",
+    "ARTICLE": null,
+    "MASTER_ID": 4052920.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": 0.0,
+      "STREET_NAME": " ",
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6289",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": ""
+    },
+    {
+      "BLOCKS": "6256",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "33, 38 - 39",
+      "PARCELS_PARTIAL": "34, 36 - 37"
+    },
+    {
+      "BLOCKS": "6258",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "2, 11 - 21, 34, 45 - 48, 56, 58 - 59, 86 - 87",
+      "PARCELS_PARTIAL": ""
+    },
+    {
+      "BLOCKS": "6273",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "5, 7 - 10, 16 - 17, 26, 28 - 29, 31, 37",
+      "PARCELS_PARTIAL": "3, 22 - 23, 51 - 52, 67"
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "טיפול בתנאים להפקדה-התנאים מולאו",
+      "EIS_DATE": "25/11/1991",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 27901023.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "טיפול בתנאים להפקדה-התכנית לא אושרה",
+      "EIS_DATE": "25/11/1991",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 27901083.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "טיפול בתנאים להפקדה-התנאים לא מולאו",
+      "EIS_DATE": "25/11/1991",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 27901024.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "07/11/1991",
+      "DETAILS": "תאריך פרסום: 07/11/1991.  מס' ילקוט פרסומים: 3940.  עמוד: 605.  שנה עברית: התשנב   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-3940.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 3940.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "פרסום להפקדה בעיתונים",
+      "EIS_DATE": "30/10/1991",
+      "DETAILS": "תאריך פרסום בעיתון: 30/10/1991.",
+      "ED_PUBLICATION_FILE": 0.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4410.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "החלטה בדיון בהפקדה",
+      "EIS_DATE": "16/07/1991",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 25700000.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052920.0,
+      "LIS_DESC": "קבלת תכנית",
+      "EIS_DATE": "08/11/1990",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 1030.0
+    }
+  ],
+  "rsDes": [],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [],
+  "rsPubDocs": [],
+  "locationDesc": "ישוב: כפר חב'ד                                    \n",
+  "rsOppositions": [
+    {
+      "OPP_NUM": 1.0,
+      "PK_VIRTUAL": 4097811.0,
+      "PO_ID": 4174898.0,
+      "PO_REPRESENT": 0.0,
+      "OPPONENT_NUMBER": 1.0,
+      "OPPONENT_TYPE": "מתנגד הרואה עצמו נפגע",
+      "OPPONENT_FIRST_NAME": "קו מוצרי דלק בע\"מ",
+      "OPPONENT_LAST_NAME": "מר שניאור יוסף",
+      "OPPONENT_COMP_NAME": " ",
+      "SERVING_PERIOD": "הפקדה להתנגדויות",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null,
+      "FILE_NAME": null,
+      "DOC_INFO": null,
+      "ROW_NUM": "(*)",
+      "FILE_EXIST": null
+    },
+    {
+      "OPP_NUM": 2.0,
+      "PK_VIRTUAL": 4097812.0,
+      "PO_ID": 4174899.0,
+      "PO_REPRESENT": 0.0,
+      "OPPONENT_NUMBER": 2.0,
+      "OPPONENT_TYPE": "מתנגד הרואה עצמו נפגע",
+      "OPPONENT_FIRST_NAME": "ראש אגף מקרקעין",
+      "OPPONENT_LAST_NAME": "עו\"ד מירי גרוסמן",
+      "OPPONENT_COMP_NAME": " ",
+      "SERVING_PERIOD": "הפקדה להתנגדויות",
+      "ENTITY_DOC_ID": null,
+      "ATTACHMENT_ID": null,
+      "FILE_TYPE": null,
+      "FILE_NAME": null,
+      "DOC_INFO": null,
+      "ROW_NUM": "(*)",
+      "FILE_EXIST": null
+    }
+  ],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 4006963.0,
+      "PLAN_ID": 99001759.0,
+      "ORG_ID": 99001759.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "תמא/ 23",
+      "PLAN_NAME": "תכנית מתאר ארצית למסילות ברזל",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 90.0,
+      "RELATION_TYPE": "אישור ע\"פ תמ\"א",
+      "COMMENTS": "ועדת המשנה לבניה למגורים בישיבתה מיום שלישי כ\"ט בטבת התשנ\"א (15/1/91), דנה בתכנית גז/במ/ 525 / 19 לודים - כפר חבד, בדבר הקלה בקו בנין מציר מסילת ברזל כפולה (מסילה אחת קיימת ומסילה נוספת מתוכננת), לפי תכנית מיתאר ארצית למסילות ברזל מס' ת/מ/א/ 23, של 65 מטר במקום 120 מטר - \r\nוהחליטה: \"לקבל את הבקשה ובלבד שלאורך המסילה, בקטע הגובל באזורי הבניה בתכנית, יבנה קיר בטון בגובה אקוסטי ככל שידרש בדו\"ח אקוסטי; הקמת הקיר יהווה תנאי לתחילת הבניה; הוראות אלה יעוגנו בהוראות התכנית\". \r\n",
+      "PUBLICATION_FILE": 3366.0,
+      "PUBLICATION_PAGE": 2848.0,
+      "PUBLICATION_PAGE_P": 2848.0,
+      "PUBLICATION_DATE": "31/07/1986",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 99001759.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [],
+  "rsPlanDocs": [],
+  "rsPlanDocsAdd": [],
+  "rsPlanDocsGen": [],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 180.0,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 2.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [
+    {
+      "ID": 4000002841.0,
+      "QUANTITY_CODE": 120.0,
+      "QUANTITY_DESC": "מגורים (יח\"ד)",
+      "UNIT_DESC": "יח\"ד",
+      "AUTHORISED_QUANTITY": "+202",
+      "AUTHORISED_QUANTITY_ADD": null,
+      "IMPLEMENTATION": "202",
+      "DETAILED_PLAN": null,
+      "REMARK": null,
+      "ROW_NUM": null,
+      "LAST_UPDATE": " ",
+      "LAST_UPDATER": null
+    }
+  ],
+  "rsTasrit": [],
+  "rsInstructions": [],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "דחיית תכנית",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "נדחתה",
+  "statusTextColor": "5A5959",
+  "mainStatus": "נדחתה",
+  "statusDate": "22/11/1993",
+  "iconPath": "assets/images/sv4-icon-cancel.svg",
+  "rsVoice": []
+}

@@ -1,0 +1,737 @@
+{
+  "16": {
+    "gush": 6255,
+    "helka": 16,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "18": {
+    "gush": 6255,
+    "helka": 18,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "22": {
+    "gush": 6255,
+    "helka": 22,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "24": {
+    "gush": 6255,
+    "helka": 24,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "31": {
+    "gush": 6255,
+    "helka": 31,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "47": {
+    "gush": 6255,
+    "helka": 47,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "57": {
+    "gush": 6255,
+    "helka": 57,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "62": {
+    "gush": 6255,
+    "helka": 62,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "64": {
+    "gush": 6255,
+    "helka": 64,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "66": {
+    "gush": 6255,
+    "helka": 66,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "67": {
+    "gush": 6255,
+    "helka": 67,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "68": {
+    "gush": 6255,
+    "helka": 68,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "69": {
+    "gush": 6255,
+    "helka": 69,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "71": {
+    "gush": 6255,
+    "helka": 71,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "72": {
+    "gush": 6255,
+    "helka": 72,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "74": {
+    "gush": 6255,
+    "helka": 74,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "76": {
+    "gush": 6255,
+    "helka": 76,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "78": {
+    "gush": 6255,
+    "helka": 78,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "80": {
+    "gush": 6255,
+    "helka": 80,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "115": {
+    "gush": 6255,
+    "helka": 115,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "122": {
+    "gush": 6255,
+    "helka": 122,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "127": {
+    "gush": 6255,
+    "helka": 127,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "129": {
+    "gush": 6255,
+    "helka": 129,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "131": {
+    "gush": 6255,
+    "helka": 131,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "133": {
+    "gush": 6255,
+    "helka": 133,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "135": {
+    "gush": 6255,
+    "helka": 135,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "137": {
+    "gush": 6255,
+    "helka": 137,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "139": {
+    "gush": 6255,
+    "helka": 139,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "141": {
+    "gush": 6255,
+    "helka": 141,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "142": {
+    "gush": 6255,
+    "helka": 142,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "143": {
+    "gush": 6255,
+    "helka": 143,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "145": {
+    "gush": 6255,
+    "helka": 145,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "147": {
+    "gush": 6255,
+    "helka": 147,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "149": {
+    "gush": 6255,
+    "helka": 149,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "151": {
+    "gush": 6255,
+    "helka": 151,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "153": {
+    "gush": 6255,
+    "helka": 153,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "155": {
+    "gush": 6255,
+    "helka": 155,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "157": {
+    "gush": 6255,
+    "helka": 157,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "158": {
+    "gush": 6255,
+    "helka": 158,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "160": {
+    "gush": 6255,
+    "helka": 160,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "162": {
+    "gush": 6255,
+    "helka": 162,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "163": {
+    "gush": 6255,
+    "helka": 163,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "165": {
+    "gush": 6255,
+    "helka": 165,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "167": {
+    "gush": 6255,
+    "helka": 167,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "169": {
+    "gush": 6255,
+    "helka": 169,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "171": {
+    "gush": 6255,
+    "helka": 171,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "173": {
+    "gush": 6255,
+    "helka": 173,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "175": {
+    "gush": 6255,
+    "helka": 175,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "177": {
+    "gush": 6255,
+    "helka": 177,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "179": {
+    "gush": 6255,
+    "helka": 179,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "181": {
+    "gush": 6255,
+    "helka": 181,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "183": {
+    "gush": 6255,
+    "helka": 183,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "185": {
+    "gush": 6255,
+    "helka": 185,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "187": {
+    "gush": 6255,
+    "helka": 187,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "189": {
+    "gush": 6255,
+    "helka": 189,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "191": {
+    "gush": 6255,
+    "helka": 191,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "193": {
+    "gush": 6255,
+    "helka": 193,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "194": {
+    "gush": 6255,
+    "helka": 194,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "195": {
+    "gush": 6255,
+    "helka": 195,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "197": {
+    "gush": 6255,
+    "helka": 197,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "199": {
+    "gush": 6255,
+    "helka": 199,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "201": {
+    "gush": 6255,
+    "helka": 201,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "202": {
+    "gush": 6255,
+    "helka": 202,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "203": {
+    "gush": 6255,
+    "helka": 203,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "205": {
+    "gush": 6255,
+    "helka": 205,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "207": {
+    "gush": 6255,
+    "helka": 207,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "208": {
+    "gush": 6255,
+    "helka": 208,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "209": {
+    "gush": 6255,
+    "helka": 209,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "211": {
+    "gush": 6255,
+    "helka": 211,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "212": {
+    "gush": 6255,
+    "helka": 212,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "214": {
+    "gush": 6255,
+    "helka": 214,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "215": {
+    "gush": 6255,
+    "helka": 215,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "217": {
+    "gush": 6255,
+    "helka": 217,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "218": {
+    "gush": 6255,
+    "helka": 218,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "220": {
+    "gush": 6255,
+    "helka": 220,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "221": {
+    "gush": 6255,
+    "helka": 221,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "223": {
+    "gush": 6255,
+    "helka": 223,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "224": {
+    "gush": 6255,
+    "helka": 224,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "226": {
+    "gush": 6255,
+    "helka": 226,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "227": {
+    "gush": 6255,
+    "helka": 227,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "229": {
+    "gush": 6255,
+    "helka": 229,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "230": {
+    "gush": 6255,
+    "helka": 230,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "232": {
+    "gush": 6255,
+    "helka": 232,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "233": {
+    "gush": 6255,
+    "helka": 233,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "235": {
+    "gush": 6255,
+    "helka": 235,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "236": {
+    "gush": 6255,
+    "helka": 236,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "238": {
+    "gush": 6255,
+    "helka": 238,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "239": {
+    "gush": 6255,
+    "helka": 239,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "241": {
+    "gush": 6255,
+    "helka": 241,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "242": {
+    "gush": 6255,
+    "helka": 242,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "244": {
+    "gush": 6255,
+    "helka": 244,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "245": {
+    "gush": 6255,
+    "helka": 245,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "247": {
+    "gush": 6255,
+    "helka": 247,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "248": {
+    "gush": 6255,
+    "helka": 248,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "250": {
+    "gush": 6255,
+    "helka": 250,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "251": {
+    "gush": 6255,
+    "helka": 251,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "253": {
+    "gush": 6255,
+    "helka": 253,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "254": {
+    "gush": 6255,
+    "helka": 254,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "256": {
+    "gush": 6255,
+    "helka": 256,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "257": {
+    "gush": 6255,
+    "helka": 257,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "259": {
+    "gush": 6255,
+    "helka": 259,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "260": {
+    "gush": 6255,
+    "helka": 260,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "262": {
+    "gush": 6255,
+    "helka": 262,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "263": {
+    "gush": 6255,
+    "helka": 263,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  },
+  "265": {
+    "gush": 6255,
+    "helka": 265,
+    "migrash": null,
+    "yeud": null,
+    "shetach": null
+  }
+}

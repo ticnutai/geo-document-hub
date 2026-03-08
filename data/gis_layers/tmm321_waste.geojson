@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_waste",
+  "description": "תמ\"מ 3/21 – אתר אשפה",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

@@ -1,0 +1,5602 @@
+{
+  "type": "FeatureCollection",
+  "name": "shimour_points",
+  "description": "שימור – ישויות נקודתיות",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 172157,
+        "last_update_date": 1543881600000,
+        "objectid": 34734,
+        "layer_id": 1121738,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000328839.0,
+        "pl_id": 5000372143.0,
+        "pl_name": "מאא/1/536 - מגדל גולן",
+        "pl_number": "552-0253526",
+        "pl_order_print_version": 16.0,
+        "pl_tasrit_prn_version": 11.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185695.68649999984,
+          659975.6832999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59617,
+        "layer_id": 1371910,
+        "mavat_code": 22110,
+        "mavat_name": "בלוק אנדרטה",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184585.33169999998,
+          651794.2213000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59618,
+        "layer_id": 1371910,
+        "mavat_code": 22110,
+        "mavat_name": "בלוק אנדרטה",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184574.7745000003,
+          652013.1320999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59619,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184482.23290000018,
+          651676.6609000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59620,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184485.47109999973,
+          651635.9033000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59621,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184524.0053000003,
+          651618.1122999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59622,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184567.7207000004,
+          651614.2306999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59623,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184610.14070000034,
+          651601.6152999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59624,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184569.9874999998,
+          651652.7238999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59625,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184606.57890000008,
+          651676.0139000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59626,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184570.6350999996,
+          651684.7477000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59627,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184606.25490000006,
+          651711.2725000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59628,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184605.68890000042,
+          651743.2905000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59629,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184531.78890000004,
+          651731.0939000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59630,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184624.5075000003,
+          652172.8444999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59631,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184075.74949999992,
+          652190.3992999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59632,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184569.0702999998,
+          652078.5822999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59633,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184518.4877000004,
+          651794.9784999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59634,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184545.2285000002,
+          651780.8441000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59635,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184491.18929999974,
+          651784.9058999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 204539,
+        "last_update_date": 1673740800000,
+        "objectid": 59636,
+        "layer_id": 1371910,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000290317.0,
+        "pl_id": 4000394489.0,
+        "pl_name": "צריפין מתחם מס. 4",
+        "pl_number": "413-0180570",
+        "pl_order_print_version": 60.0,
+        "pl_tasrit_prn_version": 42.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184633.00069999974,
+          652235.7363000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 219960,
+        "last_update_date": 1613952000000,
+        "objectid": 63035,
+        "layer_id": 1768568,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000281515.0,
+        "pl_id": 4000501801.0,
+        "pl_name": "רצ/151/1 צריפין מתחם 5",
+        "pl_number": "413-0163493",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184042.04629999958,
+          652763.6129000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 219960,
+        "last_update_date": 1613952000000,
+        "objectid": 63036,
+        "layer_id": 1768568,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000281515.0,
+        "pl_id": 4000501801.0,
+        "pl_name": "רצ/151/1 צריפין מתחם 5",
+        "pl_number": "413-0163493",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183983.83349999972,
+          652728.1560999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 219960,
+        "last_update_date": 1613952000000,
+        "objectid": 63037,
+        "layer_id": 1768568,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000281515.0,
+        "pl_id": 4000501801.0,
+        "pl_name": "רצ/151/1 צריפין מתחם 5",
+        "pl_number": "413-0163493",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183966.0658999998,
+          652792.1854999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 219960,
+        "last_update_date": 1613952000000,
+        "objectid": 63038,
+        "layer_id": 1768568,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000281515.0,
+        "pl_id": 4000501801.0,
+        "pl_name": "רצ/151/1 צריפין מתחם 5",
+        "pl_number": "413-0163493",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183949.77070000023,
+          652756.1856999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 219480,
+        "last_update_date": 1553990400000,
+        "objectid": 78430,
+        "layer_id": 1755409,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000421425.0,
+        "pl_id": 4000478021.0,
+        "pl_name": "שכונת נרקיסים- רצ/מק/2/150/1",
+        "pl_number": "413-0441014",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 8.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184075.86149999965,
+          652190.5251000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 215013,
+        "last_update_date": 1614556800000,
+        "objectid": 80566,
+        "layer_id": 1639628,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000285159.0,
+        "pl_id": 5000424369.0,
+        "pl_name": "פארק אריאל שרון-תב\"ע צפונית",
+        "pl_number": "599-0170134",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 37.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182770.29430000018,
+          660942.6743000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 215013,
+        "last_update_date": 1614556800000,
+        "objectid": 80576,
+        "layer_id": 1639628,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000285159.0,
+        "pl_id": 5000424369.0,
+        "pl_name": "פארק אריאל שרון-תב\"ע צפונית",
+        "pl_number": "599-0170134",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 37.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182741.0264999997,
+          660966.5582999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 215013,
+        "last_update_date": 1614556800000,
+        "objectid": 80579,
+        "layer_id": 1639628,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000285159.0,
+        "pl_id": 5000424369.0,
+        "pl_name": "פארק אריאל שרון-תב\"ע צפונית",
+        "pl_number": "599-0170134",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 37.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182782.85649999976,
+          660993.6667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 215013,
+        "last_update_date": 1614556800000,
+        "objectid": 80581,
+        "layer_id": 1639628,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000285159.0,
+        "pl_id": 5000424369.0,
+        "pl_name": "פארק אריאל שרון-תב\"ע צפונית",
+        "pl_number": "599-0170134",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 37.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182780.48570000008,
+          660966.0273000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 215013,
+        "last_update_date": 1614556800000,
+        "objectid": 80585,
+        "layer_id": 1639628,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000285159.0,
+        "pl_id": 5000424369.0,
+        "pl_name": "פארק אריאל שרון-תב\"ע צפונית",
+        "pl_number": "599-0170134",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 37.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182777.35830000043,
+          661023.5295000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 220803,
+        "last_update_date": 1553990400000,
+        "objectid": 85436,
+        "layer_id": 1790325,
+        "mavat_code": 22110,
+        "mavat_name": "בלוק אנדרטה",
+        "mp_id": 99000420189.0,
+        "pl_id": 99000541263.0,
+        "pl_name": "מכבי החדשה, רמלה - תכנית מתאר ארצית עם הוראות של תכנית מפורטת",
+        "pl_number": "תמא/ 47/ ר",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 15.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187427.2165000001,
+          649785.5755000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 247646,
+        "last_update_date": 1553990400000,
+        "objectid": 134379,
+        "layer_id": 2455000,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000914775.0,
+        "pl_id": 4000924073.0,
+        "pl_name": "רצ/מק/3/150/1 תחנת שאיבה לביוב - שכונת נרקיסים",
+        "pl_number": "413-0601351",
+        "pl_order_print_version": 7.0,
+        "pl_tasrit_prn_version": 6.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184491.18929999974,
+          651784.9058999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 247646,
+        "last_update_date": 1553990400000,
+        "objectid": 134381,
+        "layer_id": 2455000,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000914775.0,
+        "pl_id": 4000924073.0,
+        "pl_name": "רצ/מק/3/150/1 תחנת שאיבה לביוב - שכונת נרקיסים",
+        "pl_number": "413-0601351",
+        "pl_order_print_version": 7.0,
+        "pl_tasrit_prn_version": 6.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184518.4877000004,
+          651794.9784999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 251169,
+        "last_update_date": 1543881600000,
+        "objectid": 152314,
+        "layer_id": 2545825,
+        "mavat_code": 22100,
+        "mavat_name": "בלוק עתיקות / אתר ארכיאולוגי",
+        "mp_id": 4000249483.0,
+        "pl_id": 4000933265.0,
+        "pl_name": "תוספת שטח לבית מגורים-בית דגן",
+        "pl_number": "455-0112805",
+        "pl_order_print_version": 29.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183923.67729999963,
+          656474.3517000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 265152,
+        "last_update_date": 1598400000000,
+        "objectid": 204954,
+        "layer_id": 2859556,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000893763.0,
+        "pl_id": 99000968119.0,
+        "pl_name": "תמל/1064- מתחמי בן שמן ובית הקשתות, לוד",
+        "pl_number": "תמל/ 1064",
+        "pl_order_print_version": 50.0,
+        "pl_tasrit_prn_version": 36.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190882.86569999997,
+          651158.1389000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 265152,
+        "last_update_date": 1598400000000,
+        "objectid": 204955,
+        "layer_id": 2859556,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000893763.0,
+        "pl_id": 99000968119.0,
+        "pl_name": "תמל/1064- מתחמי בן שמן ובית הקשתות, לוד",
+        "pl_number": "תמל/ 1064",
+        "pl_order_print_version": 50.0,
+        "pl_tasrit_prn_version": 36.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190873.25650000013,
+          651129.6526999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 265152,
+        "last_update_date": 1598400000000,
+        "objectid": 204956,
+        "layer_id": 2859556,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000893763.0,
+        "pl_id": 99000968119.0,
+        "pl_name": "תמל/1064- מתחמי בן שמן ובית הקשתות, לוד",
+        "pl_number": "תמל/ 1064",
+        "pl_order_print_version": 50.0,
+        "pl_tasrit_prn_version": 36.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190779.52830000035,
+          651125.2729000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 265152,
+        "last_update_date": 1598400000000,
+        "objectid": 204957,
+        "layer_id": 2859556,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000893763.0,
+        "pl_id": 99000968119.0,
+        "pl_name": "תמל/1064- מתחמי בן שמן ובית הקשתות, לוד",
+        "pl_number": "תמל/ 1064",
+        "pl_order_print_version": 50.0,
+        "pl_tasrit_prn_version": 36.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191205.2581000002,
+          651491.9838999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 271846,
+        "last_update_date": 1560211200000,
+        "objectid": 222294,
+        "layer_id": 3016950,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000943125.0,
+        "pl_id": 4000984881.0,
+        "pl_name": "רצ/מק/1/151/1 עדכון שכונת נוריות",
+        "pl_number": "413-0651679",
+        "pl_order_print_version": 13.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183949.77070000023,
+          652756.1856999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 271846,
+        "last_update_date": 1560211200000,
+        "objectid": 222295,
+        "layer_id": 3016950,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000943125.0,
+        "pl_id": 4000984881.0,
+        "pl_name": "רצ/מק/1/151/1 עדכון שכונת נוריות",
+        "pl_number": "413-0651679",
+        "pl_order_print_version": 13.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183966.0658999998,
+          652792.1854999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 271846,
+        "last_update_date": 1560211200000,
+        "objectid": 222296,
+        "layer_id": 3016950,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000943125.0,
+        "pl_id": 4000984881.0,
+        "pl_name": "רצ/מק/1/151/1 עדכון שכונת נוריות",
+        "pl_number": "413-0651679",
+        "pl_order_print_version": 13.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183983.83349999972,
+          652728.1560999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 271846,
+        "last_update_date": 1560211200000,
+        "objectid": 222297,
+        "layer_id": 3016950,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000943125.0,
+        "pl_id": 4000984881.0,
+        "pl_name": "רצ/מק/1/151/1 עדכון שכונת נוריות",
+        "pl_number": "413-0651679",
+        "pl_order_print_version": 13.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184042.04629999958,
+          652763.6129000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 283952,
+        "last_update_date": 1613433600000,
+        "objectid": 247097,
+        "layer_id": 3302810,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000935687.0,
+        "pl_id": 4001017815.0,
+        "pl_name": "תלמים מזרח - באר יעקב",
+        "pl_number": "455-0639260",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 16.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186395.3211000003,
+          649909.2536999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 305718,
+        "last_update_date": 1608595200000,
+        "objectid": 284912,
+        "layer_id": 3842488,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000303667.0,
+        "pl_id": 4005075676.0,
+        "pl_name": "צריפין מתחם 6",
+        "pl_number": "413-0205112",
+        "pl_order_print_version": 104.0,
+        "pl_tasrit_prn_version": 85.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184680.4665000001,
+          653062.8055000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 305718,
+        "last_update_date": 1608595200000,
+        "objectid": 284913,
+        "layer_id": 3842488,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000303667.0,
+        "pl_id": 4005075676.0,
+        "pl_name": "צריפין מתחם 6",
+        "pl_number": "413-0205112",
+        "pl_order_print_version": 104.0,
+        "pl_tasrit_prn_version": 85.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184710.99689999968,
+          653026.2103000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 305718,
+        "last_update_date": 1608595200000,
+        "objectid": 284914,
+        "layer_id": 3842488,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000303667.0,
+        "pl_id": 4005075676.0,
+        "pl_name": "צריפין מתחם 6",
+        "pl_number": "413-0205112",
+        "pl_order_print_version": 104.0,
+        "pl_tasrit_prn_version": 85.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184739.20469999965,
+          652869.4265000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 305718,
+        "last_update_date": 1608595200000,
+        "objectid": 284915,
+        "layer_id": 3842488,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000303667.0,
+        "pl_id": 4005075676.0,
+        "pl_name": "צריפין מתחם 6",
+        "pl_number": "413-0205112",
+        "pl_order_print_version": 104.0,
+        "pl_tasrit_prn_version": 85.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184788.56130000018,
+          652883.8595000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 314762,
+        "last_update_date": 1596672000000,
+        "objectid": 304887,
+        "layer_id": 4081482,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979653.0,
+        "pl_id": 99005101180.0,
+        "pl_name": "איחוד וחלוקה ללא הסכמת בעלים ותכנית מתקנת לתכנית הראשית תמל 1064",
+        "pl_number": "תמל/ 1064/ א",
+        "pl_order_print_version": 47.0,
+        "pl_tasrit_prn_version": 32.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190779.52830000035,
+          651125.2729000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 314762,
+        "last_update_date": 1596672000000,
+        "objectid": 304888,
+        "layer_id": 4081482,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979653.0,
+        "pl_id": 99005101180.0,
+        "pl_name": "איחוד וחלוקה ללא הסכמת בעלים ותכנית מתקנת לתכנית הראשית תמל 1064",
+        "pl_number": "תמל/ 1064/ א",
+        "pl_order_print_version": 47.0,
+        "pl_tasrit_prn_version": 32.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190873.25650000013,
+          651129.6526999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 314762,
+        "last_update_date": 1596672000000,
+        "objectid": 304889,
+        "layer_id": 4081482,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979653.0,
+        "pl_id": 99005101180.0,
+        "pl_name": "איחוד וחלוקה ללא הסכמת בעלים ותכנית מתקנת לתכנית הראשית תמל 1064",
+        "pl_number": "תמל/ 1064/ א",
+        "pl_order_print_version": 47.0,
+        "pl_tasrit_prn_version": 32.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190882.86569999997,
+          651158.1389000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319751,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185156.7525000004,
+          652699.4085000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319752,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185154.5371000003,
+          652673.3940999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319753,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185330.0535000004,
+          652354.0506999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319754,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185304.1004999997,
+          652344.8172999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319755,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185300.46470000036,
+          652324.7345000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319756,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185327.95610000007,
+          652321.7883000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 318782,
+        "last_update_date": 1614816000000,
+        "objectid": 319757,
+        "layer_id": 4187533,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000931261.0,
+        "pl_id": 4005112444.0,
+        "pl_name": "המרכז הרפואי אסף הרופא ע\"ש יצחק שמיר",
+        "pl_number": "455-0631754",
+        "pl_order_print_version": 38.0,
+        "pl_tasrit_prn_version": 21.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184995.36170000024,
+          652427.4266999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323357,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184569.82469999976,
+          649827.9667000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323359,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183548.77109999955,
+          649866.8679000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323361,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186066.38769999985,
+          651770.0322999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323368,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185710.65950000007,
+          650301.3774999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323369,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185602.5214999998,
+          650279.6846999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323370,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185605.32610000018,
+          650315.1450999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323371,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186099.6322999997,
+          651519.4354999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323372,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185786.22169999965,
+          650218.5800999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 319537,
+        "last_update_date": 1626307200000,
+        "objectid": 323373,
+        "layer_id": 4207899,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005052006.0,
+        "pl_id": 4005114782.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-0829028",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184513.79110000003,
+          650024.5995000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 326992,
+        "last_update_date": 1622592000000,
+        "objectid": 340267,
+        "layer_id": 4408802,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000891787.0,
+        "pl_id": 4005135684.0,
+        "pl_name": "ממ/12030 - תכנית מתאר מקומית כוללנית באר יעקב",
+        "pl_number": "455-0557835",
+        "pl_order_print_version": 45.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 356.27936258,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186379.78129999992,
+          649948.2786999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 336152,
+        "last_update_date": 1659312000000,
+        "objectid": 367779,
+        "layer_id": 4645801,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000937965.0,
+        "pl_id": 4005160470.0,
+        "pl_name": "מתחם מע\"ר 3 - לוד",
+        "pl_number": "406-0643403",
+        "pl_order_print_version": 48.0,
+        "pl_tasrit_prn_version": 25.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190051.79470000044,
+          650715.2512999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459913,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190509.89850000013,
+          651220.1186999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459914,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190472.6529000001,
+          651237.9297000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459915,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190460.06429999974,
+          651219.2216999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459916,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190389.66949999984,
+          651041.9946999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459917,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190376.5011,
+          651021.3275000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459918,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190364.19849999994,
+          651001.1337000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459919,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190347.93649999984,
+          650969.5288999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459920,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190369.88210000005,
+          650981.0936999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 361082,
+        "last_update_date": 1705795200000,
+        "objectid": 459921,
+        "layer_id": 5311532,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005231500.0,
+        "pl_id": 99005247384.0,
+        "pl_name": "תכנית מתקנת לתכנית הראשית תמ\"ל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007/ 1",
+        "pl_order_print_version": 18.0,
+        "pl_tasrit_prn_version": 14.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190486.90130000003,
+          651286.4109000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464201,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190269.82930000033,
+          650841.7294999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464202,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190663.0329,
+          651181.1824999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464203,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190327.2708999999,
+          650847.7482999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464204,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190369.88210000005,
+          650981.0936999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464205,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190347.93649999984,
+          650969.5288999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464206,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190364.19849999994,
+          651001.1337000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464207,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190376.5011,
+          651021.3275000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464208,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190389.66949999984,
+          651041.9946999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464209,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190401.69689999986,
+          650953.1247000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464210,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190460.06429999974,
+          651219.2216999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464211,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190472.6529000001,
+          651237.9297000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464212,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190509.89850000013,
+          651220.1186999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464213,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190522.2801000001,
+          651298.9493000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464214,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190528.70050000027,
+          651261.2252999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464215,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190542.15770000033,
+          651328.1722999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464216,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190486.90130000003,
+          651286.4109000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464217,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190490.35309999995,
+          651354.7791000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464218,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190646.87810000032,
+          651517.2556999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464219,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190698.5619000001,
+          651366.0728999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464220,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190728.66029999964,
+          651310.1096999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464221,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190996.01429999992,
+          651273.6993000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 364910,
+        "last_update_date": 1747180800000,
+        "objectid": 464222,
+        "layer_id": 5411217,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99000979661.0,
+        "pl_id": 99005259152.0,
+        "pl_name": "תמל/ 2007 - העיר העתיקה לוד",
+        "pl_number": "תמל/ 2007",
+        "pl_order_print_version": 52.0,
+        "pl_tasrit_prn_version": 33.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191033.53050000034,
+          651443.9549000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 378264,
+        "last_update_date": 1714608000000,
+        "objectid": 517024,
+        "layer_id": 5755961,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005204592.0,
+        "pl_id": 4005295976.0,
+        "pl_name": "רצ/4/12/50/1 - הרחבת שבצ-תחנה לשיווק חלב",
+        "pl_number": "413-1055516",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 5.0,
+        "rotation": 21.25349609,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181774.91669999994,
+          653733.7089000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545812,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182280.90450000018,
+          652404.3673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545813,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182271.7525000004,
+          652393.3339000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545814,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182284.32569999993,
+          652386.0890999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545815,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182284.9545,
+          652367.2079000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545816,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182287.91249999963,
+          652349.8781000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545817,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182292.95529999956,
+          652344.5905000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545818,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182292.41810000036,
+          652335.1719000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545819,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182293.7207000004,
+          652323.2478999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545820,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182296.91189999972,
+          652315.7925000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545821,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182289.78369999956,
+          652315.0885000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 382888,
+        "last_update_date": 1694995200000,
+        "objectid": 545822,
+        "layer_id": 5877371,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005294288.0,
+        "pl_id": 4000382595.0,
+        "pl_name": "אלקלעי ראשון לציון",
+        "pl_number": "413-1202191",
+        "pl_order_print_version": 8.0,
+        "pl_tasrit_prn_version": 7.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182295.25409999955,
+          652307.9645000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546664,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181464.8476999998,
+          659367.6523000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546665,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182114.9241000004,
+          658935.9452999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546666,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181923.41029999964,
+          658679.0839000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546667,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181267.5767000001,
+          659373.9239000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546668,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181724.6048999997,
+          658928.0603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546669,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181679.1643000003,
+          659220.0621000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546670,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181762.79470000044,
+          658841.1350999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 388629,
+        "last_update_date": 1711497600000,
+        "objectid": 546671,
+        "layer_id": 6022477,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000985183.0,
+        "pl_id": 5005328018.0,
+        "pl_name": "תכנית מתאר כוללנית לאזור",
+        "pl_number": "554-0720433",
+        "pl_order_print_version": 12.0,
+        "pl_tasrit_prn_version": 9.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180721.4051000001,
+          659839.8065000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 395186,
+        "last_update_date": 1703462400000,
+        "objectid": 567708,
+        "layer_id": 6189020,
+        "mavat_code": 22100,
+        "mavat_name": "בלוק עתיקות / אתר ארכיאולוגי",
+        "mp_id": 5005242860.0,
+        "pl_id": 5005345982.0,
+        "pl_name": "מאא/מק/1160 בית כנסת שמעיה החלפת שטחים",
+        "pl_number": "555-1118504",
+        "pl_order_print_version": 24.0,
+        "pl_tasrit_prn_version": 15.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185341.77990000043,
+          659696.9774999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 397554,
+        "last_update_date": 1716076800000,
+        "objectid": 597601,
+        "layer_id": 6249509,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005286044.0,
+        "pl_id": 4005352132.0,
+        "pl_name": "רצ/מק/1/ 150/ 24 מגדל המים צריפין, ראשון לציון",
+        "pl_number": "413-1188655",
+        "pl_order_print_version": 21.0,
+        "pl_tasrit_prn_version": 13.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184074.86349999998,
+          652186.0853000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 405960,
+        "last_update_date": 1719187200000,
+        "objectid": 615453,
+        "layer_id": 6462711,
+        "mavat_code": 22100,
+        "mavat_name": "בלוק עתיקות / אתר ארכיאולוגי",
+        "mp_id": 5005221736.0,
+        "pl_id": 5005375676.0,
+        "pl_name": "ח/908 - מתחם גב ים חולון - חלקות 28+27",
+        "pl_number": "505-1083757",
+        "pl_order_print_version": 47.0,
+        "pl_tasrit_prn_version": 34.0,
+        "rotation": 248.18901817,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181715.06290000025,
+          658759.1758999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 411747,
+        "last_update_date": 1724544000000,
+        "objectid": 646455,
+        "layer_id": 6606736,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4001015211.0,
+        "pl_id": 4005390800.0,
+        "pl_name": "כיכר התחנה - לוד",
+        "pl_number": "406-0768135",
+        "pl_order_print_version": 92.0,
+        "pl_tasrit_prn_version": 47.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190015.83609999996,
+          650752.7974999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 411747,
+        "last_update_date": 1724544000000,
+        "objectid": 646456,
+        "layer_id": 6606736,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4001015211.0,
+        "pl_id": 4005390800.0,
+        "pl_name": "כיכר התחנה - לוד",
+        "pl_number": "406-0768135",
+        "pl_order_print_version": 92.0,
+        "pl_tasrit_prn_version": 47.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189890.00870000012,
+          650616.9417000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 415882,
+        "last_update_date": 1724544000000,
+        "objectid": 663349,
+        "layer_id": 6706908,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5005049576.0,
+        "pl_id": 99005401968.0,
+        "pl_name": "שכונת הפארק - אזור",
+        "pl_number": "תמל/ 1112",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 32.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180674.9291000003,
+          659873.0078999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715064,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181624.65450000018,
+          652079.2446999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715065,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181651.7673000004,
+          652102.9013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715066,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181626.9347000001,
+          652135.2587000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715067,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181591.89910000004,
+          652145.6817000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715068,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181588.9720999999,
+          652124.5410999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715069,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181599.16449999996,
+          652127.3559000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715070,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181536.6933000004,
+          652140.4138999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715071,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181544.4347000001,
+          652113.5408999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715072,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181533.7597000003,
+          652112.8943000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715073,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181524.37870000023,
+          652111.9244999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715074,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181538.42470000032,
+          652091.4097000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715075,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181564.2927000001,
+          652094.9704999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715076,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181554.8967000004,
+          652082.1824999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715077,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181677.2653000001,
+          652105.1370999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715078,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181668.82010000013,
+          652034.3586999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715079,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181511.8103,
+          652110.9912999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715080,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181655.40629999992,
+          652117.4845000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715081,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181588.42150000017,
+          652026.2018999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715082,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181638.5566999996,
+          652030.0657000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 425140,
+        "last_update_date": 1734825600000,
+        "objectid": 715083,
+        "layer_id": 6944562,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000397985.0,
+        "pl_id": 4005428688.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15",
+        "pl_number": "413-0393892",
+        "pl_order_print_version": 109.0,
+        "pl_tasrit_prn_version": 56.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181565.05069999956,
+          652054.6250999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 421415,
+        "last_update_date": 1767052800000,
+        "objectid": 720127,
+        "layer_id": 6849283,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5005412828.0,
+        "pl_id": 5000424793.0,
+        "pl_name": "סובב חולות, דרום מזרח חולון",
+        "pl_number": "505-1387026",
+        "pl_order_print_version": 14.0,
+        "pl_tasrit_prn_version": 8.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180731.8174999999,
+          656544.0332999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 433314,
+        "last_update_date": 1767657600000,
+        "objectid": 749152,
+        "layer_id": 7152347,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005100222.0,
+        "pl_id": 99005451362.0,
+        "pl_name": "שכונת רבין מערב, אור יהודה",
+        "pl_number": "תמל/ 1106",
+        "pl_order_print_version": 37.0,
+        "pl_tasrit_prn_version": 28.0,
+        "rotation": 0.0,
+        "station": 2030.0,
+        "station_desc": "במילוי תנאים להפקדה"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187601.5440999996,
+          658763.9513000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 433314,
+        "last_update_date": 1767657600000,
+        "objectid": 749153,
+        "layer_id": 7152347,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005100222.0,
+        "pl_id": 99005451362.0,
+        "pl_name": "שכונת רבין מערב, אור יהודה",
+        "pl_number": "תמל/ 1106",
+        "pl_order_print_version": 37.0,
+        "pl_tasrit_prn_version": 28.0,
+        "rotation": 0.0,
+        "station": 2030.0,
+        "station_desc": "במילוי תנאים להפקדה"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187680.80209999997,
+          659019.2982999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 422958,
+        "last_update_date": 1749081600000,
+        "objectid": 772707,
+        "layer_id": 6889473,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000346171.0,
+        "pl_id": 5005422534.0,
+        "pl_name": "רג/340/ג/90 תכנית לשימור אתרים ברמת גן",
+        "pl_number": "506-0290858",
+        "pl_order_print_version": 93.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183784.17489999998,
+          660771.9407000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 422958,
+        "last_update_date": 1749081600000,
+        "objectid": 772708,
+        "layer_id": 6889473,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000346171.0,
+        "pl_id": 5005422534.0,
+        "pl_name": "רג/340/ג/90 תכנית לשימור אתרים ברמת גן",
+        "pl_number": "506-0290858",
+        "pl_order_print_version": 93.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183609.81329999957,
+          661058.0369000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 422958,
+        "last_update_date": 1749081600000,
+        "objectid": 772767,
+        "layer_id": 6889473,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5000346171.0,
+        "pl_id": 5005422534.0,
+        "pl_name": "רג/340/ג/90 תכנית לשימור אתרים ברמת גן",
+        "pl_number": "506-0290858",
+        "pl_order_print_version": 93.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185556.43709999975,
+          660448.4909000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796796,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190267.20610000007,
+          651326.9748999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796797,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190244.5658999998,
+          651328.3488999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796798,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190181.98610000033,
+          651341.1154999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796799,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190211.8125,
+          651428.7313000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796800,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190242.99689999968,
+          651411.3637000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796801,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190281.81329999957,
+          651400.0618999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796802,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190494.00030000042,
+          651577.3402999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796803,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190478.57710000034,
+          651577.2577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796804,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190456.62710000016,
+          651573.0203000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796805,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190431.1523000002,
+          651571.3857000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796837,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190750.0702999998,
+          652850.1920999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 440380,
+        "last_update_date": 1761091200000,
+        "objectid": 796838,
+        "layer_id": 7322180,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 99005279908.0,
+        "pl_id": 99005469240.0,
+        "pl_name": "לוד צפון חלק ב",
+        "pl_number": "תמל/ 1095/ ב",
+        "pl_order_print_version": 54.0,
+        "pl_tasrit_prn_version": 45.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190435.15809999965,
+          651540.7397000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822915,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184569.82469999976,
+          649827.9667000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822917,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183548.77109999955,
+          649866.8679000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822919,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186066.38769999985,
+          651770.0322999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822926,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185710.65950000007,
+          650301.3774999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822927,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185602.5214999998,
+          650279.6846999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822928,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185605.32610000018,
+          650315.1450999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822929,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186099.6322999997,
+          651519.4354999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822930,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185786.22169999965,
+          650218.5800999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822931,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184513.79110000003,
+          650024.5995000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822935,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186394.28309999965,
+          649868.8571000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822938,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184969.60749999993,
+          652562.3596999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 443333,
+        "last_update_date": 1753747200000,
+        "objectid": 822940,
+        "layer_id": 7393360,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005476486.0,
+        "pl_id": 4000450163.0,
+        "pl_name": "שימור בתחום באר יעקב",
+        "pl_number": "455-1492255",
+        "pl_order_print_version": 3.0,
+        "pl_tasrit_prn_version": 2.0,
+        "rotation": 0.0,
+        "station": 7010.0,
+        "station_desc": "הכנת הודעה 77/78"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184826.44230000023,
+          650120.5095000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 447197,
+        "last_update_date": 1767225600000,
+        "objectid": 849674,
+        "layer_id": 7491882,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 5005187046.0,
+        "pl_id": 5005487060.0,
+        "pl_name": "ח/912 החווה החקלאית חולון",
+        "pl_number": "505-1026475",
+        "pl_order_print_version": 28.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181188.5878999997,
+          658110.1665000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 447197,
+        "last_update_date": 1767225600000,
+        "objectid": 849897,
+        "layer_id": 7491882,
+        "mavat_code": 22381,
+        "mavat_name": "בלוק אתר לשימור ומספרו",
+        "mp_id": 5005187046.0,
+        "pl_id": 5005487060.0,
+        "pl_name": "ח/912 החווה החקלאית חולון",
+        "pl_number": "505-1026475",
+        "pl_order_print_version": 28.0,
+        "pl_tasrit_prn_version": 26.0,
+        "rotation": 0.0,
+        "station": 2020.0,
+        "station_desc": "בבדיקה תכנונית"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181182.0153000001,
+          658133.6797000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 447656,
+        "last_update_date": 1760486400000,
+        "objectid": 853512,
+        "layer_id": 7503472,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000963669.0,
+        "pl_id": 4005488436.0,
+        "pl_name": "תכנית מתאר בית דגן",
+        "pl_number": "455-0685917",
+        "pl_order_print_version": 55.0,
+        "pl_tasrit_prn_version": 29.0,
+        "rotation": 0.0,
+        "station": 3010.0,
+        "station_desc": "אישור"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183359.8038999997,
+          656455.5068999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937684,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181624.65450000018,
+          652079.2446999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937685,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181651.7673000004,
+          652102.9013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937686,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181626.9347000001,
+          652135.2587000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937687,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181591.89910000004,
+          652145.6817000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937688,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181588.9720999999,
+          652124.5410999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937689,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181599.16449999996,
+          652127.3559000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937690,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181536.6933000004,
+          652140.4138999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937691,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181544.4347000001,
+          652113.5408999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937692,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181533.7597000003,
+          652112.8943000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937693,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181524.37870000023,
+          652111.9244999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937694,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181538.42470000032,
+          652091.4097000007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937695,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181564.2927000001,
+          652094.9704999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937696,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181554.8967000004,
+          652082.1824999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937697,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181677.2653000001,
+          652105.1370999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937698,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181668.82010000013,
+          652034.3586999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937699,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181511.8103,
+          652110.9912999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937700,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181655.40629999992,
+          652117.4845000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937701,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181588.42150000017,
+          652026.2018999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937702,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181638.5566999996,
+          652030.0657000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 456745,
+        "last_update_date": 1767225600000,
+        "objectid": 937703,
+        "layer_id": 7721847,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005232176.0,
+        "pl_id": 4005511818.0,
+        "pl_name": "מתחם היקב בראשון לציון - רצ / 40 / 15 / 1",
+        "pl_number": "413-1100502",
+        "pl_order_print_version": 26.0,
+        "pl_tasrit_prn_version": 18.0,
+        "rotation": 0.0,
+        "station": 2040.0,
+        "station_desc": "הפקדה להתנגדויות/השגות"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181565.05069999956,
+          652054.6250999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949883,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188861.06730000023,
+          654867.8236999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949884,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188867.38570000045,
+          654909.3546999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949885,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188854.19429999962,
+          654952.3598999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949886,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188804.17069999967,
+          654959.6587000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949887,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188781.95909999963,
+          654982.3918999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949888,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188796.89749999996,
+          655057.1357000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 457027,
+        "last_update_date": 1771286400000,
+        "objectid": 949889,
+        "layer_id": 7728706,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4000427063.0,
+        "pl_id": 4005512496.0,
+        "pl_name": "יגל תכנית מתאר למושב",
+        "pl_number": "425-0451658",
+        "pl_order_print_version": 89.0,
+        "pl_tasrit_prn_version": 71.0,
+        "rotation": 0.0,
+        "station": 2050.0,
+        "station_desc": "דיון בהתנגדויות ותיקונים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188760.0680999998,
+          655051.5856999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "group_id": 462147,
+        "last_update_date": 1771286400000,
+        "objectid": 993679,
+        "layer_id": 7851921,
+        "mavat_code": 22140,
+        "mavat_name": "בלוק מבנה לשימור",
+        "mp_id": 4005385614.0,
+        "pl_id": 4005525608.0,
+        "pl_name": "שינוי ייעוד לתוספת זכויות במתחם מכללת עתיד- רמב\"ם",
+        "pl_number": "406-1344365",
+        "pl_order_print_version": 28.0,
+        "pl_tasrit_prn_version": 23.0,
+        "rotation": 0.0,
+        "station": 2030.0,
+        "station_desc": "במילוי תנאים להפקדה"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190361.19849999994,
+          650807.2619000003
+        ]
+      }
+    }
+  ]
+}

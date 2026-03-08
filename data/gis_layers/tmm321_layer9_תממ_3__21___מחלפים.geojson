@@ -1,0 +1,98 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_תממ_3__21___מחלפים",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185031.13685240966,
+          653517.115723161
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "MAPKEY": "147",
+        "LAYER": "MAHLEFON",
+        "BLOCK": "MAHLEFON",
+        "X_COORD": 185031.14,
+        "Y_COORD": 653517.12,
+        "NAME": "מחלפון עירוני",
+        "TYPECODE": 102002,
+        "TYPENAME": "מחלפון עירוני",
+        "TCODE": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185535.494596839,
+          657913.6320762044
+        ]
+      },
+      "properties": {
+        "FID": 75,
+        "MAPKEY": "80",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 185535.49,
+        "Y_COORD": 657913.63,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184736.38093153323,
+          657207.9400012391
+        ]
+      },
+      "properties": {
+        "FID": 76,
+        "MAPKEY": "81",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 184736.38,
+        "Y_COORD": 657207.94,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186531.9336951475,
+          655685.5961592931
+        ]
+      },
+      "properties": {
+        "FID": 97,
+        "MAPKEY": "98",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 186531.93,
+        "Y_COORD": 655685.6,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      }
+    }
+  ]
+}

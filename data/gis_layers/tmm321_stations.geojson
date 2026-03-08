@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_stations",
+  "description": "תמ\"מ 3/21 – תחנות",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

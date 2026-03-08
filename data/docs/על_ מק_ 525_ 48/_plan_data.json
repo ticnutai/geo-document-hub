@@ -1,0 +1,304 @@
+{
+  "planDetails": {
+    "ID": 4000216989.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "על/ מק/ 525/ 48",
+    "ENTITY_SUBTYPE": "תכנית מפורטת",
+    "ENTITY_SUBTYPE_ID": 40.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "כפר חב\"ד חילופים בשטחים לצרכי ציבור",
+    "AUTH": "מקומית",
+    "PERMISSIONS": null,
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 1060.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "חלוקת מגרשי ציבור תוך שינוי יעוד קרקע.",
+    "INSTRACTIONS": "1. שינוי יעוד קרקע משטח לבינייני ציבור לשטח פרטי פתוח, לפי סעיף 62 א א 1.\r\n2. שינוי יעוד קרקע משטח פרטי פתוח לשטח לבינייני ציבור, לפי סעיף 62 א א 1.\r\n3. הגדלת שטח לצרכי ציבור, מבלי לשנות את זכויות הבניה, לפי סעיף 62 א א 3.\r\n4. שינוי חלוקת שטחי הבניה בתכנית, לפי סעיף 62 א א 6.\r\n5. שינוי הוראות בנספח בינוי לענין קווי בנין, לפי סעיף 62 א א 5.",
+    "ARTICLE": null,
+    "MASTER_ID": 4000216989.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": 6501.0,
+      "STREET_NAME": "שכ לוי יצחק",
+      "HOUSE_NUMBER": " "
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "7196",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "118, 124, 127, 133",
+      "PARCELS_PARTIAL": ""
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4000216989.0,
+      "LIS_DESC": "עיון שר האוצר-התכנית טעונה אישור השר",
+      "EIS_DATE": "29/08/2011",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 34201125.0
+    },
+    {
+      "EIS_ENTITY_ID": 4000216989.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "18/08/2011",
+      "DETAILS": "תאריך פרסום: 18/08/2011.  מס' ילקוט פרסומים: 6283.  עמוד: 6113.  שנה עברית: התשעא   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-6283.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 6283.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    }
+  ],
+  "rsDes": [
+    {
+      "MMI_MEETING_ID": 4000036847.0,
+      "DISTINCT_NAME": "מרכז",
+      "COMMITTE_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז - עיון / אישור השר - מחוז מרכז",
+      "CM_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז",
+      "FO_NAME": "עיון / אישור השר - מחוז מרכז",
+      "FO_SUB_FORUM_OF": 10.0,
+      "MEETING_NO": 2011061.0,
+      "MEETING_DATE": "29/08/2011",
+      "ENTITY_DOC_ID": 60646251.0,
+      "ATTACHMENT_ID": 3009715.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": null,
+      "ATTACHMENT_ID1": null,
+      "FILE_TYPE1": null,
+      "ENTITY_DOC_ID_10": null,
+      "ATTACHMENT_ID_10": null,
+      "FILE_TYPE_10": null,
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 4000036847.0,
+      "MMI_DESICIONS": "טעון אישור\r\n1. עפ\"י טבלת זכויות הבניה - ישנה תוספת זכויות - לא בסמכות מקומית.\r\n2. לא ברור בנושא החלפת שטחים בין שפ\"פ לשב\"צ מדוע לוקחים שפ\"פ ומעבירים אותו במרחק רב ממגרש המגורים למרכזו של שב\"צ מתוכנן גדול ומשמעותי.\r\n3. התכנית מציעה הקטת שטח השפ\"פ ע\"ח שב\"צ - לא בסמכות מקומית.",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    }
+  ],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [
+    {
+      "MM_ID": 4000036847.0,
+      "MMI_ENTITY_ID": 4000216989.0,
+      "MIF_MM_ID": 4000036847,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 6157,
+      "PRP_FULL_NAME": "יוסף רות"
+    }
+  ],
+  "rsPubDocs": [],
+  "locationDesc": "מספר גוש: 7196\r\nמספר גוש ישן: 6273",
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 400048691.0,
+      "PLAN_ID": 4053042.0,
+      "ORG_ID": 4053042.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 525/ 18",
+      "PLAN_NAME": "כפר חב\"ד.",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 3879.0,
+      "PUBLICATION_PAGE": 2557.0,
+      "PUBLICATION_PAGE_P": 2557.0,
+      "PUBLICATION_DATE": "16/05/1991",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4053042.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    },
+    {
+      "ID": 400048693.0,
+      "PLAN_ID": 4053041.0,
+      "ORG_ID": 4053041.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 525/ 27/ א",
+      "PLAN_NAME": "הוחלף מ-גז / 525 / 27.",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 5205.0,
+      "PUBLICATION_PAGE": 3425.0,
+      "PUBLICATION_PAGE_P": 3425.0,
+      "PUBLICATION_DATE": "10/07/2003",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4053041.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    },
+    {
+      "ID": 400048697.0,
+      "PLAN_ID": null,
+      "ORG_ID": null,
+      "TYPE_ITEM": null,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 1/ 696/ 3",
+      "PLAN_NAME": null,
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 0.0,
+      "PUBLICATION_PAGE": 0.0,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": null,
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": null,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    },
+    {
+      "ID": 400048695.0,
+      "PLAN_ID": null,
+      "ORG_ID": null,
+      "TYPE_ITEM": null,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ מק/ 525/ 40",
+      "PLAN_NAME": null,
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 50.0,
+      "RELATION_TYPE": "כפיפות",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 0.0,
+      "PUBLICATION_PAGE": 0.0,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": null,
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": null,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [],
+  "rsPlanDocs": [],
+  "rsPlanDocsAdd": [],
+  "rsPlanDocsGen": [],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 23.31,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 3.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [],
+  "rsInstructions": [],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "בתהליך הפקדה",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "בבדיקת תנאי סף",
+  "statusTextColor": "E56E2A",
+  "mainStatus": "בתהליך",
+  "statusDate": "04/07/2011",
+  "iconPath": "assets/images/sv4-icon-dots-orange.svg",
+  "rsVoice": []
+}

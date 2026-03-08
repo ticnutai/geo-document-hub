@@ -1,0 +1,520 @@
+{
+  "14": {
+    "gush": 7188,
+    "helka": 14,
+    "migrash": "103",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "513 מ\"ר"
+  },
+  "16": {
+    "gush": 7188,
+    "helka": 16,
+    "migrash": "105",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "437 מ\"ר"
+  },
+  "17": {
+    "gush": 7188,
+    "helka": 17,
+    "migrash": "319",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "554 מ\"ר"
+  },
+  "18": {
+    "gush": 7188,
+    "helka": 18,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "19": {
+    "gush": 7188,
+    "helka": 19,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "20": {
+    "gush": 7188,
+    "helka": 20,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "21": {
+    "gush": 7188,
+    "helka": 21,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "22": {
+    "gush": 7188,
+    "helka": 22,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "24": {
+    "gush": 7188,
+    "helka": 24,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "25": {
+    "gush": 7188,
+    "helka": 25,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "26": {
+    "gush": 7188,
+    "helka": 26,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "27": {
+    "gush": 7188,
+    "helka": 27,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "28": {
+    "gush": 7188,
+    "helka": 28,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "29": {
+    "gush": 7188,
+    "helka": 29,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "30": {
+    "gush": 7188,
+    "helka": 30,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "31": {
+    "gush": 7188,
+    "helka": 31,
+    "migrash": "106",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "632 מ\"ר"
+  },
+  "32": {
+    "gush": 7188,
+    "helka": 32,
+    "migrash": "114",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "737 מ\"ר"
+  },
+  "33": {
+    "gush": 7188,
+    "helka": 33,
+    "migrash": "115",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "1215 מ\"ר"
+  },
+  "34": {
+    "gush": 7188,
+    "helka": 34,
+    "migrash": "177",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "520 מ\"ר"
+  },
+  "35": {
+    "gush": 7188,
+    "helka": 35,
+    "migrash": "178",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "599 מ\"ר"
+  },
+  "36": {
+    "gush": 7188,
+    "helka": 36,
+    "migrash": "149",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "428 מ\"ר"
+  },
+  "37": {
+    "gush": 7188,
+    "helka": 37,
+    "migrash": "149",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "428 מ\"ר"
+  },
+  "38": {
+    "gush": 7188,
+    "helka": 38,
+    "migrash": "149",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "428 מ\"ר"
+  },
+  "39": {
+    "gush": 7188,
+    "helka": 39,
+    "migrash": "150",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "578 מ\"ר"
+  },
+  "40": {
+    "gush": 7188,
+    "helka": 40,
+    "migrash": "172",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "847 מ\"ר"
+  },
+  "41": {
+    "gush": 7188,
+    "helka": 41,
+    "migrash": "323",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "752 מ\"ר"
+  },
+  "42": {
+    "gush": 7188,
+    "helka": 42,
+    "migrash": "322",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "407 מ\"ר"
+  },
+  "43": {
+    "gush": 7188,
+    "helka": 43,
+    "migrash": "171",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "731 מ\"ר"
+  },
+  "44": {
+    "gush": 7188,
+    "helka": 44,
+    "migrash": "173",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "637 מ\"ר"
+  },
+  "45": {
+    "gush": 7188,
+    "helka": 45,
+    "migrash": "174",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "455 מ\"ר"
+  },
+  "46": {
+    "gush": 7188,
+    "helka": 46,
+    "migrash": "170",
+    "migrash_plan": "גז/12/525",
+    "yeud": "מגורים א (מתוכנית גז/12/525)",
+    "shetach": "716 מ\"ר"
+  },
+  "47": {
+    "gush": 7188,
+    "helka": 47,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "48": {
+    "gush": 7188,
+    "helka": 48,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "49": {
+    "gush": 7188,
+    "helka": 49,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "50": {
+    "gush": 7188,
+    "helka": 50,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "51": {
+    "gush": 7188,
+    "helka": 51,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "52": {
+    "gush": 7188,
+    "helka": 52,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "53": {
+    "gush": 7188,
+    "helka": 53,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "54": {
+    "gush": 7188,
+    "helka": 54,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "55": {
+    "gush": 7188,
+    "helka": 55,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "56": {
+    "gush": 7188,
+    "helka": 56,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "57": {
+    "gush": 7188,
+    "helka": 57,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "58": {
+    "gush": 7188,
+    "helka": 58,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "59": {
+    "gush": 7188,
+    "helka": 59,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "60": {
+    "gush": 7188,
+    "helka": 60,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "61": {
+    "gush": 7188,
+    "helka": 61,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "62": {
+    "gush": 7188,
+    "helka": 62,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "63": {
+    "gush": 7188,
+    "helka": 63,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "64": {
+    "gush": 7188,
+    "helka": 64,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "65": {
+    "gush": 7188,
+    "helka": 65,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "66": {
+    "gush": 7188,
+    "helka": 66,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "67": {
+    "gush": 7188,
+    "helka": 67,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "68": {
+    "gush": 7188,
+    "helka": 68,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "69": {
+    "gush": 7188,
+    "helka": 69,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "70": {
+    "gush": 7188,
+    "helka": 70,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "71": {
+    "gush": 7188,
+    "helka": 71,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "72": {
+    "gush": 7188,
+    "helka": 72,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "73": {
+    "gush": 7188,
+    "helka": 73,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "74": {
+    "gush": 7188,
+    "helka": 74,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "75": {
+    "gush": 7188,
+    "helka": 75,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  },
+  "76": {
+    "gush": 7188,
+    "helka": 76,
+    "migrash": null,
+    "migrash_plan": null,
+    "yeud": null,
+    "shetach": null,
+    "not_found": true
+  }
+}

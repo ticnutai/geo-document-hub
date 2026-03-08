@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <Style id="Plan">
+	<LabelStyle>		
+<color>00000000</color>
+			
+<scale>0</scale>
+		
+</LabelStyle>
+		
+<LineStyle>
+			
+<color>ffff0000</color>
+			
+<width>3</width>
+		
+</LineStyle>
+		
+<PolyStyle>
+			
+<fill>0</fill>
+		
+</PolyStyle>
+
+   <BalloonStyle>
+    <text>
+
+
+<![CDATA[<?xml version="1.0"?>
+<table border="0"  width="560" cellpadding="2" cellspacing="2" dir="rtl" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<tr>
+<td align="center" colspan="2" height="20" style="border-bottom: Solid 1px #b4b5b4">
+<font face="Arial" size="3" color="#b50027">
+<b>פרטי גבול תכנית</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">מספר תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NUMBER]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שם תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NAME]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שטח התכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_AREA]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">קישור לתכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_URL]</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">תאריך יצור הקובץ</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[CREATE_DATE]</b>
+</font>
+</td>
+</tr>
+
+</table>]]> 
+
+</text>
+     </BalloonStyle>
+  </Style>
+
+  <Placemark>
+   <name name="name"><value>גבול תכנית</value></name>
+   <description/>   
+   <styleUrl>#Plan</styleUrl>
+<MultiGeometry>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>34.8458626080748,31.9888976428506,0 34.8460469211321,31.9886980356758,0 34.8462338889866,31.9885099382065,0 34.8465400945404,31.9881979590015,0 34.8468054656792,31.9879755761401,0 34.8470681441747,31.9877508846281,0 34.8474308999995,31.9874712667491,0 34.8474823323554,31.9874323065974,0 34.8473823041008,31.9873112043516,0 34.847244064918,31.9871056551837,0 34.8470407081421,31.9868297622163,0 34.8470225953017,31.9868074366717,0 34.8468770615365,31.9866279286398,0 34.8467820153415,31.9865262079665,0 34.8466697935581,31.9864061321997,0 34.8466332150948,31.9863706783921,0 34.8465448006253,31.986291007278,0 34.846423187834,31.9862057775083,0 34.8463023280655,31.9861304966301,0 34.8462721396941,31.9861116539225,0 34.8461282005965,31.9860397345771,0 34.8460467270848,31.986012540574,0 34.8459693668229,31.9859887849895,0 34.8458912536637,31.9859681835395,0 34.845784782836,31.9859477724276,0 34.8457468092021,31.9859446891342,0 34.8456230505941,31.9859347801039,0 34.8455039061413,31.9859355252767,0 34.8452996682057,31.9859420715866,0 34.845145696262,31.9859469563112,0 34.8449400605063,31.9859920303039,0 34.844818036268,31.9854465087683,0 34.844770226365,31.9854487071184,0 34.8444333248446,31.9855661114637,0 34.8431378197138,31.9860313195195,0 34.8431526381999,31.9860667195863,0 34.8433066315333,31.9864010232825,0 34.8434291570368,31.9866501972824,0 34.8436030284852,31.9869367652362,0 34.8438802541728,31.9873225580154,0 34.8439197234778,31.9873361755627,0 34.8441081132951,31.9875474186367,0 34.8443007038722,31.9877875743112,0 34.8443845569818,31.9878830426174,0 34.844583768764,31.9880537778723,0 34.844646194866,31.9880816402416,0 34.8446825521052,31.9881195288507,0 34.8449334489515,31.9882780554055,0 34.8450739360876,31.9883404072112,0 34.8452082136007,31.9884214085864,0 34.8457168050843,31.9888145002669,0 34.8458626080748,31.9888976428506,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+</MultiGeometry>
+
+   <ExtendedData>
+  
+    <Data name="PL_NUMBER"><value>גז/ 525/ 2</value></Data>
+	 <Data name="PL_NAME"><value>כפר חב"ד</value></Data>
+	  <Data name="PL_AREA"><value>79.8</value></Data>
+	   <Data name="PL_URL"><value>http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=3&amp;tnumb=%D7%92%D7%96/%20525/%202</value></Data>
+	    <Data name="CREATE_DATE"><value>07/10/2019 05:18:30</value></Data>
+   </ExtendedData>
+  </Placemark>
+
+</Document>
+</kml>

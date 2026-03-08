@@ -1,0 +1,459 @@
+{
+  "planDetails": {
+    "ID": 4052863.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "גז/ מק/ 525/ 28",
+    "ENTITY_SUBTYPE": "תכנית מתאר מקומית",
+    "ENTITY_SUBTYPE_ID": 30.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "הרחבת פסי רכבת.",
+    "AUTH": "מקומית",
+    "PERMISSIONS": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 0.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "ליצור רציפות בשטח מסילת הברזל.                    \n",
+    "INSTRACTIONS": " ",
+    "ARTICLE": null,
+    "MASTER_ID": 4052863.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": 0.0,
+      "STREET_NAME": " ",
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6260",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "8"
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4052863.0,
+      "LIS_DESC": "פרסום לאישור ברשומות",
+      "EIS_DATE": "19/02/1998",
+      "DETAILS": "תאריך פרסום: 19/02/1998.  מס' ילקוט פרסומים: 4619.  שנה עברית: התשנח   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-4619.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 4619.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4470.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052863.0,
+      "LIS_DESC": "אישור התכנית ע\"י שר האוצר-התכנית אושרה",
+      "EIS_DATE": "21/12/1997",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 33101082.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052863.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "22/12/1996",
+      "DETAILS": "תאריך פרסום: 22/12/1996.  מס' ילקוט פרסומים: 4470.  שנה עברית: התשנז   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-4470.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 4470.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    }
+  ],
+  "rsDes": [],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [],
+  "rsPubDocs": [],
+  "locationDesc": "ישוב: כפר חב'ד                                    \n",
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 4016228.0,
+      "PLAN_ID": 4063057.0,
+      "ORG_ID": 4063057.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 525/ 12",
+      "PLAN_NAME": "שינוי תכנית מיתאר מקומית מס' גז/12/525",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": "הסבה מממ\"י",
+      "PUBLICATION_FILE": 3465.0,
+      "PUBLICATION_PAGE": null,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": "05/07/1987",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4063057.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [],
+  "rsPlanDocs": [
+    {
+      "ID": 255050.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": "תקנון",
+      "INTERNAL_OPEN_DATE": "25/12/2012",
+      "EDITING_DATE": "04/02/2010",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 426990.0,
+      "FILE_TYPE": "pdf       ",
+      "RUB_CODE": 3.0,
+      "RUB_DESC": "הוראות התכנית",
+      "ORD": 3.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "2D7BEB3FB7EBF9D61BC403A48DAA541BAE781CAE46E0551AC229A68A9F433D26",
+        "fname": "DOC_255050.pdf",
+        "ficon": "ft/file_PDF.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "24FDD48A8CA1D5E0FFF70C11F4684DA9524A6E13861245B9CCCD9795BB1F5342"
+    },
+    {
+      "ID": 1147810789.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "24/12/2012",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001892147.0,
+      "FILE_TYPE": "pdf       ",
+      "RUB_CODE": 6.0,
+      "RUB_DESC": "תשריט התכנית",
+      "ORD": 6.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "A0126F125E3CB09919A000B52577A565B151D7B446A624D458F78481F9DF5EE2",
+        "fname": "DOC_1147810789.pdf",
+        "ficon": "ft/file_PDF.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "CDE55ACCB6CFA37E2F458B9A40450A99BC81C305F86D9D607C5708FC36235357"
+    }
+  ],
+  "rsPlanDocsAdd": [
+    {
+      "ID": 1147810791.0,
+      "DOC_NAME": "תשריט ממ\"ג - shp",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "24/12/2012",
+      "DOC_PAGES": 0.0,
+      "ATTACHMENT_ID": 1001892151.0,
+      "FILE_TYPE": "zip       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 134.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "B06044FA78DB98092CB33924A77C28AB7DCAB97DC006A42C797255C516B30426",
+        "fname": "DOC_1147810791.zip",
+        "ficon": "ft/file_ZIP.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "D6168B9AE16D8310F44260BF8DB26ED7159308433DA18BC12C1AB0253140FA8F"
+    },
+    {
+      "ID": 6000506671997.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "06/10/2019",
+      "EDITING_DATE": "06/10/2019",
+      "DOC_PAGES": 1.0,
+      "ATTACHMENT_ID": 6012789619.0,
+      "FILE_TYPE": "kml       ",
+      "RUB_CODE": 30.0,
+      "RUB_DESC": "קבצים דיגיטליים",
+      "ORD": 30.0,
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "0701021E86121C863FCAD8162535F912740D4DF8302E98035E27DB283DC989A6",
+        "fname": "DOC_6000506671997.kml",
+        "ficon": "ft/file_KML.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "B4E63CA462493D819DEEC4A443CDDD277483ABDA3BD0F9921365AE410B9E605C"
+    }
+  ],
+  "rsPlanDocsGen": [
+    {
+      "ID": 255050.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": "תקנון",
+      "INTERNAL_OPEN_DATE": "25/12/2012",
+      "EDITING_DATE": "04/02/2010",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 426990.0,
+      "FILE_TYPE": "pdf       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 105.0,
+      "CAT_C_TITLE": "הוראות ",
+      "CAT_C_ORDER": 1001.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "הוראות התכנית - מאושרות - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 1147810789.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "24/12/2012",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001892147.0,
+      "FILE_TYPE": "pdf       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 2.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 110.0,
+      "CAT_C_TITLE": "תשריט ",
+      "CAT_C_ORDER": 1010.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט התכנית - מאושר - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 6000506671997.0,
+      "DOC_NAME": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "ED_DOC_INFO": null,
+      "INTERNAL_OPEN_DATE": "06/10/2019",
+      "EDITING_DATE": "06/10/2019",
+      "DOC_PAGES": 1.0,
+      "DOC_PAGE_NO": 1.0,
+      "ATTACHMENT_ID": 6012789619.0,
+      "FILE_TYPE": "kml       ",
+      "ED_ENTITY_TYPE": 1.0,
+      "ED_DOC_SOURCE": 40.0,
+      "ED_DOC_TYPE": 200.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "גבול התכנית(KML)\n לצפיה ב google earth",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": null,
+      "GROUP_DOCNAME": 1.0
+    },
+    {
+      "ID": 1147810791.0,
+      "DOC_NAME": "תשריט ממ\"ג - shp",
+      "ED_DOC_INFO": " ",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "24/12/2012",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001892151.0,
+      "FILE_TYPE": "zip       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 134.0,
+      "CAT_A_CODE": 2.0,
+      "CAT_A_TITLE": "מסמכי מידע מנהלי",
+      "CAT_A_ORDER": 22.0,
+      "CAT_B_CODE": 0.0,
+      "CAT_B_TITLE": null,
+      "CAT_B_ORDER": 0.0,
+      "CAT_C_CODE": 125.0,
+      "CAT_C_TITLE": "קבצים דיגיטלים",
+      "CAT_C_ORDER": 1040.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "תשריט ממ\"ג - shp",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    }
+  ],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 2.0,
+  "iconType": "1",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 3.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 1147810789.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 4052863.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 2.0,
+      "DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "DOC_EDITING_DATE_TIME": "24/12/2012          ",
+      "DOC_CREATE_DATE_TIME": "24/12/2012          ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 1001892147.0,
+      "FILE_TYPE": "pdf       ",
+      "LUT_DOC_NAME": "תשריט התכנית - מאושר - חתום",
+      "DOC_INFO": " "
+    }
+  ],
+  "rsInstructions": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 255050.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 4052863.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 1.0,
+      "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\184444.pdf",
+      "DOC_EDITING_DATE_TIME": "20100204            ",
+      "DOC_CREATE_DATE_TIME": "20100204 000000     ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 426990.0,
+      "FILE_TYPE": "pdf       ",
+      "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "DOC_INFO": "תקנון"
+    }
+  ],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "פרסום אישור",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "אישור",
+  "statusTextColor": "569246",
+  "mainStatus": "מאושרת",
+  "statusDate": "19/02/1998",
+  "iconPath": "assets/images/sv4-icon-ok-status.svg",
+  "rsVoice": []
+}

@@ -1,0 +1,292 @@
+{
+  "planDetails": {
+    "ID": 4052870.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "גז/ מק/ 525/ 30",
+    "ENTITY_SUBTYPE": "תכנית מפורטת",
+    "ENTITY_SUBTYPE_ID": 40.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "שינוי הוראות בנוי",
+    "AUTH": "מקומית",
+    "PERMISSIONS": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": null,
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 0.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": "שינוי הוראות בדבר תכנית בינוי לתכנית: גז / 525 / 2\n1   על ידי ביטול הצורך בהסכמת הועדה המחוזית לתכנית\n    הבינוי - לפי סעיף 62 א-א-5 בחוק.",
+    "INSTRACTIONS": " ",
+    "ARTICLE": null,
+    "MASTER_ID": 4052870.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": 0.0,
+      "STREET_NAME": " ",
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6260",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "15",
+      "PARCELS_PARTIAL": ""
+    },
+    {
+      "BLOCKS": "6284",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "15"
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4052870.0,
+      "LIS_DESC": "פרסום לאישור ברשומות",
+      "EIS_DATE": "31/12/1998",
+      "DETAILS": "תאריך פרסום: 31/12/1998.  מס' ילקוט פרסומים: 4718.  שנה עברית: התשנט   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-4718.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 4718.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4470.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052870.0,
+      "LIS_DESC": "אישור התכנית ע\"י שר האוצר-התכנית אושרה",
+      "EIS_DATE": "31/12/1998",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 33101082.0
+    },
+    {
+      "EIS_ENTITY_ID": 4052870.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "05/04/1998",
+      "DETAILS": "תאריך פרסום: 05/04/1998.  מס' ילקוט פרסומים: 4635.  שנה עברית: התשנח   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-4635.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 4635.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    }
+  ],
+  "rsDes": [],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [],
+  "rsPubDocs": [],
+  "locationDesc": "ישוב: כפר חב'ד                                    \n",
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 4016234.0,
+      "PLAN_ID": 4063057.0,
+      "ORG_ID": 4063057.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 525/ 12",
+      "PLAN_NAME": "שינוי תכנית מיתאר מקומית מס' גז/12/525",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": "הסבה מממ\"י",
+      "PUBLICATION_FILE": 3465.0,
+      "PUBLICATION_PAGE": null,
+      "PUBLICATION_PAGE_P": null,
+      "PUBLICATION_DATE": "05/07/1987",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4063057.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [],
+  "rsPlanDocs": [
+    {
+      "ID": 252387.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": "תקנון",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "06/12/2009",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 422194.0,
+      "FILE_TYPE": "pdf       ",
+      "RUB_CODE": 3.0,
+      "RUB_DESC": "הוראות התכנית",
+      "ORD": 3.0,
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "FILE_DATA": {
+        "edId": null,
+        "edNum": "8B3D14613AE9F23787A635F975FD777B6566D3B733DD16CF92BBC50AC9CD4C49",
+        "fname": "DOC_252387.pdf",
+        "ficon": "ft/file_PDF.gif",
+        "attExist": true
+      },
+      "PLAN_ENTITY_DOC_NUM": "C991D0D90CBFDC5DD0EEB197EFFF2BDD5F24B84FB56834AC35A12233ED74934A"
+    }
+  ],
+  "rsPlanDocsAdd": [],
+  "rsPlanDocsGen": [
+    {
+      "ID": 252387.0,
+      "DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "ED_DOC_INFO": "תקנון",
+      "INTERNAL_OPEN_DATE": "24/12/2012",
+      "EDITING_DATE": "06/12/2009",
+      "DOC_PAGES": 0.0,
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 422194.0,
+      "FILE_TYPE": "pdf       ",
+      "ED_ENTITY_TYPE": 310.0,
+      "ED_DOC_SOURCE": 50.0,
+      "ED_DOC_TYPE": 1.0,
+      "CAT_A_CODE": 1.0,
+      "CAT_A_TITLE": "מסמכי התכנית",
+      "CAT_A_ORDER": 11.0,
+      "CAT_B_CODE": 30.0,
+      "CAT_B_TITLE": "מסמכים מאושרים (מתן תוקף)",
+      "CAT_B_ORDER": 11.0,
+      "CAT_C_CODE": 105.0,
+      "CAT_C_TITLE": "הוראות ",
+      "CAT_C_ORDER": 1001.0,
+      "CAT_D_ORDER": 0.0,
+      "CAT_D_TITLE": "הוראות התכנית - מאושרות - חתום",
+      "INCEPTION_CODE": null,
+      "INCEPTION_DESC": " ",
+      "GROUP_DOCNAME": 1.0
+    }
+  ],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 17.93,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 3.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [],
+  "rsInstructions": [
+    {
+      "RN": -1.0,
+      "ENTITY_DOC_ID": 252387.0,
+      "ENTITY_TYPE": 310.0,
+      "ENTITY_ID": 4052870.0,
+      "DOC_SOURCE": 50.0,
+      "DOC_TYPE": 1.0,
+      "DOC_NAME": "\\\\merkaz\\mgfac8\\utils\\docs2\\177720.pdf",
+      "DOC_EDITING_DATE_TIME": "20091206            ",
+      "DOC_CREATE_DATE_TIME": "20091206 000000     ",
+      "DOC_PAGE_NO": null,
+      "ATTACHMENT_ID": 422194.0,
+      "FILE_TYPE": "pdf       ",
+      "LUT_DOC_NAME": "הוראות התכנית - מאושרות - חתום",
+      "DOC_INFO": "תקנון"
+    }
+  ],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "בתהליך אישור",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "אישור",
+  "statusTextColor": "569246",
+  "mainStatus": "מאושרת",
+  "statusDate": "31/12/1998",
+  "iconPath": "assets/images/sv4-icon-ok-status.svg",
+  "rsVoice": []
+}

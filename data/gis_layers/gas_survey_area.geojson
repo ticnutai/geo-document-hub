@@ -1,0 +1,299 @@
+{
+  "type": "FeatureCollection",
+  "name": "gas_survey_area",
+  "description": "גז טבעי – תחום סקירה",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 119,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - מרחב תכנון לודים - מחוז מרכז - אוגדן תשריטים V",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 175,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - מרחב תכנון לודים - מחוז מרכז - אוגדן תשריטים V",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 176,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - מרחב תכנון לודים - מחוז מרכז - אוגדן תשריטים V",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 177,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - מרחב תכנון לודים - מחוז מרכז - אוגדן תשריטים V",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " תמא/ 37/ ב קנ\"מ 1:2500 - tma_37_b_ben_gurion_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 178,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - מרחב תכנון לודים, גלילי - מחוז מרכז - אוגדן תשריטים V",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " תמא/ 37/ ב קנ\"מ 1:2500 - tma_37_b_ben_gurion_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 197,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תמא/ 37/ ב - תחנת גז נתב\"ג, תחנת הגפה וחלוקה - P02V04",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "5000",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות התשריט"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 541,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": " ",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 542,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": " ",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": " ",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 662,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": "תמא/ 37/ ב - tma_37_b_v_7_me.jpg -",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 665,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": "תמא/ 37/ ב - tma_37_b_v_6_me.jpg -  תמא/ 37/ ב קנ\"מ 1:2500 - tma_37_b_ben_gurion_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 666,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": "תמא/ 37/ ב - tma_37_b_v_6_me.jpg -",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 667,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": "תמא/ 37/ ב - tma_37_b_v_6_me.jpg - תמא/ 37/ ב גליון מס' 7 - tma_37_b_v_7_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 668,
+        "Tochnit_Nu": "תמא/ 37/ ב/ 8",
+        "Tochnit_na": "הקו המזרחי- עדכון תוואי מערכות הולכת הגז הטבעיבקטע חגי",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחום סקירה - מאושר",
+        "Related": "תמא/ 37/ ב - tma_37_b_v_7_me.jpg -",
+        "Relevance": "1",
+        "YP_Resumot": "6754",
+        "YP_Resum_1": 1392076800000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%D7%AA%D7%9E%D7%90%2F%2037%2F%20%D7%91%2F%208",
+        "agam_n": 99000214819,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "נקלט על פי בסיס נתונים קיים במאגר"
+      },
+      "geometry": null
+    }
+  ]
+}

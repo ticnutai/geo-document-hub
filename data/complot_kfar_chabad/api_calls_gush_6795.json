@@ -1,0 +1,302 @@
+[
+  {
+    "url": "https://handasi.complot.co.il/wsComplotPublicData/ComplotPublicData.asmx/GetYeshuvim",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"d\":[{\"label\":\"אחיעזר\",\"v\":\"797\",\"k\":\"\"},{\"label\":\"בית דגון\",\"v\":\"261\",\"k\":\"\"},{\"label\":\"בית-רבקה (חב\\\"ד)\",\"v\":\"252\",\"k\":\"\"},{\"label\":\"גנות\",\"v\":\"836\",\"k\":\"\"},{\"label\":\"זיתן\",\"v\":\"788\",\"k\":\"\"},{\"label\":\"חמד\",\"v\":\"801\",\"k\":\"\"},{\"label\":\"יגל\",\"v\":\"798\",\"k\":\"\"},{\"label\":\"ישוב ללא שם\",\"v\":\"382\",\"k\":\"\"},{\"label\":\"כפר חב\\\"ד\",\"v\":\"696\",\"k\":\"\"},{\"label\":\"מ.א. שדות דן\",\"v\":\"9001\",\"k\":\"\"},{\"label\":\"מהדרין\",\"v\":\"251\",\"k\":\"\"},{\"label\":\"משמר-השבעה\",\"v\":\"729\",\"k\":\"\"},{\"label\":\"ניר-צבי\",\"v\":\"331\",\"k\":\"\"},{\"la"
+  },
+  {
+    "url": "https://handasi.complot.co.il/wsComplotPublicData/ComplotPublicData.asmx/GetTabaNumbers",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"d\":[{\"label\":\"3/1288/1\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/1\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/2\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/3\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/4\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/5\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/6\",\"v\":\"\",\"k\":\"\"},{\"label\":\"3/696/7\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0108217\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0117390\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0128637\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0129262\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0139691\",\"v\":\"\",\"k\":\"\"},{\"label\":\"425-0141970\",\"v\":\"\",\""
+  },
+  {
+    "url": "https://handasi.complot.co.il/wsComplotPublicData/ComplotPublicData.asmx/GetStreets",
+    "status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"d\":[{\"label\":\"אגרות קודש\",\"v\":\"144\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר האמצעי\",\"v\":\"113\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר הזקן\",\"v\":\"125\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר הצמח-צדק\",\"v\":\"128\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר הריי\\\"צ\",\"v\":\"126\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר הרש\\\"ב\",\"v\":\"123\",\"k\":\"204\"},{\"label\":\"אדמו\\\"ר מהר\\\"ש\",\"v\":\"127\",\"k\":\"204\"},{\"label\":\"אור התורה\",\"v\":\"129\",\"k\":\"204\"},{\"label\":\"אחיעזר\",\"v\":\"9001\",\"k\":\"797\"},{\"label\":\"איתן\",\"v\":\"101\",\"k\":\"331\"},{\"label\":\"אליהו שמיר\",\"v\":\"109\",\"k\":\"729\"},{\"labe"
+  },
+  {
+    "url": "https://sdan.complot.co.il/cdn-cgi/challenge-platform/h/g/jsd/oneshot/60138c04e6b2/0.2185340179649147:1771525705:wsho3nAmzv3W-SRM2HvBULxMAHIdQQd73qJUoavNClM/9d07e1bafa939b09",
+    "status": 200,
+    "content_type": "text/plain; charset=UTF-8",
+    "body_preview": ""
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAI&_s=1&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=0&_tu=wAQ&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1211",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=1&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=12&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=17&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=18&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=19&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F1&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=2&tfd=9876",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=20&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=21&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=22&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=23&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=24&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F20&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=3&tfd=15972",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=25&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=26&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=27&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=28&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F24&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=4&tfd=21043",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=29&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=30&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=31&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=32&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=33&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F29&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=5&tfd=26957",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=36&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=37&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=38&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=39&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F36&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=6&tfd=33009",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=40&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=41&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=42&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=43&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=44&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F40&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=7&tfd=38457",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=45&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=46&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=47&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=48&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=49&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-DRP38GS1HT&gtm=45je62i0h1v9124619161za20g&_p=1771526312734&gcd=13l3l3l3l2l1&npa=0&dma=0&ul=he&sr=1280x720&cid=499356097.1771526313&ir=1&uaa=x86&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=EBAIAAQ&tag_exp=103116026~103200004~104527907~104528501~104684208~104684211~115938465~115938468~117455676~117455678~117531287&dl=https%3A%2F%2Fsdan.complot.co.il%2Fgush2%2F&dp=%23gush%2F6795%2F45&dt=%D7%9E%D7%99%D7%93%D7%A2%20%D7%AA%D7%9B%D7%A0%D7%95%D7%A0%D7%99%20-%20%D7%90%D7%AA%D7%A8%20%D7%94%D7%A0%D7%93%D7%A1%D7%99%20-%20%D7%A9%D7%93%D7%95%D7%AA%20%D7%93%D7%9F&sid=1771526313&sct=1&seg=1&_tu=wAQ&_s=8&tfd=44444",
+    "status": 204,
+    "content_type": "text/plain",
+    "body_preview": "(binary)"
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=50&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=51&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=52&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=53&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  },
+  {
+    "url": "https://handasi.complot.co.il/magicscripts/mgrqispi.dll?appname=cixpa&prgname=GetGushFile&siteid=31&g=6795&h=54&arguments=siteid,g,h",
+    "status": 200,
+    "content_type": "text/html",
+    "body_preview": "<div>\r\n\t<hr id=\"search-result-heading-hr\">\r\n\t\r\n\t<br />\r\n\t<br />\r\n\t<span class=\"glyphicon glyphicon-info-sign\"></span>\r\n\t<p translatable-text>מצטערים,</p>\r\n\r\n\t<p translatable-text>לא ניתן להציג את המידע המבוקש.</p>\r\n\t<p translatable-text>לא אותרו תוצאות התואמות את מאפייני החיפוש שהוגדרו / לא ניתן להציג את המידע המבוקש בהתאם לשלב הסטטוטורי.</p>\r\n\t<p translatable-text>לבירורים נוספים, ניתן ליצור קשר עם משרדי הוועדה בשעות הפעילות.</p>\r\n\t<p><a href=\"javascript:history.go(-1)\" translatable-text>לחזרה "
+  }
+]

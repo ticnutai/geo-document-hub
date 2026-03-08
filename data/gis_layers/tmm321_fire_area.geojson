@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_fire_area",
+  "description": "תמ\"מ 3/21 – גבול שטח אש",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

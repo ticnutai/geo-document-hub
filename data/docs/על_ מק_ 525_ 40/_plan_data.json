@@ -1,0 +1,262 @@
+{
+  "planDetails": {
+    "ID": 4101873.0,
+    "DESCRIPTOR": "תוכנית",
+    "NUMB": "על/ מק/ 525/ 40",
+    "ENTITY_SUBTYPE": "תכנית מפורטת",
+    "ENTITY_SUBTYPE_ID": 40.0,
+    "ENTITY_TYPE_ID": 1.0,
+    "E_NAME": "כפר חב\"ד - שכונת לוי יצחק.",
+    "AUTH": "מקומית",
+    "PERMISSIONS": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+    "DETAILED": 0.0,
+    "THREE_D": 0.0,
+    "UNITY": "איחוד ו/או חלוקה בהסכמת כל הבעלים בכל תחום התכנית/בחלק מתחום התכנית",
+    "PHASE": null,
+    "ENTITY_PHASE_CODE": 0.0,
+    "EDITION": null,
+    "EDITION_DATE": null,
+    "GOALS": " ",
+    "INSTRACTIONS": " ",
+    "ARTICLE": null,
+    "MASTER_ID": 4101873.0,
+    "LAST_UPDATE_DATE": null,
+    "DETAILED_DESC": "לא"
+  },
+  "rsLocation": [
+    {
+      "DISTRICT_AREA_CODE": 4.0,
+      "DISTRICT_AREA": "מרכז",
+      "PLAN_AREA_CODE": 425.0,
+      "PLAN_AREA": "שדות דן",
+      "JURST_AREA_CODE": 4340.0,
+      "JURST_AREA": "שדות דן",
+      "CITY_COUNTY_CODE": 696.0,
+      "CITY_COUNTY": "כפר חב\"ד",
+      "STREET_CODE": 6501.0,
+      "STREET_NAME": "שכ לוי יצחק",
+      "HOUSE_NUMBER": null
+    }
+  ],
+  "rsBlocks": [
+    {
+      "BLOCKS": "6273",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "7 - 8, 10, 50"
+    },
+    {
+      "BLOCKS": "6279",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "1 - 13, 17 - 19",
+      "PARCELS_PARTIAL": "14 - 16, 20 - 22, 35"
+    },
+    {
+      "BLOCKS": "6280",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "2 - 4, 45",
+      "PARCELS_PARTIAL": "1, 52"
+    },
+    {
+      "BLOCKS": "7196",
+      "BLOCK_TYPE": null,
+      "BLOCK_PARTIALITY_CODE": "ח",
+      "BLOCK_PARTIALITY": "חלק",
+      "PARCELS_WHOLE": "",
+      "PARCELS_PARTIAL": "124, 133, 136 - 137"
+    }
+  ],
+  "rsInternet": [
+    {
+      "EIS_ENTITY_ID": 4101873.0,
+      "LIS_DESC": "עיון שר האוצר-התכנית לא טעונה אישור השר",
+      "EIS_DATE": "27/08/2009",
+      "DETAILS": null,
+      "ED_PUBLICATION_FILE": null,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 34201126.0
+    },
+    {
+      "EIS_ENTITY_ID": 4101873.0,
+      "LIS_DESC": "פרסום להפקדה ברשומות",
+      "EIS_DATE": "18/08/2009",
+      "DETAILS": "תאריך פרסום: 18/08/2009.  מס' ילקוט פרסומים: 5988.  עמוד: 5327.  שנה עברית: התשסט   . <a href='http://www.nevo.co.il/Law_word/law10/yalkut-5988.pdf' target=_blank><img src='../images/nevo_logo.jpg' border=0 /></a>",
+      "ED_PUBLICATION_FILE": 5988.0,
+      "STATUS_PRINT_VERSION": null,
+      "STATUS_TASRIT_VERSION": null,
+      "FINAL_ROWNUMBER": 1.0,
+      "LIS_CODE": 4400.0
+    }
+  ],
+  "rsDes": [
+    {
+      "MMI_MEETING_ID": 4031921.0,
+      "DISTINCT_NAME": "מרכז",
+      "COMMITTE_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז - עיון / אישור השר - מחוז מרכז",
+      "CM_NAME": "ועדה מחוזית לתכנון ולבניה מחוז המרכז",
+      "FO_NAME": "עיון / אישור השר - מחוז מרכז",
+      "FO_SUB_FORUM_OF": 10.0,
+      "MEETING_NO": 2009039.0,
+      "MEETING_DATE": "27/08/2009",
+      "ENTITY_DOC_ID": 73253105.0,
+      "ATTACHMENT_ID": 3573013.0,
+      "FILE_TYPE": "pdf       ",
+      "ENTITY_DOC_ID1": null,
+      "ATTACHMENT_ID1": null,
+      "FILE_TYPE1": null,
+      "ENTITY_DOC_ID_10": null,
+      "ATTACHMENT_ID_10": null,
+      "FILE_TYPE_10": null,
+      "ENTITY_DOC_ID_110": null,
+      "ATTACHMENT_ID_110": null,
+      "FILE_TYPE_110": null,
+      "MEETING_CODE": 4031921.0,
+      "MMI_DESICIONS": "לא טעון אישור\r\n ",
+      "ENTITY_DOC_ID_20": null,
+      "ATTACHMENT_ID_20": null,
+      "FILE_TYPE_20": null
+    }
+  ],
+  "rsMeetingsDocs": [],
+  "rsDesInvited": [
+    {
+      "MM_ID": 4031921.0,
+      "MMI_ENTITY_ID": 4101873.0,
+      "MIF_MM_ID": 4031921,
+      "MIF_ITEM_ID": 0,
+      "MIF_INV_ID": 2725,
+      "PRP_FULL_NAME": "אמרני ד\"ר שוקי"
+    }
+  ],
+  "rsPubDocs": [],
+  "locationDesc": "מרכז הכפר.",
+  "rsOppositions": [],
+  "rsLocalPlanActions": [],
+  "rsRelation": [
+    {
+      "ID": 4024723.0,
+      "PLAN_ID": 4053041.0,
+      "ORG_ID": 4053041.0,
+      "TYPE_ITEM": 1.0,
+      "DESCRIPTOR": "תוכנית",
+      "PLAN_NUMBER": "גז/ 525/ 27/ א",
+      "PLAN_NAME": "הוחלף מ-גז / 525 / 27.",
+      "ENTITY_TYPE": "תוכנית",
+      "RELATION_TYPE_CODE": 10.0,
+      "RELATION_TYPE": "שינוי",
+      "COMMENTS": " ",
+      "PUBLICATION_FILE": 5205.0,
+      "PUBLICATION_PAGE": 3425.0,
+      "PUBLICATION_PAGE_P": 3425.0,
+      "PUBLICATION_DATE": "10/07/2003",
+      "ER_ORDER": null,
+      "RELATED_ENTITY_TYPE_CODE": 1.0,
+      "ORG_MP_ID": 4053041.0,
+      "REL_CHAPTER": 0.0,
+      "LC_DESC": null
+    }
+  ],
+  "rsTopic": [],
+  "rsPlanDocs": [],
+  "rsPlanDocsAdd": [],
+  "rsPlanDocsGen": [],
+  "rsLutAHeaders": [
+    {
+      "IA_CAT_A_CODE": 1.0,
+      "IA_INT_CAT_DSPLY": "מסמכי התכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 2.0,
+      "IA_INT_CAT_DSPLY": "מסמכי מידע מנהלי"
+    },
+    {
+      "IA_CAT_A_CODE": 3.0,
+      "IA_INT_CAT_DSPLY": "נוסחי פרסום"
+    },
+    {
+      "IA_CAT_A_CODE": 101.0,
+      "IA_INT_CAT_DSPLY": "עיקרי הוראותיה"
+    },
+    {
+      "IA_CAT_A_CODE": 102.0,
+      "IA_INT_CAT_DSPLY": "דברי הסבר"
+    },
+    {
+      "IA_CAT_A_CODE": 103.0,
+      "IA_INT_CAT_DSPLY": "הודעות ועדה מקומית"
+    },
+    {
+      "IA_CAT_A_CODE": 104.0,
+      "IA_INT_CAT_DSPLY": "שלבי טיפול בתכנית"
+    },
+    {
+      "IA_CAT_A_CODE": 105.0,
+      "IA_INT_CAT_DSPLY": "יחס לתכניות מאושרות קודמות"
+    },
+    {
+      "IA_CAT_A_CODE": 106.0,
+      "IA_INT_CAT_DSPLY": "ישויות/תכנית קשורות"
+    },
+    {
+      "IA_CAT_A_CODE": 107.0,
+      "IA_INT_CAT_DSPLY": "החלטות מוסדות תכנון"
+    },
+    {
+      "IA_CAT_A_CODE": 108.0,
+      "IA_INT_CAT_DSPLY": "התנגדויות"
+    }
+  ],
+  "Auth": "",
+  "decAreaDunam": 16.68,
+  "iconType": "3",
+  "planAddData": {
+    "IS_NEW_VERSION_ATTENTION": 0.0,
+    "V_AUTH_CODE": 3.0,
+    "V_IS_MAVAT": 0.0,
+    "Q_LOCAL_UPDATE": null,
+    "Q_REGION_UPDATE": null
+  },
+  "printCounters": [],
+  "rsQuantities": [],
+  "rsTasrit": [],
+  "rsInstructions": [],
+  "recExplanation": {
+    "RN": 1.0,
+    "EXPLANATION": null,
+    "ENTITY_DOC_ID": null,
+    "ATTACHMENT_ID": null,
+    "FILE_TYPE": null
+  },
+  "plFromRemi": 0.0,
+  "SV4Labels": {
+    "lblTitle1": "זיהוי וסיווג התכנית",
+    "lblDocuments": "מסמכי התוכנית",
+    "lblPupose": "מטרת התכנית ועיקרי הוראותיה",
+    "lblPlace": "מקום התכנית",
+    "lblRelationToEntities": "יחס לתכניות מאושרות קודמות",
+    "lblStates": "שלבי הטיפול בתכנית"
+  },
+  "printCountersDesc": null,
+  "shortStatus": "בתהליך הפקדה",
+  "rsOpenOpp": {
+    "CAN_SUBMIT_OPPN": 0.0,
+    "OPPN_END_DATE": null,
+    "OPP_DATE_DISPLAY": 0.0,
+    "IS_RELEVANT": 0.0
+  },
+  "GoogleLinkVisible": false,
+  "unifiedStatus": "נדחתה",
+  "statusTextColor": "5A5959",
+  "mainStatus": "נדחתה",
+  "statusDate": "07/11/2010",
+  "iconPath": "assets/images/sv4-icon-cancel.svg",
+  "rsVoice": []
+}

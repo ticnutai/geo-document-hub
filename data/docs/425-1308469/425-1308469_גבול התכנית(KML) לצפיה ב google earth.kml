@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <Style id="Plan">
+	<LabelStyle>		
+<color>00000000</color>
+			
+<scale>0</scale>
+		
+</LabelStyle>
+		
+<LineStyle>
+			
+<color>ffff0000</color>
+			
+<width>3</width>
+		
+</LineStyle>
+		
+<PolyStyle>
+			
+<fill>0</fill>
+		
+</PolyStyle>
+
+   <BalloonStyle>
+    <text>
+
+
+<![CDATA[<?xml version="1.0"?>
+<table border="0"  width="560" cellpadding="2" cellspacing="2" dir="rtl" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<tr>
+<td align="center" colspan="2" height="20" style="border-bottom: Solid 1px #b4b5b4">
+<font face="Arial" size="3" color="#b50027">
+<b>פרטי גבול תכנית</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">מספר תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NUMBER]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שם תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NAME]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שטח התכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_AREA]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">קישור לתכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_URL]</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">תאריך יצור הקובץ</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[CREATE_DATE]</b>
+</font>
+</td>
+</tr>
+
+</table>]]> 
+
+</text>
+     </BalloonStyle>
+  </Style>
+
+  <Placemark>
+   <name name="name"><value>גבול תכנית</value></name>
+   <description/>   
+   <styleUrl>#Plan</styleUrl>
+<MultiGeometry>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>34.8491807160058,31.9928445549669,0 34.8491685676345,31.9927838458306,0 34.849082597472,31.9928231942893,0 34.8489574064734,31.9928803785633,0 34.8489147231413,31.9928999126443,0 34.8488485604382,31.9929133643078,0 34.8488526569359,31.9929540741475,0 34.8487796200494,31.9929670898298,0 34.8487877104118,31.9930473279547,0 34.8488088539888,31.9931473769265,0 34.8488104927762,31.9931673946196,0 34.8488039064496,31.9932152111913,0 34.8487980547078,31.9932892362239,0 34.8488617636615,31.9932830789236,0 34.8488669598952,31.9932215905662,0 34.8488742756575,31.9931685058161,0 34.8490067872533,31.9931366287942,0 34.8490720903942,31.9931216775154,0 34.8492289896019,31.9930857580682,0 34.8491807160058,31.9928445549669,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+</MultiGeometry>
+
+   <ExtendedData>
+  
+    <Data name="PL_NUMBER"><value>425-1308469</value></Data>
+	 <Data name="PL_NAME"><value>איחוד וחלוקה באיזון מגרש 101,כפר חב"ד</value></Data>
+	  <Data name="PL_AREA"><value>1.24</value></Data>
+	   <Data name="PL_URL"><value>http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=3&amp;tnumb=425-1308469</value></Data>
+	    <Data name="CREATE_DATE"><value>12/01/2026 07:22:15</value></Data>
+   </ExtendedData>
+  </Placemark>
+
+</Document>
+</kml>

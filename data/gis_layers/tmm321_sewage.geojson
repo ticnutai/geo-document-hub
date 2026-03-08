@@ -1,0 +1,35 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_sewage",
+  "description": "תמ\"מ 3/21 – אתר טיהור שפכים",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 10,
+        "MAPKEY": "77E",
+        "LAYER": "tihur-mitkanim",
+        "BLOCK": "mitkan-tihur",
+        "X_COORD": 189913.70151,
+        "Y_COORD": 655286.91977,
+        "NAME": "מתקן טיהור שפכים",
+        "TYPECODE": 112001,
+        "TYPENAME": "אתר טיפול בשפכים",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189913.701510095,
+          655286.9197669158
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama1_quarry",
+  "description": "תמ\"א 1 – אתר כריה וחציבה",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

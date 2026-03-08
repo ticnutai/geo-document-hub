@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "name": "מתקני ספורט ונופש", "features": [{"type": "Feature", "properties": {"OBJECTID": 100, "Descriptio": "אולם ספורט בית ספר בית רבקה", "subtype": "אולם ספורט", "yeshuv": "כפר חבד", "phone": " ", "layer_n": "מתקני ספורט ונופש", "Type_Code": 24}, "geometry": {"type": "Point", "coordinates": [34.86642850433317, 31.992942361077674]}}]}

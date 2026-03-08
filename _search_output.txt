@@ -1,0 +1,13 @@
+Loading MAVAT search page...
+Page loaded.
+
+=== Searching block 525 ===
+  Status: 401, Size: 24
+  Body: {"CaptchaNotValid":true}
+
+  Trying alternative param formats...
+  Alt 0 {'blockNumber': '525', 'toBlockNumber': '525', 'searchType': 0}: status=401 size=24
+  Alt 1 {'blockNumber': '525', 'toBlockNumber': '525', 'searchType': '0', 'searchEntity': '1'}: status=401 size=24
+  Alt 2 {'BLOCK_NUMBER': '525'}: status=401 size=24
+  Alt 3 {'block': '525'}: status=401 size=24
+  Alt 4 {'BlockNumber': '525', 'ToBlockNumber': '525'}: status=401 size=24

@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama35_env_recharge",
+  "description": "תמ\"א 35 – הנחיות סביבתיות: אזורי החדרה ואיגום",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

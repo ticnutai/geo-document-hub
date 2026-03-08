@@ -1,0 +1,67 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama35_conservation",
+  "description": "תמ\"א 35 – מכלול שימור",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 2,
+        "NAME": "בני עטרות",
+        "X_COORD": 191793.2484,
+        "Y_COORD": 658956.5663,
+        "TYEPCODE": "2502",
+        "TYPENAME": "מכלול כפ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191740.33829999994,
+          658639.1060000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 10,
+        "NAME": "ראשון לציון",
+        "X_COORD": 181590.9951,
+        "Y_COORD": 652617.8615,
+        "TYEPCODE": "2501",
+        "TYPENAME": "מכלול עי"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181458.7198999999,
+          652485.5864000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 11,
+        "NAME": "לוד",
+        "X_COORD": 190375.8566,
+        "Y_COORD": 651134.6939,
+        "TYEPCODE": "2501",
+        "TYPENAME": "מכלול עי"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189926.1211000001,
+          650817.2335000001
+        ]
+      }
+    }
+  ]
+}

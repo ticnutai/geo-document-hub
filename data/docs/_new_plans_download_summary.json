@@ -1,0 +1,358 @@
+{
+  "total_plans": 46,
+  "plans_with_docs": 34,
+  "plans_no_data": 6,
+  "plans_with_errors": 0,
+  "total_downloaded": 375,
+  "total_failed": 47,
+  "total_skipped": 284,
+  "details": [
+    {
+      "plan": "425-0117390",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 6,
+      "status": "already_done"
+    },
+    {
+      "plan": "425-0712950",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 18,
+      "status": "already_done"
+    },
+    {
+      "plan": "425-0800557",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 5,
+      "status": "already_done"
+    },
+    {
+      "plan": "425-1560473",
+      "actual_plan": "425-1560473",
+      "downloaded": 12,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 12
+    },
+    {
+      "plan": "455-0812289",
+      "actual_plan": "455-0812289",
+      "downloaded": 55,
+      "failed": 12,
+      "skipped": 34,
+      "total_docs": 101
+    },
+    {
+      "plan": "6/ 03/ 230",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 1,
+      "status": "already_done"
+    },
+    {
+      "plan": "גז/ 45",
+      "actual_plan": "גז/ 45",
+      "downloaded": 4,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 5
+    },
+    {
+      "plan": "גז/ 525/ 12",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 1,
+      "status": "already_done"
+    },
+    {
+      "plan": "גז/ 525/ 18",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "גז/ 525/ 2",
+      "actual_plan": "גז/ 525/ 2",
+      "downloaded": 3,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 3
+    },
+    {
+      "plan": "גז/ 525/ 2/ א",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "plan": "גז/ 525/ 21",
+      "actual_plan": "גז/ 525/ 21",
+      "downloaded": 3,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "גז/ 525/ 23",
+      "actual_plan": "גז/ 525/ 23",
+      "downloaded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 1
+    },
+    {
+      "plan": "גז/ 525/ 23/ א",
+      "actual_plan": "גז/ 525/ 23/ א",
+      "downloaded": 3,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "גז/ 525/ 27/ א",
+      "actual_plan": "גז/ 525/ 27/ א",
+      "downloaded": 5,
+      "failed": 3,
+      "skipped": 1,
+      "total_docs": 9
+    },
+    {
+      "plan": "גז/ 525/ 3",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "plan": "גז/ 525/ 4",
+      "actual_plan": "גז/ 525/ 4",
+      "downloaded": 0,
+      "failed": 2,
+      "skipped": 0,
+      "total_docs": 2
+    },
+    {
+      "plan": "גז/ 62",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "plan": "גז/ 624",
+      "actual_plan": "גז/ 624",
+      "downloaded": 3,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "גז/ במ/ 525/ 19",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "plan": "גז/ מק/ 525/ 28",
+      "actual_plan": "גז/ מק/ 525/ 28",
+      "downloaded": 2,
+      "failed": 2,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "גז/ מק/ 525/ 30",
+      "actual_plan": "גז/ מק/ 525/ 30",
+      "downloaded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 1
+    },
+    {
+      "plan": "גז/ מק/ 525/ 34",
+      "actual_plan": "גז/ מק/ 525/ 34",
+      "downloaded": 4,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 5
+    },
+    {
+      "plan": "גז/ מק/ 525/ 39",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "גמ/ 525",
+      "actual_plan": "גמ/ 525",
+      "downloaded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 1
+    },
+    {
+      "plan": "גמ/ 548",
+      "actual_plan": "גמ/ 548",
+      "downloaded": 3,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "יד/ מק/ 6137",
+      "actual_plan": "יד/ מק/ 6137",
+      "downloaded": 2,
+      "failed": 2,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "יוש/ 51/ 51",
+      "actual_plan": "יוש/ 51/ 51",
+      "downloaded": 6,
+      "failed": 0,
+      "skipped": 1,
+      "total_docs": 7
+    },
+    {
+      "plan": "מח/ 150",
+      "actual_plan": "מח/ 150",
+      "downloaded": 16,
+      "failed": 1,
+      "skipped": 4,
+      "total_docs": 21
+    },
+    {
+      "plan": "מח/ 150/ 1",
+      "actual_plan": "מח/ 150/ 1",
+      "downloaded": 17,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 18
+    },
+    {
+      "plan": "משמ/ 115/ גז",
+      "actual_plan": "משמ/ 115/ גז",
+      "downloaded": 3,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 4
+    },
+    {
+      "plan": "על/ 525/ 2/ א",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "plan": "על/ 525/ 43",
+      "actual_plan": "על/ 525/ 43",
+      "downloaded": 5,
+      "failed": 0,
+      "skipped": 1,
+      "total_docs": 6
+    },
+    {
+      "plan": "על/ 525/ 48",
+      "actual_plan": "על/ 525/ 48",
+      "downloaded": 7,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 8
+    },
+    {
+      "plan": "על/ מק/ 525/ 40",
+      "actual_plan": "על/ מק/ 525/ 40",
+      "downloaded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 1
+    },
+    {
+      "plan": "על/ מק/ 525/ 48",
+      "actual_plan": "על/ מק/ 525/ 48",
+      "downloaded": 1,
+      "failed": 0,
+      "skipped": 0,
+      "total_docs": 1
+    },
+    {
+      "plan": "פת/ 1205/ 22",
+      "actual_plan": "פת/ 1205/ 22",
+      "downloaded": 4,
+      "failed": 1,
+      "skipped": 0,
+      "total_docs": 5
+    },
+    {
+      "plan": "תמא/ 4/ 2/ א/ 2",
+      "actual_plan": "תמא/ 4/ 2/ א/ 2",
+      "downloaded": 47,
+      "failed": 1,
+      "skipped": 46,
+      "total_docs": 94
+    },
+    {
+      "plan": "תמא/ 5",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "תממ/ 3/ 21/ 42",
+      "actual_plan": "תממ/ 3/ 21/ 42",
+      "downloaded": 14,
+      "failed": 6,
+      "skipped": 7,
+      "total_docs": 27
+    },
+    {
+      "plan": "תתל/ 130",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "תתל/ 131",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "תתל/ 18",
+      "downloaded": 0,
+      "failed": 0,
+      "skipped": 0,
+      "warning": "no_data"
+    },
+    {
+      "plan": "תתל/ 26/ 202",
+      "actual_plan": "תתל/ 26/ 202",
+      "downloaded": 14,
+      "failed": 3,
+      "skipped": 4,
+      "total_docs": 21
+    },
+    {
+      "plan": "תתל/ 33",
+      "actual_plan": "תתל/ 33",
+      "downloaded": 97,
+      "failed": 5,
+      "skipped": 121,
+      "total_docs": 223
+    },
+    {
+      "plan": "תתל/ 66",
+      "actual_plan": "תתל/ 66",
+      "downloaded": 41,
+      "failed": 0,
+      "skipped": 34,
+      "total_docs": 75
+    }
+  ]
+}

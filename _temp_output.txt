@@ -1,0 +1,12 @@
+Found 3 block entries for gz/525/12:
+  Gush 6078: whole=[], partial=[23]
+  Gush 6253 - 6256, 6258 - 6265, 6269 - 6270, 6272 - 6274, 6279 - 6284, 6468 - 6469: whole=[], partial=[]
+  Gush 6267: whole=[15], partial=[1]
+
+Gush blocks involved: ['6078', '6253 - 6256, 6258 - 6265, 6269 - 6270, 6272 - 6274, 6279 - 6284, 6468 - 6469', '6267']
+  Gush 6078: 14 parcels in cadastre GeoJSON
+  Gush 6253 - 6256, 6258 - 6265, 6269 - 6270, 6272 - 6274, 6279 - 6284, 6468 - 6469: 0 parcels in cadastre GeoJSON
+  Gush 6267: 18 parcels in cadastre GeoJSON
+
+Migrash mapping: 33 entries, gush=7188
+Other gushim migrash labels: 42 gushim

@@ -1,0 +1,858 @@
+{
+  "425-0117390": {
+    "plan_name": "כפר חב\"ד חלקה 97 בגוש 7196 שינוי זכויות בניה",
+    "plan_number": "425-0117390",
+    "area_dunam": 0.398,
+    "status": "נדחתה",
+    "quantities": [
+      {
+        "ID": 4000116769.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "1",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "16/06/2013 13:22",
+        "LAST_UPDATER": "SYSTEM"
+      },
+      {
+        "ID": 4000116767.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+260",
+        "AUTHORISED_QUANTITY_ADD": "+90",
+        "IMPLEMENTATION": "350",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "16/06/2013 13:22",
+        "LAST_UPDATER": "SYSTEM"
+      }
+    ]
+  },
+  "425-0486316": {
+    "plan_name": "תוספת יח\"ד כפר חב\"ד מגרש 124 דרעי",
+    "plan_number": "425-0486316",
+    "area_dunam": 0.994,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000140314.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+4",
+        "IMPLEMENTATION": "5",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "23/05/2018 17:50",
+        "LAST_UPDATER": "SYSTEM"
+      },
+      {
+        "ID": 4000140258.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+347.9",
+        "AUTHORISED_QUANTITY_ADD": "+59.69",
+        "IMPLEMENTATION": "407.59",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "23/05/2018 17:50",
+        "LAST_UPDATER": "SYSTEM"
+      }
+    ]
+  },
+  "425-0498865": {
+    "plan_name": "תוספת יח\"ד ושינוי קווי בניין",
+    "plan_number": "425-0498865",
+    "area_dunam": 1147.0,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000143274.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "2",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "26/03/2017 13:56",
+        "LAST_UPDATER": "SYSTEM"
+      },
+      {
+        "ID": 4000143272.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+401.5",
+        "AUTHORISED_QUANTITY_ADD": "+68.82",
+        "IMPLEMENTATION": "470.32",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "26/03/2017 13:56",
+        "LAST_UPDATER": "SYSTEM"
+      }
+    ]
+  },
+  "425-0541870": {
+    "plan_name": "תוספת יח\"ד ושינוי בקווי בניין מגרש 140 מינסקי כפר חב\"ד",
+    "plan_number": "425-0541870",
+    "area_dunam": 0.92,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000152650.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+2",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "15/11/2018 12:22",
+        "LAST_UPDATER": "SYSTEM"
+      },
+      {
+        "ID": 4000152654.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+322",
+        "AUTHORISED_QUANTITY_ADD": "+55.2",
+        "IMPLEMENTATION": "377.2",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "15/11/2018 12:22",
+        "LAST_UPDATER": "SYSTEM"
+      }
+    ]
+  },
+  "425-1030113": {
+    "plan_name": "מגרש 255 כפר חב\"ד- שינוי קו בניין תוספת קומה וזכויות .",
+    "plan_number": "425-1030113",
+    "area_dunam": 1.153,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4000971863.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+4",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "4",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "25/10/2022 09:01",
+        "LAST_UPDATER": "mlioraov"
+      },
+      {
+        "ID": 4000971865.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+403.55",
+        "AUTHORISED_QUANTITY_ADD": "+17.3",
+        "IMPLEMENTATION": "420.85",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "25/10/2022 09:01",
+        "LAST_UPDATER": "mlioraov"
+      }
+    ]
+  },
+  "425-1248244": {
+    "plan_name": "פיצול מגרש 73 כפ\"ח",
+    "plan_number": "425-1248244",
+    "area_dunam": 1199.0,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000273696.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+2",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "18/02/2024 14:54",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000273694.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+419.65",
+        "AUTHORISED_QUANTITY_ADD": "+71.94",
+        "IMPLEMENTATION": "491.59",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "18/02/2024 14:54",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "425-1254218": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 22 כפר חב\"ד",
+    "plan_number": "425-1254218",
+    "area_dunam": 5.255,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4001397855.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "08/07/2025 11:00",
+        "LAST_UPDATER": "mlioraov"
+      },
+      {
+        "ID": 4001397857.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+156",
+        "IMPLEMENTATION": "606",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "08/07/2025 11:00",
+        "LAST_UPDATER": "mlioraov"
+      }
+    ]
+  },
+  "425-1279140": {
+    "plan_name": "תוספת יח\"ד מגרש 593, כפר חב\"ד",
+    "plan_number": "425-1279140",
+    "area_dunam": 0.445,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4001759409.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+265",
+        "AUTHORISED_QUANTITY_ADD": "+31",
+        "IMPLEMENTATION": "296",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "20/11/2025 15:00",
+        "LAST_UPDATER": "MAVATASKS"
+      }
+    ]
+  },
+  "425-1306505": {
+    "plan_name": "הגדלת אחוזי בניה במגרש מגורים 172, כפר חבד",
+    "plan_number": "425-1306505",
+    "area_dunam": 0.849,
+    "status": "במילוי תנאים להפקדה",
+    "quantities": [
+      {
+        "ID": 4001801685.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+5",
+        "IMPLEMENTATION": "5",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "09/02/2026 12:37",
+        "LAST_UPDATER": "Myifatsh"
+      }
+    ]
+  },
+  "425-1308469": {
+    "plan_name": "איחוד וחלוקה באיזון מגרש 101,כפר חב\"ד",
+    "plan_number": "425-1308469",
+    "area_dunam": 1.24,
+    "status": "הפקדה להתנגדויות/השגות",
+    "quantities": [
+      {
+        "ID": 4001788919.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+3",
+        "IMPLEMENTATION": "4",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "14/01/2026 18:07",
+        "LAST_UPDATER": "mlioraov"
+      },
+      {
+        "ID": 4001788921.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+322",
+        "AUTHORISED_QUANTITY_ADD": "+138",
+        "IMPLEMENTATION": "460",
+        "DETAILED_PLAN": null,
+        "REMARK": "35% +6%+2.5%",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "14/01/2026 18:07",
+        "LAST_UPDATER": "mlioraov"
+      }
+    ]
+  },
+  "425-1313394": {
+    "plan_name": "מגרש 595 כפ\"ח תוספת יח\"ד",
+    "plan_number": "425-1313394",
+    "area_dunam": 0.45,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4001358265.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "2",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "09/04/2025 14:55",
+        "LAST_UPDATER": "MAVATASKS"
+      },
+      {
+        "ID": 4001358267.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+419.65",
+        "AUTHORISED_QUANTITY_ADD": "+71.94",
+        "IMPLEMENTATION": "491.59",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "09/04/2025 14:55",
+        "LAST_UPDATER": "MAVATASKS"
+      }
+    ]
+  },
+  "425-1348390": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 50 כפר חב\"ד",
+    "plan_number": "425-1348390",
+    "area_dunam": 5.077,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000289036.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "10/09/2024 12:56",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000289034.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+156",
+        "IMPLEMENTATION": "606",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "10/09/2024 12:56",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "425-1348440": {
+    "plan_name": "פיצול נחלה ותוספת יח\"ד - נחלה 30 כפר חב\"ד",
+    "plan_number": "425-1348440",
+    "area_dunam": 4.897,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000289042.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "31/07/2024 12:19",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000289044.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+156",
+        "IMPLEMENTATION": "606",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "31/07/2024 12:19",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "425-1405075": {
+    "plan_name": "שינוי הוראות בינוי ותוספת יח\"ד, נחלה 20 כפר חב\"ד",
+    "plan_number": "425-1405075",
+    "area_dunam": 4.884,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000297334.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+1",
+        "IMPLEMENTATION": "3",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "03/12/2024 11:26",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000297336.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+144",
+        "IMPLEMENTATION": "594",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "03/12/2024 11:26",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "425-1467992": {
+    "plan_name": "פיצול מגרשים מנחלה 8 -כפר חב\"ד",
+    "plan_number": "425-1467992",
+    "area_dunam": 6.78,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000310534.0,
+        "QUANTITY_CODE": 150.0,
+        "QUANTITY_DESC": "דירות קטנות (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+1",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "1",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "05/02/2026 11:17",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000310532.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+3",
+        "IMPLEMENTATION": "5",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "05/02/2026 11:17",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000306670.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+354.86",
+        "IMPLEMENTATION": "804.86",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": "05/02/2026 11:17",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "425-1560473": {
+    "plan_name": "פיצול שני מגרשים והוספת יחד וזכויות מנחלה 5, כפר חב\"ד",
+    "plan_number": "425-1560473",
+    "area_dunam": 2.62,
+    "status": "בבדיקה תכנונית",
+    "quantities": [
+      {
+        "ID": 4000320560.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+2",
+        "AUTHORISED_QUANTITY_ADD": "+3",
+        "IMPLEMENTATION": "5",
+        "DETAILED_PLAN": null,
+        "REMARK": "בכול מגרש מפוצל יחידת דיור אחת\r\nבנחלה נשאר 3 יח\"ד\r\nפלוס יחידה לפיצול צמודי קרקע מכח תיקון 155",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "04/02/2026 08:53",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      },
+      {
+        "ID": 4000320562.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": "+450",
+        "AUTHORISED_QUANTITY_ADD": "+135",
+        "IMPLEMENTATION": "585",
+        "DETAILED_PLAN": null,
+        "REMARK": "35%+6% +2.5%+2.5%\r\n+120 מר (לכל בית 60)",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "04/02/2026 08:53",
+        "LAST_UPDATER": "MTM-BLADE-WCF$"
+      }
+    ]
+  },
+  "455-0812289": {
+    "plan_name": "בית דגן שכונת האתרוג",
+    "plan_number": "455-0812289",
+    "area_dunam": 706.568,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4001286339.0,
+        "QUANTITY_CODE": 110.0,
+        "QUANTITY_DESC": "דיור מיוחד (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+270",
+        "IMPLEMENTATION": "270",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286345.0,
+        "QUANTITY_CODE": 150.0,
+        "QUANTITY_DESC": "דירות קטנות (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+417",
+        "IMPLEMENTATION": "417",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 2.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286337.0,
+        "QUANTITY_CODE": 80.0,
+        "QUANTITY_DESC": "מבני ציבור (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+207,591",
+        "IMPLEMENTATION": "207,591",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 3.0,
+        "LAST_UPDATE": "06/11/2024 14:04",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286341.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+2,262",
+        "IMPLEMENTATION": "2,262",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 4.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286343.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+252,494",
+        "IMPLEMENTATION": "252,494",
+        "DETAILED_PLAN": null,
+        "REMARK": "מתוכם 31654 מרפסות\r\n",
+        "ROW_NUM": 5.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286335.0,
+        "QUANTITY_CODE": 75.0,
+        "QUANTITY_DESC": "מסחר (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+12,337",
+        "IMPLEMENTATION": "12,337",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 6.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      },
+      {
+        "ID": 4001286333.0,
+        "QUANTITY_CODE": 60.0,
+        "QUANTITY_DESC": "תעסוקה (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": "+18,115",
+        "IMPLEMENTATION": "18,115",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 7.0,
+        "LAST_UPDATE": "06/11/2024 13:11",
+        "LAST_UPDATER": "Mdanko"
+      }
+    ]
+  },
+  "גז_ 525_ 23_ א": {
+    "plan_name": "יצירת 2 מגרשים נוספים באזור מגורים א'",
+    "plan_number": "גז/ 525/ 23/ א",
+    "area_dunam": 7.0,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4062256.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+8",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "8",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      },
+      {
+        "ID": 4062257.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      }
+    ]
+  },
+  "גז_ 525_ 27_ א": {
+    "plan_name": "הוחלף מ-גז / 525 / 27.",
+    "plan_number": "גז/ 525/ 27/ א",
+    "area_dunam": 222.0,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4063295.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+175",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "175",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      },
+      {
+        "ID": 4063296.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      }
+    ]
+  },
+  "גז_ במ_ 525_ 19": {
+    "plan_name": "כפר חב\"ד.",
+    "plan_number": "גז/ במ/ 525/ 19",
+    "area_dunam": 180.0,
+    "status": "נדחתה",
+    "quantities": [
+      {
+        "ID": 4000002841.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": "+202",
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "202",
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      }
+    ]
+  },
+  "גז_ מק_ 525_ 34": {
+    "plan_name": "חלוקת מגרש בהסכמה, שינוי בקוי בנין",
+    "plan_number": "גז/ מק/ 525/ 34",
+    "area_dunam": 5.34,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4059854.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      },
+      {
+        "ID": 4059856.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      }
+    ]
+  },
+  "יד_ מק_ 6137": {
+    "plan_name": "מתן אפשרות להגגדלת יח\"ד",
+    "plan_number": "יד/ מק/ 6137",
+    "area_dunam": 1.0,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4061441.0,
+        "QUANTITY_CODE": 120.0,
+        "QUANTITY_DESC": "מגורים (יח\"ד)",
+        "UNIT_DESC": "יח\"ד",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      },
+      {
+        "ID": 4061440.0,
+        "QUANTITY_CODE": 125.0,
+        "QUANTITY_DESC": "מגורים (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": null,
+        "DETAILED_PLAN": null,
+        "REMARK": null,
+        "ROW_NUM": null,
+        "LAST_UPDATE": " ",
+        "LAST_UPDATER": null
+      }
+    ]
+  },
+  "על_ 525_ 48": {
+    "plan_name": "כפר חב\"ד שינוי ייעוד לצרכי ציבור",
+    "plan_number": "על/ 525/ 48",
+    "area_dunam": 11.6,
+    "status": "אישור",
+    "quantities": [
+      {
+        "ID": 4000115621.0,
+        "QUANTITY_CODE": 80.0,
+        "QUANTITY_DESC": "מבני ציבור (מ\"ר)",
+        "UNIT_DESC": "מ\"ר",
+        "AUTHORISED_QUANTITY": null,
+        "AUTHORISED_QUANTITY_ADD": null,
+        "IMPLEMENTATION": "1,170",
+        "DETAILED_PLAN": null,
+        "REMARK": " ",
+        "ROW_NUM": 1.0,
+        "LAST_UPDATE": "01/05/2013 12:32",
+        "LAST_UPDATER": "Mjustinkl"
+      }
+    ]
+  }
+}

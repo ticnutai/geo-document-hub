@@ -1,0 +1,541 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_interchanges",
+  "description": "תמ\"מ 3/21 – מחלפים",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 0,
+        "MAPKEY": "147",
+        "LAYER": "MAHLEFON",
+        "BLOCK": "MAHLEFON",
+        "X_COORD": 185031.14,
+        "Y_COORD": 653517.12,
+        "NAME": "מחלפון עירוני",
+        "TYPECODE": 102002,
+        "TYPENAME": "מחלפון עירוני",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185031.13685240966,
+          653517.115723161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 1,
+        "MAPKEY": "16D",
+        "LAYER": "MAHLEFON",
+        "BLOCK": "MAHLEFON",
+        "X_COORD": 186531.73,
+        "Y_COORD": 651034.41,
+        "NAME": "מחלפון עירוני",
+        "TYPECODE": 102002,
+        "TYPENAME": "מחלפון עירוני",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186531.72917471628,
+          651034.412274102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 25,
+        "MAPKEY": "4E6",
+        "LAYER": "MAHLEFON",
+        "BLOCK": "MAHLEFON",
+        "X_COORD": 182028.36,
+        "Y_COORD": 653822.49,
+        "NAME": "מחלפון עירוני",
+        "TYPECODE": 102002,
+        "TYPENAME": "מחלפון עירוני",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182028.36297697746,
+          653822.4872068065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 70,
+        "MAPKEY": "7B",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 191441.59,
+        "Y_COORD": 659149.11,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191441.58692855862,
+          659149.1117199489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 71,
+        "MAPKEY": "7C",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 190449.07,
+        "Y_COORD": 659127.7,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190449.07427816963,
+          659127.7027064497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 72,
+        "MAPKEY": "7D",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 189006.72,
+        "Y_COORD": 659513.06,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189006.71786741275,
+          659513.0630413857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 73,
+        "MAPKEY": "7E",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 186894.78,
+        "Y_COORD": 658551.5,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186894.77501368267,
+          658551.5047731238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 74,
+        "MAPKEY": "7F",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 187474.97,
+        "Y_COORD": 660176.22,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187474.97246146208,
+          660176.2200011122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 75,
+        "MAPKEY": "80",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 185535.49,
+        "Y_COORD": 657913.63,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185535.494596839,
+          657913.6320762044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 76,
+        "MAPKEY": "81",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 184736.38,
+        "Y_COORD": 657207.94,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184736.38093153323,
+          657207.9400012391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 77,
+        "MAPKEY": "82",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 191771.55,
+        "Y_COORD": 656269.31,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191771.5545888948,
+          656269.3060849998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 78,
+        "MAPKEY": "83",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 184869.32,
+        "Y_COORD": 660497.95,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184869.3248333964,
+          660497.949821327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 79,
+        "MAPKEY": "84",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 183930.68,
+        "Y_COORD": 660646.45,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183930.68337353252,
+          660646.4529966337
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 85,
+        "MAPKEY": "8C",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 183251.49,
+        "Y_COORD": 658353.26,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183251.4860479627,
+          658353.2620233749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 86,
+        "MAPKEY": "8D",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 182662.22,
+        "Y_COORD": 657405.79,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182662.21905710676,
+          657405.7933255817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 87,
+        "MAPKEY": "8E",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 181703.95,
+        "Y_COORD": 656367.78,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181703.9470814999,
+          656367.7800189722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 88,
+        "MAPKEY": "8F",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 183299.15,
+        "Y_COORD": 656442.33,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183299.15421910567,
+          656442.3334254249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 95,
+        "MAPKEY": "96",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 181352.67,
+        "Y_COORD": 650639.52,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181352.6686398566,
+          650639.5207839614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 97,
+        "MAPKEY": "98",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 186531.93,
+        "Y_COORD": 655685.6,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186531.9336951475,
+          655685.5961592931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 98,
+        "MAPKEY": "99",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 189460.98,
+        "Y_COORD": 655230.47,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189460.9793742199,
+          655230.46884776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 99,
+        "MAPKEY": "9A",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 191380.88,
+        "Y_COORD": 655182.85,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191380.8757298195,
+          655182.8541568202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 100,
+        "MAPKEY": "9B",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 191176.88,
+        "Y_COORD": 653855.28,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191176.88242778345,
+          653855.2824855775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 104,
+        "MAPKEY": "9F",
+        "LAYER": "MAHLEF",
+        "BLOCK": "MAHLEF",
+        "X_COORD": 191319.24,
+        "Y_COORD": 651538.58,
+        "NAME": "מחלף",
+        "TYPECODE": 102001,
+        "TYPENAME": "מחלף",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191319.24350027138,
+          651538.5787968679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "FID": 133,
+        "MAPKEY": "EB",
+        "LAYER": "MAHLEFON",
+        "BLOCK": "MAHLEFON",
+        "X_COORD": 187799.69,
+        "Y_COORD": 649742.43,
+        "NAME": "מחלפון עירוני",
+        "TYPECODE": 102002,
+        "TYPENAME": "מחלפון עירוני",
+        "TCODE": "3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187799.68653167743,
+          649742.4333413498
+        ]
+      }
+    }
+  ]
+}

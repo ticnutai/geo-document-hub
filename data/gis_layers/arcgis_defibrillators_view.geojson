@@ -1,0 +1,4801 @@
+{
+  "type": "FeatureCollection",
+  "name": "defibrillators_view",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 7338,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.877533,
+          31.9576927000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7338,
+        "GlobalID": "a0d2b24e-bd07-42b9-861a-ef3214ed72a6",
+        "id": "social-3057",
+        "index_city": "לוד",
+        "location_name": "בניין ערוגות 3",
+        "location_description": "בניין מגורים",
+        "coordinates_wgs_lat": 31.9576927,
+        "coordinates_wgs_lng": 34.877533,
+        "coordinates_itm_x": 188552,
+        "coordinates_itm_y": 651673,
+        "contact_name": "קובי",
+        "contact_phone": "0543176102",
+        "location_city": "לוד",
+        "location_street": "ערוגות 3",
+        "location_street_num": "4",
+        "location_floor": "1",
+        "location_hours": null,
+        "location_open_all_day": "TRUE",
+        "updated_at": 1570274520000,
+        "created_at": 1570274520000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FW18pCmANCpZmbkNiwSy3YX1bv653_1570263772354.jpg?alt=media&token=f61b08fd-df15-407e-bcd2-465cecf5708a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8907711430001,
+          31.9662079080001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7415,
+        "GlobalID": "207fe69c-3756-495c-9ab7-5d1a0aaaa3a3",
+        "id": "social-3161",
+        "index_city": "לוד",
+        "location_name": "בית קבוצת UMI",
+        "location_description": "קבלה של בניין הקבוצה",
+        "coordinates_wgs_lat": 31.966207907542547,
+        "coordinates_wgs_lng": 34.89077114340372,
+        "coordinates_itm_x": 189806,
+        "coordinates_itm_y": 652614,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "המסגר",
+        "location_street_num": "10",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1573407480000,
+        "created_at": 1573405680000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FVGVF0ZDqkCh6v6jmMTyz7kS80BC2_1573398481413.jpg?alt=media&token=93fa398c-e79c-4b44-8ada-ab65b78af187",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8940603120001,
+          31.995001717
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7474,
+        "GlobalID": "d3f68e94-c9ca-48c0-977f-2b45fd64a47e",
+        "id": "social-3235",
+        "index_city": "Ben-Gurion Airport",
+        "location_name": "נמל תעופה בן גוריון טרמינל 1",
+        "location_description": "אולם נוחתים",
+        "coordinates_wgs_lat": 31.995001716933835,
+        "coordinates_wgs_lng": 34.89406031170431,
+        "coordinates_itm_x": 190126,
+        "coordinates_itm_y": 655806,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "TRUE",
+        "updated_at": 1576344060000,
+        "created_at": 1576344060000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FayMMmcYzZ2TlltNIzrTaQ3gVSwj1_1576336869534.jpg?alt=media&token=d48c2c56-458d-46b0-b0e3-f4ddfcef2c43",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.896894128,
+          31.995576827
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7506,
+        "GlobalID": "5c4b51ee-d938-4a3e-bb06-f27f6e0a7f9e",
+        "id": "social-3270",
+        "index_city": "לוד",
+        "location_name": "טרמינל 1",
+        "location_description": "קומה 2, לאחר השיקוף, אולם המתנה לטיסות, כ-15 מ' לאחר הכניסה לאולם",
+        "coordinates_wgs_lat": 31.995576827092137,
+        "coordinates_wgs_lng": 34.89689412814127,
+        "coordinates_itm_x": 190394,
+        "coordinates_itm_y": 655869,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "נמל תעופה בן גוריון",
+        "location_street": "דרך טרמינל 1",
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": null,
+        "location_open_all_day": "TRUE",
+        "updated_at": 1578472800000,
+        "created_at": 1578472800000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FhftIz2HWbhSxsL1zYAHLTpGdWal1_1578465602396.jpg?alt=media&token=86b60f4b-754b-40e5-aeae-82ee677f1f8d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7700,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8753857,
+          31.9456403
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7700,
+        "GlobalID": "4aeb8148-a4cb-433b-a83e-77cefbe84fed",
+        "id": "social-1872",
+        "index_city": "לוד",
+        "location_name": "רכבת לוד",
+        "location_description": "על הקיר שבין העמדה הבטחונית והקבלה",
+        "coordinates_wgs_lat": 31.9456403,
+        "coordinates_wgs_lng": 34.8753857,
+        "coordinates_itm_x": 188345,
+        "coordinates_itm_y": 650337,
+        "contact_name": "מוקד רכבת ישראל",
+        "contact_phone": "*5770",
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541138040000,
+        "created_at": 1541138040000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7750,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8800680000001,
+          31.9593560000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7750,
+        "GlobalID": "a1afbbe4-e562-40e8-ade7-b5320e12a42e",
+        "id": "social-1924",
+        "index_city": "לוד",
+        "location_name": "גני אביב",
+        "location_description": "בקופת חולים כללית",
+        "coordinates_wgs_lat": 31.959356,
+        "coordinates_wgs_lng": 34.880068,
+        "coordinates_itm_x": 188792,
+        "coordinates_itm_y": 651857,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541138040000,
+        "created_at": 1541138040000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7768,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.843332,
+          31.941852
+        ]
+      },
+      "properties": {
+        "OBJECTID": 7768,
+        "GlobalID": "331e8de8-20df-48be-a16d-96c1b78191dc",
+        "id": "social-1943",
+        "index_city": "באר יעקב",
+        "location_name": "מרכז אלמוג",
+        "location_description": "בקופת חולים כללית",
+        "coordinates_wgs_lat": 31.941852,
+        "coordinates_wgs_lng": 34.843332,
+        "coordinates_itm_x": 185313,
+        "coordinates_itm_y": 649927,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541138100000,
+        "created_at": 1541138100000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.875716063,
+          31.948132361
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8130,
+        "GlobalID": "1621550a-07b8-4226-9eff-0f68ccd476f7",
+        "id": "social-3551",
+        "index_city": "לוד",
+        "location_name": "מוסך קטר חשמלי",
+        "location_description": "בגרם המדרגות קומה 1 בכניסה למוסך",
+        "coordinates_wgs_lat": 31.948132360673448,
+        "coordinates_wgs_lng": 34.87571606340541,
+        "coordinates_itm_x": 188377,
+        "coordinates_itm_y": 650614,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1598178000000,
+        "created_at": 1598178000000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNMkW2lSZPbVrcijtPs8pkQavUXg2_1598167234207.jpg?alt=media&token=7ddc0d95-ec04-48f9-b0d3-28ac010f3234",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8678,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.878746,
+          31.9670820000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8678,
+        "GlobalID": "97336d18-b70e-415f-8ff0-bb1610f98c04",
+        "id": "social-1635",
+        "index_city": "Lod",
+        "location_name": "רכבת לוד גני אביב",
+        "location_description": "בפרוזדור שצמוד לחדר מנהל התחנה",
+        "coordinates_wgs_lat": 31.967082,
+        "coordinates_wgs_lng": 34.878746,
+        "coordinates_itm_x": 188670,
+        "coordinates_itm_y": 652714,
+        "contact_name": "מוקד רכבת ישראל",
+        "contact_phone": "*5770",
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1627551300000,
+        "created_at": 1541137920000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2F13sztIJ4SPf8ec8aMFGERIVWY723_1627537511301.jpg?alt=media&token=4c8bee8b-e035-4836-a9a1-65725e73203b",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8889,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8934170000001,
+          31.9455070000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 8889,
+        "GlobalID": "2acb16b0-6b00-4b50-8cd3-342d618e44a9",
+        "id": "social-1027",
+        "index_city": "לוד",
+        "location_name": "בית המשפט המחוזי",
+        "location_description": null,
+        "coordinates_wgs_lat": 31.945507,
+        "coordinates_wgs_lng": 34.893417,
+        "coordinates_itm_x": 190050,
+        "coordinates_itm_y": 650318,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1573895940000,
+        "created_at": 1541137680000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2FK3aLiWpHRoVt65lgpFYcVyXPTQk2_1573803449421.jpg?alt=media&token=fd720fe6-a8ee-40bb-8aef-a91960b58005",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.896758,
+          31.9950610000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9111,
+        "GlobalID": "1343cd74-e454-4236-b2e7-33ea4762105f",
+        "id": "social-1257",
+        "index_city": "לוד",
+        "location_name": "אולם מזרחי טיסות לאילת",
+        "location_description": "מודיעין שער 2",
+        "coordinates_wgs_lat": 31.995061,
+        "coordinates_wgs_lng": 34.896758,
+        "coordinates_itm_x": 190381,
+        "coordinates_itm_y": 655812,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541137800000,
+        "created_at": 1541137800000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8959080000001,
+          31.9950720000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9190,
+        "GlobalID": "6da64eef-b97d-4817-a2ad-306018f4b7fc",
+        "id": "social-1342",
+        "index_city": "לוד",
+        "location_name": "אולם מערבי טיסות בין לאומיות",
+        "location_description": "צמוד לשירותי גברים בכניסה",
+        "coordinates_wgs_lat": 31.995072,
+        "coordinates_wgs_lng": 34.895908,
+        "coordinates_itm_x": 190301,
+        "coordinates_itm_y": 655813,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541137860000,
+        "created_at": 1541137860000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8983230000001,
+          31.9696080000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9207,
+        "GlobalID": "17ff0671-8451-4372-b33e-023d0f98dbec",
+        "id": "social-1360",
+        "index_city": "לוד",
+        "location_name": "המלאכה 12 חברת tandemG",
+        "location_description": "קומה 2 מאחורי העמדת קבלה",
+        "coordinates_wgs_lat": 31.969608,
+        "coordinates_wgs_lng": 34.898323,
+        "coordinates_itm_x": 190521,
+        "coordinates_itm_y": 652989,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "undefined",
+        "updated_at": 1541137860000,
+        "created_at": 1541137860000,
+        "img_url": null,
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8978022470001,
+          31.9487361870001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9311,
+        "GlobalID": "af3d9224-e648-41bb-9181-798bca8a25b9",
+        "id": "social-3989",
+        "index_city": "לוד",
+        "location_name": "מטה משמר הגבול",
+        "location_description": "מחוץ לחדר הכושר",
+        "coordinates_wgs_lat": 31.948736187212592,
+        "coordinates_wgs_lng": 34.897802247030654,
+        "coordinates_itm_x": 190465,
+        "coordinates_itm_y": 650675,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "החשמונאים",
+        "location_street_num": "23",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1625083380000,
+        "created_at": 1625081940000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FBtzEN9cT3PVREo9Bd9NPQCblGnk2_1625071137232.jpg?alt=media&token=ed256ad8-5032-4535-a569-74ff45895e1a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.895472435,
+          31.9893536180001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9395,
+        "GlobalID": "252aacdb-e532-4a4f-8a36-7a254396a902",
+        "id": "social-4077",
+        "index_city": "Ben-Gurion Airport",
+        "location_name": "אל-על",
+        "location_description": "ביתן הכי ימין בכניסה",
+        "coordinates_wgs_lat": 31.98935361784474,
+        "coordinates_wgs_lng": 34.89547243521913,
+        "coordinates_itm_x": 190258,
+        "coordinates_itm_y": 655179,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "TRUE",
+        "updated_at": 1627047840000,
+        "created_at": 1626981900000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F9T6WthwgvLTTy4HJop9e4DbYLgk2_1626971102052.jpg?alt=media&token=05ec3210-99b4-47e5-9998-0167eabd6e14",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9539,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.896405901,
+          31.970228777
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9539,
+        "GlobalID": "c92da35f-b91a-477a-b93d-975a2785a997",
+        "id": "social-4230",
+        "index_city": "לוד",
+        "location_name": "חברת פארגון קבוצת ברנע ",
+        "location_description": "בין המשרד לחדר ישיבות ",
+        "coordinates_wgs_lat": 31.970228777364778,
+        "coordinates_wgs_lng": 34.89640590101004,
+        "coordinates_itm_x": 190340,
+        "coordinates_itm_y": 653058,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "המלאכה ",
+        "location_street_num": "1",
+        "location_floor": "2",
+        "location_hours": "8 בבוקר עד 17",
+        "location_open_all_day": "FALSE",
+        "updated_at": 1629797160000,
+        "created_at": 1629797160000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F8VKNJG19JnR1dtiusiMCBFcR8ut2_1629786382845.jpg?alt=media&token=c0949fe4-86d7-4d18-82bf-57f5d30f7782",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9705,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8997514920001,
+          31.9624959340001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 9705,
+        "GlobalID": "48a84c87-ba19-493e-a06c-28c615ba8c6b",
+        "id": "social-5324",
+        "index_city": "לוד",
+        "location_name": "היכל לאומי",
+        "location_description": "קומת כניסה אולם הספורט מתחם קש״ב",
+        "coordinates_wgs_lat": 31.96249593429897,
+        "coordinates_wgs_lng": 34.89975149233906,
+        "coordinates_itm_x": 190654,
+        "coordinates_itm_y": 652200,
+        "contact_name": "בטחון מתחם קש״ב",
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "אבא הלל סילבר ",
+        "location_street_num": "3",
+        "location_floor": "קרקע",
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1639658760000,
+        "created_at": 1639658760000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FK3aLiWpHRoVt65lgpFYcVyXPTQk2_1639651587978.jpg?alt=media&token=7c9c9a2a-241f-44ac-8df1-89e36314d565",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8837824410001,
+          31.9587456630001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10269,
+        "GlobalID": "07837ac4-72ee-4abf-bbf1-a39b8f6d8938",
+        "id": "social-4618",
+        "index_city": "לוד",
+        "location_name": "היכל ספורט גני אביב",
+        "location_description": "קומת קרקע בכניסה ליד המשרד",
+        "coordinates_wgs_lat": 31.958745662969935,
+        "coordinates_wgs_lng": 34.88378244112551,
+        "coordinates_itm_x": 189143,
+        "coordinates_itm_y": 651788,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1636448580000,
+        "created_at": 1636448580000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FIJBHKZ2GI5OO4uitaphMEdibXJi1_1636441390546.jpg?alt=media&token=179b8235-720b-4c2f-99fa-ab5f0386bb46",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8799990570001,
+          31.9477294430001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10472,
+        "GlobalID": "546bf826-54e1-46a8-8854-89ce6cd3e737",
+        "id": "social-4854",
+        "index_city": "לוד",
+        "location_name": "בניין מטה - רכבת ישראל",
+        "location_description": "נמצא בקומת כניסה בארון צמוד לגלגלת כניסה מכיוון תחנת הרכבת לוד (ניתן לשאול את השומרים בכניסה לבניין)",
+        "coordinates_wgs_lat": 31.947729443276405,
+        "coordinates_wgs_lng": 34.8799990567206,
+        "coordinates_itm_x": 188782,
+        "coordinates_itm_y": 650568,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "דרכי משה",
+        "location_street_num": "3",
+        "location_floor": "כניסה",
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638350640000,
+        "created_at": 1638350640000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNvDCh6i3lQQ52jletSufRqN7f5J3_1638343451584.jpg?alt=media&token=b60ab646-7913-475c-a050-317e695c066e",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10475,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8799716710001,
+          31.947751956
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10475,
+        "GlobalID": "351023e1-ee79-4edd-9938-5fab194161d6",
+        "id": "social-4857",
+        "index_city": "לוד",
+        "location_name": "בניין מטה - רכבת ישראל",
+        "location_description": "קומה 1 מצד ימין כשיוצאים מהמעלית",
+        "coordinates_wgs_lat": 31.947751956315383,
+        "coordinates_wgs_lng": 34.87997167144698,
+        "coordinates_itm_x": 188779,
+        "coordinates_itm_y": 650570,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "דרכי משה",
+        "location_street_num": "3",
+        "location_floor": "1",
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638350820000,
+        "created_at": 1638350820000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNvDCh6i3lQQ52jletSufRqN7f5J3_1638343658006.jpg?alt=media&token=0f340660-2e76-4334-a8ca-c567e84c9746",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8954559320001,
+          31.9700611810001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10482,
+        "GlobalID": "5bba299b-fe19-4152-80ac-4e5b9b61c888",
+        "id": "social-4866",
+        "index_city": "לוד",
+        "location_name": "דיזל הנדסה",
+        "location_description": "בנין הנהלה קומה שנייה",
+        "coordinates_wgs_lat": 31.97006118076778,
+        "coordinates_wgs_lng": 34.8954559321377,
+        "coordinates_itm_x": 190250,
+        "coordinates_itm_y": 653040,
+        "contact_name": "איתן חיון",
+        "contact_phone": "0526753732",
+        "location_city": "לוד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": "שעות פתיחה 7:30-18:00 יש במקום שומר 24/7 כך שניתן להשתמש גם אחרי שעות הפעילות ",
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638352620000,
+        "created_at": 1638352620000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FGaq5x1WxwFT6o8qZcFsvMOrxrrM2_1638345455560.jpg?alt=media&token=002b8121-b71e-493b-b635-c486f32e7e95",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10626,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8594920200001,
+          31.951976347
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10626,
+        "GlobalID": "5dcb323c-6a9d-4456-aef5-4664b1d31774",
+        "id": "social-5018",
+        "index_city": "ניר צבי",
+        "location_name": "בנין מזכירות",
+        "location_description": "מול רחבת הדשא, בכניסה למועדון.",
+        "coordinates_wgs_lat": 31.951976346728912,
+        "coordinates_wgs_lng": 34.85949202040081,
+        "coordinates_itm_x": 186845,
+        "coordinates_itm_y": 651045,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "ניר צבי",
+        "location_street": "בכיכר בהצטלבות רחוב איתן ורחוב הערבה",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "המכשיר נגיש 24X7",
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638577620000,
+        "created_at": 1638521460000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fof7kYBnzQtZPSPo8XovjjjMHQGe2_1638514290706.jpg?alt=media&token=4816b118-9d66-47bd-8568-29563aad0b23",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10672,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.886189034,
+          31.943247881
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10672,
+        "GlobalID": "38f86ce4-3eda-40ea-8ddd-019dbffd57b6",
+        "id": "social-5068",
+        "index_city": "לוד",
+        "location_name": "היכל ספורט ביאליק",
+        "location_description": "כניסה לבנין",
+        "coordinates_wgs_lat": 31.943247881367636,
+        "coordinates_wgs_lng": 34.88618903386209,
+        "coordinates_itm_x": 189366,
+        "coordinates_itm_y": 650069,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "קפלן",
+        "location_street_num": "4",
+        "location_floor": "1",
+        "location_hours": null,
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638695760000,
+        "created_at": 1638695760000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FIof25oPNOLYOfsTX9rF7PcDnI2y2_1638688585333.jpg?alt=media&token=48f0fb67-7505-4381-804f-0a5a54335a00",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10707,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.860439537,
+          31.960228124
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10707,
+        "GlobalID": "51fefdcf-0dd2-441a-9ab9-5bc50ea779d4",
+        "id": "social-5106",
+        "index_city": "ניר צבי",
+        "location_name": "הלפרין ובניו מער׳ בטיחות",
+        "location_description": "בניין כחול' eunv 2",
+        "coordinates_wgs_lat": 31.960228123664503,
+        "coordinates_wgs_lng": 34.86043953706198,
+        "coordinates_itm_x": 186937,
+        "coordinates_itm_y": 651959,
+        "contact_name": "יובל שמואלי",
+        "contact_phone": "089208040",
+        "location_city": "ניר צבי",
+        "location_street": "אזור תעשייה צינורות",
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": "א-ה\n8.00 -16.00",
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638818760000,
+        "created_at": 1638790260000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FjHsfqKqfilXXqIRpkWue6nvjtbm2_1638783084051.jpg?alt=media&token=645e68a9-3b28-486d-9a74-e70cd6268c78",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10747,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8905629220001,
+          31.953057404
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10747,
+        "GlobalID": "982a00f9-de85-4217-85f1-076290d2f862",
+        "id": "social-5150",
+        "index_city": "לוד",
+        "location_name": "מתחם טלרד",
+        "location_description": "חברת מגלקום בנין 1 קומה 5",
+        "coordinates_wgs_lat": 31.95305740403929,
+        "coordinates_wgs_lng": 34.89056292158969,
+        "coordinates_itm_x": 189782,
+        "coordinates_itm_y": 651156,
+        "contact_name": "נטלי פינדר",
+        "contact_phone": "‭052-8423085‬",
+        "location_city": "לוד",
+        "location_street": "בת שבע",
+        "location_street_num": "1",
+        "location_floor": "5",
+        "location_hours": "המכשיר נמצא בחברת מגלקום",
+        "location_open_all_day": "FALSE",
+        "updated_at": 1638897120000,
+        "created_at": 1638897120000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FMwkKRj8pyEfXSIiRA7bIsuDRz7k2_1638889937092.jpg?alt=media&token=a64be5bf-15e7-4940-85be-7efd294e1c36",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10764,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.864191153,
+          31.9559468730001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10764,
+        "GlobalID": "a80b2283-63c3-403e-a8d6-c3a62600cac9",
+        "id": "social-5169",
+        "index_city": "ניר צבי",
+        "location_name": "בית התרבות",
+        "location_description": "בקיר החיצוני.ימינה לכניסה. גישה 24X7",
+        "coordinates_wgs_lat": 31.955946873019048,
+        "coordinates_wgs_lng": 34.86419115254557,
+        "coordinates_itm_x": 187290,
+        "coordinates_itm_y": 651484,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "ניר צבי",
+        "location_street": "רחוב הצאלון פינת רחוב האשל",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "TRUE",
+        "updated_at": 1639129860000,
+        "created_at": 1638966120000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fof7kYBnzQtZPSPo8XovjjjMHQGe2_1638958918338.jpg?alt=media&token=7ee10fe9-8d96-4764-8756-fb09f544bba6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10921,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8971216362591,
+          31.9547991768908
+        ]
+      },
+      "properties": {
+        "OBJECTID": 10921,
+        "GlobalID": "abb34019-f130-484c-a536-6a2949f0a324",
+        "id": "social-5733",
+        "index_city": "לוד",
+        "location_name": "עיריית לוד",
+        "location_description": "קומת כניסה מימין לעמדת השומר",
+        "coordinates_wgs_lat": 31.95479917689081,
+        "coordinates_wgs_lng": 34.89712163625914,
+        "coordinates_itm_x": 190403,
+        "coordinates_itm_y": 651347,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "בר כוכבא ",
+        "location_street_num": "2",
+        "location_floor": "כניסה ",
+        "location_hours": "שעות העבודה הסטנדרטיות",
+        "location_open_all_day": "0",
+        "updated_at": 1643957609000,
+        "created_at": 1643871922000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1643871917291.jpg?alt=media&token=dae4d8b0-ec8e-4614-b5e1-0544f410b170",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11240,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8903343314407,
+          31.9483883202132
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11240,
+        "GlobalID": "388c3311-7f4f-486a-bc05-813c9bc84c0f",
+        "id": "social-5857",
+        "index_city": "לוד",
+        "location_name": "בניין עירייה הישן",
+        "location_description": "המכשיר מוצב  5 מטר משמאל לכניסה הראשית לבניין העירייה",
+        "coordinates_wgs_lat": 31.94838832021316,
+        "coordinates_wgs_lng": 34.890334331440656,
+        "coordinates_itm_x": 189759,
+        "coordinates_itm_y": 650638,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "דוד המלך",
+        "location_street_num": "2",
+        "location_floor": "רחוב",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645096755000,
+        "created_at": 1645096755000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645096747185.jpg?alt=media&token=bf82500b-dee9-4013-9c32-fe2c96ba0f0d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11241,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8903343314407,
+          31.9483883202132
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11241,
+        "GlobalID": "3fe805e1-d22e-404f-b081-875c0a69ff86",
+        "id": "social-5857",
+        "index_city": "לוד",
+        "location_name": "בניין עירייה הישן",
+        "location_description": "המכשיר מוצב  5 מטר משמאל לכניסה הראשית לבניין העירייה",
+        "coordinates_wgs_lat": 31.94838832021316,
+        "coordinates_wgs_lng": 34.890334331440656,
+        "coordinates_itm_x": 189759,
+        "coordinates_itm_y": 650638,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "דוד המלך",
+        "location_street_num": "2",
+        "location_floor": "רחוב",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645289459000,
+        "created_at": 1645096755000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645096747185.jpg?alt=media&token=bf82500b-dee9-4013-9c32-fe2c96ba0f0d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8930285395893,
+          31.9490368018528
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11255,
+        "GlobalID": "8106ecd7-9000-45f6-b6fc-2770b1e61101",
+        "id": "social-5860",
+        "index_city": "לוד",
+        "location_name": "דוכן פיס",
+        "location_description": "בצד מבנה מפעל הפיס",
+        "coordinates_wgs_lat": 31.949036801852788,
+        "coordinates_wgs_lng": 34.89302853958928,
+        "coordinates_itm_x": 190014,
+        "coordinates_itm_y": 650709,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "הנשיא ",
+        "location_street_num": "5",
+        "location_floor": "רחוב ",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645099759000,
+        "created_at": 1645099759000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645099751165.jpg?alt=media&token=b12a4be2-3217-44db-8ba1-5ae044a212fa",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8930285395893,
+          31.9490368018528
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11257,
+        "GlobalID": "3d1029bb-41ce-4704-b11b-e57a60a39b62",
+        "id": "social-5860",
+        "index_city": "לוד",
+        "location_name": "דוכן פיס",
+        "location_description": "בצד מבנה מפעל הפיס",
+        "coordinates_wgs_lat": 31.949036801852788,
+        "coordinates_wgs_lng": 34.89302853958928,
+        "coordinates_itm_x": 190014,
+        "coordinates_itm_y": 650709,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "הנשיא ",
+        "location_street_num": "5",
+        "location_floor": "רחוב ",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645289547000,
+        "created_at": 1645099759000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645099751165.jpg?alt=media&token=b12a4be2-3217-44db-8ba1-5ae044a212fa",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11972,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8944048255097,
+          31.9554943006127
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11972,
+        "GlobalID": "2e42c3df-36b1-41a8-b915-0a72e0b18fb8",
+        "id": "social-6116",
+        "index_city": "לוד",
+        "location_name": "גורדון 6",
+        "location_description": "לובי כניסה",
+        "coordinates_wgs_lat": 31.955494300612713,
+        "coordinates_wgs_lng": 34.89440482550969,
+        "coordinates_itm_x": 190146,
+        "coordinates_itm_y": 651425,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "גורדון",
+        "location_street_num": "6",
+        "location_floor": "כניסה",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645629269000,
+        "created_at": 1645629269000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F20hQcohwa6eu9jBnbnGSFNlEgys1_1645629261504.jpg?alt=media&token=d33f513d-08b1-4480-87e6-506decf3d90b",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11973,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8944048255097,
+          31.9554943006127
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11973,
+        "GlobalID": "4c427763-5ba4-4888-a651-4caedb39ebec",
+        "id": "social-6116",
+        "index_city": "לוד",
+        "location_name": "גורדון 6",
+        "location_description": "לובי כניסה",
+        "coordinates_wgs_lat": 31.955494300612713,
+        "coordinates_wgs_lng": 34.89440482550969,
+        "coordinates_itm_x": 190146,
+        "coordinates_itm_y": 651425,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "גורדון",
+        "location_street_num": "6",
+        "location_floor": "כניסה",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645705905000,
+        "created_at": 1645629269000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F20hQcohwa6eu9jBnbnGSFNlEgys1_1645629261504.jpg?alt=media&token=d33f513d-08b1-4480-87e6-506decf3d90b",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11996,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8930318012723,
+          31.9548867258624
+        ]
+      },
+      "properties": {
+        "OBJECTID": 11996,
+        "GlobalID": "aa1a26db-1d9d-401a-a7d6-9a43aebdc7f9",
+        "id": "social-6125",
+        "index_city": "לוד",
+        "location_name": "הרב מרדכי אליהו 6",
+        "location_description": "בלובי הכניסה מצד הגינה",
+        "coordinates_wgs_lat": 31.954886725862423,
+        "coordinates_wgs_lng": 34.893031801272336,
+        "coordinates_itm_x": 190016,
+        "coordinates_itm_y": 651358,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הרב מרדכי אליהו",
+        "location_street_num": "6",
+        "location_floor": "לובי כניסה",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645634596000,
+        "created_at": 1645634596000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F20hQcohwa6eu9jBnbnGSFNlEgys1_1645634588709.jpg?alt=media&token=620b5673-fca6-4f95-aa8e-b771c4cea188",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8729150504988,
+          31.9426883757948
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12105,
+        "GlobalID": "486cfb69-a8d2-403c-b51c-160aae293b38",
+        "id": "social-6155",
+        "index_city": "לוד",
+        "location_name": "קופ״ח מאוחדת",
+        "location_description": "קומה 1 בחדר אחיות מס 1",
+        "coordinates_wgs_lat": 31.94268837579479,
+        "coordinates_wgs_lng": 34.87291505049881,
+        "coordinates_itm_x": 188110,
+        "coordinates_itm_y": 650011,
+        "contact_name": "שירלי דוידוב ",
+        "contact_phone": "0542581169",
+        "location_city": "לוד",
+        "location_street": "בעל התניא ",
+        "location_street_num": "12",
+        "location_floor": "1",
+        "location_hours": "א-ו 8:00-12:00\nב,ד 16:00-19:00",
+        "location_open_all_day": "0",
+        "updated_at": 1645980730000,
+        "created_at": 1645687662000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FrrVjPbdnzJX0tRwiHeB6dUdlBta2_1645687650395.jpg?alt=media&token=25f53ac1-4b9a-431a-9502-876047c548c9",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8931866966136,
+          31.9487445900052
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12121,
+        "GlobalID": "cfada6fb-220e-4daf-970a-d8df519eea6a",
+        "id": "social-6159",
+        "index_city": "לוד",
+        "location_name": "קופ״ח מאוחדת",
+        "location_description": "חדר אחיות קומת קרקע חדר 2",
+        "coordinates_wgs_lat": 31.948744590005205,
+        "coordinates_wgs_lng": 34.893186696613604,
+        "coordinates_itm_x": 190029,
+        "coordinates_itm_y": 650677,
+        "contact_name": "משיח נטלי",
+        "contact_phone": "0522704681",
+        "location_city": "לוד",
+        "location_street": "הנשיא ",
+        "location_street_num": "12",
+        "location_floor": "קרקע",
+        "location_hours": "א-ו 8-12\nא-ב-ג-ה 16-19",
+        "location_open_all_day": "0",
+        "updated_at": 1645980928000,
+        "created_at": 1645688064000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FfG9FyV098YUzSEOWRWmUueqS3pc2_1645688048821.jpg?alt=media&token=bb02f3a5-c177-48eb-a76a-6cba766c1236",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8500785473313,
+          31.9599685180339
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12168,
+        "GlobalID": "3dfddb0e-8a57-463d-87eb-dd0871b51935",
+        "id": "social-6179",
+        "index_city": "באר יעקב",
+        "location_name": "קרית שלמה צריפין",
+        "location_description": "חדר בקרה קומת קרקע",
+        "coordinates_wgs_lat": 31.959968518033875,
+        "coordinates_wgs_lng": 34.850078547331286,
+        "coordinates_itm_x": 185957,
+        "coordinates_itm_y": 651934,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "צריפין",
+        "location_street": "קרית שלמה צריפין",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "חדר בקרה",
+        "location_open_all_day": "1",
+        "updated_at": 1645693447000,
+        "created_at": 1645693447000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FcdI0bQ7QsuYIR8NGUHwPMaTowIO2_1645693441854.jpg?alt=media&token=534b3c49-65eb-4f02-acfa-e3c9586e5739",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8483906735055,
+          31.9916533001007
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12178,
+        "GlobalID": "62534133-3da9-41b2-8196-805e0d86a336",
+        "id": "social-6181",
+        "index_city": "כפר חב\"ד",
+        "location_name": "קופ״ח מאוחדת",
+        "location_description": "בחדר אחיות קומת קרקע",
+        "coordinates_wgs_lat": 31.991653300100655,
+        "coordinates_wgs_lng": 34.8483906735055,
+        "coordinates_itm_x": 185809,
+        "coordinates_itm_y": 655448,
+        "contact_name": "ורד",
+        "contact_phone": "0545980864",
+        "location_city": "כפר חבד ",
+        "location_street": "הרבי מלובאביץ",
+        "location_street_num": "4",
+        "location_floor": "קרקע",
+        "location_hours": "יום א' מ8:00 עד 13:00\nיום ב'-ה' מ8:00 עד 19:00\nיום ו' מ8:00 עד 12:00",
+        "location_open_all_day": "0",
+        "updated_at": 1645983075000,
+        "created_at": 1645694071000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F4uw0jwSiKmgv6Ybuo8IFJJYFuJA3_1645693966148.jpg?alt=media&token=1ef5afde-2883-41ca-900f-eb8a6df3f75e",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12812,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8935820186154,
+          31.9673871765149
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12812,
+        "GlobalID": "e3878519-64f4-4464-a5cc-880569e8c72d",
+        "id": "social-6435",
+        "index_city": "לוד",
+        "location_name": "גסטטנרטק",
+        "location_description": "בכניסה למשרדי החברה",
+        "coordinates_wgs_lat": 31.96738717651492,
+        "coordinates_wgs_lng": 34.89358201861543,
+        "coordinates_itm_x": 190072,
+        "coordinates_itm_y": 652744,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הורקנוס ",
+        "location_street_num": "5",
+        "location_floor": "1",
+        "location_hours": "0800-1600",
+        "location_open_all_day": "0",
+        "updated_at": 1646835596000,
+        "created_at": 1646835596000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FeGBiTxPc1gcWEqCIsGUalduPHJH2_1646835588935.jpg?alt=media&token=014258cb-b8d1-463b-bffa-9d4800353f73",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12836,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8945131449232,
+          31.9911439952531
+        ]
+      },
+      "properties": {
+        "OBJECTID": 12836,
+        "GlobalID": "97596591-a295-4cc8-afed-9c6968e68fa9",
+        "id": "social-6446",
+        "index_city": "יגל",
+        "location_name": "בניין חשבונות",
+        "location_description": "בחברת אלעל, צמוד לקיר בין המעליות בקומה 2",
+        "coordinates_wgs_lat": 31.99114399525309,
+        "coordinates_wgs_lng": 34.89451314492319,
+        "coordinates_itm_x": 190168,
+        "coordinates_itm_y": 655378,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "נתבג - אלעל משרד ראשי",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1647113083000,
+        "created_at": 1646904526000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F6dvAhBj30MhB6rFDalZk0BRhPqK2_1646904518104.jpg?alt=media&token=140ca4dc-3cfb-4256-b79c-747663a82a7a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13018,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8949946443095,
+          31.9919732002702
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13018,
+        "GlobalID": "c75d8fc5-a028-4347-be3b-5a7a5436cc1d",
+        "id": "social-6513",
+        "index_city": "יגל",
+        "location_name": "בנין הנהלה אלעל",
+        "location_description": "קומת כניסה משמאל למעלית (הנהלה ראשית)",
+        "coordinates_wgs_lat": 31.991973200270174,
+        "coordinates_wgs_lng": 34.8949946443095,
+        "coordinates_itm_x": 190214,
+        "coordinates_itm_y": 655470,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "נמל תעופה בן גוריון",
+        "location_street": "משרדי אלעל",
+        "location_street_num": null,
+        "location_floor": "קרקע",
+        "location_hours": "כניסה למורשים בלבד",
+        "location_open_all_day": "1",
+        "updated_at": 1647354175000,
+        "created_at": 1647354175000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FeGBiTxPc1gcWEqCIsGUalduPHJH2_1647354168906.jpg?alt=media&token=c6107efc-41c0-444e-921f-611f71bf51e4",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13019,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8949946443095,
+          31.9919732002702
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13019,
+        "GlobalID": "dcd385e2-9e82-41aa-89fc-52195645fb15",
+        "id": "social-6513",
+        "index_city": "יגל",
+        "location_name": "בנין הנהלה אלעל",
+        "location_description": "קומת כניסה משמאל למעלית (הנהלה ראשית)",
+        "coordinates_wgs_lat": 31.991973200270174,
+        "coordinates_wgs_lng": 34.8949946443095,
+        "coordinates_itm_x": 190214,
+        "coordinates_itm_y": 655470,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "נמל תעופה בן גוריון",
+        "location_street": "משרדי אלעל",
+        "location_street_num": null,
+        "location_floor": "קרקע",
+        "location_hours": "כניסה למורשים בלבד",
+        "location_open_all_day": "1",
+        "updated_at": 1647692902000,
+        "created_at": 1647354175000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FeGBiTxPc1gcWEqCIsGUalduPHJH2_1647354168906.jpg?alt=media&token=c6107efc-41c0-444e-921f-611f71bf51e4",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13749,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8979568161573,
+          31.9682414671183
+        ]
+      },
+      "properties": {
+        "OBJECTID": 13749,
+        "GlobalID": "f54237d9-bc08-4b27-ac16-31e907f0fc6d",
+        "id": "social-6790",
+        "index_city": "לוד",
+        "location_name": "קופ\"ח מאוחדת ",
+        "location_description": "כניסת ב, ליד הדלת כניסה משמאל ",
+        "coordinates_wgs_lat": 31.96824146711826,
+        "coordinates_wgs_lng": 34.897956816157325,
+        "coordinates_itm_x": 190486,
+        "coordinates_itm_y": 652837,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "פסח לב ",
+        "location_street_num": "5",
+        "location_floor": "קרקע כניסת ב ",
+        "location_hours": "0800-1500\n",
+        "location_open_all_day": "0",
+        "updated_at": 1651584274000,
+        "created_at": 1651485660000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FZb3mXQQwvHO6a4EfHHAQbY9rqO23_1651485654384.jpg?alt=media&token=a9e2b89c-c4f7-4cbf-bb13-b11efaa7cd85",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14526,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8947212100071,
+          31.9947882572671
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14526,
+        "GlobalID": "c0c38fb3-bb19-48c0-8b77-20116d73a00e",
+        "id": "social-7067",
+        "index_city": "יגל",
+        "location_name": "משרדי ישראייר",
+        "location_description": "משרדי ישראייר אחזקת מטוסים קומה ראשונה טרמינל 1 הישן ממוקם בחדר מטבחון ישראייר ",
+        "coordinates_wgs_lat": 31.994788257267068,
+        "coordinates_wgs_lng": 34.89472121000707,
+        "coordinates_itm_x": 190189,
+        "coordinates_itm_y": 655782,
+        "contact_name": "יאיר יוסף בדש",
+        "contact_phone": "‎‎0529246227",
+        "location_city": "טרמינל 1 נתב\"ג",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "1",
+        "location_hours": "פתוח משעה 07:00 עד 16:00\n",
+        "location_open_all_day": "0",
+        "updated_at": 1655206860000,
+        "created_at": 1655192803000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FHHcQ92VO2rMhiMDAWuADFEfpsf92_1655192797438.jpg?alt=media&token=cdac4279-01d5-4e7a-9a57-81310e72d1f6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14718,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8858754,
+          31.9446653
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14718,
+        "GlobalID": "eef5959d-68af-40e1-b1a2-c9dfa50c2428",
+        "id": "social-7132",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ ההודי",
+        "location_description": "שדרת בתי הכנסת, מחוץ לבית הכנסת",
+        "coordinates_wgs_lat": 31.9446653,
+        "coordinates_wgs_lng": 34.8858754,
+        "coordinates_itm_x": 189336,
+        "coordinates_itm_y": 650226,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "שדרת בתי הכנסת",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1655895351000,
+        "created_at": 1655702902000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1655702892061.jpg?alt=media&token=20d67081-e28c-4300-8b34-7a7a5bea9575",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14719,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8858754,
+          31.9446653
+        ]
+      },
+      "properties": {
+        "OBJECTID": 14719,
+        "GlobalID": "2c9eb782-f07c-4841-8d74-374443c3c654",
+        "id": "social-7132",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ ההודי",
+        "location_description": "שדרת בתי הכנסת, מחוץ לבית הכנסת",
+        "coordinates_wgs_lat": 31.9446653,
+        "coordinates_wgs_lng": 34.8858754,
+        "coordinates_itm_x": 189336,
+        "coordinates_itm_y": 650226,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "שדרת בתי הכנסת",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1655702902000,
+        "created_at": 1655702902000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1655702892061.jpg?alt=media&token=20d67081-e28c-4300-8b34-7a7a5bea9575",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8859293775297,
+          31.9501977180112
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15238,
+        "GlobalID": "e2e04d15-e47a-45ae-bc12-6f81f72691b2",
+        "id": "social-7344",
+        "index_city": "לוד",
+        "location_name": "ביה\"ס לוי אשכול",
+        "location_description": "בתוך אולם הספורט שמשמש כרגע כספריה, בכניסה מצד שמאל",
+        "coordinates_wgs_lat": 31.950197718011218,
+        "coordinates_wgs_lng": 34.885929377529706,
+        "coordinates_itm_x": 189343,
+        "coordinates_itm_y": 650840,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "אלפעל",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "10 עד 18:30",
+        "location_open_all_day": "0",
+        "updated_at": 1656880369000,
+        "created_at": 1656595853000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1656595840858.jpg?alt=media&token=777aa648-80cc-4f44-8c40-8204232d3850",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15512,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8771698375952,
+          31.9761367842613
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15512,
+        "GlobalID": "0baec2a7-920d-4d37-9c6f-80acca99a622",
+        "id": "social-7458",
+        "index_city": "אחיעזר",
+        "location_name": "האלון 77",
+        "location_description": "המכשיר נמצא ברכב, נא ליצור קשר לפני 0508268426",
+        "coordinates_wgs_lat": 31.97613678426127,
+        "coordinates_wgs_lng": 34.87716983759518,
+        "coordinates_itm_x": 188524,
+        "coordinates_itm_y": 653719,
+        "contact_name": "שרית בדני",
+        "contact_phone": "0508268426",
+        "location_city": "אחיעזר",
+        "location_street": "האלון",
+        "location_street_num": "77",
+        "location_floor": "1",
+        "location_hours": "הדפי נמצא איתי ככוננית איחוד הצלה יש ליצור קשר לפני",
+        "location_open_all_day": "0",
+        "updated_at": 1658142442000,
+        "created_at": 1658049458000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fd5FyR5K5WUQvTlXFdtUC51pF3Pn2_1658049454089.jpg?alt=media&token=123ad988-e08f-4356-a843-bb6df1733f9a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15520,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8970844446091,
+          31.969980037386
+        ]
+      },
+      "properties": {
+        "OBJECTID": 15520,
+        "GlobalID": "ffb29db4-c23a-4090-842a-51793673f670",
+        "id": "social-7460",
+        "index_city": "לוד",
+        "location_name": "עמותת מעוז",
+        "location_description": "ליד עמדת הקבלה",
+        "coordinates_wgs_lat": 31.969980037386033,
+        "coordinates_wgs_lng": 34.89708444460906,
+        "coordinates_itm_x": 190404,
+        "coordinates_itm_y": 653030,
+        "contact_name": "שחר דויד",
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "המלאכה",
+        "location_street_num": "4, כניסה B",
+        "location_floor": "0",
+        "location_hours": "שבוע עבודה סטנדרטי",
+        "location_open_all_day": "0",
+        "updated_at": 1658142546000,
+        "created_at": 1658128154000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fd6B0NbX4X6XfayWcmvEoAeoRsUt2_1658128148760.jpg?alt=media&token=b79ebf1a-8a77-42e9-b277-969927983ab5",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8859191,
+          31.9451315
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16297,
+        "GlobalID": "929de5d8-c4b1-4533-bdc1-f416887d4ac9",
+        "id": "social-7756",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ זכור לאברהם",
+        "location_description": "מימין, ליד שירותי נשים והמטבחון",
+        "coordinates_wgs_lat": 31.9451315,
+        "coordinates_wgs_lng": 34.8859191,
+        "coordinates_itm_x": 189341,
+        "coordinates_itm_y": 650278,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "שדרת בתי הכנסת",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "בשעות הפעילות של בית הכנסת בימי חול ושבתות, לפי מה שמפורסם",
+        "location_open_all_day": "0",
+        "updated_at": 1662818950000,
+        "created_at": 1662701554000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1662701542539.jpg?alt=media&token=051a22e5-0a0e-4fdd-829e-d8893793e0d0",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8899942403246,
+          31.952831561385
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16301,
+        "GlobalID": "9b700e37-99f7-4ece-81ae-cbc0cc081646",
+        "id": "social-7758",
+        "index_city": "לוד",
+        "location_name": "אושר עד ",
+        "location_description": "קופה ראשית",
+        "coordinates_wgs_lat": 31.952831561385043,
+        "coordinates_wgs_lng": 34.88999424032456,
+        "coordinates_itm_x": 189729,
+        "coordinates_itm_y": 651131,
+        "contact_name": "",
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "בת שבע ",
+        "location_street_num": "1",
+        "location_floor": "קרקע",
+        "location_hours": "א-ג 10:00-23:00\nד-ה 10:00-00:00\nו- שעון קיץ 7:30-15:00\nו- שעון חורף -  7:30-13:00",
+        "location_open_all_day": "0",
+        "updated_at": 1662819070000,
+        "created_at": 1662716549000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fq2cgGiqEorfUGsuwOGQAOJTy9M63_1662716543887.jpg?alt=media&token=216b0e7a-dde0-4738-b3f1-17f003ce0e25",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16430,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.875613,
+          31.942421
+        ]
+      },
+      "properties": {
+        "OBJECTID": 16430,
+        "GlobalID": "ecb84f9d-fbf1-4987-a909-696e057c160b",
+        "id": "social-7810",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ בית אריה ",
+        "location_description": "מתחת לסככה ליד הכניסה לבית הכנסת ",
+        "coordinates_wgs_lat": 31.942421,
+        "coordinates_wgs_lng": 34.875613,
+        "coordinates_itm_x": 188365,
+        "coordinates_itm_y": 649980,
+        "contact_name": "איחוד הצלה",
+        "contact_phone": "1221",
+        "location_city": "לוד",
+        "location_street": "צמח צדק",
+        "location_street_num": "10",
+        "location_floor": "כניסה לבית הכנסת",
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1663592540000,
+        "created_at": 1663309686000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNvbbO9rg7sYqV1qV5TcN0lzueHl1_1663309680476.jpg?alt=media&token=a2aad97e-8743-4d63-a49e-076bb99ca12c",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17075,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.850469614018,
+          31.9869051780179
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17075,
+        "GlobalID": "dc83ff25-1c3d-4122-9cbc-4c8c5fc46959",
+        "id": "social-8057",
+        "index_city": "כפר חב\"ד",
+        "location_name": "ביה\"כ המרכזי",
+        "location_description": "במסדרון הכניסה. בקיר הימני בצמוד לדלת",
+        "coordinates_wgs_lat": 31.98690517801792,
+        "coordinates_wgs_lng": 34.850469614017996,
+        "coordinates_itm_x": 186004,
+        "coordinates_itm_y": 654921,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "כפר חב\"ד",
+        "location_street": "אדמו\"ר הרייץ",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1667554494000,
+        "created_at": 1667554494000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FVxyORhuAiTZqdMu2aIxV1USQiFM2_1667554486663.jpg?alt=media&token=e4c3d3d0-9ba5-42ee-9190-a5544c2f5c29",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17076,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.850469614018,
+          31.9869051780179
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17076,
+        "GlobalID": "8f0e477c-b1b6-4da3-bac7-5a32d58e2acd",
+        "id": "social-8057",
+        "index_city": "כפר חב\"ד",
+        "location_name": "ביה\"כ המרכזי",
+        "location_description": "במסדרון הכניסה. בקיר הימני בצמוד לדלת",
+        "coordinates_wgs_lat": 31.98690517801792,
+        "coordinates_wgs_lng": 34.850469614017996,
+        "coordinates_itm_x": 186004,
+        "coordinates_itm_y": 654921,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "כפר חב\"ד",
+        "location_street": "אדמו\"ר הרייץ",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1667663852000,
+        "created_at": 1667554494000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FVxyORhuAiTZqdMu2aIxV1USQiFM2_1667554486663.jpg?alt=media&token=e4c3d3d0-9ba5-42ee-9190-a5544c2f5c29",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8870010124328,
+          31.9430670617795
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17323,
+        "GlobalID": "345daf68-44eb-465d-b3ec-023d13f17c94",
+        "id": "social-8161",
+        "index_city": "לוד",
+        "location_name": "היכל התרבות",
+        "location_description": "במשרדים מימין",
+        "coordinates_wgs_lat": 31.94306706177952,
+        "coordinates_wgs_lng": 34.887001012432776,
+        "coordinates_itm_x": 189442,
+        "coordinates_itm_y": 650049,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "קפלן",
+        "location_street_num": "2",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1669838340000,
+        "created_at": 1669838340000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1669838332462.jpg?alt=media&token=a2eaaa51-aa07-42dd-aef1-42fc2ca02dd4",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8870010124328,
+          31.9430670617795
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17324,
+        "GlobalID": "9676b228-92d8-477f-8c41-1d622fd63222",
+        "id": "social-8161",
+        "index_city": "לוד",
+        "location_name": "היכל התרבות",
+        "location_description": "במשרדים מימין",
+        "coordinates_wgs_lat": 31.94306706177952,
+        "coordinates_wgs_lng": 34.887001012432776,
+        "coordinates_itm_x": 189442,
+        "coordinates_itm_y": 650049,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "קפלן",
+        "location_street_num": "2",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1670054632000,
+        "created_at": 1669838340000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1669838332462.jpg?alt=media&token=a2eaaa51-aa07-42dd-aef1-42fc2ca02dd4",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17603,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8999953330848,
+          31.9441810603782
+        ]
+      },
+      "properties": {
+        "OBJECTID": 17603,
+        "GlobalID": "8d7e74d5-cd31-4c06-a6c3-c856e1ebb83e",
+        "id": "social-8242",
+        "index_city": "לוד",
+        "location_name": "משפחת כהן",
+        "location_description": "קומה 8  דירה 48 שיוצאים מהמעלית לפנות שמאלה. בית פרטי. במקרה חירום נא להתקשר לאיש קשר גם אם לא בבית",
+        "coordinates_wgs_lat": 31.94418106037823,
+        "coordinates_wgs_lng": 34.89999533308484,
+        "coordinates_itm_x": 190671,
+        "coordinates_itm_y": 650169,
+        "contact_name": "דרור כהן",
+        "contact_phone": "0526039468",
+        "location_city": "לוג",
+        "location_street": "האיילון",
+        "location_street_num": "15",
+        "location_floor": "8 דירה 48",
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1670431068000,
+        "created_at": 1670205185000,
+        "img_url": "",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18052,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8519651141605,
+          31.9451570215084
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18052,
+        "GlobalID": "01a3b571-0604-4f36-9833-74fefd49632a",
+        "id": "social-8510",
+        "index_city": "באר יעקב",
+        "location_name": "גינת משחק",
+        "location_description": "במרכז הגינה",
+        "coordinates_wgs_lat": 31.945157021508425,
+        "coordinates_wgs_lng": 34.851965114160464,
+        "coordinates_itm_x": 186130,
+        "coordinates_itm_y": 650291,
+        "contact_name": "איחוד הצלה",
+        "contact_phone": "1221",
+        "location_city": "באר יעקב",
+        "location_street": "אליהו",
+        "location_street_num": "פינת הדר",
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1670934793000,
+        "created_at": 1670934793000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FYS1iJOjxIxYg4bWTbFkkmdCPN073_1670934787968.jpg?alt=media&token=5edb4ed7-2ce2-43c6-ab77-80fd4e2190c8",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18053,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8519651141605,
+          31.9451570215084
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18053,
+        "GlobalID": "94719d5e-b0e4-4df2-ad9d-b123c7977254",
+        "id": "social-8510",
+        "index_city": "באר יעקב",
+        "location_name": "גינת משחק",
+        "location_description": "במרכז הגינה",
+        "coordinates_wgs_lat": 31.945157021508425,
+        "coordinates_wgs_lng": 34.851965114160464,
+        "coordinates_itm_x": 186130,
+        "coordinates_itm_y": 650291,
+        "contact_name": "איחוד הצלה",
+        "contact_phone": "1221",
+        "location_city": "באר יעקב",
+        "location_street": "אליהו",
+        "location_street_num": "פינת הדר",
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1670949712000,
+        "created_at": 1670934793000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FYS1iJOjxIxYg4bWTbFkkmdCPN073_1670934787968.jpg?alt=media&token=5edb4ed7-2ce2-43c6-ab77-80fd4e2190c8",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18413,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8512227092511,
+          31.9650398747035
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18413,
+        "GlobalID": "260701b2-1ab3-432f-8313-7d092eb68aec",
+        "id": "social-8596",
+        "index_city": "באר יעקב",
+        "location_name": "מבנה שער",
+        "location_description": "קוקה קולה מתחם לוגיסטי צריפין",
+        "coordinates_wgs_lat": 31.96503987470354,
+        "coordinates_wgs_lng": 34.85122270925115,
+        "coordinates_itm_x": 186067,
+        "coordinates_itm_y": 652496,
+        "contact_name": "איש קשר",
+        "contact_phone": "0549004505",
+        "location_city": "צריפין",
+        "location_street": "פארק לוגיסטי",
+        "location_street_num": "מתחם ",
+        "location_floor": "קרקע",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1671801092000,
+        "created_at": 1671711863000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FtgJWmyrWeSVZwtGx1fByE9E5EFk1_1671711859046.jpg?alt=media&token=3bd1953b-de6c-4570-9bd6-847c5156e2f3",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18617,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8884861091216,
+          31.9472948666291
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18617,
+        "GlobalID": "1dd5fffa-67f0-4602-abed-c460222eb726",
+        "id": "social-8615",
+        "index_city": "לוד",
+        "location_name": "משפחת אלמקייס",
+        "location_description": "בית פרטי. במקרה חירום נא להתקשר לאיש קשר",
+        "coordinates_wgs_lat": 31.94729486662912,
+        "coordinates_wgs_lng": 34.88848610912161,
+        "coordinates_itm_x": 189584,
+        "coordinates_itm_y": 650517,
+        "contact_name": "רוני אלמקייס ",
+        "contact_phone": "0547977067",
+        "location_city": "לוד",
+        "location_street": "ארלוזורוב",
+        "location_street_num": "3 דירה 1",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1671992116000,
+        "created_at": 1671960969000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2F1xSS1GNM5IPG7STllQTgtewgkp33_1672713544016.jpg?alt=media&token=8aab88d6-ed50-4386-a65f-67b9a473104b",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18618,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8884861091216,
+          31.9472948666291
+        ]
+      },
+      "properties": {
+        "OBJECTID": 18618,
+        "GlobalID": "3035504e-1620-4843-93b7-708500f158e0",
+        "id": "social-8615",
+        "index_city": "לוד",
+        "location_name": "משפחת אלמקייס",
+        "location_description": "בית פרטי. במקרה חירום נא להתקשר לאיש קשר",
+        "coordinates_wgs_lat": 31.94729486662912,
+        "coordinates_wgs_lng": 34.88848610912161,
+        "coordinates_itm_x": 189584,
+        "coordinates_itm_y": 650517,
+        "contact_name": "רוני אלמקייס ",
+        "contact_phone": "0547977067",
+        "location_city": "לוד",
+        "location_street": "ארלוזורוב",
+        "location_street_num": "3 דירה 1",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1672729152000,
+        "created_at": 1671960969000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2F1xSS1GNM5IPG7STllQTgtewgkp33_1672713544016.jpg?alt=media&token=8aab88d6-ed50-4386-a65f-67b9a473104b",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19071,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8906293347008,
+          31.9552956431516
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19071,
+        "GlobalID": "c7e47bd6-40bb-4559-b3d1-6503bae60444",
+        "id": "social-8841",
+        "index_city": "לוד",
+        "location_name": "מפעל שטראוס קפה",
+        "location_description": "חדר לובי כניסה",
+        "coordinates_wgs_lat": 31.955295643151576,
+        "coordinates_wgs_lng": 34.890629334700805,
+        "coordinates_itm_x": 189789,
+        "coordinates_itm_y": 651404,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "משה הס",
+        "location_street_num": "7",
+        "location_floor": "קרקע",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1674654843000,
+        "created_at": 1674654843000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F4KUK20S7hmcwXYTkJKY2f2AKf0d2_1674654839131.jpg?alt=media&token=8f88cb6f-0c61-4306-9a6c-8c749d0a9bc5",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8435177830654,
+          31.9416522976609
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19225,
+        "GlobalID": "cacab5ea-1e77-473c-8098-12df5945364b",
+        "id": "social-8886",
+        "index_city": "באר יעקב",
+        "location_name": "גינת משחקים",
+        "location_description": "בכניסה לגינה מול המרכז המסחרי",
+        "coordinates_wgs_lat": 31.941652297660898,
+        "coordinates_wgs_lng": 34.84351778306543,
+        "coordinates_itm_x": 185330,
+        "coordinates_itm_y": 649905,
+        "contact_name": "איחוד הצלה",
+        "contact_phone": "1221",
+        "location_city": "באר יעקב",
+        "location_street": "אפריים קישון",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1675176649000,
+        "created_at": 1675176649000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F4Itb36TKz7SGEo8hUBfmUjgeVtk2_1675176643791.jpg?alt=media&token=3a9e45e5-e322-4530-ab3b-ea916a2a7e9a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8435177830654,
+          31.9416522976609
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19226,
+        "GlobalID": "6904a774-c8db-47fb-842d-b11e6bb05642",
+        "id": "social-8886",
+        "index_city": "באר יעקב",
+        "location_name": "גינת משחקים",
+        "location_description": "בכניסה לגינה מול המרכז המסחרי",
+        "coordinates_wgs_lat": 31.941652297660898,
+        "coordinates_wgs_lng": 34.84351778306543,
+        "coordinates_itm_x": 185330,
+        "coordinates_itm_y": 649905,
+        "contact_name": "איחוד הצלה",
+        "contact_phone": "1221",
+        "location_city": "באר יעקב",
+        "location_street": "אפריים קישון",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1675366077000,
+        "created_at": 1675176649000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F4Itb36TKz7SGEo8hUBfmUjgeVtk2_1675176643791.jpg?alt=media&token=3a9e45e5-e322-4530-ab3b-ea916a2a7e9a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19817,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.895751609807,
+          31.9955469274778
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19817,
+        "GlobalID": "8dc99e0c-42c1-4aca-b7e3-4545011d2689",
+        "id": "social-9129",
+        "index_city": "לוד",
+        "location_name": "נתבג",
+        "location_description": "ליד השירותים",
+        "coordinates_wgs_lat": 31.99554692747784,
+        "coordinates_wgs_lng": 34.89575160980695,
+        "coordinates_itm_x": 190286,
+        "coordinates_itm_y": 655866,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1677181131000,
+        "created_at": 1677181131000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2F5Ich5akbxeSxKTzlK2t9mkNNtql1_1677181127021.jpg?alt=media&token=47084f72-b659-4076-9cc6-70ef9c56cad1",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19993,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.84035893169,
+          31.9676154035169
+        ]
+      },
+      "properties": {
+        "OBJECTID": 19993,
+        "GlobalID": "695e224b-754d-40c5-9ee9-df8776d37803",
+        "id": "social-9197",
+        "index_city": "באר יעקב",
+        "location_name": "בית חולים אסף הרופא",
+        "location_description": "מיון יולדות ליד תחנת האחיות ",
+        "coordinates_wgs_lat": 31.967615403516877,
+        "coordinates_wgs_lng": 34.84035893169003,
+        "coordinates_itm_x": 185041,
+        "coordinates_itm_y": 652785,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "צריפין",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "1",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1677776321000,
+        "created_at": 1677776321000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FXRVQvbDcJnX3mRmc7sFwvFCiity1_1677776314205.jpg?alt=media&token=59ffb881-4827-4eb5-8253-a3eb986f0342",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20041,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.893726099758,
+          31.9528773860286
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20041,
+        "GlobalID": "44167de7-705a-474b-854a-b34165f5ea57",
+        "id": "social-9215",
+        "index_city": "לוד",
+        "location_name": "מרפאת שיניים ד\"ר רוני איצקוביץ",
+        "location_description": "בחדר של הרופא, מעל הכיור",
+        "coordinates_wgs_lat": 31.952877386028586,
+        "coordinates_wgs_lng": 34.893726099757956,
+        "coordinates_itm_x": 190081,
+        "coordinates_itm_y": 651135,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "כצנלסון ",
+        "location_street_num": "4",
+        "location_floor": "קרקע",
+        "location_hours": "8:30 עד 17:00",
+        "location_open_all_day": "0",
+        "updated_at": 1678020069000,
+        "created_at": 1678020069000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1678020058187.jpg?alt=media&token=00924934-c2cc-4fb8-92f8-f2a9efa0ec0d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20481,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8504733790938,
+          31.9620070666518
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20481,
+        "GlobalID": "0cace1d0-77d3-414d-946a-7e4819270004",
+        "id": "social-9386",
+        "index_city": "באר יעקב",
+        "location_name": "קממ מפעלי מחזור",
+        "location_description": "קומה שנייה בכניסה ליד המזכירה",
+        "coordinates_wgs_lat": 31.962007066651754,
+        "coordinates_wgs_lng": 34.85047337909382,
+        "coordinates_itm_x": 185995,
+        "coordinates_itm_y": 652160,
+        "contact_name": "דודי משה",
+        "contact_phone": "0505732830",
+        "location_city": "מועצה מקומית שדות דן",
+        "location_street": "",
+        "location_street_num": "",
+        "location_floor": null,
+        "location_hours": "ראשון עד חמישי \n9:30-4:30",
+        "location_open_all_day": "0",
+        "updated_at": 1680616132000,
+        "created_at": 1680616132000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FzhzhhYYtUIdabFLGWhuRGBFKeSs2_1680616127995.jpg?alt=media&token=ce429408-7089-4d0a-9c8a-27697b571254",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8504733790938,
+          31.9620070666518
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20482,
+        "GlobalID": "152c9821-c3e9-4dd1-83f2-790408c70663",
+        "id": "social-9386",
+        "index_city": "באר יעקב",
+        "location_name": "קממ מפעלי מחזור",
+        "location_description": "קומה שנייה בכניסה ליד המזכירה",
+        "coordinates_wgs_lat": 31.962007066651754,
+        "coordinates_wgs_lng": 34.85047337909382,
+        "coordinates_itm_x": 185995,
+        "coordinates_itm_y": 652160,
+        "contact_name": "דודי משה",
+        "contact_phone": "0505732830",
+        "location_city": "מועצה מקומית שדות דן",
+        "location_street": "",
+        "location_street_num": "",
+        "location_floor": null,
+        "location_hours": "ראשון עד חמישי \n9:30-4:30",
+        "location_open_all_day": "0",
+        "updated_at": 1680960704000,
+        "created_at": 1680616132000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FzhzhhYYtUIdabFLGWhuRGBFKeSs2_1680616127995.jpg?alt=media&token=ce429408-7089-4d0a-9c8a-27697b571254",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20958,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8775206187111,
+          31.9462381640755
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20958,
+        "GlobalID": "a50e5f37-95d7-4331-895e-0b9146b16551",
+        "id": "social-9576",
+        "index_city": "לוד",
+        "location_name": "מרכז הדרכה",
+        "location_description": "בכניסה לבניין למרכז הדרכה של רכבת ישראל, בצד ימין/מול מעליות",
+        "coordinates_wgs_lat": 31.9462381640755,
+        "coordinates_wgs_lng": 34.87752061871106,
+        "coordinates_itm_x": 188547,
+        "coordinates_itm_y": 650403,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "תחנת רכבת לוד מרכז הדרכה",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1684128315000,
+        "created_at": 1684128315000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FLDnq0fONYOM7oU6DlY260ub8zm43_1684128311887.jpg?alt=media&token=390fadee-e214-4851-859a-496a0daafbac",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20959,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8775206187111,
+          31.9462381640755
+        ]
+      },
+      "properties": {
+        "OBJECTID": 20959,
+        "GlobalID": "4f09e1ad-56d7-4ebf-a9a4-7fc6de4d4e16",
+        "id": "social-9576",
+        "index_city": "לוד",
+        "location_name": "מרכז הדרכה",
+        "location_description": "בכניסה לבניין למרכז הדרכה של רכבת ישראל, בצד ימין/מול מעליות",
+        "coordinates_wgs_lat": 31.9462381640755,
+        "coordinates_wgs_lng": 34.87752061871106,
+        "coordinates_itm_x": 188547,
+        "coordinates_itm_y": 650403,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "תחנת רכבת לוד מרכז הדרכה",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1684409602000,
+        "created_at": 1684128315000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FLDnq0fONYOM7oU6DlY260ub8zm43_1684128311887.jpg?alt=media&token=390fadee-e214-4851-859a-496a0daafbac",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21009,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.889189811357,
+          31.9617760998679
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21009,
+        "GlobalID": "db1c9e12-ec4c-4bb2-a3bb-c89649dfcccb",
+        "id": "social-9591",
+        "index_city": "לוד",
+        "location_name": "בית העלמין החדש",
+        "location_description": "בתוך בית הלוויות ",
+        "coordinates_wgs_lat": 31.96177609986792,
+        "coordinates_wgs_lng": 34.889189811356985,
+        "coordinates_itm_x": 189655,
+        "coordinates_itm_y": 652123,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הלן קלר ",
+        "location_street_num": "5",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1684589986000,
+        "created_at": 1684475743000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNvbbO9rg7sYqV1qV5TcN0lzueHl1_1684475738864.jpg?alt=media&token=105b980e-dc4c-42f8-ae38-f49903c6f84c",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21010,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.889189811357,
+          31.9617760998679
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21010,
+        "GlobalID": "e9c43144-882c-4d97-9349-468be82ce32d",
+        "id": "social-9591",
+        "index_city": "לוד",
+        "location_name": "בית העלמין החדש",
+        "location_description": "בתוך בית הלוויות ",
+        "coordinates_wgs_lat": 31.96177609986792,
+        "coordinates_wgs_lng": 34.889189811356985,
+        "coordinates_itm_x": 189655,
+        "coordinates_itm_y": 652123,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הלן קלר ",
+        "location_street_num": "5",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1684475743000,
+        "created_at": 1684475743000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FNvbbO9rg7sYqV1qV5TcN0lzueHl1_1684475738864.jpg?alt=media&token=105b980e-dc4c-42f8-ae38-f49903c6f84c",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8529906864583,
+          31.9646840587937
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21104,
+        "GlobalID": "31f0522b-929c-4915-ada2-ae4bb7ecacc1",
+        "id": "social-9625",
+        "index_city": "באר יעקב",
+        "location_name": "בית אריזה פריאור",
+        "location_description": "**חסר תיאור מילולי של המיקום, נא להשלים בדיווח!**",
+        "coordinates_wgs_lat": 31.964684058793654,
+        "coordinates_wgs_lng": 34.852990686458305,
+        "coordinates_itm_x": 186234,
+        "coordinates_itm_y": 652456,
+        "contact_name": "דימה",
+        "contact_phone": "0525227586",
+        "location_city": "ניר צבי",
+        "location_street": "צריפין",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "7.00 עד 15.00",
+        "location_open_all_day": "0",
+        "updated_at": 1685346427000,
+        "created_at": 1685346427000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FgvmS2JmlMmNluyhVMAa2xlvb8vg1_1685346413745.jpg?alt=media&token=120e53c2-7833-4366-91cf-4dd7a5d654db",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8529906864583,
+          31.9646840587937
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21106,
+        "GlobalID": "d542fc2a-3ca7-4822-808f-11b278f33d7d",
+        "id": "social-9625",
+        "index_city": "באר יעקב",
+        "location_name": "בית אריזה פריאור",
+        "location_description": "**חסר תיאור מילולי של המיקום, נא להשלים בדיווח!**",
+        "coordinates_wgs_lat": 31.964684058793654,
+        "coordinates_wgs_lng": 34.852990686458305,
+        "coordinates_itm_x": 186234,
+        "coordinates_itm_y": 652456,
+        "contact_name": "דימה",
+        "contact_phone": "0525227586",
+        "location_city": "ניר צבי",
+        "location_street": "צריפין",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "7.00 עד 15.00",
+        "location_open_all_day": "0",
+        "updated_at": 1685608238000,
+        "created_at": 1685346427000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FgvmS2JmlMmNluyhVMAa2xlvb8vg1_1685346413745.jpg?alt=media&token=120e53c2-7833-4366-91cf-4dd7a5d654db",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8923597618097,
+          31.9534331580954
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21328,
+        "GlobalID": "71c609e8-7e13-42f6-a984-67065d767376",
+        "id": "social-9734",
+        "index_city": "לוד",
+        "location_name": "אולם ספורט נעם נריה",
+        "location_description": "בכניסה ליד הקבלה",
+        "coordinates_wgs_lat": 31.953433158095418,
+        "coordinates_wgs_lng": 34.892359761809686,
+        "coordinates_itm_x": 189952,
+        "coordinates_itm_y": 651197,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "שלמה המלך",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1687279934000,
+        "created_at": 1687279934000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1687279922843.jpg?alt=media&token=7c600d39-9d39-4249-b16b-9a4f5ed2c1da",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8786630495591,
+          31.9472032996289
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21432,
+        "GlobalID": "4b05b93e-ebd1-4a1a-bd8b-8b3a9f847d4b",
+        "id": "social-9775",
+        "index_city": "לוד",
+        "location_name": "רכבת לוד",
+        "location_description": "במעבר לכיוון הרכבות, מצד שמאל",
+        "coordinates_wgs_lat": 31.947203299628896,
+        "coordinates_wgs_lng": 34.87866304955906,
+        "coordinates_itm_x": 188655,
+        "coordinates_itm_y": 650510,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1687963122000,
+        "created_at": 1687963122000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1687963117028.jpg?alt=media&token=93d69b5e-e738-45e7-b54e-a44d92620df4",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21508,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8880225209091,
+          31.9495370682822
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21508,
+        "GlobalID": "05d096b0-8b5e-4716-a351-0aca2366b1ea",
+        "id": "social-5858",
+        "index_city": "לוד",
+        "location_name": "דוכן פיס",
+        "location_description": "בגב דוכן מפעל הפיס בצומת שלמה המלך ודוד המלך",
+        "coordinates_wgs_lat": 31.9495370682822,
+        "coordinates_wgs_lng": 34.88802252090906,
+        "coordinates_itm_x": 189541,
+        "coordinates_itm_y": 650766,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "שלמה המלך",
+        "location_street_num": "2",
+        "location_floor": "רחוב",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1688663272000,
+        "created_at": 1645097467000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645097457986.jpg?alt=media&token=b2a14d81-9590-404c-9778-c1c3855fc547",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21509,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8880225209091,
+          31.9495370682822
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21509,
+        "GlobalID": "888e8aec-9e6c-4831-a6f6-a4d62c231f26",
+        "id": "social-5858",
+        "index_city": "לוד",
+        "location_name": "דוכן פיס",
+        "location_description": "בגב דוכן מפעל הפיס בצומת שלמה המלך ודוד המלך",
+        "coordinates_wgs_lat": 31.9495370682822,
+        "coordinates_wgs_lng": 34.88802252090906,
+        "coordinates_itm_x": 189541,
+        "coordinates_itm_y": 650766,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "שלמה המלך",
+        "location_street_num": "2",
+        "location_floor": "רחוב",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1645289493000,
+        "created_at": 1645097467000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FE9fmAXui1lOHgqBRnu31to9QJwy1_1645097457986.jpg?alt=media&token=b2a14d81-9590-404c-9778-c1c3855fc547",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21928,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8941118124499,
+          31.9922783872208
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21928,
+        "GlobalID": "c11b2e3f-c575-440b-a8df-9eabc28e38ca",
+        "id": "social-9956",
+        "index_city": "יגל",
+        "location_name": "בניין הנהלה ישן",
+        "location_description": "קומה 2, ליד המעלית ",
+        "coordinates_wgs_lat": 31.992278387220768,
+        "coordinates_wgs_lng": 34.89411181244985,
+        "coordinates_itm_x": 190130,
+        "coordinates_itm_y": 655504,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1691744316000,
+        "created_at": 1691564320000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FyXyzsg3SNVN0lH78REAfLQV9iLc2_1691564316553.jpg?alt=media&token=dbd11e37-f7e3-4a46-a96b-c750f804b679",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21929,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8941118124499,
+          31.9922783872208
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21929,
+        "GlobalID": "a9776aec-b183-41d8-bb54-bf2043394d7e",
+        "id": "social-9956",
+        "index_city": "יגל",
+        "location_name": "בניין הנהלה ישן",
+        "location_description": "קומה 2, ליד המעלית ",
+        "coordinates_wgs_lat": 31.992278387220768,
+        "coordinates_wgs_lng": 34.89411181244985,
+        "coordinates_itm_x": 190130,
+        "coordinates_itm_y": 655504,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "2",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1691564320000,
+        "created_at": 1691564320000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FyXyzsg3SNVN0lH78REAfLQV9iLc2_1691564316553.jpg?alt=media&token=dbd11e37-f7e3-4a46-a96b-c750f804b679",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21966,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8468942536363,
+          31.9905741829134
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21966,
+        "GlobalID": "1532657c-de14-4b53-b2eb-597ee6c3795c",
+        "id": "social-6897",
+        "index_city": "כפר חב\"ד",
+        "location_name": "בנין 770",
+        "location_description": "מול הכניסה ממשיכים במסדרון עד הסוף",
+        "coordinates_wgs_lat": 31.99057418291342,
+        "coordinates_wgs_lng": 34.846894253636336,
+        "coordinates_itm_x": 185668,
+        "coordinates_itm_y": 655329,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "כפר חבד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "כניסה",
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1692027047000,
+        "created_at": 1652961623000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2FToHhI8hwgydd2g6Q9VWeCA6dUy43_1691942372466.jpg?alt=media&token=2cbaf172-d122-4800-b926-ec960bab3957",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21967,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8468942536363,
+          31.9905741829134
+        ]
+      },
+      "properties": {
+        "OBJECTID": 21967,
+        "GlobalID": "d6338023-6791-47b7-976a-61ef7f26a890",
+        "id": "social-6897",
+        "index_city": "כפר חב\"ד",
+        "location_name": "בנין 770",
+        "location_description": "מול הכניסה ממשיכים במסדרון עד הסוף",
+        "coordinates_wgs_lat": 31.99057418291342,
+        "coordinates_wgs_lng": 34.846894253636336,
+        "coordinates_itm_x": 185668,
+        "coordinates_itm_y": 655329,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "כפר חבד",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": "כניסה",
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1653117636000,
+        "created_at": 1652961623000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2FToHhI8hwgydd2g6Q9VWeCA6dUy43_1691942372466.jpg?alt=media&token=2cbaf172-d122-4800-b926-ec960bab3957",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8939211051685,
+          31.9954883516655
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22251,
+        "GlobalID": "d0985178-4d12-483c-9464-8d5ff88c43d1",
+        "id": "social-10091",
+        "index_city": "יגל",
+        "location_name": "אולם דובדן",
+        "location_description": "בסוף המסדרון, אחרי כל השערים, בתוך אולם ההמתנה",
+        "coordinates_wgs_lat": 31.99548835166551,
+        "coordinates_wgs_lng": 34.89392110516849,
+        "coordinates_itm_x": 190113,
+        "coordinates_itm_y": 655860,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": null,
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1693577978000,
+        "created_at": 1693577978000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fye7SpOoyIjgEb7vxEOV9jw8UPPu2_1693577974297.jpg?alt=media&token=81e57b69-8aff-4532-814f-8b0146481224",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8831234,
+          31.9467298
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22307,
+        "GlobalID": "42d4874d-827c-4f1d-9772-34226513f480",
+        "id": "social-10114",
+        "index_city": "לוד",
+        "location_name": "מתנס דנוור",
+        "location_description": "בכניסה על הקיר משמאל",
+        "coordinates_wgs_lat": 31.9467298,
+        "coordinates_wgs_lng": 34.8831234,
+        "coordinates_itm_x": 189077,
+        "coordinates_itm_y": 650456,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "דיזרעאלי",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "0",
+        "updated_at": 1694193382000,
+        "created_at": 1693839144000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1693839136423.jpg?alt=media&token=39d71f61-3638-44d9-a406-406c416cfa24",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22371,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8752383770936,
+          31.9436413242801
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22371,
+        "GlobalID": "9954b367-c3d1-4174-bb0a-a155527167e7",
+        "id": "social-10141",
+        "index_city": "לוד",
+        "location_name": "ביה\"ס צמח צדק חבד",
+        "location_description": "ביציאה לחצר",
+        "coordinates_wgs_lat": 31.943641324280076,
+        "coordinates_wgs_lng": 34.87523837709356,
+        "coordinates_itm_x": 188330,
+        "coordinates_itm_y": 650116,
+        "contact_name": "שניאור",
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "צמח צדק ",
+        "location_street_num": "4",
+        "location_floor": "קרקע",
+        "location_hours": "א-ה 08:16\nיום ו 8-12",
+        "location_open_all_day": "0",
+        "updated_at": 1694534265000,
+        "created_at": 1694512933000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FTiGtaFO8jAg8ZoISPV4oscdZxr83_1694512928266.jpg?alt=media&token=131b7e60-42a2-4132-a591-3f3a3331627f",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22801,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8919252927713,
+          31.9758022252286
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22801,
+        "GlobalID": "a0914022-9229-4c9e-be54-a533c7f65a08",
+        "id": "social-10299",
+        "index_city": "זיתן",
+        "location_name": "ביה\"כ בושאייף",
+        "location_description": "כניסה ראשית קומת קרקע. איש קשר נוסף - נועם דאבוש: 0545246550",
+        "coordinates_wgs_lat": 31.975802225228623,
+        "coordinates_wgs_lng": 34.89192529277134,
+        "coordinates_itm_x": 189918,
+        "coordinates_itm_y": 653677,
+        "contact_name": "הרצל כחלון",
+        "contact_phone": "0502944500",
+        "location_city": "מושב זיתן",
+        "location_street": "חזון",
+        "location_street_num": "1",
+        "location_floor": "קרקע",
+        "location_hours": "9.00 עד. 19.00",
+        "location_open_all_day": "1",
+        "updated_at": 1698330536000,
+        "created_at": 1698308081000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FIQi9kTuPVpcraCvXJtjHiR4umjI3_1698308073100.jpg?alt=media&token=323b353b-b23e-4627-9e76-6592f8be9531",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22802,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8919252927713,
+          31.9758022252286
+        ]
+      },
+      "properties": {
+        "OBJECTID": 22802,
+        "GlobalID": "228ab3af-9c95-4355-9a68-e3eab41b19c1",
+        "id": "social-10299",
+        "index_city": "זיתן",
+        "location_name": "ביה\"כ בושאייף",
+        "location_description": "כניסה ראשית קומת קרקע. איש קשר נוסף - נועם דאבוש: 0545246550",
+        "coordinates_wgs_lat": 31.975802225228623,
+        "coordinates_wgs_lng": 34.89192529277134,
+        "coordinates_itm_x": 189918,
+        "coordinates_itm_y": 653677,
+        "contact_name": "הרצל כחלון",
+        "contact_phone": "0502944500",
+        "location_city": "מושב זיתן",
+        "location_street": "חזון",
+        "location_street_num": "1",
+        "location_floor": "קרקע",
+        "location_hours": "9.00 עד. 19.00",
+        "location_open_all_day": "1",
+        "updated_at": 1698308081000,
+        "created_at": 1698308081000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FIQi9kTuPVpcraCvXJtjHiR4umjI3_1698308073100.jpg?alt=media&token=323b353b-b23e-4627-9e76-6592f8be9531",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23553,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8968135987001,
+          31.9500171411131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23553,
+        "GlobalID": "94f12c16-f8a4-49fe-810c-b692c1710e2c",
+        "id": "social-10620",
+        "index_city": "לוד",
+        "location_name": "מרכז פסג\"ה לוד",
+        "location_description": "מהכניסה, ללכת עד סוף המסדרון אל המבחון זה בצד שמאל",
+        "coordinates_wgs_lat": 31.950017141113115,
+        "coordinates_wgs_lng": 34.89681359870011,
+        "coordinates_itm_x": 190372,
+        "coordinates_itm_y": 650817,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "החשמונאים",
+        "location_street_num": "34",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1708340208000,
+        "created_at": 1708240751000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FLDnq0fONYOM7oU6DlY260ub8zm43_1708240745541.jpg?alt=media&token=5955b488-956c-4ac4-ab8e-d3180ca8b25d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23554,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8968135987001,
+          31.9500171411131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23554,
+        "GlobalID": "f7ac6f08-8035-4033-b2b4-98ce5e52f321",
+        "id": "social-10620",
+        "index_city": "לוד",
+        "location_name": "מרכז פסג\"ה לוד",
+        "location_description": "מהכניסה, ללכת עד סוף המסדרון אל המבחון זה בצד שמאל",
+        "coordinates_wgs_lat": 31.950017141113115,
+        "coordinates_wgs_lng": 34.89681359870011,
+        "coordinates_itm_x": 190372,
+        "coordinates_itm_y": 650817,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "החשמונאים",
+        "location_street_num": "34",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1708240751000,
+        "created_at": 1708240751000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FLDnq0fONYOM7oU6DlY260ub8zm43_1708240745541.jpg?alt=media&token=5955b488-956c-4ac4-ab8e-d3180ca8b25d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23706,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8922479585742,
+          31.9520891829349
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23706,
+        "GlobalID": "35e20af2-a524-4b33-b6f7-dd207de5c44e",
+        "id": "social-10699",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ ישורון",
+        "location_description": "בכניסה לאולם התפילה",
+        "coordinates_wgs_lat": 31.95208918293494,
+        "coordinates_wgs_lng": 34.892247958574224,
+        "coordinates_itm_x": 189941,
+        "coordinates_itm_y": 651048,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "שלמה המלך",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1710666668000,
+        "created_at": 1710666668000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1710666662451.jpg?alt=media&token=edcb47ac-be08-44f7-ae39-91307cde6cb5",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23707,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8922479585742,
+          31.9520891829349
+        ]
+      },
+      "properties": {
+        "OBJECTID": 23707,
+        "GlobalID": "0699998f-446a-4caa-8f33-80dc6fc360b7",
+        "id": "social-10699",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ ישורון",
+        "location_description": "בכניסה לאולם התפילה",
+        "coordinates_wgs_lat": 31.95208918293494,
+        "coordinates_wgs_lng": 34.892247958574224,
+        "coordinates_itm_x": 189941,
+        "coordinates_itm_y": 651048,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "שלמה המלך",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1710870008000,
+        "created_at": 1710666668000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1710666662451.jpg?alt=media&token=edcb47ac-be08-44f7-ae39-91307cde6cb5",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24099,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8968003631456,
+          31.969847941987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24099,
+        "GlobalID": "1777d9e8-5d01-4452-9cbf-7dc78708a1e8",
+        "id": "social-10917",
+        "index_city": "לוד",
+        "location_name": "ואריסייט",
+        "location_description": "כניסה A , קומה 1, כשנכנסים לחברה, מימין לדלת הכניסה",
+        "coordinates_wgs_lat": 31.969847941987027,
+        "coordinates_wgs_lng": 34.89680036314564,
+        "coordinates_itm_x": 190377,
+        "coordinates_itm_y": 653016,
+        "contact_name": "רפי מנדלר",
+        "contact_phone": "0547606707",
+        "location_city": "לוד",
+        "location_street": "המלאכה",
+        "location_street_num": "4, כניסה A",
+        "location_floor": "1",
+        "location_hours": "8-18",
+        "location_open_all_day": "0",
+        "updated_at": 1719303423000,
+        "created_at": 1719303423000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fc6OquLth6gM5sFZfJZ5PGIqY7Is1_1719303418993.jpg?alt=media&token=0bcbbe54-2bf4-462d-ad80-eac8ce810076",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8968003631456,
+          31.969847941987
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24100,
+        "GlobalID": "02a05f10-6c0d-4024-b44b-a084e5e82ab6",
+        "id": "social-10917",
+        "index_city": "לוד",
+        "location_name": "ואריסייט",
+        "location_description": "כניסה A , קומה 1, כשנכנסים לחברה, מימין לדלת הכניסה",
+        "coordinates_wgs_lat": 31.969847941987027,
+        "coordinates_wgs_lng": 34.89680036314564,
+        "coordinates_itm_x": 190377,
+        "coordinates_itm_y": 653016,
+        "contact_name": "רפי מנדלר",
+        "contact_phone": "0547606707",
+        "location_city": "לוד",
+        "location_street": "המלאכה",
+        "location_street_num": "4, כניסה A",
+        "location_floor": "1",
+        "location_hours": "8-18",
+        "location_open_all_day": "0",
+        "updated_at": 1719521997000,
+        "created_at": 1719303423000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2Fc6OquLth6gM5sFZfJZ5PGIqY7Is1_1719303418993.jpg?alt=media&token=0bcbbe54-2bf4-462d-ad80-eac8ce810076",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.842556798096,
+          31.9682619728651
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24254,
+        "GlobalID": "c6660cb5-10b9-4d26-90ea-e9b5f031b131",
+        "id": "social-10996",
+        "index_city": "באר יעקב",
+        "location_name": "מלון שדות ",
+        "location_description": "מלון שדות (רשת מלונות אטלס) - קומה 3 משרד מנהל מלון",
+        "coordinates_wgs_lat": 31.968261972865097,
+        "coordinates_wgs_lng": 34.84255679809603,
+        "coordinates_itm_x": 185249,
+        "coordinates_itm_y": 652856,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "צריפין",
+        "location_street": "בי\"ח אסף הרופא ",
+        "location_street_num": null,
+        "location_floor": "3",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1722528820000,
+        "created_at": 1722251653000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FQpJpEI7H5sfP3VCTE2mPleeuDUC2_1722251649218.jpg?alt=media&token=7ed0271b-80e3-4d28-a63e-b0d2e51d3cc7",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.842556798096,
+          31.9682619728651
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24255,
+        "GlobalID": "5d36fd71-56ff-48d2-b23a-764c06379984",
+        "id": "social-10996",
+        "index_city": "באר יעקב",
+        "location_name": "מלון שדות ",
+        "location_description": "מלון שדות (רשת מלונות אטלס) - קומה 3 משרד מנהל מלון",
+        "coordinates_wgs_lat": 31.968261972865097,
+        "coordinates_wgs_lng": 34.84255679809603,
+        "coordinates_itm_x": 185249,
+        "coordinates_itm_y": 652856,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "צריפין",
+        "location_street": "בי\"ח אסף הרופא ",
+        "location_street_num": null,
+        "location_floor": "3",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1722251653000,
+        "created_at": 1722251653000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FQpJpEI7H5sfP3VCTE2mPleeuDUC2_1722251649218.jpg?alt=media&token=7ed0271b-80e3-4d28-a63e-b0d2e51d3cc7",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89472,
+          31.99542
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24268,
+        "GlobalID": "c864afd1-0e08-41b7-8c3e-cd0d7b4f6b61",
+        "id": "social-2521",
+        "index_city": "יגל",
+        "location_name": "אולם המתנה טרמינל 1",
+        "location_description": "מסדרון בין החנויות foot locker ו-jack kuba לבין ארומה",
+        "coordinates_wgs_lat": 31.99542,
+        "coordinates_wgs_lng": 34.89472,
+        "coordinates_itm_x": 190189,
+        "coordinates_itm_y": 655852,
+        "contact_name": "",
+        "contact_phone": "",
+        "location_city": "",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": null,
+        "updated_at": 1722535414000,
+        "created_at": 1550234932000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2F1EX02AWy19gM0FsmrXhrxhIztAs2_1665667778151.jpg?alt=media&token=11e90ad1-403d-4c4e-8d01-927f3c275dbe",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.89472,
+          31.99542
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24269,
+        "GlobalID": "5a61b881-07d8-4eae-adad-7a9d4b39ba21",
+        "id": "social-2521",
+        "index_city": "יגל",
+        "location_name": "אולם המתנה טרמינל 1",
+        "location_description": "מסדרון בין החנויות foot locker ו-jack kuba לבין ארומה",
+        "coordinates_wgs_lat": 31.99542,
+        "coordinates_wgs_lng": 34.89472,
+        "coordinates_itm_x": 190189,
+        "coordinates_itm_y": 655852,
+        "contact_name": "",
+        "contact_phone": "",
+        "location_city": "",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": null,
+        "updated_at": 1665732502000,
+        "created_at": 1550234932000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2F1EX02AWy19gM0FsmrXhrxhIztAs2_1665667778151.jpg?alt=media&token=11e90ad1-403d-4c4e-8d01-927f3c275dbe",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.871423,
+          31.999827
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24320,
+        "GlobalID": "10cdf4be-7a9b-4b1e-8d14-7e51894c1c11",
+        "id": "social-1833",
+        "index_city": "Ben-Gurion Airport",
+        "location_name": "רכבת טרמינל 3",
+        "location_description": "מודיעין רכבת",
+        "coordinates_wgs_lat": 31.999827,
+        "coordinates_wgs_lng": 34.871423,
+        "coordinates_itm_x": 187989,
+        "coordinates_itm_y": 656347,
+        "contact_name": "",
+        "contact_phone": "",
+        "location_city": "",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": null,
+        "updated_at": 1541130858000,
+        "created_at": 1541130858000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2FHcE8j5FOToZcmmGfsV1rOfMeXoC2_1723632002912.jpg?alt=media&token=90f3b6b4-1e41-4379-a275-23ef3a78284e",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.871423,
+          31.999827
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24323,
+        "GlobalID": "7cfc822f-81e6-4f24-856e-aa1466ce48ac",
+        "id": "social-1833",
+        "index_city": "Ben-Gurion Airport",
+        "location_name": "רכבת טרמינל 3",
+        "location_description": "מודיעין רכבת",
+        "coordinates_wgs_lat": 31.999827,
+        "coordinates_wgs_lng": 34.871423,
+        "coordinates_itm_x": 187989,
+        "coordinates_itm_y": 656347,
+        "contact_name": "",
+        "contact_phone": "",
+        "location_city": "",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": null,
+        "updated_at": 1723648726000,
+        "created_at": 1541130858000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/report%2FHcE8j5FOToZcmmGfsV1rOfMeXoC2_1723632002912.jpg?alt=media&token=90f3b6b4-1e41-4379-a275-23ef3a78284e",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24822,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8757187298509,
+          31.9423980668587
+        ]
+      },
+      "properties": {
+        "OBJECTID": 24822,
+        "GlobalID": "b4f02de0-9be0-4cd7-bf88-06bec419c1a4",
+        "id": "social-11295",
+        "index_city": "לוד",
+        "location_name": "רחוב צמח צדק",
+        "location_description": "מול בית אריה בית כנסת חב\"ד",
+        "coordinates_wgs_lat": 31.942398066858697,
+        "coordinates_wgs_lng": 34.875718729850895,
+        "coordinates_itm_x": 188375,
+        "coordinates_itm_y": 649978,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "צמח צדק",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1735200192000,
+        "created_at": 1734888064000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1734888057067.jpg?alt=media&token=bfe78fb7-8205-45db-b8eb-858ff7b91d91",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8909210516489,
+          31.9899502441176
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25147,
+        "GlobalID": "302bf273-49c3-4fdd-9a6a-29e2ec4ed166",
+        "id": "social-11447",
+        "index_city": "יגל",
+        "location_name": "בניין הידראוליקה/ סנגור ",
+        "location_description": "קומת קרקע מול השירותים ",
+        "coordinates_wgs_lat": 31.989950244117637,
+        "coordinates_wgs_lng": 34.89092105164887,
+        "coordinates_itm_x": 189828,
+        "coordinates_itm_y": 655246,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319610000,
+        "created_at": 1740319610000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319605665.jpg?alt=media&token=e7b0aabf-7220-4bbf-9727-70f6c4ad43c2",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8909210516489,
+          31.9899502441176
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25148,
+        "GlobalID": "6a0b9ccd-26e9-4204-b5c0-b726a1b64818",
+        "id": "social-11447",
+        "index_city": "יגל",
+        "location_name": "בניין הידראוליקה/ סנגור ",
+        "location_description": "קומת קרקע מול השירותים ",
+        "coordinates_wgs_lat": 31.989950244117637,
+        "coordinates_wgs_lng": 34.89092105164887,
+        "coordinates_itm_x": 189828,
+        "coordinates_itm_y": 655246,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509231000,
+        "created_at": 1740319610000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319605665.jpg?alt=media&token=e7b0aabf-7220-4bbf-9727-70f6c4ad43c2",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8906270420723,
+          31.9913219442228
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25149,
+        "GlobalID": "8b6b66b8-4152-4734-be4c-e44da310f67a",
+        "id": "social-11446",
+        "index_city": "יגל",
+        "location_name": "מוסך ציוד קרקע אל על",
+        "location_description": "מרכז המוסך ",
+        "coordinates_wgs_lat": 31.991321944222836,
+        "coordinates_wgs_lng": 34.890627042072325,
+        "coordinates_itm_x": 189801,
+        "coordinates_itm_y": 655399,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319363000,
+        "created_at": 1740319363000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319359910.jpg?alt=media&token=3115cf18-5e92-4b30-8bf6-3dbbe061e4f1",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8918886516089,
+          31.9908105697436
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25150,
+        "GlobalID": "0dda9c95-645b-4d3e-88e1-03a7a7a72581",
+        "id": "social-11445",
+        "index_city": "יגל",
+        "location_name": "מוקד שירות טלפוני אל על",
+        "location_description": "קומה 1 עמדת אחראי",
+        "coordinates_wgs_lat": 31.99081056974362,
+        "coordinates_wgs_lng": 34.89188865160886,
+        "coordinates_itm_x": 189920,
+        "coordinates_itm_y": 655342,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319223000,
+        "created_at": 1740319223000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319220386.jpg?alt=media&token=5f7a1c38-f592-42a6-8e52-5714cfb13aa7",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8906270420723,
+          31.9913219442228
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25151,
+        "GlobalID": "787e003e-e49c-4fe0-82ce-06a4f1b31215",
+        "id": "social-11446",
+        "index_city": "יגל",
+        "location_name": "מוסך ציוד קרקע אל על",
+        "location_description": "מרכז המוסך ",
+        "coordinates_wgs_lat": 31.991321944222836,
+        "coordinates_wgs_lng": 34.890627042072325,
+        "coordinates_itm_x": 189801,
+        "coordinates_itm_y": 655399,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509237000,
+        "created_at": 1740319363000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319359910.jpg?alt=media&token=3115cf18-5e92-4b30-8bf6-3dbbe061e4f1",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8918886516089,
+          31.9908105697436
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25152,
+        "GlobalID": "970ac793-3b2c-44e7-a43f-f50c6b2e1ea3",
+        "id": "social-11445",
+        "index_city": "יגל",
+        "location_name": "מוקד שירות טלפוני אל על",
+        "location_description": "קומה 1 עמדת אחראי",
+        "coordinates_wgs_lat": 31.99081056974362,
+        "coordinates_wgs_lng": 34.89188865160886,
+        "coordinates_itm_x": 189920,
+        "coordinates_itm_y": 655342,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509240000,
+        "created_at": 1740319223000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319220386.jpg?alt=media&token=5f7a1c38-f592-42a6-8e52-5714cfb13aa7",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.891832316535,
+          31.9913765485439
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25153,
+        "GlobalID": "d32c3f00-c59e-43d2-9cc0-aa27e4f80b70",
+        "id": "social-11444",
+        "index_city": "יגל",
+        "location_name": "האנגר 3 אל על",
+        "location_description": "קרוואן ",
+        "coordinates_wgs_lat": 31.99137654854391,
+        "coordinates_wgs_lng": 34.89183231653504,
+        "coordinates_itm_x": 189915,
+        "coordinates_itm_y": 655404,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319084000,
+        "created_at": 1740319084000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319082118.jpg?alt=media&token=90b432e8-32b2-4c08-b4b9-0abd18aa31ca",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.891832316535,
+          31.9913765485439
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25154,
+        "GlobalID": "cc41423f-1907-44d1-b1db-0422ac718049",
+        "id": "social-11444",
+        "index_city": "יגל",
+        "location_name": "האנגר 3 אל על",
+        "location_description": "קרוואן ",
+        "coordinates_wgs_lat": 31.99137654854391,
+        "coordinates_wgs_lng": 34.89183231653504,
+        "coordinates_itm_x": 189915,
+        "coordinates_itm_y": 655404,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509243000,
+        "created_at": 1740319084000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319082118.jpg?alt=media&token=90b432e8-32b2-4c08-b4b9-0abd18aa31ca",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8931935400733,
+          31.99141866844
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25155,
+        "GlobalID": "b5bda1a0-a840-4daa-ae31-42c61354be2c",
+        "id": "social-11443",
+        "index_city": "יגל",
+        "location_name": "בניין תחזוקה",
+        "location_description": "לובי קומת קרקע",
+        "coordinates_wgs_lat": 31.99141866844,
+        "coordinates_wgs_lng": 34.89319354007328,
+        "coordinates_itm_x": 190043,
+        "coordinates_itm_y": 655409,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740318952000,
+        "created_at": 1740318952000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318947401.jpg?alt=media&token=0f54f32b-f852-4532-89ff-6a6dc4253261",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8931935400733,
+          31.99141866844
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25156,
+        "GlobalID": "91bd9c89-ed7e-466c-9ffa-bfb2bcb0c802",
+        "id": "social-11443",
+        "index_city": "יגל",
+        "location_name": "בניין תחזוקה",
+        "location_description": "לובי קומת קרקע",
+        "coordinates_wgs_lat": 31.99141866844,
+        "coordinates_wgs_lng": 34.89319354007328,
+        "coordinates_itm_x": 190043,
+        "coordinates_itm_y": 655409,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509249000,
+        "created_at": 1740318952000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318947401.jpg?alt=media&token=0f54f32b-f852-4532-89ff-6a6dc4253261",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8944775605698,
+          31.992564126412
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25157,
+        "GlobalID": "8c5a63d6-234a-4662-a9f2-89a03963bf41",
+        "id": "social-11442",
+        "index_city": "יגל",
+        "location_name": "בניין משרדים ראשי",
+        "location_description": "לובי קומה 2 ",
+        "coordinates_wgs_lat": 31.992564126411988,
+        "coordinates_wgs_lng": 34.89447756056977,
+        "coordinates_itm_x": 190165,
+        "coordinates_itm_y": 655535,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740318781000,
+        "created_at": 1740318781000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318778416.jpg?alt=media&token=c2b336fa-0c8d-464b-ae90-24fc16a625b6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8944775605698,
+          31.992564126412
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25158,
+        "GlobalID": "b7734b23-44d9-4de1-b3d6-67d70035f159",
+        "id": "social-11442",
+        "index_city": "יגל",
+        "location_name": "בניין משרדים ראשי",
+        "location_description": "לובי קומה 2 ",
+        "coordinates_wgs_lat": 31.992564126411988,
+        "coordinates_wgs_lng": 34.89447756056977,
+        "coordinates_itm_x": 190165,
+        "coordinates_itm_y": 655535,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509253000,
+        "created_at": 1740318781000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318778416.jpg?alt=media&token=c2b336fa-0c8d-464b-ae90-24fc16a625b6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.894243014559,
+          31.9920639770515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25159,
+        "GlobalID": "09a1742d-7959-4591-bcc8-ee050c7c3bde",
+        "id": "social-11441",
+        "index_city": "יגל",
+        "location_name": "בתי מלאכה אל על",
+        "location_description": "כניסה למח ציוד הצלה בתי מלאכה אל על",
+        "coordinates_wgs_lat": 31.992063977051505,
+        "coordinates_wgs_lng": 34.89424301455903,
+        "coordinates_itm_x": 190143,
+        "coordinates_itm_y": 655480,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740318584000,
+        "created_at": 1740318584000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318580273.jpg?alt=media&token=2f833b1b-af4f-4406-b816-2ace11bacc96",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.894243014559,
+          31.9920639770515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25160,
+        "GlobalID": "9180d6ae-d1e2-4aa8-a4df-10d211932d57",
+        "id": "social-11441",
+        "index_city": "יגל",
+        "location_name": "בתי מלאכה אל על",
+        "location_description": "כניסה למח ציוד הצלה בתי מלאכה אל על",
+        "coordinates_wgs_lat": 31.992063977051505,
+        "coordinates_wgs_lng": 34.89424301455903,
+        "coordinates_itm_x": 190143,
+        "coordinates_itm_y": 655480,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509257000,
+        "created_at": 1740318584000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740318580273.jpg?alt=media&token=2f833b1b-af4f-4406-b816-2ace11bacc96",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8943260260298,
+          31.9904475970709
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25161,
+        "GlobalID": "64af83b3-1145-4fe8-9377-3c83ab591f1e",
+        "id": "social-11448",
+        "index_city": "יגל",
+        "location_name": "הדרכה אל על",
+        "location_description": "מבנה מטה הדרכה",
+        "coordinates_wgs_lat": 31.990447597070883,
+        "coordinates_wgs_lng": 34.89432602602984,
+        "coordinates_itm_x": 190150,
+        "coordinates_itm_y": 655301,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319739000,
+        "created_at": 1740319739000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319735727.jpg?alt=media&token=23df7838-92db-4656-914e-d2f15d74aeda",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8943260260298,
+          31.9904475970709
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25162,
+        "GlobalID": "c7ffe792-2133-435d-9137-7c5315df7e49",
+        "id": "social-11448",
+        "index_city": "יגל",
+        "location_name": "הדרכה אל על",
+        "location_description": "מבנה מטה הדרכה",
+        "coordinates_wgs_lat": 31.990447597070883,
+        "coordinates_wgs_lng": 34.89432602602984,
+        "coordinates_itm_x": 190150,
+        "coordinates_itm_y": 655301,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509265000,
+        "created_at": 1740319739000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319735727.jpg?alt=media&token=23df7838-92db-4656-914e-d2f15d74aeda",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8954774619973,
+          31.9893856377748
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25163,
+        "GlobalID": "5dcacab7-fc86-43ad-b691-3419799d6cc3",
+        "id": "social-11449",
+        "index_city": "זיתן",
+        "location_name": "שער דרומי ",
+        "location_description": "כניסה ראשית ",
+        "coordinates_wgs_lat": 31.989385637774774,
+        "coordinates_wgs_lng": 34.89547746199729,
+        "coordinates_itm_x": 190259,
+        "coordinates_itm_y": 655183,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740319907000,
+        "created_at": 1740319907000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319904352.jpg?alt=media&token=27807535-c486-46ab-94f6-0f74129d7f4c",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8954774619973,
+          31.9893856377748
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25164,
+        "GlobalID": "9582d17f-007f-4811-b07e-a4c8792d2ab5",
+        "id": "social-11449",
+        "index_city": "זיתן",
+        "location_name": "שער דרומי ",
+        "location_description": "כניסה ראשית ",
+        "coordinates_wgs_lat": 31.989385637774774,
+        "coordinates_wgs_lng": 34.89547746199729,
+        "coordinates_itm_x": 190259,
+        "coordinates_itm_y": 655183,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509269000,
+        "created_at": 1740319907000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740319904352.jpg?alt=media&token=27807535-c486-46ab-94f6-0f74129d7f4c",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8958075643963,
+          31.9916271753489
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25165,
+        "GlobalID": "9fa21f4b-e347-492a-b2d8-2be10c2650ff",
+        "id": "social-11450",
+        "index_city": "יגל",
+        "location_name": "חדר אוכל ראשי אל על",
+        "location_description": "כניסה ראשית ",
+        "coordinates_wgs_lat": 31.99162717534889,
+        "coordinates_wgs_lng": 34.895807564396335,
+        "coordinates_itm_x": 190290,
+        "coordinates_itm_y": 655431,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740320314000,
+        "created_at": 1740320314000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740320309693.jpg?alt=media&token=cee119f3-f17b-4569-ae2b-679fbfed6af3",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8958075643963,
+          31.9916271753489
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25166,
+        "GlobalID": "f8436e47-874f-4a4d-9adc-357b26b5aba4",
+        "id": "social-11450",
+        "index_city": "יגל",
+        "location_name": "חדר אוכל ראשי אל על",
+        "location_description": "כניסה ראשית ",
+        "coordinates_wgs_lat": 31.99162717534889,
+        "coordinates_wgs_lng": 34.895807564396335,
+        "coordinates_itm_x": 190290,
+        "coordinates_itm_y": 655431,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509273000,
+        "created_at": 1740320314000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740320309693.jpg?alt=media&token=cee119f3-f17b-4569-ae2b-679fbfed6af3",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8932152880361,
+          31.9903527825836
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25167,
+        "GlobalID": "334a483b-a262-4d4c-919f-3ac12c747d34",
+        "id": "social-11451",
+        "index_city": "יגל",
+        "location_name": "מרכז אנרגיה אל על",
+        "location_description": "מבנה ראשי  ",
+        "coordinates_wgs_lat": 31.990352782583642,
+        "coordinates_wgs_lng": 34.893215288036124,
+        "coordinates_itm_x": 190045,
+        "coordinates_itm_y": 655291,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740320502000,
+        "created_at": 1740320502000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740320498396.jpg?alt=media&token=06bb2c6a-0911-4ceb-a3d1-ca4b3118bfdd",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8932152880361,
+          31.9903527825836
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25168,
+        "GlobalID": "30e55ff1-738e-419c-8ea2-d0dc74394860",
+        "id": "social-11451",
+        "index_city": "יגל",
+        "location_name": "מרכז אנרגיה אל על",
+        "location_description": "מבנה ראשי  ",
+        "coordinates_wgs_lat": 31.990352782583642,
+        "coordinates_wgs_lng": 34.893215288036124,
+        "coordinates_itm_x": 190045,
+        "coordinates_itm_y": 655291,
+        "contact_name": "כיבוי והצלה על על",
+        "contact_phone": "039716224",
+        "location_city": "נתב״ג ",
+        "location_street": null,
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": "",
+        "location_open_all_day": "1",
+        "updated_at": 1740509279000,
+        "created_at": 1740320502000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FPQJr3ZNG9ePYvQB4MwyYPKJc6Cl1_1740320498396.jpg?alt=media&token=06bb2c6a-0911-4ceb-a3d1-ca4b3118bfdd",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8433655344619,
+          31.9535377336083
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25295,
+        "GlobalID": "fede9146-e946-4e9f-9869-95c3bf7ba98c",
+        "id": "social-11522",
+        "index_city": "באר יעקב",
+        "location_name": "פארק אקליפטוס",
+        "location_description": "פארק בשביל שבין בבניינים לכיוון רחוב הגיא",
+        "coordinates_wgs_lat": 31.953537733608297,
+        "coordinates_wgs_lng": 34.84336553446186,
+        "coordinates_itm_x": 185320,
+        "coordinates_itm_y": 651223,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "באר יעקב",
+        "location_street": "הגיא",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1742742429000,
+        "created_at": 1742742429000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FaD2slRf177Tae35KmGOrnuGUWay2_1742742424134.jpg?alt=media&token=d9fb9bc4-fda4-43e4-a026-28ae2928e692",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25496,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8914908220502,
+          31.9445481632714
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25496,
+        "GlobalID": "5688fdce-d1e0-475a-a0cb-a6f965276d91",
+        "id": "social-11589",
+        "index_city": "לוד",
+        "location_name": "ליד גינת השטוצרים",
+        "location_description": "על הקיר שמאחורי בית הכנסת משכנות ישראל",
+        "coordinates_wgs_lat": 31.944548163271435,
+        "coordinates_wgs_lng": 34.89149082205019,
+        "coordinates_itm_x": 189867,
+        "coordinates_itm_y": 650212,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "ברק",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1745764235000,
+        "created_at": 1744986957000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1744986952478.jpg?alt=media&token=2a12d805-8cc0-4ef4-a85f-499d01a79cdd",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25497,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8914908220502,
+          31.9445481632714
+        ]
+      },
+      "properties": {
+        "OBJECTID": 25497,
+        "GlobalID": "c44900fc-f32b-4b66-b9f7-360e6a8e52bb",
+        "id": "social-11589",
+        "index_city": "לוד",
+        "location_name": "ליד גינת השטוצרים",
+        "location_description": "על הקיר שמאחורי בית הכנסת משכנות ישראל",
+        "coordinates_wgs_lat": 31.944548163271435,
+        "coordinates_wgs_lng": 34.89149082205019,
+        "coordinates_itm_x": 189867,
+        "coordinates_itm_y": 650212,
+        "contact_name": "מדא",
+        "contact_phone": "101",
+        "location_city": "לוד",
+        "location_street": "ברק",
+        "location_street_num": null,
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1744986957000,
+        "created_at": 1744986957000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1744986952478.jpg?alt=media&token=2a12d805-8cc0-4ef4-a85f-499d01a79cdd",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8770715,
+          31.9417816
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26312,
+        "GlobalID": "c811d8ca-4743-4a4b-87ac-0d739db1ba46",
+        "id": "social-11947",
+        "index_city": "לוד",
+        "location_name": "ביה\"ס בנות צמח צדק",
+        "location_description": "בכניסה למזכירות ",
+        "coordinates_wgs_lat": 31.9417816,
+        "coordinates_wgs_lng": 34.8770715,
+        "coordinates_itm_x": 188503,
+        "coordinates_itm_y": 649909,
+        "contact_name": "עדן",
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "צמח צדק",
+        "location_street_num": "13",
+        "location_floor": "0",
+        "location_hours": "א-ה 8-15\nיום ו 8-12",
+        "location_open_all_day": "0",
+        "updated_at": 1757517261000,
+        "created_at": 1757488808000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FaGriUgJ3NJM6XKxK7SYFpBLKQPr1_1757488804409.jpg?alt=media&token=133c794a-8c83-41ec-8b70-875df5bb7182",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26453,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8921912,
+          31.9458712
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26453,
+        "GlobalID": "03477502-8b8c-490e-9e25-7d9a3eec5fa1",
+        "id": "social-12023",
+        "index_city": "לוד",
+        "location_name": "מרפאת כללית סמייל",
+        "location_description": "מאחורי המזכירה",
+        "coordinates_wgs_lat": 31.9458712,
+        "coordinates_wgs_lng": 34.8921912,
+        "coordinates_itm_x": 189934,
+        "coordinates_itm_y": 650358,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הציונות",
+        "location_street_num": "1",
+        "location_floor": "3",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1761141238000,
+        "created_at": 1761141238000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1761141234561.jpg?alt=media&token=108e91f9-f5fd-463a-ad14-471441b07b5d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26529,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8917434,
+          31.9417739
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26529,
+        "GlobalID": "2144de02-b742-400a-9b1e-8a70ece35c2b",
+        "id": "social-12057",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ בת קול",
+        "location_description": "בתוך הארון",
+        "coordinates_wgs_lat": 31.9417739,
+        "coordinates_wgs_lng": 34.8917434,
+        "coordinates_itm_x": 189890,
+        "coordinates_itm_y": 649904,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "גבריאל",
+        "location_street_num": "1",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1762818751000,
+        "created_at": 1762615898000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1762615893864.jpg?alt=media&token=6ea9a2bc-203c-40cc-8c29-7a77286ac42a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26530,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8917434,
+          31.9417739
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26530,
+        "GlobalID": "62463222-151c-4aed-bad2-4c327aade569",
+        "id": "social-12057",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ בת קול",
+        "location_description": "בתוך הארון",
+        "coordinates_wgs_lat": 31.9417739,
+        "coordinates_wgs_lng": 34.8917434,
+        "coordinates_itm_x": 189890,
+        "coordinates_itm_y": 649904,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "גבריאל",
+        "location_street_num": "1",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1762615898000,
+        "created_at": 1762615898000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1762615893864.jpg?alt=media&token=6ea9a2bc-203c-40cc-8c29-7a77286ac42a",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26623,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8787488662512,
+          31.9985305898319
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26623,
+        "GlobalID": "a9de80a4-a348-44f4-9813-2bab5ef7791c",
+        "id": "social-12108",
+        "index_city": "יגל",
+        "location_name": "מבנה 15 ",
+        "location_description": "כניסה לאגף הנדסה אזרחית ",
+        "coordinates_wgs_lat": 31.998530589831898,
+        "coordinates_wgs_lng": 34.87874886625118,
+        "coordinates_itm_x": 188681,
+        "coordinates_itm_y": 656201,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "נתבג",
+        "location_street": "ברוש",
+        "location_street_num": null,
+        "location_floor": "0",
+        "location_hours": "8:00-16:00",
+        "location_open_all_day": "0",
+        "updated_at": 1764517205000,
+        "created_at": 1764517205000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FII6mXo1FHegX1kL182OgspGP2EA2_1764517201027.jpg?alt=media&token=6c2bfca9-9906-4925-974f-e7075ce220ea",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26704,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8613379,
+          31.9596725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26704,
+        "GlobalID": "2dd4e600-9165-4814-b155-34b7da2db120",
+        "id": "social-12154",
+        "index_city": "ניר צבי",
+        "location_name": "עמינח",
+        "location_description": "חנייה מאחורי עמדת הקבלה",
+        "coordinates_wgs_lat": 31.9596725,
+        "coordinates_wgs_lng": 34.8613379,
+        "coordinates_itm_x": 187022,
+        "coordinates_itm_y": 651898,
+        "contact_name": "קבלה עמינח",
+        "contact_phone": "089274784",
+        "location_city": "ניר צבי",
+        "location_street": "אזור תעשיה ניר צבי",
+        "location_street_num": "1",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1766043380000,
+        "created_at": 1765957799000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FyYnR4u45tpZysTi6tUHD1QIvnal2_1765957793842.jpg?alt=media&token=db8b41c5-cfa3-4d3a-a3a5-e9fb980694d6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26705,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8613379,
+          31.9596725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26705,
+        "GlobalID": "4ea10690-1425-4b41-bf2c-718bfbb570d1",
+        "id": "social-12154",
+        "index_city": "ניר צבי",
+        "location_name": "עמינח",
+        "location_description": "חנייה מאחורי עמדת הקבלה",
+        "coordinates_wgs_lat": 31.9596725,
+        "coordinates_wgs_lng": 34.8613379,
+        "coordinates_itm_x": 187022,
+        "coordinates_itm_y": 651898,
+        "contact_name": "קבלה עמינח",
+        "contact_phone": "089274784",
+        "location_city": "ניר צבי",
+        "location_street": "אזור תעשיה ניר צבי",
+        "location_street_num": "1",
+        "location_floor": "0",
+        "location_hours": null,
+        "location_open_all_day": "1",
+        "updated_at": 1766265666000,
+        "created_at": 1765957799000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FyYnR4u45tpZysTi6tUHD1QIvnal2_1765957793842.jpg?alt=media&token=db8b41c5-cfa3-4d3a-a3a5-e9fb980694d6",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26781,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8921816,
+          31.9451407
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26781,
+        "GlobalID": "8b0b5220-d28b-4720-9884-6e85295cb291",
+        "id": "social-12188",
+        "index_city": "לוד",
+        "location_name": "קניון לוד סנטר",
+        "location_description": "בכניסה מכיוון החניה",
+        "coordinates_wgs_lat": 31.9451407,
+        "coordinates_wgs_lng": 34.8921816,
+        "coordinates_itm_x": 189933,
+        "coordinates_itm_y": 650277,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "הציונות",
+        "location_street_num": "1",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1767553640000,
+        "created_at": 1767553640000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1767553636184.jpg?alt=media&token=3cf910a7-c592-440a-95c8-59fa1ce92e3d",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26855,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8972734,
+          31.954821
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26855,
+        "GlobalID": "b4400419-37be-431b-9c02-5b0d0e3fa771",
+        "id": "social-12222",
+        "index_city": "לוד",
+        "location_name": "עירית לוד",
+        "location_description": "קומה 3 ליד המעליות",
+        "coordinates_wgs_lat": 31.954821,
+        "coordinates_wgs_lng": 34.8972734,
+        "coordinates_itm_x": 190417,
+        "coordinates_itm_y": 651349,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "בר כוכבא",
+        "location_street_num": "2",
+        "location_floor": "3",
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1768998808000,
+        "created_at": 1768998808000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1768998802328.jpg?alt=media&token=dd58d267-19af-4ed0-8bb2-cd8fdcb6c2b2",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26902,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8926967,
+          31.9534749
+        ]
+      },
+      "properties": {
+        "OBJECTID": 26902,
+        "GlobalID": "6eaadc2e-f00a-4630-8140-cb9bf9930063",
+        "id": "social-12246",
+        "index_city": "לוד",
+        "location_name": "ביה\"כ הרמ\"א",
+        "location_description": "משמאל לארון הקודש",
+        "coordinates_wgs_lat": 31.9534749,
+        "coordinates_wgs_lng": 34.8926967,
+        "coordinates_itm_x": 189984,
+        "coordinates_itm_y": 651201,
+        "contact_name": null,
+        "contact_phone": null,
+        "location_city": "לוד",
+        "location_street": "פלומניק",
+        "location_street_num": "2",
+        "location_floor": null,
+        "location_hours": null,
+        "location_open_all_day": "0",
+        "updated_at": 1770144099000,
+        "created_at": 1769958804000,
+        "img_url": "https://firebasestorage.googleapis.com/v0/b/eifo-defi.appspot.com/o/social%2FOunIqD1BZDORW1MbD2O7HQwOEcr1_1769958796522.jpg?alt=media&token=9388d79c-bd97-4b64-aeb5-88604661ddf0",
+        "origin": "מקור המידע מפלטפורמת ״איפה דפי?״. אין להסיר כתב זה מכל עותק חלקי או מלא של המידע. השימוש בהתאם לרישיון: https://defi.co.il/openuse"
+      }
+    }
+  ]
+}

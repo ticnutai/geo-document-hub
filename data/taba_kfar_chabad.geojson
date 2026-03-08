@@ -1,0 +1,4068 @@
+{
+  "type": "FeatureCollection",
+  "name": "taba_kfar_chabad",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1553990400000,
+        "mp_id": 4000426053.0,
+        "objectid": 4214,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 16.3,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000210935.0,
+        "pl_landuse_string": "מבנים ומוסדות ציבור,שטח פרטי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "שינוי תשריט והוראות מעון יום כפר חבד",
+        "pl_number": "425-0449702",
+        "pl_order_print_version": 8.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 4.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000426053/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1483833600000,
+        "shape_area": 16298.74323342,
+        "shape_length": 639.31535959,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "שינוי תשריט והוראות מעון יום כפר חבד ^ שינוי הוראות בינוי\r\nהגדלת שטח לבנייני ציבור ע\"ח שפ\"פ ^ שינוי הוראות בינוי\r\nהגדלת שטח לבנייני ציבור ע\"ח שפ\"פ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186012.20969999954,
+              655197.1122999992
+            ],
+            [
+              186050.5427000001,
+              655176.0807000007
+            ],
+            [
+              186069.4177000001,
+              655167.4955000002
+            ],
+            [
+              186088.2927000001,
+              655158.9104999993
+            ],
+            [
+              186108.51070000045,
+              655149.5547000002
+            ],
+            [
+              186109.75409999955,
+              655148.8679000009
+            ],
+            [
+              186110.88769999985,
+              655148.0119000003
+            ],
+            [
+              186111.88850000035,
+              655147.0039000008
+            ],
+            [
+              186112.73649999965,
+              655145.8642999995
+            ],
+            [
+              186113.41440000013,
+              655144.6160000004
+            ],
+            [
+              186113.90869999956,
+              655143.2842999995
+            ],
+            [
+              186114.2092000004,
+              655141.8959999997
+            ],
+            [
+              186114.31010000035,
+              655140.4791000001
+            ],
+            [
+              186114.18900000025,
+              655138.9276999999
+            ],
+            [
+              186113.82880000025,
+              655137.4138999991
+            ],
+            [
+              186113.2379999999,
+              655135.9743000008
+            ],
+            [
+              186112.4310999997,
+              655134.6436999999
+            ],
+            [
+              186103.25989999995,
+              655121.8762999997
+            ],
+            [
+              186094.38289999962,
+              655096.9459000006
+            ],
+            [
+              186061.50270000007,
+              655115.2006999999
+            ],
+            [
+              186049.26269999985,
+              655094.4506999999
+            ],
+            [
+              185994.29569999967,
+              654978.8155000005
+            ],
+            [
+              185988.8766999999,
+              654981.3913000003
+            ],
+            [
+              185997.39190000016,
+              654999.3048999999
+            ],
+            [
+              185933.27049999963,
+              655028.7619000003
+            ],
+            [
+              186012.20969999954,
+              655197.1122999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1553990400000,
+        "mp_id": 4000595003.0,
+        "objectid": 4948,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.994,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000218361.0,
+        "pl_landuse_string": "מגורים",
+        "pl_last_deposit_date": null,
+        "pl_name": "תוספת יח\"ד כפר חב\"ד מגרש 124 דרעי",
+        "pl_number": "425-0486316",
+        "pl_order_print_version": 13.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 7.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000595003/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 4.0,
+        "quantity_delta_125": 59.69,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1527033600000,
+        "shape_area": 996.47520003,
+        "shape_length": 128.79504007,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "תוספת יח\"ד כפר חב\"ד מגרש 124 דרעי ^ מבוקש:\r\n  תוספת 4 יח\"ד ושינוי קוי בנין.\r\n ^ 1. תוספת 4 יח\"ד ושטחי שירות לפי סעיף סעיף 62א (א) 8\r\n2. תוספת 6% משטח המגרש לשטח עיקרי לפי סעיף 62א (א) 9\r\n3. שינוי בקווי בניין לפי סעיף 62א (א) 4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185985.67009999976,
+              655807.0900999997
+            ],
+            [
+              185995.2100999998,
+              655827.0501000006
+            ],
+            [
+              186007.3300999999,
+              655838.2301000003
+            ],
+            [
+              186024.32010000013,
+              655819.7000999991
+            ],
+            [
+              185997.0201000003,
+              655789.0200999994
+            ],
+            [
+              185983.62009999994,
+              655802.8001000006
+            ],
+            [
+              185985.67009999976,
+              655807.0900999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1553990400000,
+        "mp_id": 4000664309.0,
+        "objectid": 5189,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 1147.0,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000220923.0,
+        "pl_landuse_string": "מגורים",
+        "pl_last_deposit_date": null,
+        "pl_name": "תוספת יח\"ד ושינוי קווי בניין",
+        "pl_number": "425-0498865",
+        "pl_order_print_version": 2.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 3.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000664309/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 68.82,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1490486400000,
+        "shape_area": 1142.76549649,
+        "shape_length": 143.62466093,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "תוספת יח\"ד ושינוי קווי בניין ^ 1.שינוי בקווי בניין\r\n2. תוספת יח\"ד ^ 1. שינוי בקווי בניין\r\n2. תוספת יח\"ד\r\n3. תוספת 6% משטח המגרש"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185565.2100999998,
+              654881.1700999998
+            ],
+            [
+              185582.63009999972,
+              654833.8201000001
+            ],
+            [
+              185575.2801000001,
+              654831.2000999991
+            ],
+            [
+              185568.48010000028,
+              654829.1201000009
+            ],
+            [
+              185563.95010000002,
+              654828.1151
+            ],
+            [
+              185562.12349999975,
+              654827.7137000002
+            ],
+            [
+              185559.42009999976,
+              654827.1100999992
+            ],
+            [
+              185550.21829999983,
+              654853.8113000002
+            ],
+            [
+              185544.56010000035,
+              654870.2301000003
+            ],
+            [
+              185565.2100999998,
+              654881.1700999998
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1647993600000,
+        "mp_id": 4000883137.0,
+        "objectid": 5914,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.92,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000229615.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "תוספת יח\"ד ושינוי בקווי בניין מגרש 140 מינסקי כפר חב\"ד",
+        "pl_number": "425-0541870",
+        "pl_order_print_version": 4.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 4.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000883137/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 2.0,
+        "quantity_delta_125": 55.2,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1542240000000,
+        "shape_area": 923.20128981,
+        "shape_length": 125.64421257,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "תוספת יח\"ד ושינוי בקווי בניין מגרש 140 מינסקי כפר חב\"ד ^ מתן פתרון תכנוני למצוקת הדיור בכפר חב\"ד ע\"י הגדלת מס' יח\"ד המותרות והסדרת קווי בניין. ^ 1.לשנות קווי בניין לפי סעיף 62א (א) סעיף קטן 4\r\n2.תוספת 2 יח\"ד ושטחי שירות ליח\"ד הנ\"ל לפי סעיף 62א (א) סע"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186117.32010000013,
+              655604.0538999997
+            ],
+            [
+              186130.19010000024,
+              655581.4300999995
+            ],
+            [
+              186091.46590000018,
+              655568.6320999991
+            ],
+            [
+              186083.4890999999,
+              655588.8629000001
+            ],
+            [
+              186117.32010000013,
+              655604.0538999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1553990400000,
+        "mp_id": 4000907927.0,
+        "objectid": 6826,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.76,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000239175.0,
+        "pl_landuse_string": "מגורים",
+        "pl_last_deposit_date": null,
+        "pl_name": "שינוי קו בניין אחורי מגרש 225 כפר חב\"ד",
+        "pl_number": "425-0589184",
+        "pl_order_print_version": 9.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 8.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000907927/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1526256000000,
+        "shape_area": 758.87619998,
+        "shape_length": 110.73420716,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "שינוי קו בניין אחורי מגרש 225 כפר חב\"ד ^ שינוי בקו בניין אחורי ^ שינוי בקו בניין אחורי מ-3 מ' ל-0.40 לפי סעיף 64 א' 4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186713.69010000024,
+              654715.7700999994
+            ],
+            [
+              186737.29009999987,
+              654707.5100999996
+            ],
+            [
+              186727.24010000005,
+              654678.8300999999
+            ],
+            [
+              186703.73010000028,
+              654686.9901
+            ],
+            [
+              186713.69010000024,
+              654715.7700999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1565136000000,
+        "mp_id": 4000995519.0,
+        "objectid": 10381,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 5131.0,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000276587.0,
+        "pl_landuse_string": "מגורים,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "תוספת יח\"ד שלישית בנחלה 22 כפר חב\"ד",
+        "pl_number": "425-0736678",
+        "pl_order_print_version": 12.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 5.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4000995519/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1565136000000,
+        "shape_area": 5131.55959771,
+        "shape_length": 336.92473221,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "תוספת יח\"ד שלישית בנחלה 22 כפר חב\"ד ^ תוספת יח\"ד 1 בנחלה\r\nתוספת 6% במסגרת שיפור דיור\r\nתוספת שטחי שירות\r\nתוספת קומה\r\n ^ תוספת יח\"ד 1 בנחלה לפי סעיף 62 א (א) 8\r\nתוספת 6% במסגרת שיפור דיור לפי סעיף 62 א' (א) 9\r\nתוספת שטחי שירות ת\"ק לפי סעיף 62 א' (א) 15"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186133.48830000032,
+              654837.1978999991
+            ],
+            [
+              186139.94730000012,
+              654710.2057000007
+            ],
+            [
+              186099.9748999998,
+              654708.9353
+            ],
+            [
+              186093.44909999985,
+              654838.4868999999
+            ],
+            [
+              186133.48830000032,
+              654837.1978999991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מצומצמת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1565136000000,
+        "mp_id": 4001019267.0,
+        "objectid": 11386,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.76,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000286179.0,
+        "pl_landuse_string": "מגורים",
+        "pl_last_deposit_date": null,
+        "pl_name": "שינוי קו בניי אחורי מגרש 225 כפר חב\"ד",
+        "pl_number": "425-0774018",
+        "pl_order_print_version": 2.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 1.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4001019267/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1565136000000,
+        "shape_area": 758.87619998,
+        "shape_length": 110.73420716,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "שינוי קו בניי אחורי מגרש 225 כפר חב\"ד ^ שינוי בקו בניין אחורי ^ שינוי בקו בניין אחורי מ-3 מ' ל-0.40 לפי 62א (א) 4."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186713.69010000024,
+              654715.7700999994
+            ],
+            [
+              186737.29009999987,
+              654707.5100999996
+            ],
+            [
+              186727.24010000005,
+              654678.8300999999
+            ],
+            [
+              186703.73010000028,
+              654686.9901
+            ],
+            [
+              186713.69010000024,
+              654715.7700999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1685232000000,
+        "mp_id": 4005189510.0,
+        "objectid": 20473,
+        "on_hold_date": 1685232000000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 1.153,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005261096.0,
+        "pl_landuse_string": "מגורים ב'",
+        "pl_last_deposit_date": null,
+        "pl_name": "מגרש 255 כפר חב\"ד- שינוי קו בניין תוספת קומה וזכויות .",
+        "pl_number": "425-1030113",
+        "pl_order_print_version": 24.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 22.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005189510/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 4.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 17.3,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1663718400000,
+        "shape_area": 1152.56340365,
+        "shape_length": 136.58360256,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "מגרש 255 כפר חב\"ד- שינוי קו בניין תוספת קומה וזכויות . ^ 1. שינוי בקו בניין קדמי, צידי, ואחורי.\r\n2. תוספת שטח עיקרי במסגרת 6% ו-2.5% בגין תוספת קומה. משטח המגרש.\r\n3. תוספת קומה. ^ 1. שינוי בקו בניין קדמי מ-3 מ' ל- 1.70 צידי שמאלי מ-3 מ' ל-2.70 מ' ואח"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186788.92069999967,
+              654815.9919000007
+            ],
+            [
+              186789.10529999994,
+              654816.4329000004
+            ],
+            [
+              186789.35759999976,
+              654816.8390999995
+            ],
+            [
+              186789.67109999992,
+              654817.2000999991
+            ],
+            [
+              186790.0379999997,
+              654817.5066999998
+            ],
+            [
+              186790.44880000036,
+              654817.7512999997
+            ],
+            [
+              186790.89319999982,
+              654817.9275000002
+            ],
+            [
+              186791.36000000034,
+              654818.0309999995
+            ],
+            [
+              186791.83729999978,
+              654818.0591000002
+            ],
+            [
+              186792.31300000008,
+              654818.0111999996
+            ],
+            [
+              186792.7751000002,
+              654817.8882999998
+            ],
+            [
+              186828.38009999972,
+              654805.3101000004
+            ],
+            [
+              186818.67009999976,
+              654778.6501000002
+            ],
+            [
+              186780.9001000002,
+              654791.5000999998
+            ],
+            [
+              186788.92069999967,
+              654815.9919000007
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1697587200000,
+        "mp_id": 4005264672.0,
+        "objectid": 23061,
+        "on_hold_date": 1692489600000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 10.923,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": 1692835200000,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005325010.0,
+        "pl_landuse_string": "שטח ציבורי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "חלוקת מגרש שצ\"פ לשני מגרשים ללא שינוי יעוד - תוכנית חלוקה",
+        "pl_number": "425-1153212",
+        "pl_order_print_version": 9.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 8.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005264672/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה לא ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1671321600000,
+        "shape_area": 10922.48955682,
+        "shape_length": 839.92234578,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "חלוקת מגרש שצ\"פ לשני מגרשים ללא שינוי יעוד - תוכנית חלוקה ^ פיצול מגרש שצ\"פ לשני מגרשים ללא שינוי יעוד ^ א. קביעת שימושים והוראות עבור שצ\"פ."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185538.59970000014,
+              656091.2752999999
+            ],
+            [
+              185541.10470000003,
+              656093.5332999993
+            ],
+            [
+              185543.67769999988,
+              656095.7101000007
+            ],
+            [
+              185546.3816999998,
+              656097.7223000005
+            ],
+            [
+              185550.03490000032,
+              656100.0560999997
+            ],
+            [
+              185553.86369999964,
+              656102.0892999992
+            ],
+            [
+              185556.16970000044,
+              656103.1875
+            ],
+            [
+              185558.56269999966,
+              656104.0800999999
+            ],
+            [
+              185561.0547000002,
+              656104.6625999995
+            ],
+            [
+              185563.42870000005,
+              656105.6183000002
+            ],
+            [
+              185556.68769999966,
+              656099.6548999995
+            ],
+            [
+              185549.9467000002,
+              656093.6912999991
+            ],
+            [
+              185558.2307000002,
+              656084.3285000008
+            ],
+            [
+              185566.51269999985,
+              656074.9672999997
+            ],
+            [
+              185574.79650000017,
+              656065.6056999993
+            ],
+            [
+              185583.07870000042,
+              656056.2443000004
+            ],
+            [
+              185587.9467000002,
+              656060.5513000004
+            ],
+            [
+              185592.8147,
+              656064.8583000004
+            ],
+            [
+              185594.80269999988,
+              656062.6113000009
+            ],
+            [
+              185596.79069999978,
+              656060.3642999995
+            ],
+            [
+              185593.79470000044,
+              656057.7138999999
+            ],
+            [
+              185590.79870000016,
+              656055.0633000005
+            ],
+            [
+              185599.08150000032,
+              656045.7006999999
+            ],
+            [
+              185607.3646999998,
+              656036.3392999992
+            ],
+            [
+              185615.64969999995,
+              656026.9757000003
+            ],
+            [
+              185623.9297000002,
+              656017.6152999997
+            ],
+            [
+              185629.1727,
+              656022.2539000008
+            ],
+            [
+              185634.41569999978,
+              656026.8923000004
+            ],
+            [
+              185636.38370000012,
+              656024.6678999998
+            ],
+            [
+              185638.35170000046,
+              656022.4432999995
+            ],
+            [
+              185636.85369999986,
+              656021.1183000002
+            ],
+            [
+              185635.3557000002,
+              656019.7932999991
+            ],
+            [
+              185643.63850000035,
+              656010.4307000004
+            ],
+            [
+              185651.92069999967,
+              656001.0692999996
+            ],
+            [
+              185660.20349999983,
+              655991.7076999992
+            ],
+            [
+              185668.48670000024,
+              655982.3453000002
+            ],
+            [
+              185672.1168999998,
+              655978.2424999997
+            ],
+            [
+              185675.74770000018,
+              655974.1392999999
+            ],
+            [
+              185672.01070000045,
+              655970.8172999993
+            ],
+            [
+              185668.2736999998,
+              655967.4953000005
+            ],
+            [
+              185676.56769999955,
+              655958.1208999995
+            ],
+            [
+              185684.86170000024,
+              655948.7463000007
+            ],
+            [
+              185693.22670000046,
+              655939.2908999994
+            ],
+            [
+              185701.59269999992,
+              655929.8353000004
+            ],
+            [
+              185709.87449999992,
+              655920.4677000009
+            ],
+            [
+              185718.15770000033,
+              655911.1113000009
+            ],
+            [
+              185721.90270000044,
+              655914.4243000001
+            ],
+            [
+              185725.64769999962,
+              655917.7372999992
+            ],
+            [
+              185730.66970000044,
+              655912.0613000002
+            ],
+            [
+              185735.68010000046,
+              655906.5528999995
+            ],
+            [
+              185740.69070000015,
+              655901.0442999993
+            ],
+            [
+              185733.8816999998,
+              655895.0219
+            ],
+            [
+              185727.07270000037,
+              655888.9992999993
+            ],
+            [
+              185733.10309999995,
+              655882.3008999992
+            ],
+            [
+              185739.13370000012,
+              655875.6022999994
+            ],
+            [
+              185732.32569999993,
+              655869.5789000001
+            ],
+            [
+              185725.51769999973,
+              655863.5552999992
+            ],
+            [
+              185733.80009999964,
+              655854.1939000003
+            ],
+            [
+              185743.8627000004,
+              655842.8202999998
+            ],
+            [
+              185730.1266999999,
+              655844.6699000001
+            ],
+            [
+              185716.3909,
+              655846.5197000001
+            ],
+            [
+              185704.55850000028,
+              655848.1129000001
+            ],
+            [
+              185692.97470000014,
+              655849.6727000009
+            ],
+            [
+              185692.32469999976,
+              655849.7602999993
+            ],
+            [
+              185688.5686999997,
+              655856.4452999998
+            ],
+            [
+              185684.81269999966,
+              655863.1303000003
+            ],
+            [
+              185678.7801000001,
+              655874.1012999993
+            ],
+            [
+              185672.74770000018,
+              655885.0723000001
+            ],
+            [
+              185666.75310000032,
+              655896.1042999998
+            ],
+            [
+              185660.75870000012,
+              655907.1362999994
+            ],
+            [
+              185654.06670000032,
+              655918.7673000004
+            ],
+            [
+              185658.4397,
+              655921.1919
+            ],
+            [
+              185662.81269999966,
+              655923.6162999999
+            ],
+            [
+              185656.7516999999,
+              655934.5481000002
+            ],
+            [
+              185650.69070000015,
+              655945.4802999999
+            ],
+            [
+              185638.5686999997,
+              655967.3453000002
+            ],
+            [
+              185632.5717000002,
+              655978.3842999991
+            ],
+            [
+              185626.57469999976,
+              655989.4232999999
+            ],
+            [
+              185623.1690999996,
+              655987.5269000009
+            ],
+            [
+              185619.7637,
+              655985.6303000003
+            ],
+            [
+              185616.60369999986,
+              655991.3248999994
+            ],
+            [
+              185613.4436999997,
+              655997.0193000007
+            ],
+            [
+              185611.25710000005,
+              655995.8069000002
+            ],
+            [
+              185609.07070000004,
+              655994.5943
+            ],
+            [
+              185603.00609999988,
+              656005.5249000005
+            ],
+            [
+              185596.94170000032,
+              656016.4552999996
+            ],
+            [
+              185589.07409999985,
+              656012.0932999998
+            ],
+            [
+              185581.20669999998,
+              656007.7313000001
+            ],
+            [
+              185577.91009999998,
+              656013.6629000008
+            ],
+            [
+              185574.61369999964,
+              656019.5943
+            ],
+            [
+              185568.55090000015,
+              656030.5212999992
+            ],
+            [
+              185562.4846999999,
+              656041.4593000002
+            ],
+            [
+              185556.41970000044,
+              656052.3892999999
+            ],
+            [
+              185550.35470000003,
+              656063.3192999996
+            ],
+            [
+              185543.22470000014,
+              656076.1682999991
+            ],
+            [
+              185536.09470000025,
+              656089.0173000004
+            ],
+            [
+              185538.59970000014,
+              656091.2752999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1708214400000,
+        "mp_id": 4005325386.0,
+        "objectid": 23083,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 1199.0,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000392317.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול מגרש 73 כפ\"ח",
+        "pl_number": "425-1248244",
+        "pl_order_print_version": 13.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 13.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005325386/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 2.0,
+        "quantity_delta_125": 71.94,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1708214400000,
+        "shape_area": 1198.83526225,
+        "shape_length": 134.93861656,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "פיצול מגרש 73 כפ\"ח ^ פיצול מגרש ביעוד מגורים א' ל-3 מגרשים\r\n\r\n ^ פיצול מגרש לפי סעיף 62א (א) (1)\r\n\r\nתוספת 2 יח\"ד לפי סעיף 62א (א) (8)\r\n\r\nתוספת 6% משטח המגרש עבור שטח עיקרי לפי סעיף 62א (א) (9)\r\n\r\nתוספת קומת מרתף לפי סעיף 62א (א) (4א)\r\n\r\nתוספת שטחי שי"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185747.75850000046,
+              655255.6988999993
+            ],
+            [
+              185747.76190000027,
+              655255.8732999992
+            ],
+            [
+              185747.76850000024,
+              655256.0477000009
+            ],
+            [
+              185747.77809999976,
+              655256.2221000008
+            ],
+            [
+              185747.79069999978,
+              655256.3960999995
+            ],
+            [
+              185747.8063000003,
+              655256.5699000005
+            ],
+            [
+              185747.82490000036,
+              655256.7434999999
+            ],
+            [
+              185747.84669999965,
+              655256.9167
+            ],
+            [
+              185747.87129999977,
+              655257.0895000007
+            ],
+            [
+              185747.89910000004,
+              655257.2617000006
+            ],
+            [
+              185747.92989999987,
+              655257.4334999993
+            ],
+            [
+              185747.9634999996,
+              655257.6046999991
+            ],
+            [
+              185748.00030000042,
+              655257.7752999999
+            ],
+            [
+              185748.0399000002,
+              655257.9452999998
+            ],
+            [
+              185748.08270000014,
+              655258.1144999992
+            ],
+            [
+              185748.12829999998,
+              655258.2830999997
+            ],
+            [
+              185748.17669999972,
+              655258.4506999999
+            ],
+            [
+              185748.22809999995,
+              655258.6174999997
+            ],
+            [
+              185748.28249999974,
+              655258.7832999993
+            ],
+            [
+              185748.33970000036,
+              655258.9483000003
+            ],
+            [
+              185748.3998999996,
+              655259.1120999996
+            ],
+            [
+              185748.4628999997,
+              655259.2749000005
+            ],
+            [
+              185748.52869999968,
+              655259.4364999998
+            ],
+            [
+              185748.59729999956,
+              655259.5968999993
+            ],
+            [
+              185748.66870000027,
+              655259.7563000005
+            ],
+            [
+              185748.7427000003,
+              655259.9143000003
+            ],
+            [
+              185748.81969999988,
+              655260.0709000006
+            ],
+            [
+              185748.8992999997,
+              655260.2262999993
+            ],
+            [
+              185748.98170000035,
+              655260.3801000006
+            ],
+            [
+              185749.06670000032,
+              655260.5325000007
+            ],
+            [
+              185749.1542999996,
+              655260.6834999993
+            ],
+            [
+              185749.24450000003,
+              655260.8329000007
+            ],
+            [
+              185749.33729999978,
+              655260.9806999993
+            ],
+            [
+              185749.43290000036,
+              655261.1267000008
+            ],
+            [
+              185749.5307,
+              655261.2712999992
+            ],
+            [
+              185749.63129999954,
+              655261.4138999991
+            ],
+            [
+              185749.7341,
+              655261.5548999999
+            ],
+            [
+              185749.83949999977,
+              655261.6941
+            ],
+            [
+              185749.94730000012,
+              655261.8312999997
+            ],
+            [
+              185750.0563000003,
+              655261.9677000009
+            ],
+            [
+              185750.17009999976,
+              655262.1000999995
+            ],
+            [
+              185760.45010000002,
+              655274.0601000004
+            ],
+            [
+              185796.5301000001,
+              655262.6301000006
+            ],
+            [
+              185785.67009999976,
+              655235.8801000006
+            ],
+            [
+              185781.99010000005,
+              655236.3001000006
+            ],
+            [
+              185781.68070000038,
+              655236.3723000009
+            ],
+            [
+              185781.46250000037,
+              655236.4236999992
+            ],
+            [
+              185781.24450000003,
+              655236.4755000006
+            ],
+            [
+              185781.0264999997,
+              655236.5276999995
+            ],
+            [
+              185780.80869999994,
+              655236.5802999996
+            ],
+            [
+              185780.59090000018,
+              655236.6330999993
+            ],
+            [
+              185780.37310000043,
+              655236.6864999998
+            ],
+            [
+              185780.15550000034,
+              655236.7401
+            ],
+            [
+              185779.93790000025,
+              655236.7942999993
+            ],
+            [
+              185779.72049999982,
+              655236.8487
+            ],
+            [
+              185779.50329999998,
+              655236.9035
+            ],
+            [
+              185779.28589999955,
+              655236.9586999994
+            ],
+            [
+              185779.0689000003,
+              655237.0141000003
+            ],
+            [
+              185778.85190000013,
+              655237.0701000001
+            ],
+            [
+              185778.63489999995,
+              655237.1264999993
+            ],
+            [
+              185778.41789999977,
+              655237.1831
+            ],
+            [
+              185778.20129999984,
+              655237.2401
+            ],
+            [
+              185777.98450000025,
+              655237.2974999994
+            ],
+            [
+              185777.7681,
+              655237.3552999999
+            ],
+            [
+              185777.55150000006,
+              655237.4134999998
+            ],
+            [
+              185777.33530000038,
+              655237.4721000008
+            ],
+            [
+              185777.11890000012,
+              655237.5310999993
+            ],
+            [
+              185776.9029000001,
+              655237.5902999993
+            ],
+            [
+              185776.68670000043,
+              655237.6499000005
+            ],
+            [
+              185776.47090000007,
+              655237.7101000007
+            ],
+            [
+              185776.25490000006,
+              655237.7705000006
+            ],
+            [
+              185776.0393000003,
+              655237.8311000001
+            ],
+            [
+              185775.82349999994,
+              655237.8923000004
+            ],
+            [
+              185775.60809999984,
+              655237.9539000001
+            ],
+            [
+              185775.39269999973,
+              655238.0156999994
+            ],
+            [
+              185775.17729999963,
+              655238.0780999996
+            ],
+            [
+              185774.96210000012,
+              655238.1406999994
+            ],
+            [
+              185774.74710000027,
+              655238.2037000004
+            ],
+            [
+              185774.53210000042,
+              655238.2671000008
+            ],
+            [
+              185774.31709999964,
+              655238.3309000004
+            ],
+            [
+              185774.10230000038,
+              655238.3948999997
+            ],
+            [
+              185773.88769999985,
+              655238.4594999999
+            ],
+            [
+              185773.67310000025,
+              655238.5242999997
+            ],
+            [
+              185773.4587000003,
+              655238.5895000007
+            ],
+            [
+              185773.24450000003,
+              655238.6550999992
+            ],
+            [
+              185773.0301000001,
+              655238.7211000007
+            ],
+            [
+              185772.8161000004,
+              655238.7874999996
+            ],
+            [
+              185772.60209999979,
+              655238.8541000001
+            ],
+            [
+              185772.38829999976,
+              655238.9210999999
+            ],
+            [
+              185772.17449999973,
+              655238.9887000006
+            ],
+            [
+              185771.9609000003,
+              655239.0565000009
+            ],
+            [
+              185771.74729999993,
+              655239.1247000005
+            ],
+            [
+              185771.53390000015,
+              655239.1930999998
+            ],
+            [
+              185771.32070000004,
+              655239.2620999999
+            ],
+            [
+              185771.10749999993,
+              655239.3312999997
+            ],
+            [
+              185770.8945000004,
+              655239.4011000004
+            ],
+            [
+              185770.68149999995,
+              655239.4711000007
+            ],
+            [
+              185770.46870000008,
+              655239.5415000003
+            ],
+            [
+              185770.25609999988,
+              655239.6122999992
+            ],
+            [
+              185770.04349999968,
+              655239.6832999997
+            ],
+            [
+              185769.83110000007,
+              655239.7548999991
+            ],
+            [
+              185769.61870000046,
+              655239.8267000001
+            ],
+            [
+              185769.40649999958,
+              655239.8989000004
+            ],
+            [
+              185769.19450000022,
+              655239.9715
+            ],
+            [
+              185768.9826999996,
+              655240.0445000008
+            ],
+            [
+              185768.77070000023,
+              655240.1176999994
+            ],
+            [
+              185768.5591000002,
+              655240.1915000007
+            ],
+            [
+              185768.34750000015,
+              655240.2654999997
+            ],
+            [
+              185768.13609999977,
+              655240.3399
+            ],
+            [
+              185767.92489999998,
+              655240.4146999996
+            ],
+            [
+              185767.7137000002,
+              655240.4897000007
+            ],
+            [
+              185767.50270000007,
+              655240.5653000008
+            ],
+            [
+              185767.29169999994,
+              655240.6411000006
+            ],
+            [
+              185767.0809000004,
+              655240.7172999997
+            ],
+            [
+              185766.8702999996,
+              655240.7938999999
+            ],
+            [
+              185766.65969999973,
+              655240.8708999995
+            ],
+            [
+              185766.4495000001,
+              655240.9483000003
+            ],
+            [
+              185766.2390999999,
+              655241.0259000007
+            ],
+            [
+              185766.02909999993,
+              655241.1039000005
+            ],
+            [
+              185765.81909999996,
+              655241.1822999995
+            ],
+            [
+              185765.60929999966,
+              655241.2610999998
+            ],
+            [
+              185765.3995000003,
+              655241.3402999993
+            ],
+            [
+              185765.18989999965,
+              655241.4197000004
+            ],
+            [
+              185764.9804999996,
+              655241.4997000005
+            ],
+            [
+              185764.77130000014,
+              655241.5799000002
+            ],
+            [
+              185764.56209999975,
+              655241.6602999996
+            ],
+            [
+              185764.35309999995,
+              655241.7412999999
+            ],
+            [
+              185764.14410000015,
+              655241.8226999994
+            ],
+            [
+              185763.93549999967,
+              655241.9043000005
+            ],
+            [
+              185763.72690000013,
+              655241.9863000009
+            ],
+            [
+              185763.51850000024,
+              655242.0687000006
+            ],
+            [
+              185763.31010000035,
+              655242.1514999997
+            ],
+            [
+              185763.10190000013,
+              655242.2345000003
+            ],
+            [
+              185762.89389999956,
+              655242.3179000001
+            ],
+            [
+              185762.68609999958,
+              655242.4016999993
+            ],
+            [
+              185762.4782999996,
+              655242.4858999997
+            ],
+            [
+              185762.27070000023,
+              655242.5704999994
+            ],
+            [
+              185762.06329999957,
+              655242.6553000007
+            ],
+            [
+              185761.85589999985,
+              655242.7404999994
+            ],
+            [
+              185761.64890000038,
+              655242.8260999992
+            ],
+            [
+              185761.44189999998,
+              655242.9121000003
+            ],
+            [
+              185761.23489999957,
+              655242.9985000007
+            ],
+            [
+              185761.02830000035,
+              655243.0851000007
+            ],
+            [
+              185760.8217000002,
+              655243.1721000001
+            ],
+            [
+              185760.6152999997,
+              655243.2595000006
+            ],
+            [
+              185760.40909999982,
+              655243.3473000005
+            ],
+            [
+              185760.20289999992,
+              655243.4353
+            ],
+            [
+              185759.99689999968,
+              655243.5237000007
+            ],
+            [
+              185759.7912999997,
+              655243.6125000007
+            ],
+            [
+              185759.58550000004,
+              655243.7017000001
+            ],
+            [
+              185759.38009999972,
+              655243.7913000006
+            ],
+            [
+              185759.17470000032,
+              655243.8811000008
+            ],
+            [
+              185758.96949999966,
+              655243.9713000003
+            ],
+            [
+              185758.76449999958,
+              655244.0618999992
+            ],
+            [
+              185758.5597000001,
+              655244.1528999992
+            ],
+            [
+              185758.3548999997,
+              655244.2441000007
+            ],
+            [
+              185758.15050000045,
+              655244.3356999997
+            ],
+            [
+              185757.9461000003,
+              655244.4276999999
+            ],
+            [
+              185757.74170000013,
+              655244.5200999994
+            ],
+            [
+              185757.53770000022,
+              655244.6127000004
+            ],
+            [
+              185757.3337000003,
+              655244.7059000004
+            ],
+            [
+              185757.13009999972,
+              655244.7991000004
+            ],
+            [
+              185756.92650000006,
+              655244.8928999994
+            ],
+            [
+              185756.72310000006,
+              655244.9870999996
+            ],
+            [
+              185756.51970000006,
+              655245.0814999994
+            ],
+            [
+              185756.31670000032,
+              655245.1763000004
+            ],
+            [
+              185756.11369999964,
+              655245.2715000007
+            ],
+            [
+              185755.91089999955,
+              655245.3669000007
+            ],
+            [
+              185755.70830000006,
+              655245.4627
+            ],
+            [
+              185755.50590000022,
+              655245.5589000005
+            ],
+            [
+              185755.3035000004,
+              655245.6555000003
+            ],
+            [
+              185755.10149999987,
+              655245.7522999998
+            ],
+            [
+              185754.8995000003,
+              655245.8497000001
+            ],
+            [
+              185754.69770000037,
+              655245.9473000001
+            ],
+            [
+              185754.4961000001,
+              655246.0450999998
+            ],
+            [
+              185754.29470000044,
+              655246.1435000002
+            ],
+            [
+              185754.09350000042,
+              655246.2421000004
+            ],
+            [
+              185753.8923000004,
+              655246.3410999998
+            ],
+            [
+              185753.69130000006,
+              655246.4403000008
+            ],
+            [
+              185753.49069999997,
+              655246.5401000008
+            ],
+            [
+              185753.29009999987,
+              655246.6401000004
+            ],
+            [
+              185753.1180999996,
+              655246.7281
+            ],
+            [
+              185752.96410000045,
+              655246.8103
+            ],
+            [
+              185752.81170000043,
+              655246.8953000009
+            ],
+            [
+              185752.66089999955,
+              655246.9828999992
+            ],
+            [
+              185752.51150000002,
+              655247.0733000003
+            ],
+            [
+              185752.36369999964,
+              655247.1660999991
+            ],
+            [
+              185752.21750000026,
+              655247.2614999991
+            ],
+            [
+              185752.0730999997,
+              655247.3595000003
+            ],
+            [
+              185751.93030000012,
+              655247.4598999992
+            ],
+            [
+              185751.78949999996,
+              655247.5628999993
+            ],
+            [
+              185751.65029999986,
+              655247.6682999991
+            ],
+            [
+              185751.5131000001,
+              655247.7761000004
+            ],
+            [
+              185751.37770000007,
+              655247.8862999994
+            ],
+            [
+              185751.24430000037,
+              655247.9987000003
+            ],
+            [
+              185751.11290000007,
+              655248.1137000006
+            ],
+            [
+              185750.9835000001,
+              655248.2306999993
+            ],
+            [
+              185750.85610000044,
+              655248.3500999995
+            ],
+            [
+              185750.73089999985,
+              655248.4716999996
+            ],
+            [
+              185750.6076999996,
+              655248.5953000002
+            ],
+            [
+              185750.4868999999,
+              655248.7211000007
+            ],
+            [
+              185750.3680999996,
+              655248.8490999993
+            ],
+            [
+              185750.2516999999,
+              655248.9791000001
+            ],
+            [
+              185750.1375000002,
+              655249.1110999994
+            ],
+            [
+              185750.02570000011,
+              655249.2451000009
+            ],
+            [
+              185749.91610000003,
+              655249.3811000008
+            ],
+            [
+              185749.8091000002,
+              655249.5188999996
+            ],
+            [
+              185749.70430000033,
+              655249.6585000008
+            ],
+            [
+              185749.60209999979,
+              655249.7999000009
+            ],
+            [
+              185749.50229999982,
+              655249.9430999998
+            ],
+            [
+              185749.4051000001,
+              655250.0880999994
+            ],
+            [
+              185749.31049999967,
+              655250.2346999999
+            ],
+            [
+              185749.21829999983,
+              655250.3828999996
+            ],
+            [
+              185749.12870000023,
+              655250.5327000003
+            ],
+            [
+              185749.0418999996,
+              655250.6841000002
+            ],
+            [
+              185748.95770000014,
+              655250.8368999995
+            ],
+            [
+              185748.8761,
+              655250.9912999999
+            ],
+            [
+              185748.79729999974,
+              655251.1470999997
+            ],
+            [
+              185748.72109999973,
+              655251.3040999994
+            ],
+            [
+              185748.64790000021,
+              655251.4625000004
+            ],
+            [
+              185748.5773,
+              655251.6220999993
+            ],
+            [
+              185748.5094999997,
+              655251.7829
+            ],
+            [
+              185748.44450000022,
+              655251.9449000005
+            ],
+            [
+              185748.3822999997,
+              655252.1078999992
+            ],
+            [
+              185748.3230999997,
+              655252.2720999997
+            ],
+            [
+              185748.26669999957,
+              655252.4373000003
+            ],
+            [
+              185748.21310000028,
+              655252.6032999996
+            ],
+            [
+              185748.16249999963,
+              655252.7705000006
+            ],
+            [
+              185748.1149000004,
+              655252.9383000005
+            ],
+            [
+              185748.07010000013,
+              655253.1071000006
+            ],
+            [
+              185748.02830000035,
+              655253.2764999997
+            ],
+            [
+              185747.98950000014,
+              655253.4466999993
+            ],
+            [
+              185747.95349999983,
+              655253.6174999997
+            ],
+            [
+              185747.92069999967,
+              655253.7888999991
+            ],
+            [
+              185747.8909,
+              655253.9606999997
+            ],
+            [
+              185747.86390000023,
+              655254.1333000008
+            ],
+            [
+              185747.84009999968,
+              655254.3060999997
+            ],
+            [
+              185747.81929999962,
+              655254.4794999994
+            ],
+            [
+              185747.80150000006,
+              655254.6531000007
+            ],
+            [
+              185747.78670000006,
+              655254.8268999998
+            ],
+            [
+              185747.7748999996,
+              655255.0011
+            ],
+            [
+              185747.76630000025,
+              655255.1753000002
+            ],
+            [
+              185747.76049999986,
+              655255.3498999998
+            ],
+            [
+              185747.75789999962,
+              655255.5242999997
+            ],
+            [
+              185747.75850000046,
+              655255.6988999993
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1727654400000,
+        "mp_id": 4005344608.0,
+        "objectid": 23930,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 3.103,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000399395.0,
+        "pl_landuse_string": "דרך משולבת,מגורים,שטח ציבורי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "איחוד וחלוקה באיזון ל-4 מגרשים, שכונת לוי יצחק, כפר חב\"ד",
+        "pl_number": "425-1279793",
+        "pl_order_print_version": 22.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 16.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005344608/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1727654400000,
+        "shape_area": 2967.05133619,
+        "shape_length": 251.94592159,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "איחוד וחלוקה באיזון ל-4 מגרשים, שכונת לוי יצחק, כפר חב\"ד ^ התכנית מבצעת חילופי שטחים בין מגרשי מגורים לשצ\"פ/ דרך משולבת וזאת ללא שינוי בזכויות והוראות הבניה ^ 1. חילופי שטחים של מגרשים ללא שינוי בשטח הכולל של כל יעוד קרקע לפי סעיף 62א 1\r\n2.שינוי וקבי"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185843.61209999956,
+              655544.6580999997
+            ],
+            [
+              185842.25009999983,
+              655534.6000999995
+            ],
+            [
+              185833.59530000016,
+              655535.7749000005
+            ],
+            [
+              185824.95210000034,
+              655536.9481000006
+            ],
+            [
+              185812.52610000037,
+              655538.6350999996
+            ],
+            [
+              185815.61309999973,
+              655561.4280999992
+            ],
+            [
+              185817.56010000035,
+              655575.8001000006
+            ],
+            [
+              185819.6140999999,
+              655591.1621000003
+            ],
+            [
+              185820.20349999983,
+              655595.5570999999
+            ],
+            [
+              185825.19010000024,
+              655633.0691
+            ],
+            [
+              185848.42009999976,
+              655630.3574999999
+            ],
+            [
+              185854.43850000016,
+              655629.6548999995
+            ],
+            [
+              185854.90710000042,
+              655622.8348999992
+            ],
+            [
+              185855.57909999974,
+              655616.9461000003
+            ],
+            [
+              185853.71229999978,
+              655596.0295000002
+            ],
+            [
+              185853.71229999978,
+              655596.0293000005
+            ],
+            [
+              185853.05590000004,
+              655588.6616999991
+            ],
+            [
+              185851.53399999999,
+              655586.9291999992
+            ],
+            [
+              185849.74710000027,
+              655585.4715
+            ],
+            [
+              185848.42009999976,
+              655580.1800999995
+            ],
+            [
+              185847.14010000043,
+              655570.6700999998
+            ],
+            [
+              185845.84410000034,
+              655561.1480999999
+            ],
+            [
+              185845.34009999968,
+              655557.3901000004
+            ],
+            [
+              185844.04110000003,
+              655547.8311000001
+            ],
+            [
+              185843.61209999956,
+              655544.6580999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1725926400000,
+        "mp_id": 4005388368.0,
+        "objectid": 26008,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 5.077,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000414927.0,
+        "pl_landuse_string": "מגורים א',מגורים בישוב כפרי,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול נחלה ותוספת יח\"ד - נחלה 50 כפר חב\"ד",
+        "pl_number": "425-1348390",
+        "pl_order_print_version": 6.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 5.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005388368/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 2.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 156.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1725926400000,
+        "shape_area": 5073.56518587,
+        "shape_length": 278.79722543,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "פיצול נחלה ותוספת יח\"ד - נחלה 50 כפר חב\"ד ^ פיצול 2 מגרשי מגורים א' מנחלה ותוספת יח\"ד ^ פיצול 2 מגרשי מגורים א' מנחלה לפי סעיף 62א.(א)(25)\r\nתוספת יח\"ד בנחלה לפי סעיף 62א.(א)(8)\r\nתוספת 6% שטח עיקרי לפי סעיף 62א.(א)(9)\r\nתוספת שטחי ממ\"ד בתכנית שאושרה לפ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186221.58750000037,
+              655404.5004999992
+            ],
+            [
+              186250.63009999972,
+              655451.2257000003
+            ],
+            [
+              186286.10709999967,
+              655424.8913000003
+            ],
+            [
+              186288.06460000016,
+              655423.1471999995
+            ],
+            [
+              186289.73840000015,
+              655421.1293000001
+            ],
+            [
+              186291.0906999996,
+              655418.8830999993
+            ],
+            [
+              186292.09090000018,
+              655416.4595999997
+            ],
+            [
+              186292.71630000044,
+              655413.9135999996
+            ],
+            [
+              186292.95289999992,
+              655411.3025000002
+            ],
+            [
+              186292.75,
+              655408.3732999992
+            ],
+            [
+              186292.05840000045,
+              655405.5197999999
+            ],
+            [
+              186290.89769999962,
+              655402.8226999994
+            ],
+            [
+              186268.98089999985,
+              655366.2893000003
+            ],
+            [
+              186269.0619000001,
+              655363.6550999992
+            ],
+            [
+              186250.8618999999,
+              655352.4023000002
+            ],
+            [
+              186249.06520000007,
+              655351.4052000009
+            ],
+            [
+              186247.13499999978,
+              655350.7004000004
+            ],
+            [
+              186245.11849999987,
+              655350.3051999994
+            ],
+            [
+              186243.0650000004,
+              655350.2292
+            ],
+            [
+              186241.02479999978,
+              655350.4743000008
+            ],
+            [
+              186239.04779999983,
+              655351.0344999991
+            ],
+            [
+              186237.18230000045,
+              655351.8960999995
+            ],
+            [
+              186226.99670000002,
+              655359.6724999994
+            ],
+            [
+              186211.64010000043,
+              655372.2000999991
+            ],
+            [
+              186203.92949999962,
+              655378.4028999992
+            ],
+            [
+              186221.58750000037,
+              655404.5004999992
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1722384000000,
+        "mp_id": 4005388378.0,
+        "objectid": 26010,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 4.897,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000414937.0,
+        "pl_landuse_string": "מגורים א',מגורים בישוב כפרי,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול נחלה ותוספת יח\"ד - נחלה 30 כפר חב\"ד",
+        "pl_number": "425-1348440",
+        "pl_order_print_version": 8.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 6.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005388378/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 2.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 156.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1722384000000,
+        "shape_area": 4897.49826572,
+        "shape_length": 386.10364514,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "פיצול נחלה ותוספת יח\"ד - נחלה 30 כפר חב\"ד ^ פיצול 2 מגרשי מגורים א' מנחלה וכן תוספת יח\"ד ^ פיצול 2 מגרשי מגורים א' מנחלה לפי סעיף 62א.(א)(25)\r\nתוספת יח\"ד בנחלה לפי סעיף 62א.(א)(8)\r\nכל ענין שניתן לבקשו כהקלה 62א.(א)(9)\r\nתוספת שטחי שירות ת\"ק לפי סעיף 6"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186403.15589999966,
+              654863.1073000003
+            ],
+            [
+              186411.39769999962,
+              654700.3015000001
+            ],
+            [
+              186381.43790000025,
+              654698.8143000007
+            ],
+            [
+              186373.10089999996,
+              654861.6009
+            ],
+            [
+              186403.15589999966,
+              654863.1073000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1733184000000,
+        "mp_id": 4005423788.0,
+        "objectid": 27678,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 4.884,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000428535.0,
+        "pl_landuse_string": "מגורים בישוב כפרי,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "שינוי הוראות בינוי ותוספת יח\"ד, נחלה 20 כפר חב\"ד",
+        "pl_number": "425-1405075",
+        "pl_order_print_version": 3.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 3.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005423788/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 2.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 144.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1733184000000,
+        "shape_area": 4884.58790078,
+        "shape_length": 340.76306737,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "שינוי הוראות בינוי ותוספת יח\"ד, נחלה 20 כפר חב\"ד ^ שינוי הוראות בינוי בנחלה ותוספת יח\"ד ^ 1. איחוד וחלוקה באיזון ללא שינוי בשטח של כל יעוד - לפי סעיף 62א.(א)(1)\r\n2. שינוי בהוראות בינוי - לפי סעיף 62א.(א)(5)\r\n3. כל עניין שניתן לבקש כהקלה - לפי סעיף 62"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186048.88910000026,
+              654842.0012999997
+            ],
+            [
+              186055.58469999954,
+              654709.1609000005
+            ],
+            [
+              186032.18269999977,
+              654710.0716999993
+            ],
+            [
+              186019.07870000042,
+              654710.5817000009
+            ],
+            [
+              186011.97229999956,
+              654844.6052999999
+            ],
+            [
+              186048.88910000026,
+              654842.0012999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1753660800000,
+        "mp_id": 4005366990.0,
+        "objectid": 28979,
+        "on_hold_date": 1744156800000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.45,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": 1745107200000,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005448356.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "מגרש 595 כפ\"ח תוספת יח\"ד",
+        "pl_number": "425-1313394",
+        "pl_order_print_version": 33.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 27.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005366990/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 71.94,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1730592000000,
+        "shape_area": 449.976094,
+        "shape_length": 86.0002098,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "מגרש 595 כפ\"ח תוספת יח\"ד ^ תוספת יח\"ד  למגרש ביעוד מגורים א' \r\n ^ תוספת יח\"ד  1  ראשית ועוד יחידת סמך לפי סעיף 62א (א) (8)\r\n\r\nתוספת 7% משטח המגרש עבור שטח עיקרי לפי סעיף 62א (א) (17)\r\n\r\nתוספת שטחי שירות בקומת מרתף לפי סעיף 62א (א) (15)\r\n\r\nתוספת שטחי "
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185626.39209999982,
+              655989.2401
+            ],
+            [
+              185638.51410000026,
+              655967.3761
+            ],
+            [
+              185622.77109999955,
+              655958.6480999999
+            ],
+            [
+              185611.39010000043,
+              655979.1800999995
+            ],
+            [
+              185610.64910000004,
+              655980.5120999999
+            ],
+            [
+              185619.76209999993,
+              655985.5640999991
+            ],
+            [
+              185626.39209999982,
+              655989.2401
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1770249600000,
+        "mp_id": 4005461916.0,
+        "objectid": 29867,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 6.78,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4000442723.0,
+        "pl_landuse_string": "מגורים א',מגורים בישוב כפרי,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול מגרשים מנחלה 8 -כפר חב\"ד",
+        "pl_number": "425-1467992",
+        "pl_order_print_version": 39.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 19.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005461916/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 2.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 3.0,
+        "quantity_delta_125": 354.86,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1770249600000,
+        "shape_area": 6780.18847652,
+        "shape_length": 423.95894772,
+        "station_desc": "בבדיקה תכנונית",
+        "internet_short_status": "קיום תנאי סף",
+        "pl_objectives": "פיצול מגרשים מנחלה 8 -כפר חב\"ד ^ פיצול 2 מגרשים ביעוד מגורים א' מנחלה וכן תוספת 3 יח\"ד.\r\n\r\n ^ -  שינוי אזור מגורים , ללא שינוי בסה\"כ השטח הכולל של כל יעוד ויעוד במסגרת איחוד וחלוקה ,\r\n  עפ\"י סעיף 62 א(א)(1). \r\n-  פיצול 2 מגרשים  ביעוד מגורים א' מנחלה"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185674.54009999987,
+              654685.5200999994
+            ],
+            [
+              185670.9001000002,
+              654683.6301000006
+            ],
+            [
+              185631.90969999973,
+              654685.6751000006
+            ],
+            [
+              185631.77809999976,
+              654829.8334999997
+            ],
+            [
+              185621.42470000032,
+              654845.6491
+            ],
+            [
+              185631.1001000004,
+              654853.7600999996
+            ],
+            [
+              185641.12870000023,
+              654863.6707000006
+            ],
+            [
+              185668.0053000003,
+              654841.6907000002
+            ],
+            [
+              185674.54009999987,
+              654685.5200999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1759190400000,
+        "mp_id": 4005410644.0,
+        "objectid": 29975,
+        "on_hold_date": 1759190400000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.686,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005463422.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "הגדלת אחוזי בניה מגרש 142, כפר חבד",
+        "pl_number": "425-1383173",
+        "pl_order_print_version": 8.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 4.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005410644/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1727222400000,
+        "shape_area": 686.04435,
+        "shape_length": 117.90701684,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "הגדלת אחוזי בניה מגרש 142, כפר חבד ^ תוספת יח\"ד ^ תוספת 2 יח\"ד לפי סעיף 62א (א) (8)\r\nתוספת קומת מרתף לפי סעיף 62א (א) (4א)\r\nתוספת שטחי שירות בקומת מרתף לפי סעיף 62א (א) (15)\r\nתוספת קומה 3 לפי סעיף 62א (א) (4א)\r\nתוספת 2.5% שטח עיקרי עבור תוספת הקומה ל"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186081.6501000002,
+              655588.0900999997
+            ],
+            [
+              186042.66009999998,
+              655569.9601000007
+            ],
+            [
+              186038.37009999994,
+              655579.0200999994
+            ],
+            [
+              186035.94010000024,
+              655584.1501000002
+            ],
+            [
+              186074.7100999998,
+              655602.7401
+            ],
+            [
+              186081.6501000002,
+              655588.0900999997
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1764547200000,
+        "mp_id": 4005348634.0,
+        "objectid": 30558,
+        "on_hold_date": 1764547200000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 7.925,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005471388.0,
+        "pl_landuse_string": "דרך משולבת,מגורים א',שטח ציבורי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "החלפת מיקום מגרשי מגורים, הרחבה צפונית כפר חב\"ד",
+        "pl_number": "425-1285790",
+        "pl_order_print_version": 26.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 11.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005348634/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1708214400000,
+        "shape_area": 9663.12316093,
+        "shape_length": 618.58227269,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "החלפת מיקום מגרשי מגורים, הרחבה צפונית כפר חב\"ד ^ התוכנית מבצעת חילופי שטחים בין מגרשי מגורים למגרשים ביעוד שצ\"פ/דרך משולבת וזאת כדי ליצור מתחם תכנון המאפשר שיפור תכנון לגישה למגרשי מגורים וזאת ללא שינוי בזכויות בניה. ^ 1. החלפת שטח בין מגורים א' לבי"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185549.89250000007,
+              656093.7213000003
+            ],
+            [
+              185566.45770000014,
+              656074.9977000002
+            ],
+            [
+              185576.19469999988,
+              656083.6122999992
+            ],
+            [
+              185579.93950000033,
+              656086.9254999999
+            ],
+            [
+              185589.61710000038,
+              656075.9870999996
+            ],
+            [
+              185596.5038999999,
+              656068.2010999992
+            ],
+            [
+              185600.4798999997,
+              656063.7071000002
+            ],
+            [
+              185604.6261,
+              656067.3750999998
+            ],
+            [
+              185606.02020000014,
+              656065.1951000001
+            ],
+            [
+              185607.63210000005,
+              656063.1709000003
+            ],
+            [
+              185617.66449999996,
+              656051.8311000001
+            ],
+            [
+              185631.14809999987,
+              656063.7597000003
+            ],
+            [
+              185638.50609999988,
+              656070.5308999997
+            ],
+            [
+              185628.8585000001,
+              656081.4349000007
+            ],
+            [
+              185628.43910000008,
+              656081.9090999998
+            ],
+            [
+              185638.90409999993,
+              656091.1680999994
+            ],
+            [
+              185639.61569999997,
+              656090.9522999991
+            ],
+            [
+              185646.25210000016,
+              656088.9400999993
+            ],
+            [
+              185659.0201000003,
+              656074.5087000001
+            ],
+            [
+              185659.30829999968,
+              656074.1827000007
+            ],
+            [
+              185667.63709999993,
+              656064.7715000007
+            ],
+            [
+              185678.23450000025,
+              656052.7935000006
+            ],
+            [
+              185690.0273000002,
+              656039.4657000005
+            ],
+            [
+              185688.51910000015,
+              656038.1311000008
+            ],
+            [
+              185676.54530000035,
+              656027.5362999998
+            ],
+            [
+              185669.72709999979,
+              656035.2421000004
+            ],
+            [
+              185656.2461000001,
+              656023.3150999993
+            ],
+            [
+              185683.90089999977,
+              655992.0562999994
+            ],
+            [
+              185676.4121000003,
+              655985.4302999992
+            ],
+            [
+              185662.93049999978,
+              655973.5026999991
+            ],
+            [
+              185643.4380999999,
+              655958.4943000004
+            ],
+            [
+              185626.39209999982,
+              655989.2401
+            ],
+            [
+              185619.75769999996,
+              655985.5618999992
+            ],
+            [
+              185613.38889999967,
+              655997.0494999997
+            ],
+            [
+              185613.3887,
+              655997.0499000009
+            ],
+            [
+              185609.01609999966,
+              655994.6250999998
+            ],
+            [
+              185609.0153000001,
+              655994.6264999993
+            ],
+            [
+              185599.64010000043,
+              656011.5361000001
+            ],
+            [
+              185596.8936999999,
+              656016.4897000007
+            ],
+            [
+              185581.14809999987,
+              656007.7690999992
+            ],
+            [
+              185536.04009999987,
+              656089.0481000002
+            ],
+            [
+              185541.03309999965,
+              656093.5841000006
+            ],
+            [
+              185542.2572999997,
+              656094.6031
+            ],
+            [
+              185545.1423000004,
+              656096.8718999997
+            ],
+            [
+              185546.32629999984,
+              656097.7524999995
+            ],
+            [
+              185546.32710000034,
+              656097.7531000003
+            ],
+            [
+              185550.00569999963,
+              656100.1029000003
+            ],
+            [
+              185553.8091000002,
+              656102.1201000009
+            ],
+            [
+              185558.5356999999,
+              656104.1225000005
+            ],
+            [
+              185563.37409999967,
+              656105.6491
+            ],
+            [
+              185549.89250000007,
+              656093.7213000003
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1757894400000,
+        "mp_id": 4005328970.0,
+        "objectid": 30693,
+        "on_hold_date": 1757894400000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 5.255,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005472978.0,
+        "pl_landuse_string": "מגורים א',מגורים בישוב כפרי,קרקע חקלאית",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול נחלה ותוספת יח\"ד - נחלה 22 כפר חב\"ד",
+        "pl_number": "425-1254218",
+        "pl_order_print_version": 10.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 7.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005328970/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 2.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 1.0,
+        "quantity_delta_125": 156.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1707696000000,
+        "shape_area": 5223.17678841,
+        "shape_length": 342.35821164,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "פיצול נחלה ותוספת יח\"ד - נחלה 22 כפר חב\"ד ^ פיצול 2 מגרשי מגורים א' מנחלה וכן תוספת יח\"ד ^ מטרות:\r\n\r\nפיצול 2 מגרשי מגורים א' מנחלה לפי סעיף 62א.(א)(25)\r\n\r\nתוספת יח\"ד בנחלה לפי סעיף 62א.(א)(8)\r\n\r\nתוספת 6% שטח עיקרי לפי סעיף 62א.(א)(9)\r\n\r\nתוספת שטחי ממ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186138.56429999974,
+              654729.4315000009
+            ],
+            [
+              186139.62430000026,
+              654705.8899000008
+            ],
+            [
+              186100.03890000004,
+              654707.6634999998
+            ],
+            [
+              186098.8655000003,
+              654730.9889000002
+            ],
+            [
+              186097.5477,
+              654757.1890999991
+            ],
+            [
+              186096.4199000001,
+              654779.6074999999
+            ],
+            [
+              186094.66509999987,
+              654814.4901
+            ],
+            [
+              186093.4581000004,
+              654838.4865000006
+            ],
+            [
+              186133.71109999996,
+              654837.2289000005
+            ],
+            [
+              186134.84389999975,
+              654812.0665000007
+            ],
+            [
+              186136.24430000037,
+              654780.9628999997
+            ],
+            [
+              186137.39489999972,
+              654755.4070999995
+            ],
+            [
+              186138.56429999974,
+              654729.4315000009
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1758067200000,
+        "mp_id": 4005360672.0,
+        "objectid": 31081,
+        "on_hold_date": 1758067200000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.76,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005478192.0,
+        "pl_landuse_string": "מגורים ב'",
+        "pl_last_deposit_date": null,
+        "pl_name": "הסדרת קווי בניין מגרש 225 כפ\"ח",
+        "pl_number": "425-1303775",
+        "pl_order_print_version": 14.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 10.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005360672/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1722384000000,
+        "shape_area": 758.87619998,
+        "shape_length": 110.73420716,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "הסדרת קווי בניין מגרש 225 כפ\"ח ^ תוספת זכויות והסדרת קווי בניין. ^ תוספת 2.5% בגין תוספת כל קומה לפי סעיף 62א (א) 9.\r\nתוספת 2 קומות לפי סעיף 62א (א) 4(א).\r\nתוספת 7% משטח המגרש עבור שטח עיקרי לפי סעיף 62א (א) (17)\r\nקביעת קוי בנין עפ\"י סעיף 62 א (א) (4"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186713.69010000024,
+              654715.7700999994
+            ],
+            [
+              186737.29009999987,
+              654707.5100999996
+            ],
+            [
+              186727.24010000005,
+              654678.8300999999
+            ],
+            [
+              186703.73010000028,
+              654686.9901
+            ],
+            [
+              186713.69010000024,
+              654715.7700999994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1758153600000,
+        "mp_id": 4005388384.0,
+        "objectid": 31813,
+        "on_hold_date": 1758153600000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.729,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005487590.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "פיצול מגרש 137 כפר חב\"ד",
+        "pl_number": "425-1348473",
+        "pl_order_print_version": 7.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 3.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005388384/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1725926400000,
+        "shape_area": 729.22689069,
+        "shape_length": 109.54725536,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "פיצול מגרש 137 כפר חב\"ד ^ פיצול מגרש ביעוד מגורים א' ל-3 מגרשים ^ פיצול מגרש לפי סעיף 62א (א) (1)\r\nתוספת 2 יח\"ד לפי סעיף 62א (א) (8)\r\nתוספת 7% משטח המגרש עבור שטח עיקרי לפי סעיף 62א (א) (17)(ב)\r\nתוספת קומת מרתף לפי סעיף 62א (א) (4א)\r\nתוספת שטחי שירות"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              186101.88009999972,
+              655654.2600999996
+            ],
+            [
+              186087.69010000024,
+              655676.0300999992
+            ],
+            [
+              186087.09609999973,
+              655677.1193000004
+            ],
+            [
+              186086.67760000005,
+              655678.2873
+            ],
+            [
+              186086.4447999997,
+              655679.5058999993
+            ],
+            [
+              186086.40309999976,
+              655680.7458999995
+            ],
+            [
+              186086.55370000005,
+              655681.9773999993
+            ],
+            [
+              186086.89290000033,
+              655683.1708000004
+            ],
+            [
+              186087.41249999963,
+              655684.2973999996
+            ],
+            [
+              186088.1001000004,
+              655685.3300999999
+            ],
+            [
+              186091.24010000005,
+              655689.3400999997
+            ],
+            [
+              186109.9001000002,
+              655681.7500999998
+            ],
+            [
+              186120.67009999976,
+              655655.9400999993
+            ],
+            [
+              186108.87009999994,
+              655651.8701000009
+            ],
+            [
+              186107.90759999957,
+              655651.6235000007
+            ],
+            [
+              186106.91760000028,
+              655651.5391000006
+            ],
+            [
+              186105.9271999998,
+              655651.6193000004
+            ],
+            [
+              186104.9637000002,
+              655651.8618000001
+            ],
+            [
+              186104.05339999963,
+              655652.2599999998
+            ],
+            [
+              186103.22119999956,
+              655652.8029999994
+            ],
+            [
+              186102.49010000005,
+              655653.4758000001
+            ],
+            [
+              186101.88009999972,
+              655654.2600999996
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1770249600000,
+        "mp_id": 4005344236.0,
+        "objectid": 32449,
+        "on_hold_date": 1763596800000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 0.445,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005495036.0,
+        "pl_landuse_string": "מגורים א'",
+        "pl_last_deposit_date": null,
+        "pl_name": "תוספת יח\"ד מגרש 593, כפר חב\"ד",
+        "pl_number": "425-1279140",
+        "pl_order_print_version": 5.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 3.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005344236/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 31.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1708214400000,
+        "shape_area": 445.12014079,
+        "shape_length": 84.19838,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "תוספת יח\"ד מגרש 593, כפר חב\"ד ^ תוספת יח\"ד, תוספת שטח עיקרי ושינוי קוי בנין ^ 1. תוספת מיח\"ד 1 ל-2 יח\"ד לפי סעיף 62.א.א.8\r\n2. שינוי בקוי בנין צידיים למגורים והגדרת קוי בנין לפרגולה, חצר אנגלית ובריכה לפי סעיף 62.א.א.4\r\n3. תוספת שטח עיקרי עד 7% (31.10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185623.76109999977,
+              655936.2390999999
+            ],
+            [
+              185624.26549999975,
+              655935.1899999995
+            ],
+            [
+              185624.6445000004,
+              655934.0892999992
+            ],
+            [
+              185624.8931,
+              655932.9520999994
+            ],
+            [
+              185625.0077999998,
+              655931.7862
+            ],
+            [
+              185624.98539999966,
+              655930.6148000006
+            ],
+            [
+              185624.82610000018,
+              655929.4540999997
+            ],
+            [
+              185611.14609999955,
+              655921.8701000009
+            ],
+            [
+              185604.37409999967,
+              655934.0851000007
+            ],
+            [
+              185599.02410000004,
+              655943.7350999992
+            ],
+            [
+              185614.76709999982,
+              655952.4620999992
+            ],
+            [
+              185623.76109999977,
+              655936.2390999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מתאר מקומית",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1765756800000,
+        "mp_id": 4005416470.0,
+        "objectid": 32971,
+        "on_hold_date": 1765756800000,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 1.085,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005501396.0,
+        "pl_landuse_string": "מגורים,שטח ציבורי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "שינוי צורת מגרש מגורים באיזון מגרש 532, כפר חב\"ד",
+        "pl_number": "425-1393933",
+        "pl_order_print_version": 11.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 5.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005416470/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 0.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 0.0,
+        "quantity_delta_125": 0.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1733184000000,
+        "shape_area": 1086.52722735,
+        "shape_length": 181.00433789,
+        "station_desc": "אישור",
+        "internet_short_status": "פרסום אישור",
+        "pl_objectives": "שינוי צורת מגרש מגורים באיזון מגרש 532, כפר חב\"ד ^ תוספת יח\"ד למגרש ביעוד מגורים א'\r\n\r\n\r\n\r\n ^ איחוד וחלוקה באיזון לפי סעיף 62א (א) (1)\r\nתוספת יח\"ד 1 ראשית ועוד יחידת סמך לפי סעיף 62א (א) (8)\r\nתוספת 7% משטח המגרש עבור שטח עיקרי לפי סעיף 62א (א) (17)\r\n"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185887.31909999996,
+              655885.8870999999
+            ],
+            [
+              185886.28509999998,
+              655877.9251000006
+            ],
+            [
+              185858.5181,
+              655881.5300999992
+            ],
+            [
+              185861.7625000002,
+              655906.5188999996
+            ],
+            [
+              185862.11649999954,
+              655910.4071999993
+            ],
+            [
+              185862.17210000008,
+              655914.3111000005
+            ],
+            [
+              185861.86060000025,
+              655918.8429000005
+            ],
+            [
+              185861.1470999997,
+              655923.3290999997
+            ],
+            [
+              185860.27350000013,
+              655926.9199000001
+            ],
+            [
+              185859.14209999982,
+              655930.4381000008
+            ],
+            [
+              185857.9600999998,
+              655933.4101
+            ],
+            [
+              185856.59410000034,
+              655936.3021000009
+            ],
+            [
+              185854.48950000014,
+              655940.0236000009
+            ],
+            [
+              185852.0806,
+              655943.5557000004
+            ],
+            [
+              185849.38430000003,
+              655946.8737000003
+            ],
+            [
+              185889.37009999994,
+              655901.6800999995
+            ],
+            [
+              185889.18010000046,
+              655900.2301000003
+            ],
+            [
+              185887.31909999996,
+              655885.8870999999
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "date_saf": null,
+        "depositing_date": null,
+        "district_name": "מרכז",
+        "entity_subtype_desc": "תכנית מפורטת",
+        "jurstiction_area_name": "שדות דן",
+        "ja_concat": "שדות דן",
+        "last_update_date": 1768348800000,
+        "mp_id": 4005363502.0,
+        "objectid": 34274,
+        "on_hold_date": null,
+        "open_date": null,
+        "pa_concat": "שדות דן",
+        "pl_area_dunam": 1.24,
+        "pl_by_auth_of": 3.0,
+        "pl_date_8": null,
+        "pl_date_advertise": null,
+        "pl_date7": null,
+        "pl_id": 4005516228.0,
+        "pl_landuse_string": "דרך משולבת,מגורים א',שטח ציבורי פתוח",
+        "pl_last_deposit_date": null,
+        "pl_name": "איחוד וחלוקה באיזון מגרש 101,כפר חב\"ד",
+        "pl_number": "425-1308469",
+        "pl_order_print_version": 25.0,
+        "pl_rejection_date": null,
+        "pl_tasrit_prn_version": 15.0,
+        "pl_url": "https://mavat.iplan.gov.il/SV4/1/4005363502/310",
+        "plan_area_name": "שדות דן",
+        "plan_charactor_name": "תכנית שמכוחה ניתן להוציא היתרים או הרשאות",
+        "plan_county_name": "כפר חב\"ד",
+        "pq_authorised_quantity_105": 0.0,
+        "pq_authorised_quantity_110": 0.0,
+        "pq_authorised_quantity_120": 1.0,
+        "pq_detailed_plan_105": 0.0,
+        "pq_detailed_plan_110": 0.0,
+        "pq_detailed_plan_80": 0.0,
+        "pq_implementation_105": 0.0,
+        "quantity_delta_105": 0.0,
+        "quantity_delta_110": 0.0,
+        "quantity_delta_120": 3.0,
+        "quantity_delta_125": 138.0,
+        "quantity_delta_60": 0.0,
+        "quantity_delta_75": 0.0,
+        "quantity_delta_80": 0.0,
+        "receiving_date": 1768089600000,
+        "shape_area": 1240.94921928,
+        "shape_length": 168.78244658,
+        "station_desc": "הפקדה להתנגדויות/השגות",
+        "internet_short_status": "פרסום הפקדה",
+        "pl_objectives": "איחוד וחלוקה באיזון מגרש 101,כפר חב\"ד ^ איחוד וחלוקה, תוספת מגרש יחידות וזכויות. ^ 1. איחוד וחלוקה- לפי סעיף 62א (א)1\r\n2. קביעת קוי בנין -עפ\"י סעיף 62א (א) 4\r\n3. תוספת קומה (קומה ג') -לפי סעיף 62א (א) 4א\r\n4. תוספת יח\"ד -לפי סעיף 62א (א)8\r\n5. תוספת זכ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              185884.42030000035,
+              655580.9283000007
+            ],
+            [
+              185883.25009999983,
+              655574.2000999991
+            ],
+            [
+              185875.14010000043,
+              655578.5900999997
+            ],
+            [
+              185863.3300999999,
+              655584.9701000005
+            ],
+            [
+              185859.3035000004,
+              655587.1494999994
+            ],
+            [
+              185853.05590000004,
+              655588.6616999991
+            ],
+            [
+              185853.4578999998,
+              655593.1746999994
+            ],
+            [
+              185846.56049999967,
+              655594.6406999994
+            ],
+            [
+              185847.35429999977,
+              655603.5357000008
+            ],
+            [
+              185849.38889999967,
+              655614.6235000007
+            ],
+            [
+              185849.53500000015,
+              655615.3545999993
+            ],
+            [
+              185849.58939999994,
+              655616.0980999991
+            ],
+            [
+              185849.5510999998,
+              655616.8427000009
+            ],
+            [
+              185848.9461000003,
+              655622.1470999997
+            ],
+            [
+              185848.5800999999,
+              655626.2456999999
+            ],
+            [
+              185848.42009999976,
+              655630.3574999999
+            ],
+            [
+              185854.43850000016,
+              655629.6548999995
+            ],
+            [
+              185854.90710000042,
+              655622.8348999992
+            ],
+            [
+              185855.57909999974,
+              655616.9461000003
+            ],
+            [
+              185868.09009999968,
+              655613.3701000009
+            ],
+            [
+              185874.25590000022,
+              655611.6919
+            ],
+            [
+              185889.07010000013,
+              655607.6601
+            ],
+            [
+              185884.42030000035,
+              655580.9283000007
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

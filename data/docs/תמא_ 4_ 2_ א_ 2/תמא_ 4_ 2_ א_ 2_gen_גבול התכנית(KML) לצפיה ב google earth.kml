@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
+<Document>
+  <Style id="Plan">
+	<LabelStyle>		
+<color>00000000</color>
+			
+<scale>0</scale>
+		
+</LabelStyle>
+		
+<LineStyle>
+			
+<color>ffff0000</color>
+			
+<width>3</width>
+		
+</LineStyle>
+		
+<PolyStyle>
+			
+<fill>0</fill>
+		
+</PolyStyle>
+
+   <BalloonStyle>
+    <text>
+
+
+<![CDATA[<?xml version="1.0"?>
+<table border="0"  width="560" cellpadding="2" cellspacing="2" dir="rtl" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<tr>
+<td align="center" colspan="2" height="20" style="border-bottom: Solid 1px #b4b5b4">
+<font face="Arial" size="3" color="#b50027">
+<b>פרטי גבול תכנית</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">מספר תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NUMBER]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שם תכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_NAME]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">שטח התכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_AREA]</b>
+</font>
+</td>
+</tr>
+
+<tr>
+<td  align="right"><font face="Arial" size="3">קישור לתכנית</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[PL_URL]</b>
+</font>
+</td>
+</tr>
+
+
+<tr>
+<td  align="right"><font face="Arial" size="3">תאריך יצור הקובץ</font>
+</td>
+<td align="right" bgcolor="#efefef" height="20">
+<font face="Arial" size="3" color="#202520">
+<b>$[CREATE_DATE]</b>
+</font>
+</td>
+</tr>
+
+</table>]]> 
+
+</text>
+     </BalloonStyle>
+  </Style>
+
+  <Placemark>
+   <name name="name"><value>גבול תכנית</value></name>
+   <description/>   
+   <styleUrl>#Plan</styleUrl>
+<MultiGeometry>
+<Polygon><outerBoundaryIs><LinearRing><coordinates>34.8593263932031,31.9939930544124,0 34.8591298898827,31.9937366243542,0 34.8591508184189,31.9923095613435,0 34.8592540193224,31.9921836439659,0 34.8596830691604,31.9918689218778,0 34.8623640377535,31.9911577020157,0 34.8634205325314,31.9911154434582,0 34.863532902127,31.9900949607085,0 34.861155322329,31.990182990233,0 34.8589289612304,31.9907453781054,0 34.8582382429295,31.9907880352002,0 34.8542996202789,31.9921954348774,0 34.8541805250451,31.9923169558262,0 34.8526802503953,31.9937872204119,0 34.8523714690484,31.9935602803626,0 34.8522326796373,31.9936970844311,0 34.8521912004257,31.9936828163913,0 34.8520067384809,31.9938646357793,0 34.8520859850192,31.993923025723,0 34.8522888100091,31.993723107532,0 34.8525402846591,31.9939106550451,0 34.8514625454464,31.9949538501249,0 34.8491210288031,31.9970943167505,0 34.8501347547909,31.9987060463781,0 34.852826755221,31.9975762192052,0 34.8540407046318,31.9970666984639,0 34.8545204102339,31.9968404439651,0 34.8545213602945,31.9968399451841,0 34.8545268402778,31.9968464965564,0 34.8550859242033,31.9973727361722,0 34.8576804252082,31.9958886680285,0 34.8592453067587,31.9961225201225,0 34.8598063199156,31.996220009774,0 34.8602684678479,31.9963116935044,0 34.8611809563553,31.9952841006834,0 34.8601259405619,31.9945511536206,0 34.861528403564,31.9942443914501,0 34.8622778690489,31.994248052713,0 34.8622824467936,31.9939841851259,0 34.8613529026226,31.9939345952181,0 34.8597234335061,31.9942715155578,0 34.859379163997,31.994032334361,0 34.8593263932031,31.9939930544124,0 </coordinates></LinearRing></outerBoundaryIs></Polygon>
+</MultiGeometry>
+
+   <ExtendedData>
+  
+    <Data name="PL_NUMBER"><value>תמא/ 4/ 2/ א/ 2</value></Data>
+	 <Data name="PL_NAME"><value>מחלף כניסה מערבי לנמל התעופה בן גוריון</value></Data>
+	  <Data name="PL_AREA"><value>532.699</value></Data>
+	   <Data name="PL_URL"><value>http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=3&amp;tnumb=%D7%AA%D7%9E%D7%90/%204/%202/%20%D7%90/%202</value></Data>
+	    <Data name="CREATE_DATE"><value>10/06/2018 11:48:33</value></Data>
+   </ExtendedData>
+  </Placemark>
+
+</Document>
+</kml>

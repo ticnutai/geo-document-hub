@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "name": "gas_stations",
+  "description": "גז טבעי – תחנות",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 106,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תחנת גז נתבג, תחנת הגפה וחלוקה",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "תחנת גז",
+        "Related": "תמא/ 37/ ב גליון מס' 6 - tma_37_b_v_6_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות ה",
+        "Related_2": " ",
+        "OBJECTID_1": 86
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 107,
+        "Tochnit_Nu": "תמא/ 37/ ב",
+        "Tochnit_na": "תחנת גז נתבג, תחנת הגפה וחלוקה",
+        "Tochnit_ty": "תמא",
+        "Yehud_kark": "מרחב נטול מקורות הצתה בעת שחרור גז",
+        "Related": "תמא/ 37/ ב גליון מס' 6 - tma_37_b_v_6_me.jpg",
+        "Relevance": "1",
+        "YP_Resumot": "5606",
+        "YP_Resum_1": 1166400000000,
+        "Scale": "2500",
+        "Status": "מאושרת",
+        "Tochnit_Ho": "http://mavat.moin.gov.il/MavatPS/Forms/SV3.aspx?tid=4&tnumb=%d7%aa%d7%9e%d7%90%2f+37%2f+%d7%91",
+        "agam_n": 99001688,
+        "Notes": " ",
+        "App_Date": 1425168000000,
+        "digitation": "דיגיטציה לפי פענוח רוזטות ה",
+        "Related_2": " ",
+        "OBJECTID_1": 87
+      },
+      "geometry": null
+    }
+  ]
+}

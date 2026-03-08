@@ -1,0 +1,22 @@
+Loading MAVAT search page...
+Page loaded.
+
+Searching block 525...
+  Format 0: status=401 size=24
+  Body: {"CaptchaNotValid":true}
+  Format 1: status=401 size=24
+  Body: {"CaptchaNotValid":true}
+  Format 2: status=401 size=24
+  Body: {"CaptchaNotValid":true}
+
+  Trying UI-based search...
+  Block input count: 0
+  Radio buttons: 4
+    radio[0] checked=True label=כל התכניות
+    radio[1] checked=False label=תכניות שנדונו בטווח של 3 חודשים
+    radio[2] checked=False label=תכניות בתהליך הפקדה
+    radio[3] checked=False label=תכניות מאושרות
+  Clicking second radio (location search)...
+  Block inputs after radio click: 0
+
+Done.

@@ -1,0 +1,1 @@
+{"type": "FeatureCollection", "name": "תחבורה", "features": [{"type": "Feature", "properties": {"OBJECTID_1": 1, "Descriptio": "תחנת רכבת כפר חב\"ד", "yeshuv": "כפר חבד"}, "geometry": {"type": "Point", "coordinates": [34.852774651193506, 31.99323928889654]}}]}

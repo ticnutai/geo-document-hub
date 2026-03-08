@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tmm321_scenic_road",
+  "description": "תמ\"מ 3/21 – דרך נופית",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

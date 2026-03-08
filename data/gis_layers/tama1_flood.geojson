@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama1_flood",
+  "description": "תמ\"א 1 – שטח הצפה",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

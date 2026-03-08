@@ -1,0 +1,335 @@
+{
+  "downloaded": [
+    {
+      "id": 19,
+      "name": "אינדקס תוכניות",
+      "file": "L19_P13_אינדקס_תוכניות.geojson",
+      "size": 608344,
+      "status": "cached"
+    },
+    {
+      "id": 24,
+      "name": "אינדקס תוכניות קווי",
+      "file": "L24_P13_אינדקס_תוכניות_קווי.geojson",
+      "size": 603403,
+      "status": "cached"
+    },
+    {
+      "id": 57,
+      "name": "אנטנות סלולר",
+      "file": "L57_P56_אנטנות_סלולר.geojson",
+      "size": 16962,
+      "status": "cached"
+    },
+    {
+      "id": 28,
+      "name": "אתרי רשות העתיקות",
+      "file": "L28_P26_אתרי_רשות_העתיקות.geojson",
+      "size": 2028,
+      "status": "cached"
+    },
+    {
+      "id": 38,
+      "name": "בתי כנסת ומקוואות",
+      "file": "L38_P29_בתי_כנסת_ומקוואות.geojson",
+      "size": 722,
+      "status": "cached"
+    },
+    {
+      "id": 33,
+      "name": "בתי ספר",
+      "file": "L33_P29_בתי_ספר.geojson",
+      "size": 744,
+      "status": "cached"
+    },
+    {
+      "id": 4,
+      "name": "גבולות יישובים 2024",
+      "file": "L4_P0_גבולות_יישובים_2024.geojson",
+      "size": 39166,
+      "status": "cached"
+    },
+    {
+      "id": 20,
+      "name": "גבולות מגרש תב\"ע",
+      "file": "L20_P13_גבולות_מגרש_תבע.geojson",
+      "size": 721181,
+      "status": "cached"
+    },
+    {
+      "id": 35,
+      "name": "גזם",
+      "file": "L35_P29_גזם.geojson",
+      "size": 19345,
+      "status": "cached"
+    },
+    {
+      "id": 32,
+      "name": "גני ילדים",
+      "file": "L32_P29_גני_ילדים.geojson",
+      "size": 1063,
+      "status": "cached"
+    },
+    {
+      "id": 36,
+      "name": "גנים",
+      "file": "L36_P29_גנים.geojson",
+      "size": 426,
+      "status": "cached"
+    },
+    {
+      "id": 52,
+      "name": "דרכי עפר",
+      "file": "L52_P47_דרכי_עפר.geojson",
+      "size": 547156,
+      "status": "cached"
+    },
+    {
+      "id": 11,
+      "name": "היתרי בנייה",
+      "file": "L11_P10_היתרי_בנייה.geojson",
+      "size": 251679,
+      "status": "cached"
+    },
+    {
+      "id": 16,
+      "name": "התראות נקודתי",
+      "file": "L16_P13_התראות_נקודתי.geojson",
+      "size": 52181,
+      "status": "cached"
+    },
+    {
+      "id": 14,
+      "name": "התראות פוליגונלי",
+      "file": "L14_P13_התראות_פוליגונלי.geojson",
+      "size": 9679,
+      "status": "cached"
+    },
+    {
+      "id": 15,
+      "name": "התראות קווי",
+      "file": "L15_P13_התראות_קווי.geojson",
+      "size": 441,
+      "status": "cached"
+    },
+    {
+      "id": 50,
+      "name": "זרימות מים",
+      "file": "L50_P47_זרימות_מים.geojson",
+      "size": 9685,
+      "status": "cached"
+    },
+    {
+      "id": 25,
+      "name": "חלקות מקור",
+      "file": "L25_P13_חלקות_מקור.geojson",
+      "size": 1292544,
+      "status": "cached"
+    },
+    {
+      "id": 23,
+      "name": "ייעודי קרקע",
+      "file": "L23_P13_ייעודי_קרקע.geojson",
+      "size": 858998,
+      "status": "cached"
+    },
+    {
+      "id": 22,
+      "name": "ייעודי קרקע בשקיפות",
+      "file": "L22_P13_ייעודי_קרקע_בשקיפות.geojson",
+      "size": 859013,
+      "status": "cached"
+    },
+    {
+      "id": 1,
+      "name": "ישובים",
+      "file": "L1_P0_ישובים.geojson",
+      "size": 39424,
+      "status": "cached"
+    },
+    {
+      "id": 51,
+      "name": "כבישים",
+      "file": "L51_P47_כבישים.geojson",
+      "size": 2847847,
+      "status": "cached"
+    },
+    {
+      "id": 41,
+      "name": "כולל",
+      "file": "L41_P29_כולל.geojson",
+      "size": 635,
+      "status": "cached"
+    },
+    {
+      "id": 3,
+      "name": "כתובות",
+      "file": "L3_P0_כתובות.geojson",
+      "size": 63815,
+      "status": "cached"
+    },
+    {
+      "id": 53,
+      "name": "מבנים",
+      "file": "L53_P47_מבנים.geojson",
+      "size": 401844,
+      "status": "cached"
+    },
+    {
+      "id": 37,
+      "name": "מוסדות מנהלה",
+      "file": "L37_P29_מוסדות_מנהלה.geojson",
+      "size": 6362,
+      "status": "cached"
+    },
+    {
+      "id": 44,
+      "name": "מוסדות ציבור",
+      "file": "L44_P29_מוסדות_ציבור.geojson",
+      "size": 2682,
+      "status": "cached"
+    },
+    {
+      "id": 43,
+      "name": "מוסדות רפואה",
+      "file": "L43_P29_מוסדות_רפואה.geojson",
+      "size": 5396,
+      "status": "cached"
+    },
+    {
+      "id": 40,
+      "name": "מוסדות תרבות ורווחה",
+      "file": "L40_P29_מוסדות_תרבות_ורווחה.geojson",
+      "size": 11202,
+      "status": "cached"
+    },
+    {
+      "id": 39,
+      "name": "מסחר וחנויות",
+      "file": "L39_P29_מסחר_וחנויות.geojson",
+      "size": 5774,
+      "status": "cached"
+    },
+    {
+      "id": 21,
+      "name": "מספרי מגרשים",
+      "file": "L21_P13_מספרי_מגרשים.geojson",
+      "size": 36126,
+      "status": "cached"
+    },
+    {
+      "id": 42,
+      "name": "מעונות",
+      "file": "L42_P29_מעונות.geojson",
+      "size": 3921,
+      "status": "cached"
+    },
+    {
+      "id": 27,
+      "name": "מפות הכרזה",
+      "file": "L27_P26_מפות_הכרזה.geojson",
+      "size": 865,
+      "status": "cached"
+    },
+    {
+      "id": 46,
+      "name": "מתקני ספורט ונופש",
+      "file": "L46_P29_מתקני_ספורט_ונופש.geojson",
+      "size": 434,
+      "status": "cached"
+    },
+    {
+      "id": 48,
+      "name": "נק' גובה",
+      "file": "L48_P47_נק_גובה.geojson",
+      "size": 2015,
+      "status": "cached"
+    },
+    {
+      "id": 55,
+      "name": "סקר מיגון",
+      "file": "L55_P54_סקר_מיגון.geojson",
+      "size": 76690,
+      "status": "cached"
+    },
+    {
+      "id": 12,
+      "name": "עברות בניה שטחים פתוחים",
+      "file": "L12_P10_עברות_בניה_שטחים_פתוחים.geojson",
+      "size": 64169,
+      "status": "cached"
+    },
+    {
+      "id": 34,
+      "name": "פינוי אשפה",
+      "file": "L34_P29_פינוי_אשפה.geojson",
+      "size": 19291,
+      "status": "cached"
+    },
+    {
+      "id": 49,
+      "name": "קווי גובה",
+      "file": "L49_P47_קווי_גובה.geojson",
+      "size": 304077,
+      "status": "cached"
+    },
+    {
+      "id": 17,
+      "name": "רוזטות טקסט",
+      "file": "L17_P13_רוזטות_טקסט.geojson",
+      "size": 17832,
+      "status": "cached"
+    },
+    {
+      "id": 18,
+      "name": "רוזטות קווי",
+      "file": "L18_P13_רוזטות_קווי.geojson",
+      "size": 60269,
+      "status": "cached"
+    },
+    {
+      "id": 6,
+      "name": "רחובות",
+      "file": "L6_P0_רחובות.geojson",
+      "size": 2847847,
+      "status": "cached"
+    },
+    {
+      "id": 30,
+      "name": "שימושי מבנים",
+      "file": "L30_P29_שימושי_מבנים.geojson",
+      "size": 2886,
+      "status": "cached"
+    },
+    {
+      "id": 197,
+      "name": "תוכניות בינוי",
+      "file": "L197_P196_תוכניות_בינוי.geojson",
+      "size": 2570,
+      "status": "cached"
+    },
+    {
+      "id": 45,
+      "name": "תחבורה",
+      "file": "L45_P29_תחבורה.geojson",
+      "size": 286,
+      "status": "cached"
+    },
+    {
+      "id": 5,
+      "name": "תחום שיפוט מועצה 2024",
+      "file": "L5_P0_תחום_שיפוט_מועצה_2024.geojson",
+      "size": 51324,
+      "status": "cached"
+    },
+    {
+      "id": 31,
+      "name": "תחנות אוטובוס",
+      "file": "L31_P29_תחנות_אוטובוס.geojson",
+      "size": 4703,
+      "status": "cached"
+    }
+  ],
+  "empty": [],
+  "errors": []
+}

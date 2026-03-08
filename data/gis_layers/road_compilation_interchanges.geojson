@@ -1,0 +1,1873 @@
+{
+  "type": "FeatureCollection",
+  "name": "road_compilation_interchanges",
+  "description": "קומפילציית דרכים – מחלפים",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 68,
+        "Keta": 68,
+        "Tochnit_Nu": "תוכנית מתאר מחוזית, מחוז תל אביב, תמ''ם 5",
+        "Tochnit_Na": "תממ/ 5",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "15/04/2010",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm_5_yeudekarka.jpg",
+        "Scale": "1:20000",
+        "Relevance": "2",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181408.82809999958,
+          656145.125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 69,
+        "Keta": 69,
+        "Tochnit_Nu": "תוכנית מתאר מחוזית, מחוז תל אביב, תמ''ם 5",
+        "Tochnit_Na": "תממ/ 5",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "15/04/2010",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm_5_yeudekarka.jpg",
+        "Scale": "1:20000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182598.5625,
+          657549.0625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 70,
+        "Keta": 70,
+        "Tochnit_Nu": "תוכנית מתאר מחוזית, מחוז תל אביב, תמ''ם 5",
+        "Tochnit_Na": "תממ/ 5",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "15/04/2010",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm_5_yeudekarka.jpg",
+        "Scale": "1:20000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183250.4375,
+          658390.8125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 71,
+        "Keta": 71,
+        "Tochnit_Nu": "תוכנית מתאר מחוזית, מחוז תל אביב, תמ''ם 5",
+        "Tochnit_Na": "תממ/ 5",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "15/04/2010",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm_5_yeudekarka.jpg",
+        "Scale": "1:20000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184091.32809999958,
+          660598.1875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 215,
+        "Keta": 215,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187481.85929999966,
+          660168.6103000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 216,
+        "Keta": 216,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189014.8864000002,
+          659536.2486000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 217,
+        "Keta": 217,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190441.25289999973,
+          659101.6208999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 218,
+        "Keta": 218,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191467.50079999957,
+          659159.8690000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 219,
+        "Keta": 219,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186894.77500000037,
+          658551.5047999993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 220,
+        "Keta": 220,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185535.49459999986,
+          657913.6320999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 221,
+        "Keta": 221,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184731.48230000027,
+          657154.8579999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 223,
+        "Keta": 223,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191757.60610000044,
+          656271.2986999992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 224,
+        "Keta": 224,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191318.77909999993,
+          655184.9397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 225,
+        "Keta": 225,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          189460.9793999996,
+          655230.4688000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 226,
+        "Keta": 226,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186531.93369999994,
+          655685.5962000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 227,
+        "Keta": 227,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183251.48599999957,
+          658353.2620000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 228,
+        "Keta": 228,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182672.17250000034,
+          657458.7977000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 229,
+        "Keta": 229,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183279.14240000024,
+          656469.9234999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 235,
+        "Keta": 235,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלפון",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182038.78419999965,
+          653837.8648000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 236,
+        "Keta": 236,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלפון",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185035.31060000043,
+          653540.0710000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 240,
+        "Keta": 240,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181325.28359999973,
+          650645.4629999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 241,
+        "Keta": 241,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182714.03039999958,
+          649684.0166999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 242,
+        "Keta": 242,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלפון",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186538.5625,
+          650993.4844000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 246,
+        "Keta": 246,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191152.09869999997,
+          653859.1075999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 247,
+        "Keta": 247,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191290.34559999965,
+          651556.9937999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 249,
+        "Keta": 249,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "וקטור מקורי",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלפון",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187799.68649999984,
+          649742.4332999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 273,
+        "Keta": 273,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרכז, תמ''מ/ 3  שינוי מס' 21",
+        "Tochnit_Na": "תממ/ 3/ 21",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "12/11/2003",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tmm3_21_yk.jpg",
+        "Scale": "1:50000",
+        "Relevance": "1",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181675.21520000044,
+          656376.6717000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 295,
+        "Keta": 295,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184644.68479999993,
+          657284.6205000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 296,
+        "Keta": 296,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183212.81170000043,
+          656560.2282999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 297,
+        "Keta": 297,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף קיים",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183279.88669999968,
+          658360.2431000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 298,
+        "Keta": 298,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191401.69460000005,
+          655156.3606000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 299,
+        "Keta": 299,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190127.82830000017,
+          654644.9459000006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 300,
+        "Keta": 300,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187443.4241000004,
+          655549.4434999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 303,
+        "Keta": 303,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף קיים",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180584.51570000034,
+          654066.0440999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 304,
+        "Keta": 304,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191327.87870000023,
+          651500.0492000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 313,
+        "Keta": 313,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190336.92310000025,
+          649959.3465
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 314,
+        "Keta": 314,
+        "Tochnit_Nu": "תכנית מתאר מחוזית, מחוז המרקז, מס' ת/מ/מ/3",
+        "Tochnit_Na": "תממ/ 3",
+        "Tochnit_Ty": "תמ\"מ",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "31/03/1982",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMM3.jpg",
+        "Scale": "1:50000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191191.19510000013,
+          653830.2136000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 522,
+        "Keta": 522,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184062.3688000003,
+          660606.6052000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 534,
+        "Keta": 534,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף קיים",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191426.41899999976,
+          653079.4704999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 548,
+        "Keta": 548,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183618.00600000005,
+          655886.9585999995
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 549,
+        "Keta": 549,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף קיים",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          182573.75719999988,
+          657598.8510999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 550,
+        "Keta": 550,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף קיים",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183239.04150000028,
+          658374.0143999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 563,
+        "Keta": 563,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184570.1325000003,
+          657065.3518000003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 569,
+        "Keta": 569,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191323.06799999997,
+          650467.0109000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 570,
+        "Keta": 570,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190865.55829999968,
+          649873.4973000009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 575,
+        "Keta": 575,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187186.5075000003,
+          655916.2160999998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 576,
+        "Keta": 576,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190358.94830000028,
+          654441.4024999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 577,
+        "Keta": 577,
+        "Tochnit_Nu": "תכנית מיתאר ארצית לדרכים מס' ת/מ/א/3",
+        "Tochnit_Na": "תמא/ 3",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": " ",
+        "YP_Resu_Da": "26/08/1976",
+        "Road_No": " ",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "TMA_3.jpg",
+        "Scale": "1:250000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191595.48450000025,
+          654586.6717000008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 633,
+        "Keta": 633,
+        "Tochnit_Nu": "תוכנית מתאר ארצית לדרכים תמ''א/ 3/ 86 קביעת מחלף ציפין צפון על דרך  מס' 44",
+        "Tochnit_Na": "תמא/ 3/ 86",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "30/03/2006",
+        "Road_No": "צומת צריפין צפון",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tma_3_86.jpg",
+        "Scale": "1:100000",
+        "Relevance": "1",
+        "Digitation": "קומפילציה",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185036,
+          653522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 664,
+        "Keta": 664,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187600,
+          660100
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 665,
+        "Keta": 665,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188900,
+          659400
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 666,
+        "Keta": 666,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": "מחלף"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185358.2390999999,
+          660430.2962999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 667,
+        "Keta": 667,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          190635.92540000007,
+          659258.0123999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 668,
+        "Keta": 668,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191492.67700000014,
+          659157.2181000002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 669,
+        "Keta": 669,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187103.18769999966,
+          658550.6823999994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 670,
+        "Keta": 670,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          185791.3947999999,
+          658044.0962000005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 671,
+        "Keta": 671,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          186308.03419999965,
+          655851.8206999991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 672,
+        "Keta": 672,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים  ת/ מ/ א/ 3 (שינוי מס' 27)",
+        "Tochnit_Na": "תמא/ 3/ 27",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "19/08/1997",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף לביטול",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187712.6668999996,
+          655667.7653999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 674,
+        "Keta": 674,
+        "Tochnit_Nu": "תכנית מתאר ארצית לדרכים ת/ מ/ א/ 3 (שינוי מס' 27א')",
+        "Tochnit_Na": "תמא/ 3/ 27/ א",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "5224",
+        "YP_Resu_Da": "09/07/1996",
+        "Road_No": "לא נמצא",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_27_a.jpg",
+        "Scale": "1:100000",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          191700,
+          656100
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 676,
+        "Keta": 676,
+        "Tochnit_Nu": "תכנית המתאר הארצית לדרכים תמא/ 3 שינוי מס' 25 מחלף בכניסה לחולון - רחוב משה דיין עם כביש 4",
+        "Tochnit_Na": "תמא/ 3/ 25",
+        "Tochnit_Ty": "תמא",
+        "YP_Resu_Nu": "לא נמצא",
+        "YP_Resu_Da": "17/03/1996",
+        "Road_No": "כניסה לחולון",
+        "Planed_Tra": 0,
+        "Status": "תוכנית מאושרת",
+        "Tasrit": "tama_3_25.jpg",
+        "Scale": "לא נמצא",
+        "Relevance": "2",
+        "Digitation": "תשריט מעוגן",
+        "Notes": " ",
+        "Question_N": " ",
+        "TypeRoadtx": "מחלף מוצע",
+        "Type_Road": 0,
+        "typeRoad_1": " "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181271.47670000046,
+          656211.4713000003
+        ]
+      }
+    }
+  ]
+}

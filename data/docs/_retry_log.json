@@ -1,0 +1,514 @@
+{
+  "stats": {
+    "ok": 31,
+    "fail": 51,
+    "skip": 2,
+    "error": 0
+  },
+  "log": [
+    {
+      "plan": "425-0117390",
+      "doc": "תשריט מצב מוצע",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0117390",
+      "doc": "מצב מאושר",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0117390",
+      "doc": "ישויות פוליגונליות, קוויות ונקודתיות",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0117390",
+      "doc": "קבצי התכנית (SHP)",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0117390",
+      "doc": "קו כחול",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0486316",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-0486316",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-0498865",
+      "doc": "מצב מאושר",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0498865",
+      "doc": "ישויות פוליגונליות, קוויות ונקודתיות",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0712950",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-0736678",
+      "doc": "הוראות התכנית",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0736678",
+      "doc": "תשריט מצב מוצע",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0736678",
+      "doc": "גבול התכנית תלת מימד (KML)",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0800557",
+      "doc": "הוראות התכנית",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-0800557",
+      "doc": "בינוי",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1030113",
+      "doc": "גבול התכנית תלת מימד (KML)",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1030113",
+      "doc": "נוסח פרסום חתום - pdf",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1030113",
+      "doc": "נוסח פרסום חתום - pdf",
+      "source": "gen_docs",
+      "status": "skip"
+    },
+    {
+      "plan": "425-1153212",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1153212",
+      "doc": "תשריט מצב מוצע חתום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1248244",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "תשריט התכנית - מאושר - חתום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "תשריט התכנית - מאושר - חתום",
+      "source": "gen_docs",
+      "status": "skip"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "בינוי ופיתוח",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "קו כחול",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "תשריט מצב מוצע חתום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1254218",
+      "doc": "PDF נוסח פרסום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1279140",
+      "doc": "מצב מאושר",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1279140",
+      "doc": "ישויות פוליגונליות, קוויות ונקודתיות",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1279140",
+      "doc": "קו כחול",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1279140",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1279140",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1279793",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "הוראות התכנית",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "תשריט מצב מוצע",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "מצב מאושר",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1285790",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה-מעודכן",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1303775",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1306505",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1306505",
+      "doc": "תשריט מצב מוצע חתום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1308469",
+      "doc": "סביבה ונוף",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1308469",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1308469",
+      "doc": "תשריט מצב מוצע חתום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1308469",
+      "doc": "נוסח פרסום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1313394",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1313394",
+      "doc": "נוסח פרסום",
+      "source": "gen_docs",
+      "status": "ok"
+    },
+    {
+      "plan": "425-1348390",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1348440",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1348473",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1383173",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1393933",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1405075",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1467992",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "425-1560473",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "תוצאות חיתוך מול תמ\"א (DXF)",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "455-0812289",
+      "doc": "מסמך נדרש ע\"י יו\"ר הועדה/הועדה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 45",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 525_ 12",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 525_ 21",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 525_ 23_ א",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 525_ 27_ א",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 525_ 4",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ 624",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ מק_ 525_ 28",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גז_ מק_ 525_ 34",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "גמ_ 548",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "יד_ מק_ 6137",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "מח_ 150",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "מח_ 150_ 1",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "משמ_ 115_ גז",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "פת_ 1205_ 22",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תמא_ 4_ 2_ א_ 2",
+      "doc": "איכות הסביבה",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תממ_ 3_ 21_ 42",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תממ_ 3_ 21_ 42",
+      "doc": "תשריט ממ\"ג shp - מאושר",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תתל_ 26_ 202",
+      "doc": "תשריט ממ\"ג - dwg",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תתל_ 26_ 202",
+      "doc": "תשריט ממ\"ג - shp",
+      "source": "gen_docs",
+      "status": "fail"
+    },
+    {
+      "plan": "תתל_ 33",
+      "doc": "תסקיר השפעה על הסביבה",
+      "source": "gen_docs",
+      "status": "fail"
+    }
+  ]
+}

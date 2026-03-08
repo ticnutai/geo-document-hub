@@ -1,0 +1,112 @@
+[
+  {
+    "id": "a545d0ba-0d30-4fbc-be38-e965c5dae56b",
+    "title": "פנקס הקבלנים הרשומים",
+    "notes": "המאגר כולל מידע על קבלנים רשומים ועל סיווג העבודות שהם מורשים לבצע. המידע חיוני לכל מי שנדרש לעבוד מול קבלנים: אזרחים, רשויות מקומיות ומשרדי ממשלה. ",
+    "organization": "משרד הבינוי והשיכון",
+    "resources_count": 1,
+    "resources": [
+      {
+        "name": "פנקס הקבלנים הרשומים",
+        "format": "CSV",
+        "url": "https://data.gov.il/dataset/a545d0ba-0d30-4fbc-be38-e965c5dae56b/resource/4eb61bd6-18cf-4e7c-9f9c-e166dfa0a2d8/download/hng_pinkaskablanim.csv"
+      }
+    ]
+  },
+  {
+    "id": "40593d42-f3c9-4c1d-a9e9-67d72c1e7714",
+    "title": "דרישות בטיחות אש להיתרי בניה",
+    "notes": "ייעודים ודרישות בטיחות אש של הרשות הארצית לכבאות והצלה לצורך קבלת היתר בניה.\r\nמוצגות הדרישות העדכניות נכון למועד פרסומן. \r\nעל כל מבנה חלות הדרישות שהיו בהתאם למועד קבלת ההיתר.\r\n",
+    "organization": "כבאות והצלה לישראל",
+    "resources_count": 37,
+    "resources": [
+      {
+        "name": "דרישות כבאות למבנה - הסתייגות משפטית",
+        "format": "PDF",
+        "url": "https://data.gov.il/dataset/40593d42-f3c9-4c1d-a9e9-67d72c1e7714/resource/73ca5e67-2388-45ae-b685-6048f4d5486d/download/-.pdf"
+      },
+      {
+        "name": "דרישות כבאות היתרי בניה - מבנה קובץ",
+        "format": "PDF",
+        "url": "https://data.gov.il/dataset/40593d42-f3c9-4c1d-a9e9-67d72c1e7714/resource/e716f989-c091-40f8-8bc8-602471d7b1a1/download/-.pdf"
+      },
+      {
+        "name": "דרישות בטיחות אש לתחום הבנייה נכון ליום 01-02-2026",
+        "format": "CSV",
+        "url": "https://data.gov.il/dataset/40593d42-f3c9-4c1d-a9e9-67d72c1e7714/resource/9b1bb88c-f6e2-466c-8a3a-6aad9fb884d4/download/israel-fire-and-rescue-services-building-requirements.csv"
+      },
+      {
+        "name": "דרישות בטיחות אש לתחום הבנייה נכון ליום 04-01-2026",
+        "format": "CSV",
+        "url": "https://data.gov.il/dataset/40593d42-f3c9-4c1d-a9e9-67d72c1e7714/resource/098a097e-eb4d-43eb-977a-5e611c0bd304/download/israel-fire-and-rescue-services-building-requirements.csv"
+      },
+      {
+        "name": "דרישות בטיחות אש לתחום הבנייה נכון ליום 07-12-2025",
+        "format": "CSV",
+        "url": "https://data.gov.il/dataset/40593d42-f3c9-4c1d-a9e9-67d72c1e7714/resource/d57e0cc1-66e6-441d-b914-de9096695865/download/israel-fire-and-rescue-services-building-requirements.csv"
+      }
+    ]
+  },
+  {
+    "id": "34f85227-aeae-477d-b0c2-83f86ef653cb",
+    "title": "מרחבי תכנון",
+    "notes": "מרחב תכנון - בתחום זה, הנקבע ע\"י שר האוצר,  חלה סמכות הוועדה המקומית לתכנון ובניה. יש להבחין בין מרחב תכנון מקומי החופף לשטח של רשות מקומית אחת לבין מרחב תכנון מרחבי הכולל מס' רשויות. ",
+    "organization": "מינהל התכנון ",
+    "resources_count": 1,
+    "resources": [
+      {
+        "name": "קישור למידע תכנוני של מינהל התכנון - מרחבי תכנון",
+        "format": "",
+        "url": "https://www.gov.il/he/Departments/Guides/new_geo?chapterIndex=5"
+      }
+    ]
+  },
+  {
+    "id": "768f4b9f-9e67-430c-ba29-d329638230b9",
+    "title": "תוכניות מקוונות",
+    "notes": "הקובץ הינו הקובץ אשר הולך לאתר של קווים כחולים שהינו  חלק ממכלול מערכות 'תכנון זמין'. האתר מציג תכניות מקוונות מאושרות ובתהליכי תכנון, אשר הוגשו באופן מקוון משנת 2011 והלאה ותכניות מתאריות. האתר אינו ",
+    "organization": "מינהל התכנון ",
+    "resources_count": 2,
+    "resources": [
+      {
+        "name": "XPLAN",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/768f4b9f-9e67-430c-ba29-d329638230b9/resource/f41c3be3-4c53-4895-8f3b-ee6fa84f715c/download/f41c3be3-4c53-4895-8f3b-ee6fa84f715c.zip"
+      },
+      {
+        "name": "Xplan.zip",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/768f4b9f-9e67-430c-ba29-d329638230b9/resource/28e0b8b3-4515-4f01-b55f-41e3e2d9dec4/download/xplan.zip"
+      }
+    ]
+  },
+  {
+    "id": "dff8a168-af6c-4e0f-bbe3-c4bd3646084c",
+    "title": "חלקות shape",
+    "notes": "1.השימוש בנתונים באחריות המשתמש בלבד.\r\n2.המידע מהבנק\"ל אינו מהווה אסמכתה לשחזור גבולות של גושים וחלקות כמפורט בתקנות המדידות (מדידות ומיפוי), תשע''ו-2016 ובהנחיות המנהל, פעולה המותרת למודדים מוסמכים ב",
+    "organization": "המרכז למיפוי ישראל",
+    "resources_count": 4,
+    "resources": [
+      {
+        "name": "חלקות shape",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/dff8a168-af6c-4e0f-bbe3-c4bd3646084c/resource/c68b4df6-c809-4bb5-a546-61fa1528fed5/download/parcel_all.zip"
+      },
+      {
+        "name": "cancel parcels",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/dff8a168-af6c-4e0f-bbe3-c4bd3646084c/resource/75ce23d4-7a3e-4d93-84d0-d14f248e347e/download/cancel_parcel.zip"
+      },
+      {
+        "name": "last parcels",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/dff8a168-af6c-4e0f-bbe3-c4bd3646084c/resource/572f5c2a-bb6c-4632-8096-27413042842e/download/last_parcel.zip"
+      },
+      {
+        "name": "מבנה החלקות",
+        "format": "ZIP",
+        "url": "https://data.gov.il/dataset/dff8a168-af6c-4e0f-bbe3-c4bd3646084c/resource/e84c6f5d-555e-4afd-be99-873b37bcee61/download/-.zip"
+      }
+    ]
+  }
+]

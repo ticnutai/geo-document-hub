@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://handasi.complot.co.il" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="https://handasi.complot.co.il" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://handasi.complot.co.il">
+      <s:element name="GetClients">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="code" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClientsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClientsResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfReturnedItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="ReturnedItem" nillable="true" type="tns:ReturnedItem" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ReturnedItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="label" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="v" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="k" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetYeshuvim">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetYeshuvimResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetYeshuvimResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStreets">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetStreetsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetStreetsResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaNumbersResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaNamesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaStatusTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaStatusTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaStatusTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaSamchuyotTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaSamchuyotTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaSamchuyotTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="policyDocuments" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetShchunot">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetShchunotResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetShchunotResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGushim">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGushimResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGushimResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHelkot">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="key" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHelkotResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHelkotResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashotInMeeting">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="key" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashotInMeetingResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBakashotInMeetingResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashot">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashotResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBakashotResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPikuachNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPikuachNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPikuachNumbersResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPortfolioID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPortfolioIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPortfolioIDResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHeterNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHeterNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHeterNumbersResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTaba">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTabaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetTabaResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMigrashimForTaba">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="key" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMigrashimForTabaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMigrashimForTabaResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMigrashimForGush">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="key" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="prefix" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMigrashimForGushResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMigrashimForGushResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMeetingNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="key" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMeetingNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMeetingNumbersResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuildingNumbers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="prefix" type="s:long" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBuildingNumbersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBuildingNumbersResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMeetingTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMeetingTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMeetingTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashotTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBakashotTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBakashotTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPikuachTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPikuachTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPikuachTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPeopleTypes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPeopleTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPeopleTypesResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUrlLink">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="page_index" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUrlLinkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUrlLinkResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAnalyticsID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="site_id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAnalyticsIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAnalyticsIDResult" type="tns:ArrayOfReturnedItem" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetClientsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClients" />
+  </wsdl:message>
+  <wsdl:message name="GetClientsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClientsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetYeshuvimSoapIn">
+    <wsdl:part name="parameters" element="tns:GetYeshuvim" />
+  </wsdl:message>
+  <wsdl:message name="GetYeshuvimSoapOut">
+    <wsdl:part name="parameters" element="tns:GetYeshuvimResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetStreetsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetStreets" />
+  </wsdl:message>
+  <wsdl:message name="GetStreetsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetStreetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTabaNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTabaNames" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaStatusTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTabaStatusTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaStatusTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaStatusTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaSamchuyotTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTabaSamchuyotTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaSamchuyotTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaSamchuyotTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTabaTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetShchunotSoapIn">
+    <wsdl:part name="parameters" element="tns:GetShchunot" />
+  </wsdl:message>
+  <wsdl:message name="GetShchunotSoapOut">
+    <wsdl:part name="parameters" element="tns:GetShchunotResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGushimSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGushim" />
+  </wsdl:message>
+  <wsdl:message name="GetGushimSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGushimResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHelkotSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHelkot" />
+  </wsdl:message>
+  <wsdl:message name="GetHelkotSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHelkotResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotInMeetingSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBakashotInMeeting" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotInMeetingSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBakashotInMeetingResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBakashot" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBakashotResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPikuachNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPikuachNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetPikuachNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPikuachNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPortfolioIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPortfolioID" />
+  </wsdl:message>
+  <wsdl:message name="GetPortfolioIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPortfolioIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHeterNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHeterNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetHeterNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHeterNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTaba" />
+  </wsdl:message>
+  <wsdl:message name="GetTabaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTabaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMigrashimForTabaSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMigrashimForTaba" />
+  </wsdl:message>
+  <wsdl:message name="GetMigrashimForTabaSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMigrashimForTabaResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMigrashimForGushSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMigrashimForGush" />
+  </wsdl:message>
+  <wsdl:message name="GetMigrashimForGushSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMigrashimForGushResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMeetingNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMeetingNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetMeetingNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMeetingNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBuildingNumbersSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBuildingNumbers" />
+  </wsdl:message>
+  <wsdl:message name="GetBuildingNumbersSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBuildingNumbersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMeetingTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMeetingTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetMeetingTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMeetingTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBakashotTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetBakashotTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBakashotTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPikuachTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPikuachTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetPikuachTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPikuachTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPeopleTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPeopleTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetPeopleTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPeopleTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlLinkSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUrlLink" />
+  </wsdl:message>
+  <wsdl:message name="GetUrlLinkSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUrlLinkResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAnalyticsIDSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsID" />
+  </wsdl:message>
+  <wsdl:message name="GetAnalyticsIDSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAnalyticsIDResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ComplotPublicDataSoap">
+    <wsdl:operation name="GetClients">
+      <wsdl:input message="tns:GetClientsSoapIn" />
+      <wsdl:output message="tns:GetClientsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetYeshuvim">
+      <wsdl:input message="tns:GetYeshuvimSoapIn" />
+      <wsdl:output message="tns:GetYeshuvimSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetStreets">
+      <wsdl:input message="tns:GetStreetsSoapIn" />
+      <wsdl:output message="tns:GetStreetsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNumbers">
+      <wsdl:input message="tns:GetTabaNumbersSoapIn" />
+      <wsdl:output message="tns:GetTabaNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNames">
+      <wsdl:input message="tns:GetTabaNamesSoapIn" />
+      <wsdl:output message="tns:GetTabaNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaStatusTypes">
+      <wsdl:input message="tns:GetTabaStatusTypesSoapIn" />
+      <wsdl:output message="tns:GetTabaStatusTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaSamchuyotTypes">
+      <wsdl:input message="tns:GetTabaSamchuyotTypesSoapIn" />
+      <wsdl:output message="tns:GetTabaSamchuyotTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaTypes">
+      <wsdl:input message="tns:GetTabaTypesSoapIn" />
+      <wsdl:output message="tns:GetTabaTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetShchunot">
+      <wsdl:input message="tns:GetShchunotSoapIn" />
+      <wsdl:output message="tns:GetShchunotSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGushim">
+      <wsdl:input message="tns:GetGushimSoapIn" />
+      <wsdl:output message="tns:GetGushimSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHelkot">
+      <wsdl:input message="tns:GetHelkotSoapIn" />
+      <wsdl:output message="tns:GetHelkotSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotInMeeting">
+      <wsdl:input message="tns:GetBakashotInMeetingSoapIn" />
+      <wsdl:output message="tns:GetBakashotInMeetingSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashot">
+      <wsdl:input message="tns:GetBakashotSoapIn" />
+      <wsdl:output message="tns:GetBakashotSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachNumbers">
+      <wsdl:input message="tns:GetPikuachNumbersSoapIn" />
+      <wsdl:output message="tns:GetPikuachNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPortfolioID">
+      <wsdl:input message="tns:GetPortfolioIDSoapIn" />
+      <wsdl:output message="tns:GetPortfolioIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeterNumbers">
+      <wsdl:input message="tns:GetHeterNumbersSoapIn" />
+      <wsdl:output message="tns:GetHeterNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTaba">
+      <wsdl:input message="tns:GetTabaSoapIn" />
+      <wsdl:output message="tns:GetTabaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForTaba">
+      <wsdl:input message="tns:GetMigrashimForTabaSoapIn" />
+      <wsdl:output message="tns:GetMigrashimForTabaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForGush">
+      <wsdl:input message="tns:GetMigrashimForGushSoapIn" />
+      <wsdl:output message="tns:GetMigrashimForGushSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingNumbers">
+      <wsdl:input message="tns:GetMeetingNumbersSoapIn" />
+      <wsdl:output message="tns:GetMeetingNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingNumbers">
+      <wsdl:input message="tns:GetBuildingNumbersSoapIn" />
+      <wsdl:output message="tns:GetBuildingNumbersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingTypes">
+      <wsdl:input message="tns:GetMeetingTypesSoapIn" />
+      <wsdl:output message="tns:GetMeetingTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotTypes">
+      <wsdl:input message="tns:GetBakashotTypesSoapIn" />
+      <wsdl:output message="tns:GetBakashotTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachTypes">
+      <wsdl:input message="tns:GetPikuachTypesSoapIn" />
+      <wsdl:output message="tns:GetPikuachTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPeopleTypes">
+      <wsdl:input message="tns:GetPeopleTypesSoapIn" />
+      <wsdl:output message="tns:GetPeopleTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlLink">
+      <wsdl:input message="tns:GetUrlLinkSoapIn" />
+      <wsdl:output message="tns:GetUrlLinkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAnalyticsID">
+      <wsdl:input message="tns:GetAnalyticsIDSoapIn" />
+      <wsdl:output message="tns:GetAnalyticsIDSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ComplotPublicDataSoap" type="tns:ComplotPublicDataSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetClients">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetClients" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYeshuvim">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetYeshuvim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStreets">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetStreets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNumbers">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTabaNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNames">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTabaNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaStatusTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTabaStatusTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaSamchuyotTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTabaSamchuyotTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTabaTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShchunot">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetShchunot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGushim">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetGushim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHelkot">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetHelkot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotInMeeting">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetBakashotInMeeting" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashot">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetBakashot" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachNumbers">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetPikuachNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortfolioID">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetPortfolioID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeterNumbers">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetHeterNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaba">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetTaba" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForTaba">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetMigrashimForTaba" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForGush">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetMigrashimForGush" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingNumbers">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetMeetingNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingNumbers">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetBuildingNumbers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetMeetingTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetBakashotTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetPikuachTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPeopleTypes">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetPeopleTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlLink">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetUrlLink" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnalyticsID">
+      <soap:operation soapAction="https://handasi.complot.co.il/GetAnalyticsID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ComplotPublicDataSoap12" type="tns:ComplotPublicDataSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetClients">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetClients" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetYeshuvim">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetYeshuvim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetStreets">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetStreets" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNumbers">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTabaNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaNames">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTabaNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaStatusTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTabaStatusTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaSamchuyotTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTabaSamchuyotTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTabaTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTabaTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetShchunot">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetShchunot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGushim">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetGushim" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHelkot">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetHelkot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotInMeeting">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetBakashotInMeeting" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashot">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetBakashot" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachNumbers">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetPikuachNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPortfolioID">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetPortfolioID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeterNumbers">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetHeterNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTaba">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetTaba" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForTaba">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetMigrashimForTaba" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMigrashimForGush">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetMigrashimForGush" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingNumbers">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetMeetingNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBuildingNumbers">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetBuildingNumbers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMeetingTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetMeetingTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBakashotTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetBakashotTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPikuachTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetPikuachTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPeopleTypes">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetPeopleTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUrlLink">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetUrlLink" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAnalyticsID">
+      <soap12:operation soapAction="https://handasi.complot.co.il/GetAnalyticsID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ComplotPublicData">
+    <wsdl:port name="ComplotPublicDataSoap" binding="tns:ComplotPublicDataSoap">
+      <soap:address location="http://handasi.complot.co.il/wsComplotPublicData/ComplotPublicData.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ComplotPublicDataSoap12" binding="tns:ComplotPublicDataSoap12">
+      <soap12:address location="http://handasi.complot.co.il/wsComplotPublicData/ComplotPublicData.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

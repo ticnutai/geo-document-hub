@@ -1,0 +1,151 @@
+[
+  {
+    "name": "tmm321_land_use",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_roads",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_rail",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_interchanges",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_noise_natbag",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_birds_natbag",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_height_limit",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_electricity",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_gas",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_water",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_streams",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_sewage",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_heritage",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_municipal_border",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_plan_border",
+    "status": "empty"
+  },
+  {
+    "name": "tmm321_transport_center",
+    "status": "empty"
+  },
+  {
+    "name": "gas_pipelines",
+    "status": "ok",
+    "features": 26
+  },
+  {
+    "name": "gas_fuel_pipes",
+    "status": "ok",
+    "features": 13
+  },
+  {
+    "name": "gvulot_municipal",
+    "status": "empty"
+  },
+  {
+    "name": "gvulot_local_councils",
+    "status": "empty"
+  },
+  {
+    "name": "gvulot_planning_areas",
+    "status": "empty"
+  },
+  {
+    "name": "gvulot_sub_districts",
+    "status": "empty"
+  },
+  {
+    "name": "ttl_blue_lines",
+    "status": "empty"
+  },
+  {
+    "name": "tama35_roads",
+    "status": "ok",
+    "features": 30
+  },
+  {
+    "name": "tama35_train",
+    "status": "ok",
+    "features": 17
+  },
+  {
+    "name": "tama1_gas_pipeline",
+    "status": "ok",
+    "features": 2
+  },
+  {
+    "name": "raw_materials",
+    "status": "empty"
+  },
+  {
+    "name": "tama35_env_noise",
+    "status": "empty"
+  },
+  {
+    "name": "tama35_env_electricity",
+    "status": "empty"
+  },
+  {
+    "name": "tama35_env_water_protect",
+    "status": "empty"
+  },
+  {
+    "name": "tama35_env_landscape",
+    "status": "empty"
+  },
+  {
+    "name": "xplan_points",
+    "status": "ok",
+    "features": 3409
+  },
+  {
+    "name": "xplan_lines",
+    "status": "ok",
+    "features": 7546
+  },
+  {
+    "name": "xplan_polygons",
+    "status": "ok",
+    "features": 908
+  },
+  {
+    "name": "xplan_land_use",
+    "status": "ok",
+    "features": 1767
+  }
+]

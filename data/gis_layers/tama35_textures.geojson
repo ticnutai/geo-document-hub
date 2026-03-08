@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama35_textures",
+  "description": "תמ\"א 35 – מרקמים",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": []
+}

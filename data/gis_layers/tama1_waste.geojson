@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "tama1_waste",
+  "description": "תמ\"א 1 – אתר פסולת",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::2039"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "OBJECTID": 26,
+        "PL_NAME": "תוכנית מיתאר ארצית אחודה",
+        "PL_NUMBER": "תמא/ 1",
+        "stage": "תשתיות",
+        "type_name": "פסולת",
+        "Layer_Name": "אתר פסולת",
+        "MAVAT_CODE": 10200,
+        "MAVAT_NAME": "השבה",
+        "NAME": "חירייה",
+        "SCENARIO": "ראשי",
+        "DATA_DATE": 1563062400000,
+        "STATUS": "מאושרת",
+        "LABEL": "חירייה",
+        "PL_change": null,
+        "PL_URL": null,
+        "REMARKS": null,
+        "scale": "1:100000",
+        "TYPE_CODE": null,
+        "NUM": "11",
+        "LAST_UPDATE": "14/07/2019",
+        "LEGAL_AREA": null,
+        "LEN": null,
+        "ET_X": 183604.98080000002,
+        "ET_Y": 659514.1985999998
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          183604.98080000002,
+          659514.1985999998
+        ]
+      }
+    }
+  ]
+}
