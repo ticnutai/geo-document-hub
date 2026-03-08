@@ -49,10 +49,10 @@ export default function ScaleBar() {
   const [showMenu, setShowMenu] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
-  // Add Leaflet's built-in scale bar
+  // Add Leaflet's built-in scale bar on bottom-left
   useEffect(() => {
     const scale = L.control.scale({
-      position: "bottomright",
+      position: "bottomleft",
       metric: true,
       imperial: false,
       maxWidth: 150,
@@ -90,8 +90,7 @@ export default function ScaleBar() {
   return (
     <div
       ref={menuRef}
-      className="leaflet-bottom leaflet-right"
-      style={{ position: "absolute", bottom: 28, right: 10, zIndex: 1000 }}
+      style={{ position: "absolute", bottom: 8, left: 10, zIndex: 1000 }}
     >
       <button
         onClick={() => setShowMenu((p) => !p)}
@@ -102,7 +101,7 @@ export default function ScaleBar() {
       </button>
 
       {showMenu && (
-        <div className="absolute bottom-8 right-0 bg-background/95 backdrop-blur-sm border border-border rounded-lg shadow-lg py-1 min-w-[130px]">
+        <div className="absolute bottom-8 left-0 bg-background/95 backdrop-blur-sm border border-border rounded-lg shadow-lg py-1 min-w-[130px]">
           <p className="text-[9px] text-muted-foreground px-3 py-1 font-medium">בחר קנה מידה</p>
           {PRESET_SCALES.map((ps) => {
             const isCurrent = Math.abs(currentScale - ps.value) / ps.value < 0.15;
