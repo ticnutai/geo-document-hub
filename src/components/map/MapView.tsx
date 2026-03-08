@@ -123,26 +123,7 @@ export default function MapView({
       className="h-full w-full"
       zoomControl={false}
     >
-      <LayersControl position="topright">
-        <LayersControl.BaseLayer checked name="OpenStreetMap">
-          <TileLayer
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-        </LayersControl.BaseLayer>
-        <LayersControl.BaseLayer name="לוויין">
-          <TileLayer
-            attribution="&copy; Esri"
-            url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
-          />
-        </LayersControl.BaseLayer>
-        <LayersControl.BaseLayer name="טופוגרפי">
-          <TileLayer
-            attribution="&copy; OpenTopoMap"
-            url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
-          />
-        </LayersControl.BaseLayer>
-      </LayersControl>
+      <BaseLayerSwitcher />
 
       {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
