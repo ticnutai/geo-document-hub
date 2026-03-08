@@ -279,6 +279,10 @@ export default function AdvancedSearchDialog({
               <MapPin className="h-3.5 w-3.5" />
               כתובת
             </TabsTrigger>
+            <TabsTrigger value="zoning" className="flex-1 text-[11px] gap-1.5 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground rounded-md">
+              <Palette className="h-3.5 w-3.5" />
+              ייעוד קרקע
+            </TabsTrigger>
             <TabsTrigger value="favorites" className="flex-1 text-[11px] gap-1.5 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground rounded-md">
               <Star className="h-3.5 w-3.5" />
               מועדפים
