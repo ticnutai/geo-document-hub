@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { MapContainer, TileLayer, GeoJSON, useMap, LayersControl } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
@@ -8,6 +8,9 @@ import MouseCoords from "./MouseCoords";
 import LocateButton from "./LocateButton";
 import MeasureTool from "./MeasureTool";
 import ScaleBar from "./ScaleBar";
+import MiniMap from "./MiniMap";
+import ZoomControls from "./ZoomControls";
+import GoToCoords from "./GoToCoords";
 import "leaflet/dist/leaflet.css";
 
 // Fix default marker icon
@@ -38,8 +41,12 @@ function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }
 
 function MapRefReporter({ onMapReady }: { onMapReady: (map: L.Map) => void }) {
   const map = useMap();
+  const reported = useRef(false);
   useEffect(() => {
-    onMapReady(map);
+    if (!reported.current) {
+      onMapReady(map);
+      reported.current = true;
+    }
   }, [map, onMapReady]);
   return null;
 }
@@ -57,7 +64,7 @@ function WaybackLayer({ releaseId }: { releaseId: string }) {
 }
 
 function LayerRenderer({ layer }: { layer: GeoLayer }) {
-  if (!layer.visible) return null;
+  if (!layer.visible || !layer.data) return null;
 
   const style = {
     color: layer.color,
@@ -68,10 +75,10 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
 
   return (
     <GeoJSON
-      key={`${layer.id}-${layer.visible}-${layer.opacity}`}
+      key={`${layer.id}-${layer.visible}-${layer.opacity}-${layer.color}`}
       data={layer.data}
       style={() => style}
-      pointToLayer={(feature, latlng) => {
+      pointToLayer={(_feature, latlng) => {
         return L.circleMarker(latlng, {
           radius: 8,
           fillColor: layer.color,
@@ -84,9 +91,10 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
       onEachFeature={(feature, leafletLayer) => {
         if (feature.properties) {
           const content = Object.entries(feature.properties)
+            .filter(([, v]) => v !== null && v !== undefined && v !== "")
             .map(([k, v]) => `<strong>${k}:</strong> ${v}`)
             .join("<br/>");
-          leafletLayer.bindPopup(content);
+          if (content) leafletLayer.bindPopup(content);
         }
       }}
     />
@@ -174,8 +182,11 @@ export default function MapView({
       <MapUpdater center={center} zoom={zoom} />
       <MouseCoords />
       <LocateButton />
+      <ZoomControls />
       <MeasureTool active={measureActive} />
       <ScaleBar />
+      <MiniMap />
+      <GoToCoords />
       {onMapReady && <MapRefReporter onMapReady={onMapReady} />}
     </MapContainer>
   );

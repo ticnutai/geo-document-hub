@@ -6,6 +6,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
+  onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
 }
 
 interface SearchResult {
@@ -15,7 +16,7 @@ interface SearchResult {
   data?: any;
 }
 
-export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
+export default function GlobalSearch({ onLocationSelect, onHighlightFeature }: GlobalSearchProps) {
   const [query, setQuery] = useState("");
   const [allData, setAllData] = useState<{
     plans: any[];
@@ -50,7 +51,7 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
       setGeoLoading(true);
       try {
         const res = await fetch(
-          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=3`
+          `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(q)}&limit=5&countrycodes=il`
         );
         setGeoResults(await res.json());
       } catch {
@@ -74,14 +75,14 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
 
     for (const m of allData.migrashim) {
       if (m.migrash.includes(q) || m.plan.toLowerCase().includes(q) || m.yeud.toLowerCase().includes(q)) {
-        res.push({ type: "migrash", title: `מגרש ${m.migrash}`, subtitle: `${m.plan} · ${m.yeud}` });
+        res.push({ type: "migrash", title: `מגרש ${m.migrash}`, subtitle: `${m.plan} · ${m.yeud}`, data: m });
       }
       if (res.length > 80) break;
     }
 
     for (const b of allData.blocks) {
       if (b.includes(q)) {
-        res.push({ type: "block", title: `גוש ${b}`, subtitle: "" });
+        res.push({ type: "block", title: `גוש ${b}`, subtitle: "", data: { block: b } });
       }
       if (res.length > 100) break;
     }
@@ -105,7 +106,6 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
     document: { label: "מסמכים", icon: FileText, color: "text-purple-500" },
   };
 
-  // Highlight match in text
   const highlight = (text: string) => {
     if (!query.trim()) return text;
     const idx = text.toLowerCase().indexOf(query.toLowerCase());
@@ -150,6 +150,24 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
         </div>
       )}
 
+      {/* Quick stats */}
+      {!query && allData && (
+        <div className="grid grid-cols-3 gap-1 px-1">
+          <div className="rounded-md border border-border/40 bg-muted/30 p-1.5 text-center">
+            <p className="text-xs font-bold">{allData.plans.length}</p>
+            <p className="text-[9px] text-muted-foreground">תוכניות</p>
+          </div>
+          <div className="rounded-md border border-border/40 bg-muted/30 p-1.5 text-center">
+            <p className="text-xs font-bold">{allData.migrashim.length}</p>
+            <p className="text-[9px] text-muted-foreground">מגרשים</p>
+          </div>
+          <div className="rounded-md border border-border/40 bg-muted/30 p-1.5 text-center">
+            <p className="text-xs font-bold">{allData.blocks.length}</p>
+            <p className="text-[9px] text-muted-foreground">גושים</p>
+          </div>
+        </div>
+      )}
+
       <ScrollArea className="h-[calc(100vh-300px)]">
         <div className="space-y-3 pr-1">
           {Object.entries(grouped).map(([type, items]) => {
@@ -164,7 +182,7 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
                   </span>
                 </div>
                 <div className="space-y-0.5">
-                  {items.slice(0, 10).map((r, i) => (
+                  {items.slice(0, 15).map((r, i) => (
                     <div
                       key={i}
                       className="rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
@@ -175,9 +193,9 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
                       )}
                     </div>
                   ))}
-                  {items.length > 10 && (
+                  {items.length > 15 && (
                     <p className="text-[9px] text-muted-foreground px-2">
-                      +{items.length - 10} תוצאות נוספות
+                      +{items.length - 15} תוצאות נוספות
                     </p>
                   )}
                 </div>
@@ -219,7 +237,7 @@ export default function GlobalSearch({ onLocationSelect }: GlobalSearchProps) {
             </div>
           )}
 
-          {!query && (
+          {!query && !allData && (
             <div className="text-center py-8 space-y-2">
               <Search className="h-8 w-8 text-muted-foreground/30 mx-auto" />
               <p className="text-xs text-muted-foreground">הקלד לחיפוש בתוכניות, מגרשים, גושים ומיקומים</p>

@@ -162,7 +162,12 @@ export default function AppSidebar(props: AppSidebarProps) {
       case "draw":
         return <DrawTools onModeChange={() => {}} />;
       case "search":
-        return <GlobalSearch onLocationSelect={props.onLocationSelect} />;
+        return (
+          <GlobalSearch
+            onLocationSelect={props.onLocationSelect}
+            onHighlightFeature={props.onHighlightFeature}
+          />
+        );
       case "favorites":
         return (
           <FavoritesPanel
