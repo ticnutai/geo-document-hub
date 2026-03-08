@@ -135,6 +135,96 @@
   border-top-color: hsl(220 60% 25%) !important;
 }
 
+/* Beautiful GIS Popup Styles */
+.gis-popup-wrapper .leaflet-popup-content-wrapper {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 30px -6px rgb(0 0 0 / 0.2) !important;
+  border: 1px solid hsl(43 50% 82%) !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+.gis-popup-wrapper .leaflet-popup-content {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: auto !important;
+  min-width: 200px;
+  max-width: 320px;
+}
+.gis-popup-wrapper .leaflet-popup-tip {
+  box-shadow: 0 4px 8px -2px rgb(0 0 0 / 0.15) !important;
+  border: 1px solid hsl(43 50% 82%) !important;
+}
+.gis-popup-wrapper .leaflet-popup-close-button {
+  top: 8px !important;
+  right: 8px !important;
+  width: 22px !important;
+  height: 22px !important;
+  font-size: 16px !important;
+  color: hsl(220 20% 46%) !important;
+  background: hsl(0 0% 100% / 0.8) !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  z-index: 10;
+}
+.gis-popup-wrapper .leaflet-popup-close-button:hover {
+  color: hsl(0 72% 51%) !important;
+  background: hsl(0 0% 100%) !important;
+}
+
+.gis-popup {
+  direction: rtl;
+  text-align: right;
+  font-family: inherit;
+}
+.gis-popup .popup-header {
+  background: linear-gradient(135deg, hsl(220 60% 25%), hsl(220 60% 35%));
+  color: white;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+}
+.gis-popup .popup-body {
+  padding: 6px 0;
+}
+.gis-popup .popup-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 14px;
+  font-size: 11px;
+  border-bottom: 1px solid hsl(43 50% 92%);
+  transition: background 0.15s;
+}
+.gis-popup .popup-row:last-child {
+  border-bottom: none;
+}
+.gis-popup .popup-row:hover {
+  background: hsl(45 50% 97%);
+}
+.gis-popup .popup-label {
+  font-weight: 600;
+  color: hsl(220 50% 15%);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.gis-popup .popup-value {
+  color: hsl(220 20% 46%);
+  text-align: left;
+  word-break: break-word;
+  direction: ltr;
+}
+.gis-popup .popup-links {
+  padding: 8px 14px;
+  border-top: 1px solid hsl(43 50% 82%);
+  background: hsl(45 50% 97%);
+  text-align: center;
+}
+
 /* Gold border utility */
 .border-gold {
   border-color: hsl(43 50% 72%);
