@@ -289,11 +289,15 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
                           <Button
                             variant="outline"
                             size="sm"
-                            className="w-full h-7 text-[10px] gap-1.5 border-primary/30 text-primary hover:bg-primary/10"
+                            className={`w-full h-7 text-[10px] gap-1.5 ${
+                              hasBoundary
+                                ? "border-primary/30 text-primary hover:bg-primary/10"
+                                : "border-amber-500/30 text-amber-600 hover:bg-amber-500/10"
+                            }`}
                             onClick={() => handleZoomToPlan(plan.planName)}
                           >
-                            <MapPin className="h-3 w-3" />
-                            הצג תוכנית במפה
+                            {hasBoundary ? <MapPin className="h-3 w-3" /> : <Map className="h-3 w-3" />}
+                            {hasBoundary ? "הצג גבול מדויק במפה" : "הצג מיקום משוער במפה"}
                           </Button>
                         )}
 
