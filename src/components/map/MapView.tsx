@@ -31,6 +31,8 @@ interface MapViewProps {
   zoom?: number;
   waybackReleaseId?: string | null;
   measureActive?: boolean;
+  georefActive?: boolean;
+  onGeorefClose?: () => void;
   onMapReady?: (map: L.Map) => void;
   highlighted?: HighlightedFeature | null;
   onFeatureClick?: (feature: GeoJSON.Feature, label?: string) => void;
