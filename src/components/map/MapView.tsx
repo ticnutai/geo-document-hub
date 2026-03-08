@@ -1,7 +1,12 @@
 import { useEffect } from "react";
-import { MapContainer, TileLayer, GeoJSON, Marker, Popup, useMap, LayersControl } from "react-leaflet";
+import { MapContainer, TileLayer, GeoJSON, useMap, LayersControl } from "react-leaflet";
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
+import { getWaybackTileUrl } from "@/data/wayback-data";
+import MouseCoords from "./MouseCoords";
+import LocateButton from "./LocateButton";
+import MeasureTool from "./MeasureTool";
+import ScaleBar from "./ScaleBar";
 import "leaflet/dist/leaflet.css";
 
 // Fix default marker icon
@@ -16,6 +21,8 @@ interface MapViewProps {
   layers: GeoLayer[];
   center?: [number, number];
   zoom?: number;
+  waybackReleaseId?: string | null;
+  measureActive?: boolean;
 }
 
 function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }) {
@@ -24,6 +31,18 @@ function MapUpdater({ center, zoom }: { center: [number, number]; zoom: number }
     map.setView(center, zoom);
   }, [center, zoom, map]);
   return null;
+}
+
+function WaybackLayer({ releaseId }: { releaseId: string }) {
+  return (
+    <TileLayer
+      key={releaseId}
+      url={getWaybackTileUrl(releaseId)}
+      attribution="&copy; Esri Wayback"
+      opacity={1}
+      zIndex={50}
+    />
+  );
 }
 
 function LayerRenderer({ layer }: { layer: GeoLayer }) {
@@ -63,7 +82,13 @@ function LayerRenderer({ layer }: { layer: GeoLayer }) {
   );
 }
 
-export default function MapView({ layers, center = [32.0853, 34.7818], zoom = 13 }: MapViewProps) {
+export default function MapView({
+  layers,
+  center = [32.0853, 34.7818],
+  zoom = 13,
+  waybackReleaseId,
+  measureActive = false,
+}: MapViewProps) {
   return (
     <MapContainer
       center={center}
@@ -80,23 +105,30 @@ export default function MapView({ layers, center = [32.0853, 34.7818], zoom = 13
         </LayersControl.BaseLayer>
         <LayersControl.BaseLayer name="לוויין">
           <TileLayer
-            attribution='&copy; Esri'
+            attribution="&copy; Esri"
             url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
           />
         </LayersControl.BaseLayer>
         <LayersControl.BaseLayer name="טופוגרפי">
           <TileLayer
-            attribution='&copy; OpenTopoMap'
+            attribution="&copy; OpenTopoMap"
             url="https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png"
           />
         </LayersControl.BaseLayer>
       </LayersControl>
+
+      {/* Wayback aerial overlay */}
+      {waybackReleaseId && <WaybackLayer releaseId={waybackReleaseId} />}
 
       {layers.map((layer) => (
         <LayerRenderer key={layer.id} layer={layer} />
       ))}
 
       <MapUpdater center={center} zoom={zoom} />
+      <MouseCoords />
+      <LocateButton />
+      <MeasureTool active={measureActive} />
+      <ScaleBar />
     </MapContainer>
   );
 }

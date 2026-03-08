@@ -7,10 +7,15 @@ import {
   Loader2,
   Plus,
   Database,
+  CheckSquare,
+  Square,
+  Download,
 } from "lucide-react";
 import { getCategorized, type CatalogEntry, type CatalogCategory } from "@/data/data-catalog";
 import type { GeoLayer } from "@/types/gis";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Button } from "@/components/ui/button";
+import { Progress } from "@/components/ui/progress";
 
 const COLORS = ["#e74c3c", "#3498db", "#2ecc71", "#f39c12", "#9b59b6", "#1abc9c", "#e67e22", "#34495e"];
 let colorIdx = 0;
@@ -26,6 +31,9 @@ export default function DataCatalog({ onLayerAdd }: DataCatalogProps) {
   const [expandedSubs, setExpandedSubs] = useState<Set<string>>(new Set());
   const [loadingPath, setLoadingPath] = useState<string | null>(null);
   const [searchFilter, setSearchFilter] = useState("");
+  const [selected, setSelected] = useState<Set<string>>(new Set());
+  const [batchLoading, setBatchLoading] = useState(false);
+  const [batchProgress, setBatchProgress] = useState(0);
 
   const toggleCat = (name: string) => {
     setExpandedCats((prev) => {
@@ -43,45 +51,78 @@ export default function DataCatalog({ onLayerAdd }: DataCatalogProps) {
     });
   };
 
-  const loadEntry = useCallback(async (entry: CatalogEntry) => {
-    setLoadingPath(entry.path);
-    try {
-      const raw = await entry.loader();
-      const data = JSON.parse(raw);
+  const toggleSelect = (path: string) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      next.has(path) ? next.delete(path) : next.add(path);
+      return next;
+    });
+  };
 
-      // Wrap non-FeatureCollection data
-      const geoData =
-        data.type === "FeatureCollection"
-          ? data
-          : {
-              type: "FeatureCollection",
-              features: [
-                data.type === "Feature"
-                  ? data
-                  : { type: "Feature", geometry: data, properties: {} },
-              ],
-            };
+  const selectAllInCategory = (entries: CatalogEntry[]) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      const allSelected = entries.every((e) => next.has(e.path));
+      if (allSelected) {
+        entries.forEach((e) => next.delete(e.path));
+      } else {
+        entries.forEach((e) => next.add(e.path));
+      }
+      return next;
+    });
+  };
 
-      const layer: GeoLayer = {
-        id: `cat-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
-        name: entry.subCategory
-          ? `${entry.subCategory} - ${entry.displayName}`
-          : entry.displayName,
-        type: "geojson",
-        visible: true,
-        opacity: 0.8,
-        color: nextColor(),
-        category: entry.category,
-        data: geoData,
-      };
+  const loadEntry = useCallback(
+    async (entry: CatalogEntry) => {
+      setLoadingPath(entry.path);
+      try {
+        const raw = await entry.loader();
+        const data = JSON.parse(raw);
+        const geoData =
+          data.type === "FeatureCollection"
+            ? data
+            : {
+                type: "FeatureCollection",
+                features: [
+                  data.type === "Feature" ? data : { type: "Feature", geometry: data, properties: {} },
+                ],
+              };
+        const layer: GeoLayer = {
+          id: `cat-${Date.now()}-${Math.random().toString(36).slice(2, 6)}`,
+          name: entry.subCategory ? `${entry.subCategory} - ${entry.displayName}` : entry.displayName,
+          type: "geojson",
+          visible: true,
+          opacity: 0.8,
+          color: nextColor(),
+          category: entry.category,
+          data: geoData,
+        };
+        onLayerAdd(layer);
+      } catch (err) {
+        console.error("Failed to load GeoJSON:", entry.path, err);
+      } finally {
+        setLoadingPath(null);
+      }
+    },
+    [onLayerAdd]
+  );
 
-      onLayerAdd(layer);
-    } catch (err) {
-      console.error("Failed to load GeoJSON:", entry.path, err);
-    } finally {
-      setLoadingPath(null);
+  const loadSelected = useCallback(async () => {
+    const allEntries = categories.flatMap((cat) =>
+      Array.from(cat.subCategories.values()).flat()
+    );
+    const toLoad = allEntries.filter((e) => selected.has(e.path));
+    if (toLoad.length === 0) return;
+
+    setBatchLoading(true);
+    setBatchProgress(0);
+    for (let i = 0; i < toLoad.length; i++) {
+      await loadEntry(toLoad[i]);
+      setBatchProgress(((i + 1) / toLoad.length) * 100);
     }
-  }, [onLayerAdd]);
+    setBatchLoading(false);
+    setSelected(new Set());
+  }, [selected, categories, loadEntry]);
 
   const filterEntries = (entries: CatalogEntry[]) => {
     if (!searchFilter.trim()) return entries;
@@ -127,7 +168,37 @@ export default function DataCatalog({ onLayerAdd }: DataCatalogProps) {
         className="w-full rounded-md border border-border bg-background px-2 py-1.5 text-xs placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
       />
 
-      <ScrollArea className="h-[calc(100vh-280px)]">
+      {/* Batch actions */}
+      {selected.size > 0 && (
+        <div className="flex items-center gap-1 px-1">
+          <Button
+            size="sm"
+            className="flex-1 gap-1 text-[10px] h-7"
+            onClick={loadSelected}
+            disabled={batchLoading}
+          >
+            <Download className="h-3 w-3" />
+            טען {selected.size} נבחרים
+          </Button>
+          <Button
+            size="sm"
+            variant="outline"
+            className="text-[10px] h-7"
+            onClick={() => setSelected(new Set())}
+          >
+            נקה
+          </Button>
+        </div>
+      )}
+
+      {batchLoading && (
+        <div className="px-1 space-y-1">
+          <Progress value={batchProgress} className="h-1.5" />
+          <p className="text-[9px] text-muted-foreground text-center">{Math.round(batchProgress)}%</p>
+        </div>
+      )}
+
+      <ScrollArea className="h-[calc(100vh-320px)]">
         <div className="space-y-0.5 pr-2">
           {filteredCategories.map((cat) => (
             <CategoryNode
@@ -140,13 +211,14 @@ export default function DataCatalog({ onLayerAdd }: DataCatalogProps) {
               onLoad={loadEntry}
               loadingPath={loadingPath}
               searchActive={!!searchFilter}
+              selected={selected}
+              onToggleSelect={toggleSelect}
+              onSelectAll={selectAllInCategory}
             />
           ))}
 
           {filteredCategories.length === 0 && (
-            <p className="text-xs text-muted-foreground text-center py-4">
-              לא נמצאו שכבות
-            </p>
+            <p className="text-xs text-muted-foreground text-center py-4">לא נמצאו שכבות</p>
           )}
         </div>
       </ScrollArea>
@@ -163,6 +235,9 @@ function CategoryNode({
   onLoad,
   loadingPath,
   searchActive,
+  selected,
+  onToggleSelect,
+  onSelectAll,
 }: {
   category: CatalogCategory;
   expanded: boolean;
@@ -172,41 +247,59 @@ function CategoryNode({
   onLoad: (entry: CatalogEntry) => void;
   loadingPath: string | null;
   searchActive: boolean;
+  selected: Set<string>;
+  onToggleSelect: (path: string) => void;
+  onSelectAll: (entries: CatalogEntry[]) => void;
 }) {
-  const hasSubCategories = Array.from(category.subCategories.keys()).some((k) => k !== "");
+  const allEntries = Array.from(category.subCategories.values()).flat();
 
   return (
     <div>
-      <button
-        onClick={onToggle}
-        className="flex w-full items-center gap-1.5 rounded-md px-2 py-1.5 text-xs font-medium hover:bg-accent/50 transition-colors"
-      >
-        {expanded ? (
-          <ChevronDown className="h-3 w-3 shrink-0 text-muted-foreground" />
-        ) : (
-          <ChevronLeft className="h-3 w-3 shrink-0 text-muted-foreground" />
+      <div className="flex items-center gap-0.5">
+        <button
+          onClick={onToggle}
+          className="flex flex-1 items-center gap-1.5 rounded-md px-2 py-1.5 text-xs font-medium hover:bg-accent/50 transition-colors"
+        >
+          {expanded ? (
+            <ChevronDown className="h-3 w-3 shrink-0 text-muted-foreground" />
+          ) : (
+            <ChevronLeft className="h-3 w-3 shrink-0 text-muted-foreground" />
+          )}
+          <Folder className="h-3.5 w-3.5 text-primary shrink-0" />
+          <span className="flex-1 text-right truncate">{category.name}</span>
+          <span className="text-[10px] text-muted-foreground">{category.totalCount}</span>
+        </button>
+        {expanded && (
+          <button
+            onClick={() => onSelectAll(allEntries)}
+            className="p-1 hover:bg-accent/50 rounded text-muted-foreground hover:text-foreground transition-colors"
+            title="בחר הכל"
+          >
+            {allEntries.every((e) => selected.has(e.path)) ? (
+              <CheckSquare className="h-3 w-3 text-primary" />
+            ) : (
+              <Square className="h-3 w-3" />
+            )}
+          </button>
         )}
-        <Folder className="h-3.5 w-3.5 text-primary shrink-0" />
-        <span className="flex-1 text-right truncate">{category.name}</span>
-        <span className="text-[10px] text-muted-foreground">{category.totalCount}</span>
-      </button>
+      </div>
 
       {expanded && (
         <div className="mr-3 border-r border-border/40 pr-2 space-y-0.5">
           {Array.from(category.subCategories.entries()).map(([subKey, entries]) => {
             if (subKey === "") {
-              // Direct entries (no subcategory)
               return entries.map((entry) => (
                 <EntryRow
                   key={entry.path}
                   entry={entry}
                   loading={loadingPath === entry.path}
                   onLoad={onLoad}
+                  isSelected={selected.has(entry.path)}
+                  onToggleSelect={onToggleSelect}
                 />
               ));
             }
 
-            // Subcategory group
             const subExpanded = expandedSubs.has(subKey) || searchActive;
             return (
               <div key={subKey}>
@@ -233,6 +326,8 @@ function CategoryNode({
                         entry={entry}
                         loading={loadingPath === entry.path}
                         onLoad={onLoad}
+                        isSelected={selected.has(entry.path)}
+                        onToggleSelect={onToggleSelect}
                       />
                     ))}
                   </div>
@@ -250,24 +345,40 @@ function EntryRow({
   entry,
   loading,
   onLoad,
+  isSelected,
+  onToggleSelect,
 }: {
   entry: CatalogEntry;
   loading: boolean;
   onLoad: (entry: CatalogEntry) => void;
+  isSelected: boolean;
+  onToggleSelect: (path: string) => void;
 }) {
   return (
-    <button
-      onClick={() => onLoad(entry)}
-      disabled={loading}
-      className="flex w-full items-center gap-1.5 rounded-md px-1.5 py-1 text-[11px] hover:bg-accent/50 transition-colors disabled:opacity-50"
-    >
-      <FileJson className="h-3 w-3 text-green-500 shrink-0" />
-      <span className="flex-1 text-right truncate">{entry.displayName}</span>
-      {loading ? (
-        <Loader2 className="h-3 w-3 animate-spin shrink-0" />
-      ) : (
-        <Plus className="h-3 w-3 text-primary shrink-0" />
-      )}
-    </button>
+    <div className="flex items-center gap-0.5">
+      <button
+        onClick={() => onToggleSelect(entry.path)}
+        className="p-0.5 hover:bg-accent/30 rounded transition-colors"
+      >
+        {isSelected ? (
+          <CheckSquare className="h-3 w-3 text-primary" />
+        ) : (
+          <Square className="h-3 w-3 text-muted-foreground" />
+        )}
+      </button>
+      <button
+        onClick={() => onLoad(entry)}
+        disabled={loading}
+        className="flex flex-1 items-center gap-1.5 rounded-md px-1.5 py-1 text-[11px] hover:bg-accent/50 transition-colors disabled:opacity-50"
+      >
+        <FileJson className="h-3 w-3 text-green-500 shrink-0" />
+        <span className="flex-1 text-right truncate">{entry.displayName}</span>
+        {loading ? (
+          <Loader2 className="h-3 w-3 animate-spin shrink-0" />
+        ) : (
+          <Plus className="h-3 w-3 text-primary shrink-0" />
+        )}
+      </button>
+    </div>
   );
 }
