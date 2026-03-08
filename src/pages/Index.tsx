@@ -54,6 +54,10 @@ export default function Index() {
     [highlightAndZoom]
   );
 
+  const handleMapFeatureClick = useCallback((feature: GeoJSON.Feature, label?: string) => {
+    highlightOnly(feature, undefined, label);
+  }, [highlightOnly]);
+
   return (
     <SidebarProvider defaultOpen={true}>
       <div className="min-h-screen flex w-full" dir="rtl">
