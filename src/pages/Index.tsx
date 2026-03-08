@@ -130,6 +130,11 @@ export default function Index() {
           onToggleFavorite={toggleFavorite}
           onRemoveFavorite={removeFavorite}
           isFavorite={isFavorite}
+          sidebarWidth={sidebarWidth}
+          sidebarPinned={sidebarPinned}
+          sidebarVisible={sidebarVisible}
+          onDragStart={onDragStart}
+          onTogglePin={togglePin}
         />
 
         <div className="flex-1 flex flex-col">
