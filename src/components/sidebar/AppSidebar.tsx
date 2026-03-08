@@ -39,6 +39,7 @@ interface AppSidebarProps {
   onSetFillColor?: (id: string, color: string) => void;
   onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
+  onRenameLayer?: (id: string, name: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
   onGitHubClick: () => void;
