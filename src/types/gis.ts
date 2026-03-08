@@ -7,10 +7,10 @@ export interface GeoLayer {
   visible: boolean;
   opacity: number;
   color: string;
-  strokeColor: string;
-  strokeOpacity: number;
-  fillColor: string;
-  fillOpacity: number;
+  strokeColor?: string;
+  strokeOpacity?: number;
+  fillColor?: string;
+  fillOpacity?: number;
   data: any;
   category: string;
 }

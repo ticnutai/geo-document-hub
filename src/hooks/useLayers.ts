@@ -64,6 +64,10 @@ export function useLayers() {
           visible: row.visible,
           opacity: Number(row.opacity),
           color: row.color,
+          strokeColor: (row as any).stroke_color || row.color,
+          strokeOpacity: Number((row as any).stroke_opacity ?? 1),
+          fillColor: (row as any).fill_color || row.color,
+          fillOpacity: Number((row as any).fill_opacity ?? 0.3),
           category: row.category,
           data: row.data,
         }))
