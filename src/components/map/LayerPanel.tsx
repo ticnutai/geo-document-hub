@@ -258,18 +258,53 @@ export default function LayerPanel({
                       </div>
 
                       {layer.visible && (
-                        <div className="flex items-center gap-2 px-1">
-                          <span className="text-[10px] text-muted-foreground">שקיפות</span>
-                          <Slider
-                            value={[layer.opacity * 100]}
-                            onValueChange={([v]) => onSetOpacity(layer.id, v / 100)}
-                            max={100}
-                            step={5}
-                            className="flex-1"
-                          />
-                          <span className="text-[10px] text-muted-foreground w-7 text-left">
-                            {Math.round(layer.opacity * 100)}%
-                          </span>
+                        <div className="space-y-1.5 px-1">
+                          {/* Stroke controls */}
+                          <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-1 min-w-[52px]">
+                              <input
+                                type="color"
+                                value={layer.strokeColor || layer.color}
+                                onChange={(e) => onSetStrokeColor?.(layer.id, e.target.value)}
+                                className="h-4 w-4 rounded cursor-pointer border-0 p-0"
+                                title="צבע קו"
+                              />
+                              <span className="text-[10px] text-muted-foreground">קו</span>
+                            </div>
+                            <Slider
+                              value={[(layer.strokeOpacity ?? 1) * 100]}
+                              onValueChange={([v]) => onSetStrokeOpacity?.(layer.id, v / 100)}
+                              max={100}
+                              step={5}
+                              className="flex-1"
+                            />
+                            <span className="text-[10px] text-muted-foreground w-7 text-left">
+                              {Math.round((layer.strokeOpacity ?? 1) * 100)}%
+                            </span>
+                          </div>
+                          {/* Fill controls */}
+                          <div className="flex items-center gap-2">
+                            <div className="flex items-center gap-1 min-w-[52px]">
+                              <input
+                                type="color"
+                                value={layer.fillColor || layer.color}
+                                onChange={(e) => onSetFillColor?.(layer.id, e.target.value)}
+                                className="h-4 w-4 rounded cursor-pointer border-0 p-0"
+                                title="צבע מילוי"
+                              />
+                              <span className="text-[10px] text-muted-foreground">מילוי</span>
+                            </div>
+                            <Slider
+                              value={[(layer.fillOpacity ?? 0.3) * 100]}
+                              onValueChange={([v]) => onSetFillOpacity?.(layer.id, v / 100)}
+                              max={100}
+                              step={5}
+                              className="flex-1"
+                            />
+                            <span className="text-[10px] text-muted-foreground w-7 text-left">
+                              {Math.round((layer.fillOpacity ?? 0.3) * 100)}%
+                            </span>
+                          </div>
                         </div>
                       )}
 
