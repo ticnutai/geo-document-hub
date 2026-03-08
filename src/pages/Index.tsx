@@ -34,6 +34,12 @@ export default function Index() {
   const [measureActive, setMeasureActive] = useState(false);
   const [mapRef, setMapRef] = useState<L.Map | null>(null);
 
+  // Register global planning sheet function for popup buttons
+  useEffect(() => {
+    (window as any).__gisPlanningSheet = generatePlanningSheet;
+    return () => { delete (window as any).__gisPlanningSheet; };
+  }, []);
+
   // Keyboard shortcut: Ctrl+K / ⌘K to open search
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
