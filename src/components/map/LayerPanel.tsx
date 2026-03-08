@@ -1,5 +1,5 @@
-import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Star, StarOff, ArrowUp, ArrowDown, Download, MoreHorizontal } from "lucide-react";
-import { useState } from "react";
+import { Eye, EyeOff, Trash2, ChevronDown, ChevronRight, ZoomIn, Star, StarOff, ArrowUp, ArrowDown, Download, MoreHorizontal, Pencil } from "lucide-react";
+import { useState, useRef, useEffect } from "react";
 import type { GeoLayer } from "@/types/gis";
 import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
