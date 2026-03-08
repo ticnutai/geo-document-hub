@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layers, FileText, PenTool, Search, Map, Github } from "lucide-react";
+import { Layers, FileText, PenTool, Search, Map, Github, Database } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
@@ -16,6 +16,7 @@ import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
 import SearchLocation from "@/components/map/SearchLocation";
+import DataCatalog from "@/components/sidebar/DataCatalog";
 import { Button } from "@/components/ui/button";
 
 interface AppSidebarProps {
