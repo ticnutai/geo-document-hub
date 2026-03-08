@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, ChevronDown, ChevronLeft, Landmark, MapPin } from "lucide-react";
+import { Loader2, ChevronDown, ChevronLeft, Landmark, MapPin, Link2 } from "lucide-react";
 import { loadBlocksByPlan, loadPlansByBlock, extractBlocksParcels, type BlockParcelEntry } from "@/data/plans-data";
 import { loadAllGushFeatures } from "@/data/cadastre-data";
+import { loadHelkaMapping, type HelkaMappingEntry } from "@/data/building-rights-data";
 import { toast } from "sonner";
 
 interface BlocksPanelProps {
@@ -17,14 +18,21 @@ export default function BlocksPanel({ onHighlightFeature }: BlocksPanelProps) {
   const [expandedBlock, setExpandedBlock] = useState<string | null>(null);
   const [gushFeatures, setGushFeatures] = useState<Map<string, GeoJSON.Feature[]>>(new Map());
   const [gushLoading, setGushLoading] = useState(false);
+  const [helkaByGush, setHelkaByGush] = useState<Map<number, HelkaMappingEntry[]>>(new Map());
 
   useEffect(() => {
-    Promise.all([loadBlocksByPlan(), loadPlansByBlock()]).then(([bp, pb]) => {
+    Promise.all([loadBlocksByPlan(), loadPlansByBlock(), loadHelkaMapping()]).then(([bp, pb, helka]) => {
       setBlockData(extractBlocksParcels(bp));
       setPlansByBlock(pb);
+      // Group helka mapping by gush
+      const hMap = new Map<number, HelkaMappingEntry[]>();
+      for (const entry of helka.mapping || []) {
+        if (!hMap.has(entry.gush)) hMap.set(entry.gush, []);
+        hMap.get(entry.gush)!.push(entry);
+      }
+      setHelkaByGush(hMap);
       setLoading(false);
     });
-    // Load gush features in background
     setGushLoading(true);
     loadAllGushFeatures().then((data) => {
       setGushFeatures(data);
@@ -149,6 +157,31 @@ export default function BlocksPanel({ onHighlightFeature }: BlocksPanelProps) {
                                 {p.partiality}
                                 {p.parcelsWhole && <span> · חלקות: {p.parcelsWhole}</span>}
                                 {p.parcelsPartial && <span> · חלקי: {p.parcelsPartial}</span>}
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Helka-Migrash mapping */}
+                    {helkaByGush.has(Number(block)) && (
+                      <div>
+                        <p className="text-[10px] font-semibold text-muted-foreground mb-0.5 flex items-center gap-1">
+                          <Link2 className="h-3 w-3" />
+                          מיפוי חלקה↔מגרש ({helkaByGush.get(Number(block))!.length}):
+                        </p>
+                        <div className="space-y-0.5">
+                          {helkaByGush.get(Number(block))!.map((h, i) => (
+                            <div key={i} className="text-[10px] bg-accent/30 rounded px-1.5 py-1">
+                              <div className="flex justify-between">
+                                <span className="font-medium">חלקה {h.helka} → מגרש {h.migrash}</span>
+                                <span className="text-[9px] text-muted-foreground">{h.plan}</span>
+                              </div>
+                              <div className="text-muted-foreground flex gap-2">
+                                <span>{h.yeud}</span>
+                                {h.shetach_dunam > 0 && <span>{h.shetach_dunam} דונם</span>}
+                                {h.yehidot_diur > 0 && <span>{h.yehidot_diur} יח״ד</span>}
                               </div>
                             </div>
                           ))}

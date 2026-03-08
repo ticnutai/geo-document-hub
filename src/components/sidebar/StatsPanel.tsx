@@ -1,13 +1,15 @@
 import { useState, useEffect } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, BarChart3, Users, MapPin, Home, TrendingUp } from "lucide-react";
+import { Loader2, BarChart3, Users, MapPin, Home, TrendingUp, Hammer, Shield, ExternalLink } from "lucide-react";
 import { loadCBS, loadPlans, loadMigrashim, loadDocsIndex, extractPlans, extractMigrashim } from "@/data/plans-data";
+import { loadBuildingRights, getBuildingRightsSummary, type BuildingRightsPlan } from "@/data/building-rights-data";
+import { loadGovDatasets } from "@/data/gov-data";
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
 import { Skeleton } from "@/components/ui/skeleton";
 
 const CHART_COLORS = ["#3b82f6", "#ef4444", "#22c55e", "#f59e0b", "#8b5cf6", "#06b6d4", "#ec4899", "#14b8a6"];
 
-type StatsTab = "overview" | "plans" | "land";
+type StatsTab = "overview" | "plans" | "land" | "rights" | "gov";
 
 interface Stats {
   population: any;
@@ -23,10 +25,12 @@ export default function StatsPanel() {
   const [stats, setStats] = useState<Stats | null>(null);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<StatsTab>("overview");
+  const [brData, setBrData] = useState<Record<string, BuildingRightsPlan>>({});
+  const [govDatasets, setGovDatasets] = useState<any[]>([]);
 
   useEffect(() => {
-    Promise.all([loadCBS(), loadPlans(), loadMigrashim(), loadDocsIndex()]).then(
-      ([cbs, plansRaw, migrashimRaw, docsIdx]) => {
+    Promise.all([loadCBS(), loadPlans(), loadMigrashim(), loadDocsIndex(), loadBuildingRights(), loadGovDatasets()]).then(
+      ([cbs, plansRaw, migrashimRaw, docsIdx, br, gov]) => {
         const plans = extractPlans(plansRaw);
         const migrashim = extractMigrashim(migrashimRaw);
 
@@ -63,6 +67,8 @@ export default function StatsPanel() {
             .map(([yeud, { count, area }]) => ({ yeud, count, area }))
             .sort((a, b) => b.area - a.area),
         });
+        setBrData(br);
+        setGovDatasets(gov);
         setLoading(false);
       }
     );
@@ -83,10 +89,14 @@ export default function StatsPanel() {
 
   if (!stats) return null;
 
+  const brSummary = getBuildingRightsSummary(brData);
+
   const tabs: { id: StatsTab; label: string }[] = [
     { id: "overview", label: "סקירה" },
     { id: "plans", label: "תוכניות" },
-    { id: "land", label: "ייעודי קרקע" },
+    { id: "land", label: "קרקע" },
+    { id: "rights", label: "זכויות" },
+    { id: "gov", label: "ממשלתי" },
   ];
 
   return (
@@ -98,13 +108,12 @@ export default function StatsPanel() {
         <span className="text-xs font-semibold">סטטיסטיקות</span>
       </div>
 
-      {/* Internal tabs */}
       <div className="flex gap-0.5 bg-muted/50 rounded-lg p-0.5 mx-1">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex-1 rounded-md px-2 py-1 text-[10px] font-medium transition-all duration-200 ${
+            className={`flex-1 rounded-md px-1.5 py-1 text-[9px] font-medium transition-all duration-200 ${
               activeTab === tab.id
                 ? "bg-background text-foreground shadow-sm"
                 : "text-muted-foreground hover:text-foreground"
@@ -124,9 +133,10 @@ export default function StatsPanel() {
                 <BigStat icon={<Home className="h-4 w-4" />} value={stats.totalMigrashim.toLocaleString()} label="מגרשים" color="text-green-500" />
                 <BigStat icon={<Users className="h-4 w-4" />} value={stats.population?.["סהכ"]?.toLocaleString() || "—"} label="תושבים" color="text-amber-500" />
                 <BigStat icon={<TrendingUp className="h-4 w-4" />} value={stats.totalDocs.toLocaleString()} label="מסמכים" color="text-purple-500" />
+                <BigStat icon={<Hammer className="h-4 w-4" />} value={brSummary.totalUnits.toLocaleString()} label="יח״ד מאושרות" color="text-orange-500" />
+                <BigStat icon={<Shield className="h-4 w-4" />} value={brSummary.planCount} label="תוכניות עם זכויות" color="text-cyan-500" />
               </div>
 
-              {/* Demographics */}
               {stats.population && (
                 <Section title="דמוגרפיה - כפר חב״ד">
                   <div className="space-y-1">
@@ -231,6 +241,74 @@ export default function StatsPanel() {
                       <span className="font-medium w-16 text-left">{y.area.toFixed(1)} ד׳</span>
                     </div>
                   ))}
+                </div>
+              </Section>
+            </>
+          )}
+
+          {activeTab === "rights" && (
+            <>
+              <div className="grid grid-cols-2 gap-1.5">
+                <BigStat icon={<Hammer className="h-4 w-4" />} value={brSummary.planCount} label="תוכניות" color="text-amber-500" />
+                <BigStat icon={<Home className="h-4 w-4" />} value={brSummary.totalUnits.toLocaleString()} label="יח״ד" color="text-green-500" />
+                <BigStat icon={<TrendingUp className="h-4 w-4" />} value={`${brSummary.totalResidentialSqm.toLocaleString()}`} label="מ״ר מגורים" color="text-blue-500" />
+                <BigStat icon={<MapPin className="h-4 w-4" />} value={brSummary.totalArea.toFixed(1)} label="דונם" color="text-purple-500" />
+              </div>
+
+              <Section title="תוכניות עם זכויות בנייה">
+                <div className="space-y-0.5">
+                  {Object.values(brData).slice(0, 30).map((plan) => (
+                    <div key={plan.plan_number} className="text-[10px] bg-muted/30 rounded px-1.5 py-1 hover:bg-muted/50 transition-colors">
+                      <div className="flex justify-between">
+                        <span className="font-medium truncate flex-1">{plan.plan_number}</span>
+                        <span className={`text-[9px] px-1 rounded ${
+                          plan.status === "אישור/תוקף" ? "bg-green-500/20 text-green-700" : "bg-muted text-muted-foreground"
+                        }`}>{plan.status}</span>
+                      </div>
+                      <p className="text-muted-foreground truncate">{plan.plan_name}</p>
+                      <div className="flex gap-2 mt-0.5 text-muted-foreground">
+                        {plan.area_dunam > 0 && <span>{plan.area_dunam} דונם</span>}
+                        {plan.quantities?.map((q, i) => (
+                          <span key={i}>{q.AUTHORISED_QUANTITY} {q.UNIT_DESC}</span>
+                        )).slice(0, 3)}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </Section>
+            </>
+          )}
+
+          {activeTab === "gov" && (
+            <>
+              <Section title="מאגרי מידע ממשלתיים">
+                <div className="space-y-1.5">
+                  {govDatasets.map((ds, i) => (
+                    <div key={i} className="bg-muted/30 rounded-md p-2 hover:bg-muted/50 transition-colors">
+                      <p className="text-[10px] font-medium">{ds.title}</p>
+                      <p className="text-[9px] text-muted-foreground mt-0.5 line-clamp-2">{ds.notes}</p>
+                      <p className="text-[9px] text-muted-foreground mt-0.5">ארגון: {ds.organization}</p>
+                      {ds.resources?.length > 0 && (
+                        <div className="flex flex-wrap gap-1 mt-1">
+                          {ds.resources.slice(0, 3).map((r: any, j: number) => (
+                            <a
+                              key={j}
+                              href={r.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-0.5 text-[9px] text-primary hover:underline"
+                            >
+                              <ExternalLink className="h-2.5 w-2.5" />
+                              {r.name?.slice(0, 30) || r.format}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ))}
+                  {govDatasets.length === 0 && (
+                    <p className="text-[10px] text-muted-foreground text-center py-2">אין נתונים ממשלתיים</p>
+                  )}
                 </div>
               </Section>
             </>

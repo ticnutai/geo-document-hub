@@ -1,8 +1,9 @@
 import { useState, useEffect, useMemo } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Grid3X3, MapPin, Download, Star, StarOff } from "lucide-react";
+import { Loader2, Grid3X3, MapPin, Download, Star, StarOff, Link2 } from "lucide-react";
 import { loadMigrashim, extractMigrashim, type MigrashSummary } from "@/data/plans-data";
 import { loadPlanBoundaries, findPlanBoundary } from "@/data/cadastre-data";
+import { loadHelkaMapping, type HelkaMappingEntry } from "@/data/building-rights-data";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
@@ -18,11 +19,20 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
   const [search, setSearch] = useState("");
   const [filterYeud, setFilterYeud] = useState("");
   const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [helkaMap, setHelkaMap] = useState<Map<string, HelkaMappingEntry[]>>(new Map());
 
   useEffect(() => {
-    Promise.all([loadMigrashim(), loadPlanBoundaries()]).then(([data, boundaries]) => {
+    Promise.all([loadMigrashim(), loadPlanBoundaries(), loadHelkaMapping()]).then(([data, boundaries, helka]) => {
       setMigrashim(extractMigrashim(data));
       setPlanBoundaries(boundaries);
+      // Group by migrash number
+      const hMap = new Map<string, HelkaMappingEntry[]>();
+      for (const entry of helka.mapping || []) {
+        const key = entry.migrash;
+        if (!hMap.has(key)) hMap.set(key, []);
+        hMap.get(key)!.push(entry);
+      }
+      setHelkaMap(hMap);
       setLoading(false);
     });
   }, []);
@@ -127,6 +137,7 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
           {filtered.slice(0, 200).map((m, i) => {
             const migId = `migrash-${m.plan}-${m.migrash}`;
             const isFav = favorites?.has(migId);
+            const helkaEntries = helkaMap.get(m.migrash);
             return (
               <div key={`${m.plan}-${m.migrash}-${i}`} className="border border-border/40 rounded-md px-2 py-1.5 hover:bg-accent/30 transition-colors">
                 <div className="flex items-center justify-between">
@@ -163,6 +174,16 @@ export default function MigrashimPanel({ onHighlightFeature, favorites, onToggle
                   {m.yehidotDiur && <><span>·</span><span>{m.yehidotDiur} יח״ד</span></>}
                   {m.megurimSqm && <><span>·</span><span>{m.megurimSqm} מ״ר</span></>}
                 </div>
+                {helkaEntries && helkaEntries.length > 0 && (
+                  <div className="flex items-center gap-1 mt-0.5 text-[9px] text-accent-foreground">
+                    <Link2 className="h-2.5 w-2.5 text-primary" />
+                    {helkaEntries.map((h, hi) => (
+                      <span key={hi} className="bg-accent/50 px-1 py-0.5 rounded">
+                        חלקה {h.helka} (גוש {h.gush})
+                      </span>
+                    ))}
+                  </div>
+                )}
               </div>
             );
           })}
