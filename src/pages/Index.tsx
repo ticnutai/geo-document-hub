@@ -18,7 +18,7 @@ import type { GeoLayer } from "@/types/gis";
 import L from "leaflet";
 
 export default function Index() {
-  const { layers, toggleVisibility, setOpacity, setColor, addLayer, removeLayer, reorderLayers, categories } = useLayers();
+  const { layers, toggleVisibility, setOpacity, setColor, setStrokeColor, setStrokeOpacity, setFillColor, setFillOpacity, addLayer, removeLayer, reorderLayers, categories } = useLayers();
   const { documents, addDocument, removeDocument, searchQuery, setSearchQuery } = useDocuments();
   const { favorites, toggleFavorite, removeFavorite, isFavorite } = useFavorites();
   const { recents, addRecent, clearRecents } = useRecentSearches();
