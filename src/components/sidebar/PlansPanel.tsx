@@ -88,14 +88,47 @@ export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPane
     return matchSearch && matchStatus;
   });
 
-  const handleZoomToPlan = (planName: string) => {
-    if (!onHighlightFeature || !planBoundaries) return;
-    const feature = findPlanBoundary(planName, planBoundaries);
-    if (feature) {
-      onHighlightFeature(feature, "#e74c3c", planName);
-    } else {
-      toast.info("לא נמצא גבול תוכנית במפה");
+  const handleZoomToPlan = async (planName: string) => {
+    if (!onHighlightFeature) return;
+    
+    // Try plan boundaries first
+    if (planBoundaries) {
+      const feature = findPlanBoundary(planName, planBoundaries);
+      if (feature) {
+        onHighlightFeature(feature, "#e74c3c", planName);
+        return;
+      }
     }
+    
+    // Fallback: try loading MMG geometry (MVT_GVUL or first available layer)
+    const mmgLayers = mmgIndex[planName] || [];
+    const preferredOrder = ["MVT_GVUL.geojson", "MVT_POL.geojson", "MVT_PLAN.geojson", "MVT_ARC.geojson"];
+    const sortedLayers = [...mmgLayers].sort((a, b) => {
+      const ai = preferredOrder.indexOf(a.file);
+      const bi = preferredOrder.indexOf(b.file);
+      return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+    });
+    
+    for (const layer of sortedLayers) {
+      const key = Object.keys(mmgModules).find((k) => k.includes(`${planName}/${layer.file}`));
+      if (!key) continue;
+      try {
+        const raw = await mmgModules[key]();
+        const data = JSON.parse(raw);
+        const fc = data.type === "FeatureCollection" ? data : {
+          type: "FeatureCollection",
+          features: [data.type === "Feature" ? data : { type: "Feature", geometry: data, properties: {} }],
+        };
+        if (fc.features.length > 0) {
+          onHighlightFeature(fc.features, "#e74c3c", planName);
+          return;
+        }
+      } catch (e) {
+        console.warn("Failed to load MMG fallback layer", e);
+      }
+    }
+    
+    toast.info("לא נמצא גבול תוכנית במפה");
   };
 
   const loadPlanLayer = async (planId: string, layerFile: string, layerName: string) => {
