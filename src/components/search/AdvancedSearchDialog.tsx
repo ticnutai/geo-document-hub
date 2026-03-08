@@ -71,12 +71,13 @@ export default function AdvancedSearchDialog({
   // Load data when dialog opens
   useEffect(() => {
     if (!open || dataLoaded) return;
-    Promise.all([loadPlans(), loadPlansByBlock(), loadPlanBoundaries(), loadAllGushFeatures()]).then(
-      ([plansRaw, blockRaw, boundaries, gushGeo]) => {
+    Promise.all([loadPlans(), loadPlansByBlock(), loadPlanBoundaries(), loadAllGushFeatures(), loadZoningLayer()]).then(
+      ([plansRaw, blockRaw, boundaries, gushGeo, zoning]) => {
         setPlans(extractPlans(plansRaw));
         setBlockMap(blockRaw?.block_plan_map || {});
         setPlanBoundaries(boundaries);
         setGushFeatures(gushGeo);
+        setZoningData(extractZoningSummaries(zoning));
         setDataLoaded(true);
       }
     );
