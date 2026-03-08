@@ -2,7 +2,9 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { Search, Building2, Grid3X3, Landmark, FileText, Layers, Loader2, MapPin } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { loadPlans, extractPlans, loadMigrashim, extractMigrashim, loadPlansByBlock, loadDocsIndex } from "@/data/plans-data";
+import { loadPlanBoundaries, findPlanBoundary, loadAllGushFeatures } from "@/data/cadastre-data";
 import { Skeleton } from "@/components/ui/skeleton";
+import { toast } from "sonner";
 
 interface GlobalSearchProps {
   onLocationSelect: (lat: number, lng: number, name: string) => void;
