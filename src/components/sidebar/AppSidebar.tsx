@@ -34,6 +34,10 @@ interface AppSidebarProps {
   onToggleVisibility: (id: string) => void;
   onSetOpacity: (id: string, opacity: number) => void;
   onSetColor?: (id: string, color: string) => void;
+  onSetStrokeColor?: (id: string, color: string) => void;
+  onSetStrokeOpacity?: (id: string, opacity: number) => void;
+  onSetFillColor?: (id: string, color: string) => void;
+  onSetFillOpacity?: (id: string, opacity: number) => void;
   onRemoveLayer: (id: string) => void;
   onRemoveDocument: (id: string) => void;
   onUploadClick: () => void;
