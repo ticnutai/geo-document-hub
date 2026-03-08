@@ -66,15 +66,16 @@ export default function Index() {
         />
 
         <div className="flex-1 flex flex-col">
-          {/* Enhanced header */}
-          <header className="h-11 flex items-center border-b bg-background/80 backdrop-blur-sm px-3 gap-2">
+          {/* Header with gold bottom border */}
+          <header className="h-11 flex items-center border-b-2 border-border bg-background px-3 gap-2" dir="rtl">
             <SidebarTrigger>
               <PanelRight className="h-4 w-4" />
             </SidebarTrigger>
             <div className="h-5 w-px bg-border" />
             <div className="flex items-center gap-1.5">
               <Map className="h-3.5 w-3.5 text-primary" />
-              <span className="text-xs font-semibold text-foreground">GIS Pro</span>
+              <span className="text-xs font-bold text-primary">GIS Pro</span>
+              <span className="text-[10px] text-muted-foreground">| מערכת מידע גיאוגרפי</span>
             </div>
             <div className="flex-1" />
             <QuickActions

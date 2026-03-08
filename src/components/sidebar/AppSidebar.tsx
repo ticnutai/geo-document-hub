@@ -9,7 +9,7 @@ import {
   useSidebar,
 } from "@/components/ui/sidebar";
 import type { GeoLayer, GISDocument, SidebarTab } from "@/types/gis";
-import SidebarGroupNav from "@/components/sidebar/SidebarGroupNav";
+import SidebarGroupNav, { type UserFolder } from "@/components/sidebar/SidebarGroupNav";
 import LayerPanel from "@/components/map/LayerPanel";
 import DocumentPanel from "@/components/documents/DocumentPanel";
 import DrawTools from "@/components/map/DrawTools";
@@ -49,6 +49,22 @@ export default function AppSidebar(props: AppSidebarProps) {
   const { state } = useSidebar();
   const collapsed = state === "collapsed";
 
+  // User folders state
+  const [folders, setFolders] = useState<UserFolder[]>([]);
+  const [activeFolderId, setActiveFolderId] = useState<string | null>(null);
+
+  const handleFolderAdd = (name: string) => {
+    setFolders((prev) => [
+      ...prev,
+      { id: `folder-${Date.now()}`, name, layerIds: [], planNames: [] },
+    ]);
+  };
+
+  const handleFolderRemove = (id: string) => {
+    setFolders((prev) => prev.filter((f) => f.id !== id));
+    if (activeFolderId === id) setActiveFolderId(null);
+  };
+
   const renderPanel = () => {
     switch (activeTab) {
       case "layers":
@@ -58,7 +74,7 @@ export default function AppSidebar(props: AppSidebarProps) {
               <Button
                 variant="outline"
                 size="sm"
-                className="flex-1 gap-2 text-xs"
+                className="flex-1 gap-2 text-xs border-border"
                 onClick={props.onGitHubClick}
               >
                 <Github className="h-3.5 w-3.5" />
@@ -114,27 +130,27 @@ export default function AppSidebar(props: AppSidebarProps) {
   };
 
   return (
-    <Sidebar collapsible="icon" side="right" className="border-r-0 border-l">
-      <SidebarHeader className="border-b border-sidebar-border p-3">
+    <Sidebar collapsible="icon" side="right" className="border-r-0 border-l border-border">
+      <SidebarHeader className="border-b border-border p-3 bg-background">
         {!collapsed && (
-          <div className="flex items-center gap-2" dir="rtl">
-            <div className="h-7 w-7 rounded-lg bg-sidebar-primary flex items-center justify-center">
-              <Map className="h-4 w-4 text-sidebar-primary-foreground" />
+          <div className="flex items-center gap-2.5" dir="rtl">
+            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center shadow-sm">
+              <Map className="h-4.5 w-4.5 text-primary-foreground" />
             </div>
             <div>
-              <span className="font-bold text-sm text-sidebar-foreground">GIS Pro</span>
-              <p className="text-[9px] text-sidebar-foreground/50">מערכת מידע גיאוגרפי</p>
+              <span className="font-bold text-sm text-foreground">GIS Pro</span>
+              <p className="text-[9px] text-muted-foreground">מערכת מידע גיאוגרפי</p>
             </div>
           </div>
         )}
         {collapsed && (
-          <div className="h-7 w-7 rounded-lg bg-sidebar-primary flex items-center justify-center mx-auto">
-            <Map className="h-4 w-4 text-sidebar-primary-foreground" />
+          <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center mx-auto shadow-sm">
+            <Map className="h-4.5 w-4.5 text-primary-foreground" />
           </div>
         )}
       </SidebarHeader>
 
-      <SidebarContent>
+      <SidebarContent className="bg-background">
         {/* Grouped navigation */}
         <SidebarGroup>
           <SidebarGroupContent>
@@ -144,10 +160,15 @@ export default function AppSidebar(props: AppSidebarProps) {
                 onTabChange={setActiveTab}
                 measureActive={props.measureActive}
                 onMeasureToggle={props.onMeasureToggle}
+                folders={folders}
+                onFolderAdd={handleFolderAdd}
+                onFolderRemove={handleFolderRemove}
+                activeFolderId={activeFolderId}
+                onFolderSelect={setActiveFolderId}
               />
             ) : (
               <div className="flex flex-col items-center gap-1 py-1">
-                <Map className="h-4 w-4 text-sidebar-foreground/50" />
+                <Map className="h-4 w-4 text-muted-foreground" />
               </div>
             )}
           </SidebarGroupContent>

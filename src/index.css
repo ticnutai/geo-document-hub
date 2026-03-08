@@ -4,83 +4,85 @@
 
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 220 25% 10%;
+    /* White background, navy text, gold accents */
+    --background: 0 0% 100%;
+    --foreground: 220 50% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 25% 10%;
+    --card-foreground: 220 50% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 25% 10%;
+    --popover-foreground: 220 50% 15%;
 
-    --primary: 210 80% 45%;
+    --primary: 220 60% 25%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 15% 92%;
-    --secondary-foreground: 220 25% 15%;
+    --secondary: 45 60% 94%;
+    --secondary-foreground: 220 50% 15%;
 
-    --muted: 210 15% 94%;
-    --muted-foreground: 215 15% 48%;
+    --muted: 45 20% 96%;
+    --muted-foreground: 220 20% 46%;
 
-    --accent: 210 20% 92%;
-    --accent-foreground: 220 25% 15%;
+    --accent: 45 50% 92%;
+    --accent-foreground: 220 50% 15%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 20% 88%;
-    --input: 214 20% 88%;
-    --ring: 210 80% 45%;
+    --border: 43 50% 72%;
+    --input: 43 40% 80%;
+    --ring: 43 70% 50%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 215 25% 12%;
-    --sidebar-foreground: 210 15% 85%;
-    --sidebar-primary: 210 80% 55%;
+    /* Sidebar: white bg, gold borders, navy text */
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 220 50% 15%;
+    --sidebar-primary: 220 60% 25%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 215 20% 18%;
-    --sidebar-accent-foreground: 210 15% 90%;
-    --sidebar-border: 215 20% 20%;
-    --sidebar-ring: 210 80% 55%;
+    --sidebar-accent: 45 50% 92%;
+    --sidebar-accent-foreground: 220 50% 15%;
+    --sidebar-border: 43 50% 72%;
+    --sidebar-ring: 43 70% 50%;
   }
 
   .dark {
-    --background: 220 25% 7%;
-    --foreground: 210 15% 92%;
+    --background: 220 30% 8%;
+    --foreground: 45 30% 90%;
 
-    --card: 220 20% 10%;
-    --card-foreground: 210 15% 92%;
+    --card: 220 25% 12%;
+    --card-foreground: 45 30% 90%;
 
-    --popover: 220 20% 10%;
-    --popover-foreground: 210 15% 92%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 45 30% 90%;
 
-    --primary: 210 80% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 43 70% 50%;
+    --primary-foreground: 220 50% 10%;
 
-    --secondary: 215 15% 16%;
-    --secondary-foreground: 210 15% 90%;
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 45 30% 85%;
 
-    --muted: 215 15% 16%;
-    --muted-foreground: 215 15% 55%;
+    --muted: 220 20% 16%;
+    --muted-foreground: 220 15% 55%;
 
-    --accent: 215 15% 16%;
-    --accent-foreground: 210 15% 90%;
+    --accent: 220 20% 18%;
+    --accent-foreground: 45 30% 85%;
 
     --destructive: 0 62% 30%;
-    --destructive-foreground: 210 15% 92%;
+    --destructive-foreground: 45 30% 90%;
 
-    --border: 215 15% 18%;
-    --input: 215 15% 18%;
-    --ring: 210 80% 55%;
+    --border: 43 30% 25%;
+    --input: 43 30% 25%;
+    --ring: 43 70% 50%;
 
-    --sidebar-background: 220 25% 5%;
-    --sidebar-foreground: 210 15% 85%;
-    --sidebar-primary: 210 80% 55%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 215 20% 12%;
-    --sidebar-accent-foreground: 210 15% 90%;
-    --sidebar-border: 215 20% 14%;
-    --sidebar-ring: 210 80% 55%;
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 45 30% 85%;
+    --sidebar-primary: 43 70% 50%;
+    --sidebar-primary-foreground: 220 50% 10%;
+    --sidebar-accent: 220 20% 16%;
+    --sidebar-accent-foreground: 45 30% 85%;
+    --sidebar-border: 43 30% 25%;
+    --sidebar-ring: 43 70% 50%;
   }
 }
 
@@ -91,6 +93,7 @@
 
   body {
     @apply bg-background text-foreground;
+    direction: rtl;
   }
 }
 
@@ -102,6 +105,11 @@
 
 .leaflet-control-layers {
   border-radius: 0.5rem !important;
-  border: 1px solid hsl(214 20% 88%) !important;
-  box-shadow: 0 4px 12px -2px rgb(0 0 0 / 0.1) !important;
+  border: 1px solid hsl(43 50% 72%) !important;
+  box-shadow: 0 4px 12px -2px rgb(0 0 0 / 0.08) !important;
+}
+
+/* Gold border utility */
+.border-gold {
+  border-color: hsl(43 50% 72%);
 }
