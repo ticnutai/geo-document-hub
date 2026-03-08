@@ -105,6 +105,9 @@ export default function AppSidebar(props: AppSidebarProps) {
                   />
                 </>
               )}
+              {activeTab === "catalog" && (
+                <DataCatalog onLayerAdd={props.onLayerAdd} />
+              )}
               {activeTab === "documents" && (
                 <DocumentPanel
                   documents={props.documents}
