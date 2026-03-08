@@ -146,8 +146,41 @@ export default function LayerPanel({
                           </PopoverContent>
                         </Popover>
 
-                        {/* Layer name */}
-                        <span className="text-xs font-medium flex-1 truncate">{layer.name}</span>
+                        {/* Layer name - double click to edit */}
+                        {editingLayerId === layer.id ? (
+                          <input
+                            autoFocus
+                            className="text-xs font-medium flex-1 bg-background border border-primary rounded px-1 py-0.5 outline-none"
+                            value={editingName}
+                            onChange={(e) => setEditingName(e.target.value)}
+                            onBlur={() => {
+                              if (editingName.trim() && editingName.trim() !== layer.name) {
+                                onRenameLayer?.(layer.id, editingName.trim());
+                              }
+                              setEditingLayerId(null);
+                            }}
+                            onKeyDown={(e) => {
+                              if (e.key === "Enter") {
+                                if (editingName.trim() && editingName.trim() !== layer.name) {
+                                  onRenameLayer?.(layer.id, editingName.trim());
+                                }
+                                setEditingLayerId(null);
+                              }
+                              if (e.key === "Escape") setEditingLayerId(null);
+                            }}
+                          />
+                        ) : (
+                          <span
+                            className="text-xs font-medium flex-1 truncate cursor-text select-none"
+                            onDoubleClick={() => {
+                              setEditingLayerId(layer.id);
+                              setEditingName(layer.name);
+                            }}
+                            title="לחץ לחיצה כפולה לשינוי שם"
+                          >
+                            {layer.name}
+                          </span>
+                        )}
 
                         {/* Visibility toggle */}
                         <Tooltip>
