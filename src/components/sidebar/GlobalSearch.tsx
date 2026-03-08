@@ -184,15 +184,24 @@ export default function GlobalSearch({ onLocationSelect, onHighlightFeature, onN
                 </div>
                 <div className="space-y-0.5">
                   {items.slice(0, 15).map((r, i) => (
-                    <div
+                    <button
                       key={i}
-                      className="rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
+                      onClick={() => {
+                        if (r.type === "plan" && onNavigateTo) {
+                          onNavigateTo("plans", r.title);
+                        } else if (r.type === "migrash" && onNavigateTo) {
+                          onNavigateTo("migrashim", r.data?.migrash);
+                        } else if (r.type === "block" && onNavigateTo) {
+                          onNavigateTo("blocks", r.data?.block);
+                        }
+                      }}
+                      className="flex flex-col w-full text-right rounded-lg px-2.5 py-1.5 text-[11px] hover:bg-accent/50 cursor-pointer transition-all duration-150 hover:translate-x-0.5"
                     >
                       <div className="font-medium truncate">{highlight(r.title)}</div>
                       {r.subtitle && (
                         <div className="text-[9px] text-muted-foreground truncate">{highlight(r.subtitle)}</div>
                       )}
-                    </div>
+                    </button>
                   ))}
                   {items.length > 15 && (
                     <p className="text-[9px] text-muted-foreground px-2">
