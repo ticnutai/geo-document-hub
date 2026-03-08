@@ -1,17 +1,25 @@
 import { useState, useEffect, useMemo } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Grid3X3 } from "lucide-react";
+import { Loader2, Grid3X3, MapPin } from "lucide-react";
 import { loadMigrashim, extractMigrashim, type MigrashSummary } from "@/data/plans-data";
+import { loadPlanBoundaries, findPlanBoundary } from "@/data/cadastre-data";
+import { toast } from "sonner";
 
-export default function MigrashimPanel() {
+interface MigrashimPanelProps {
+  onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+}
+
+export default function MigrashimPanel({ onHighlightFeature }: MigrashimPanelProps) {
   const [migrashim, setMigrashim] = useState<MigrashSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
   const [filterYeud, setFilterYeud] = useState("");
+  const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
 
   useEffect(() => {
-    loadMigrashim().then((data) => {
+    Promise.all([loadMigrashim(), loadPlanBoundaries()]).then(([data, boundaries]) => {
       setMigrashim(extractMigrashim(data));
+      setPlanBoundaries(boundaries);
       setLoading(false);
     });
   }, []);
@@ -35,6 +43,17 @@ export default function MigrashimPanel() {
     const totalUnits = filtered.reduce((s, m) => s + (m.yehidotDiur || 0), 0);
     return { totalArea, totalUnits, count: filtered.length };
   }, [filtered]);
+
+  const handleZoomToMigrash = (m: MigrashSummary) => {
+    if (!onHighlightFeature || !planBoundaries) return;
+    // Find plan boundary for this migrash's plan
+    const feature = findPlanBoundary(m.plan, planBoundaries);
+    if (feature) {
+      onHighlightFeature(feature, "#22c55e", `מגרש ${m.migrash} (${m.plan})`);
+    } else {
+      toast.info("לא נמצא גבול תוכנית למגרש זה");
+    }
+  };
 
   if (loading) {
     return (
@@ -80,10 +99,21 @@ export default function MigrashimPanel() {
       <ScrollArea className="h-[calc(100vh-360px)]">
         <div className="space-y-0.5 pr-1">
           {filtered.slice(0, 200).map((m, i) => (
-            <div key={`${m.plan}-${m.migrash}-${i}`} className="border border-border/40 rounded-md px-2 py-1.5">
+            <div key={`${m.plan}-${m.migrash}-${i}`} className="border border-border/40 rounded-md px-2 py-1.5 hover:bg-accent/30 transition-colors">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-medium">מגרש {m.migrash}</span>
-                <span className="text-[9px] text-muted-foreground">{m.plan}</span>
+                <div className="flex items-center gap-1">
+                  {onHighlightFeature && (
+                    <button
+                      onClick={() => handleZoomToMigrash(m)}
+                      className="p-0.5 rounded hover:bg-primary/20 transition-colors"
+                      title="הצג במפה"
+                    >
+                      <MapPin className="h-3 w-3 text-primary" />
+                    </button>
+                  )}
+                  <span className="text-[9px] text-muted-foreground">{m.plan}</span>
+                </div>
               </div>
               <div className="flex items-center gap-2 mt-0.5 text-[10px] text-muted-foreground">
                 <span>{m.yeud}</span>

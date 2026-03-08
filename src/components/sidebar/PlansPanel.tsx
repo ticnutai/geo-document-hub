@@ -1,9 +1,11 @@
 import { useState, useEffect, useMemo } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, ChevronDown, ChevronLeft, ExternalLink, Building2, Map, FileText } from "lucide-react";
+import { Loader2, ChevronDown, ChevronLeft, ExternalLink, Building2, Map, FileText, MapPin } from "lucide-react";
 import { loadPlans, extractPlans, loadDocsIndex, type PlanSummary } from "@/data/plans-data";
+import { loadPlanBoundaries, findPlanBoundary } from "@/data/cadastre-data";
 import { Button } from "@/components/ui/button";
 import type { GeoLayer } from "@/types/gis";
+import { toast } from "sonner";
 
 const STATUS_COLORS: Record<string, string> = {
   "אישור/תוקף": "bg-green-500/20 text-green-700",
@@ -12,13 +14,11 @@ const STATUS_COLORS: Record<string, string> = {
   "נדחתה": "bg-red-500/20 text-red-700",
 };
 
-// MMG geojson files
 const mmgModules = import.meta.glob<string>('/data/mmg/**/*.geojson', {
   query: '?raw',
   import: 'default',
 });
 
-// MMG index
 const mmgIndexModule = import.meta.glob<string>('/data/mmg/mmg_index.json', {
   query: '?raw',
   import: 'default',
@@ -35,9 +35,10 @@ const LAYER_COLORS: Record<string, string> = {
 
 interface PlansPanelProps {
   onLayerAdd?: (layer: GeoLayer) => void;
+  onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
 }
 
-export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
+export default function PlansPanel({ onLayerAdd, onHighlightFeature }: PlansPanelProps) {
   const [plans, setPlans] = useState<PlanSummary[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -46,16 +47,19 @@ export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
   const [mmgIndex, setMmgIndex] = useState<Record<string, any[]>>({});
   const [docsIndex, setDocsIndex] = useState<any>(null);
   const [loadingLayer, setLoadingLayer] = useState<string | null>(null);
+  const [planBoundaries, setPlanBoundaries] = useState<GeoJSON.FeatureCollection | null>(null);
 
   useEffect(() => {
     Promise.all([
       loadPlans(),
       Object.values(mmgIndexModule)[0]?.(),
       loadDocsIndex(),
-    ]).then(([plansData, mmgRaw, docs]) => {
+      loadPlanBoundaries(),
+    ]).then(([plansData, mmgRaw, docs, boundaries]) => {
       setPlans(extractPlans(plansData));
       if (mmgRaw) setMmgIndex(JSON.parse(mmgRaw));
       setDocsIndex(docs);
+      setPlanBoundaries(boundaries);
       setLoading(false);
     });
   }, []);
@@ -71,6 +75,16 @@ export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
     const matchStatus = !statusFilter || p.status === statusFilter;
     return matchSearch && matchStatus;
   });
+
+  const handleZoomToPlan = (planName: string) => {
+    if (!onHighlightFeature || !planBoundaries) return;
+    const feature = findPlanBoundary(planName, planBoundaries);
+    if (feature) {
+      onHighlightFeature(feature, "#e74c3c", planName);
+    } else {
+      toast.info("לא נמצא גבול תוכנית במפה");
+    }
+  };
 
   const loadPlanLayer = async (planId: string, layerFile: string, layerName: string) => {
     if (!onLayerAdd) return;
@@ -156,6 +170,9 @@ export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
             const isExpanded = expandedPlan === plan.planName;
             const mmgLayers = mmgIndex[plan.planName] || [];
             const planDocs = getPlanDocs(plan.planName);
+            const hasBoundary = planBoundaries?.features.some(
+              (f) => f.properties?.plan_number === plan.planName
+            );
 
             return (
               <div key={plan.planName} className="border border-border/40 rounded-md">
@@ -169,6 +186,15 @@ export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
                     <ChevronLeft className="h-3 w-3 shrink-0 text-muted-foreground" />
                   )}
                   <span className="flex-1 text-right truncate font-medium">{plan.planName}</span>
+                  {hasBoundary && (
+                    <button
+                      onClick={(e) => { e.stopPropagation(); handleZoomToPlan(plan.planName); }}
+                      className="p-0.5 rounded hover:bg-primary/20 transition-colors"
+                      title="הצג במפה"
+                    >
+                      <MapPin className="h-3 w-3 text-primary" />
+                    </button>
+                  )}
                   {mmgLayers.length > 0 && <Map className="h-3 w-3 text-primary shrink-0" />}
                   {plan.status && (
                     <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${STATUS_COLORS[plan.status] || "bg-muted text-muted-foreground"}`}>
@@ -180,6 +206,20 @@ export default function PlansPanel({ onLayerAdd }: PlansPanelProps) {
                 {isExpanded && (
                   <div className="px-2 pb-2 space-y-1.5 text-[11px]">
                     {plan.title && <p className="text-muted-foreground">{plan.title}</p>}
+
+                    {/* Zoom to plan button */}
+                    {hasBoundary && (
+                      <Button
+                        variant="outline"
+                        size="sm"
+                        className="w-full h-7 text-[10px] gap-1.5 border-primary/30 text-primary hover:bg-primary/10"
+                        onClick={() => handleZoomToPlan(plan.planName)}
+                      >
+                        <MapPin className="h-3 w-3" />
+                        הצג גבול תוכנית במפה
+                      </Button>
+                    )}
+
                     <div className="grid grid-cols-2 gap-x-2 gap-y-0.5">
                       {plan.category && <Detail label="קטגוריה" value={plan.category} />}
                       {plan.areaDunam && <Detail label="שטח" value={plan.areaDunam} />}
