@@ -86,7 +86,7 @@ interface SidebarGroupNavProps {
 export default function SidebarGroupNav({
   activeTab, onTabChange, measureActive, onMeasureToggle,
   folders, onFolderAdd, onFolderRemove, activeFolderId, onFolderSelect,
-  favoritesCount = 0,
+  favoritesCount = 0, onGitHubClick
 }: SidebarGroupNavProps) {
   const [expandedGroup, setExpandedGroup] = useState<string | null>(() => {
     for (const g of TAB_GROUPS) {
