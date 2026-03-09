@@ -85,6 +85,7 @@ function HighlightLayer({ highlighted }: { highlighted: HighlightedFeature }) {
     <GeoJSON
       key={highlighted.id}
       data={highlighted.data}
+      {/* @ts-ignore */}
       style={() => ({
         color: highlighted.color,
         weight: 4,
