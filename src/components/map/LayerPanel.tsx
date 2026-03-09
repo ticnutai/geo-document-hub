@@ -95,9 +95,13 @@ function LayerCard({
               {PRESET_COLORS.map((c) => (
                 <button
                   key={c}
-                  onClick={() => onSetColor?.(layer.id, c)}
+                  onClick={() => {
+                    onSetColor?.(layer.id, c);
+                    onSetFillColor?.(layer.id, c);
+                    onSetStrokeColor?.(layer.id, c);
+                  }}
                   className={`h-6 w-6 rounded-md transition-all hover:scale-110 ${
-                    layer.color === c ? "ring-2 ring-primary ring-offset-1" : ""
+                    (layer.fillColor || layer.color) === c ? "ring-2 ring-primary ring-offset-1" : ""
                   }`}
                   style={{ backgroundColor: c }}
                 />
@@ -105,8 +109,12 @@ function LayerCard({
             </div>
             <div className="mt-2 flex items-center gap-1.5">
               <input
-                type="color" value={layer.color}
-                onChange={(e) => onSetColor?.(layer.id, e.target.value)}
+                type="color" value={layer.fillColor || layer.color}
+                onChange={(e) => {
+                  onSetColor?.(layer.id, e.target.value);
+                  onSetFillColor?.(layer.id, e.target.value);
+                  onSetStrokeColor?.(layer.id, e.target.value);
+                }}
                 className="h-6 w-6 rounded cursor-pointer border-0"
               />
               <span className="text-[9px] text-muted-foreground">צבע מותאם</span>
