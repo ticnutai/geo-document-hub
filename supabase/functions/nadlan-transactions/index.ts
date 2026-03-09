@@ -34,7 +34,7 @@ Deno.serve(async (req) => {
       {
         headers: {
           'Accept': 'application/json',
-          'User-Agent': 'Mozilla/5.0',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
           'Referer': 'https://www.nadlan.gov.il/',
         },
       }
@@ -48,7 +48,18 @@ Deno.serve(async (req) => {
       );
     }
 
-    const queryData = await dataByQueryRes.json();
+    const queryText = await dataByQueryRes.text();
+    let queryData;
+    try {
+      queryData = JSON.parse(queryText);
+    } catch (e) {
+      console.error('Failed to parse GetDataByQuery response. Response text:', queryText.substring(0, 200));
+      return new Response(
+        JSON.stringify({ success: false, error: `Nadlan API returned invalid format (possibly blocked or rate limited).` }),
+        { status: 502, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
+    
     queryData.PageNo = pageNo;
 
     // Step 2: Get the actual deals
@@ -59,7 +70,7 @@ Deno.serve(async (req) => {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json',
-          'User-Agent': 'Mozilla/5.0',
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
           'Referer': 'https://www.nadlan.gov.il/',
         },
         body: JSON.stringify(queryData),
@@ -74,7 +85,17 @@ Deno.serve(async (req) => {
       );
     }
 
-    const dealsData = await dealsRes.json();
+    const dealsText = await dealsRes.text();
+    let dealsData;
+    try {
+      dealsData = JSON.parse(dealsText);
+    } catch (e) {
+      console.error('Failed to parse GetAssestAndDeals response. Response text:', dealsText.substring(0, 200));
+      return new Response(
+        JSON.stringify({ success: false, error: `Nadlan deals API returned invalid format.` }),
+        { status: 502, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
+      );
+    }
 
     // Extract relevant fields
     const transactions = (dealsData?.AllResults || []).map((deal: any) => ({
