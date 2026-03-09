@@ -2,25 +2,24 @@
  * Generic loader for gisnet GeoJSON layers stored under /data/gisnet_layers/
  */
 
-const layerModules = import.meta.glob<string>('/data/gisnet_layers/*.geojson', {
-  query: '?raw',
-  import: 'default',
-});
-
 const cache: Record<string, GeoJSON.FeatureCollection> = {};
 
 export async function loadGisnetLayer(fileName: string): Promise<GeoJSON.FeatureCollection> {
   if (cache[fileName]) return cache[fileName];
-  const key = `/data/gisnet_layers/${fileName}`;
-  const loader = layerModules[key];
-  if (!loader) {
-    console.warn(`Gisnet layer not found: ${fileName}`);
+  const url = `/data/gisnet_layers/${encodeURIComponent(fileName)}`;
+  try {
+    const res = await fetch(url);
+    if (!res.ok) {
+      console.warn(`Gisnet layer not found: ${fileName} (${res.status})`);
+      return { type: "FeatureCollection", features: [] };
+    }
+    const parsed = (await res.json()) as GeoJSON.FeatureCollection;
+    cache[fileName] = parsed;
+    return parsed;
+  } catch (e) {
+    console.warn(`Failed to load gisnet layer: ${fileName}`, e);
     return { type: "FeatureCollection", features: [] };
   }
-  const raw = await loader();
-  const parsed = JSON.parse(raw) as GeoJSON.FeatureCollection;
-  cache[fileName] = parsed;
-  return parsed;
 }
 
 // Pre-defined layer file names
