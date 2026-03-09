@@ -1,5 +1,7 @@
 import { useRef, useEffect, useCallback } from "react";
-import { GeoJSON, ImageOverlay, useMap } from "react-leaflet";
+import { GeoJSON as LeafletGeoJSON, ImageOverlay as LeafletImageOverlay, useMap } from "react-leaflet";
+const GeoJSON = LeafletGeoJSON as any;
+const ImageOverlay = LeafletImageOverlay as any;
 import L from "leaflet";
 import type { GeoLayer } from "@/types/gis";
 import { buildFeaturePopupHTML } from "@/utils/popup-builder";
@@ -83,10 +85,10 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
   return (
     <GeoJSON
       key={layer.id}
-      ref={(ref) => { geoJsonRef.current = ref as any; }}
+      ref={(ref: any) => { geoJsonRef.current = ref as any; }}
       data={layer.data}
       style={() => style}
-      pointToLayer={(feature, latlng) => {
+      pointToLayer={(feature: any, latlng: any) => {
         const props = (feature.properties || {}) as Record<string, unknown>;
         const label = String(
           props.LABEL ?? props.PARCEL_NUM ?? props.LOT_NUM ?? props.Migrash ?? props.migrash ?? props.MIGRASH ?? props.helka ?? props.gush ?? props.NAME ?? props.name ?? props["שם"] ?? ""
