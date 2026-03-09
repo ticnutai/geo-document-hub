@@ -32,11 +32,12 @@ const CATEGORIES = [
   { key: "sports", label: "ספורט ונופש", icon: Heart, color: "#06b6d4", file: GISNET_LAYERS.sports, nameField: "USG_SP_NAM" },
 ];
 
-export default function InfrastructurePanel({ onHighlightFeature }: InfrastructurePanelProps) {
+export default function InfrastructurePanel({ onHighlightFeature, onLayerAdd }: InfrastructurePanelProps) {
   const [loading, setLoading] = useState(true);
   const [items, setItems] = useState<InfraItem[]>([]);
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("");
+  const allFcRef = useRef<GeoJSON.FeatureCollection | null>(null);
 
   useEffect(() => {
     const loadAll = async () => {
