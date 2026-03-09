@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Loader2, Hammer, ExternalLink, Search, MapPin, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
@@ -29,6 +29,18 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
   const [data, setData] = useState<PermitFeature[]>([]);
   const [search, setSearch] = useState("");
   const [settlementFilter, setSettlementFilter] = useState("");
+  const [visibleCount, setVisibleCount] = useState(50);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const lastItemRef = useCallback((node: HTMLDivElement | null) => {
+    if (observerRef.current) observerRef.current.disconnect();
+    observerRef.current = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setVisibleCount((prev) => prev + 50);
+      }
+    });
+    if (node) observerRef.current.observe(node);
+  }, []);
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.buildingPermits).then((fc) => {
@@ -74,6 +86,13 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
       return true;
     });
   }, [data, search, settlementFilter]);
+
+  // Reset visible count when filters change
+  useEffect(() => {
+    setVisibleCount(50);
+  }, [search, settlementFilter]);
+
+  const visibleItems = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
 
   if (loading) {
     return (
@@ -126,9 +145,10 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
 
       <ScrollArea className="h-[calc(100vh-260px)]">
         <div className="space-y-1">
-          {filtered.slice(0, 100).map((p) => (
+          {visibleItems.map((p, idx) => (
             <div
               key={p.id}
+              ref={idx === visibleItems.length - 1 ? lastItemRef : undefined}
               className="rounded-lg border border-border/60 bg-card p-2 hover:bg-accent/30 transition-colors cursor-pointer"
               onClick={() => onHighlightFeature?.(p.feature, "#e74c3c", `היתר: ${p.gushParcel}`)}
             >
@@ -171,9 +191,10 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
               </div>
             </div>
           ))}
-          {filtered.length > 100 && (
-            <div className="text-center text-[9px] text-muted-foreground py-2">
-              מציג 100 מתוך {filtered.length} תוצאות. צמצם את החיפוש.
+          {visibleCount < filtered.length && (
+            <div className="flex items-center justify-center py-2">
+              <Loader2 className="h-3 w-3 animate-spin text-muted-foreground" />
+              <span className="text-[9px] text-muted-foreground mr-1">טוען עוד...</span>
             </div>
           )}
           {filtered.length === 0 && (
