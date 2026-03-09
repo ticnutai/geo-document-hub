@@ -254,9 +254,9 @@ export default function SidebarGroupNav({
                     }`}
                   >
                     <Ruler className="h-3.5 w-3.5 shrink-0" />
-                    <span>מדידה</span>
+                    <span className="flex-1 text-right">מדידה</span>
                     {measureActive && (
-                      <span className="mr-auto text-[9px] bg-primary-foreground/20 px-1.5 py-0.5 rounded-full">
+                      <span className="text-[9px] bg-primary-foreground/20 px-1.5 py-0.5 rounded-full">
                         פעיל
                       </span>
                     )}
