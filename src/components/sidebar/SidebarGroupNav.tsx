@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   Map, Layers, Database, Plane,
   ClipboardList, Building2, Grid3X3, Landmark, MapPinned,
-  Wrench, PenTool, Ruler, Search,
+  Wrench, PenTool, Ruler, Search, Github,
   BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
@@ -47,6 +47,7 @@ export const TAB_GROUPS: TabGroup[] = [
     tabs: [
       { id: "draw", label: "ציור", icon: PenTool },
       { id: "search", label: "חיפוש", icon: Search },
+      { id: "github", label: "GitHub", icon: Github },
     ],
   },
   {
@@ -79,12 +80,13 @@ interface SidebarGroupNavProps {
   activeFolderId: string | null;
   onFolderSelect: (id: string | null) => void;
   favoritesCount?: number;
+  onGitHubClick?: () => void;
 }
 
 export default function SidebarGroupNav({
   activeTab, onTabChange, measureActive, onMeasureToggle,
   folders, onFolderAdd, onFolderRemove, activeFolderId, onFolderSelect,
-  favoritesCount = 0,
+  favoritesCount = 0, onGitHubClick
 }: SidebarGroupNavProps) {
   const [expandedGroup, setExpandedGroup] = useState<string | null>(() => {
     for (const g of TAB_GROUPS) {
@@ -216,7 +218,13 @@ export default function SidebarGroupNav({
                   return (
                     <button
                       key={tab.id}
-                      onClick={() => onTabChange(tab.id)}
+                      onClick={() => {
+                        if (tab.id === 'github' && onGitHubClick) {
+                          onGitHubClick();
+                        } else {
+                          onTabChange(tab.id);
+                        }
+                      }}
                       className={`flex w-full items-center gap-2 rounded-md px-3 py-1.5 text-[11px] transition-all duration-150 ${
                         isActive
                           ? "bg-primary text-primary-foreground font-medium shadow-sm"

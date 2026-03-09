@@ -106,17 +106,6 @@ export default function AppSidebar(props: AppSidebarProps) {
       case "layers":
         return (
           <>
-            <div className="px-1 mb-2 flex gap-1">
-              <Button
-                variant="outline"
-                size="sm"
-                className="flex-1 gap-2 text-xs border-border"
-                onClick={props.onGitHubClick}
-              >
-                <Github className="h-3.5 w-3.5" />
-                GitHub
-              </Button>
-            </div>
             <LayerPanel
               layers={props.layers}
               categories={props.categories}

@@ -53,4 +53,5 @@ export type SidebarTab =
   | "aerial"
   | "complot"
   | "favorites"
-  | "analysis";
+  | "analysis"
+  | "github";
