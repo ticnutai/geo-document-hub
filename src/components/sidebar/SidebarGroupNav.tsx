@@ -232,9 +232,9 @@ export default function SidebarGroupNav({
                       }`}
                     >
                       <TabIcon className="h-3.5 w-3.5 shrink-0" />
-                      <span>{tab.label}</span>
+                      <span className="flex-1 text-right">{tab.label}</span>
                       {tab.id === "favorites" && favoritesCount > 0 && (
-                        <span className={`mr-auto text-[9px] px-1.5 py-0.5 rounded-full ${
+                        <span className={`text-[9px] px-1.5 py-0.5 rounded-full ${
                           isActive ? "bg-primary-foreground/20" : "bg-ring/20 text-ring"
                         }`}>
                           {favoritesCount}
