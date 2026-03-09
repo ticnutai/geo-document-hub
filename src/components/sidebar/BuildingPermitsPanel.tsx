@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef } from "react";
+import { useState, useEffect, useMemo, useRef, useCallback } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Loader2, Hammer, ExternalLink, Search, MapPin, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
