@@ -1,10 +1,12 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Building, Search, MapPin, GraduationCap, Bus, Landmark, ShoppingBag, Heart, Stethoscope, BookOpen } from "lucide-react";
+import { Loader2, Building, Search, MapPin, GraduationCap, Bus, Landmark, ShoppingBag, Heart, Stethoscope, BookOpen, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
+import type { GeoLayer } from "@/types/gis";
 
 interface InfrastructurePanelProps {
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onLayerAdd?: (layer: GeoLayer) => void;
 }
 
 interface InfraItem {
