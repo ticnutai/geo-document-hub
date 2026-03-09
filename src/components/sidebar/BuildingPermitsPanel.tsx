@@ -87,6 +87,13 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
     });
   }, [data, search, settlementFilter]);
 
+  // Reset visible count when filters change
+  useEffect(() => {
+    setVisibleCount(50);
+  }, [search, settlementFilter]);
+
+  const visibleItems = useMemo(() => filtered.slice(0, visibleCount), [filtered, visibleCount]);
+
   if (loading) {
     return (
       <div className="flex items-center justify-center py-8">
