@@ -2,7 +2,7 @@ import { useState } from "react";
 import {
   Map, Layers, Database, Plane,
   ClipboardList, Building2, Grid3X3, Landmark, MapPinned,
-  Wrench, PenTool, Ruler, Search,
+  Wrench, PenTool, Ruler, Search, Github,
   BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
