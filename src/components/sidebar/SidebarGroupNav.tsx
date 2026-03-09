@@ -47,6 +47,7 @@ export const TAB_GROUPS: TabGroup[] = [
     tabs: [
       { id: "draw", label: "ציור", icon: PenTool },
       { id: "search", label: "חיפוש", icon: Search },
+      { id: "github", label: "GitHub", icon: Github },
     ],
   },
   {
