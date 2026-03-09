@@ -6,6 +6,7 @@ import {
   BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
+  Hammer, Building, Shield,
 } from "lucide-react";
 import type { SidebarTab } from "@/types/gis";
 import { Button } from "@/components/ui/button";
