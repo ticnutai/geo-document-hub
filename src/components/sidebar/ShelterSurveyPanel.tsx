@@ -87,6 +87,16 @@ export default function ShelterSurveyPanel({ onHighlightFeature, onLayerAdd }: S
         <Shield className="h-4 w-4 text-primary shrink-0" />
         <span className="text-xs font-semibold">סקר מיגון</span>
         <span className="text-[9px] text-muted-foreground mr-auto">{data.length} מבנים</span>
+        {onLayerAdd && fcRef.current && (
+          <button
+            onClick={() => onLayerAdd({ id: crypto.randomUUID(), name: "סקר מיגון", type: "geojson", visible: true, opacity: 0.8, color: "#22c55e", category: "תשתיות", data: fcRef.current })}
+            className="flex items-center gap-0.5 text-[9px] text-primary hover:underline"
+            title="הצג כשכבה על המפה"
+          >
+            <Layers className="h-3 w-3" />
+            שכבה
+          </button>
+        )}
       </div>
 
       {/* Summary cards */}

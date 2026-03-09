@@ -81,11 +81,11 @@ export function SidebarPanelRenderer({
     case "analysis":
       return <PlanningAnalysisPanel onHighlightFeature={props.onHighlightFeature} />;
     case "permits":
-      return <BuildingPermitsPanel onHighlightFeature={props.onHighlightFeature} />;
+      return <BuildingPermitsPanel onHighlightFeature={props.onHighlightFeature} onLayerAdd={props.onLayerAdd} />;
     case "infrastructure":
-      return <InfrastructurePanel onHighlightFeature={props.onHighlightFeature} />;
+      return <InfrastructurePanel onHighlightFeature={props.onHighlightFeature} onLayerAdd={props.onLayerAdd} />;
     case "shelter":
-      return <ShelterSurveyPanel onHighlightFeature={props.onHighlightFeature} />;
+      return <ShelterSurveyPanel onHighlightFeature={props.onHighlightFeature} onLayerAdd={props.onLayerAdd} />;
     case "aerial":
       return (
         <AerialPanel
