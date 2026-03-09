@@ -80,6 +80,12 @@ export function SidebarPanelRenderer({
       return <ComplotPanel onHighlightFeature={props.onHighlightFeature} />;
     case "analysis":
       return <PlanningAnalysisPanel onHighlightFeature={props.onHighlightFeature} />;
+    case "permits":
+      return <BuildingPermitsPanel onHighlightFeature={props.onHighlightFeature} />;
+    case "infrastructure":
+      return <InfrastructurePanel onHighlightFeature={props.onHighlightFeature} />;
+    case "shelter":
+      return <ShelterSurveyPanel onHighlightFeature={props.onHighlightFeature} />;
     case "aerial":
       return (
         <AerialPanel
