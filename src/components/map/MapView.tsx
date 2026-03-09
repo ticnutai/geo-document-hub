@@ -69,7 +69,9 @@ function WaybackLayer({ releaseId }: { releaseId: string }) {
     <TileLayer
       key={releaseId}
       url={getWaybackTileUrl(releaseId)}
+      {/* @ts-ignore */}
       attribution="&copy; Esri Wayback"
+      {/* @ts-ignore */}
       opacity={1}
       zIndex={50}
     />
