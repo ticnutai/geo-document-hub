@@ -1,32 +1,21 @@
-import { useState } from "react";
-import { Map, Github, Pin, PinOff, GripVertical } from "lucide-react";
+import { GripVertical, Map } from "lucide-react";
 import {
   Sidebar,
   SidebarContent,
-  SidebarHeader,
   SidebarGroup,
   SidebarGroupContent,
   useSidebar,
 } from "@/components/ui/sidebar";
 import type { GeoLayer, GISDocument, SidebarTab } from "@/types/gis";
-import SidebarGroupNav, { type UserFolder } from "@/components/sidebar/SidebarGroupNav";
-import LayerPanel from "@/components/map/LayerPanel";
-import DocumentPanel from "@/components/documents/DocumentPanel";
-import DrawTools from "@/components/map/DrawTools";
-import GlobalSearch from "@/components/sidebar/GlobalSearch";
-import DataCatalog from "@/components/sidebar/DataCatalog";
-import PlansPanel from "@/components/sidebar/PlansPanel";
-import MigrashimPanel from "@/components/sidebar/MigrashimPanel";
-import BlocksPanel from "@/components/sidebar/BlocksPanel";
-import StatsPanel from "@/components/sidebar/StatsPanel";
-import AerialPanel from "@/components/sidebar/AerialPanel";
-import ComplotPanel from "@/components/sidebar/ComplotPanel";
-import FavoritesPanel from "@/components/sidebar/FavoritesPanel";
-import PlanningAnalysisPanel from "@/components/sidebar/PlanningAnalysisPanel";
-import { Button } from "@/components/ui/button";
+import SidebarGroupNav from "@/components/sidebar/SidebarGroupNav";
 import type { FavoriteItem } from "@/hooks/useFavorites";
 
-interface AppSidebarProps {
+import { useFolders } from "@/hooks/useFolders";
+import { useSidebarState } from "@/hooks/useSidebarState";
+import { AppSidebarHeader } from "@/components/sidebar/AppSidebarHeader";
+import { SidebarPanelRenderer } from "@/components/sidebar/SidebarPanelRenderer";
+
+export interface AppSidebarProps {
   layers: GeoLayer[];
   categories: string[];
   documents: GISDocument[];
@@ -67,134 +56,25 @@ interface AppSidebarProps {
 }
 
 export default function AppSidebar(props: AppSidebarProps) {
-  const [activeTab, setActiveTab] = useState<SidebarTab>("layers");
   const { state } = useSidebar();
   const collapsed = state === "collapsed";
 
-  const [folders, setFolders] = useState<UserFolder[]>([]);
-  const [activeFolderId, setActiveFolderId] = useState<string | null>(null);
+  const {
+    folders,
+    activeFolderId,
+    setActiveFolderId,
+    handleFolderAdd,
+    handleFolderRemove
+  } = useFolders();
 
-  const handleFolderAdd = (name: string) => {
-    setFolders((prev) => [
-      ...prev,
-      { id: `folder-${Date.now()}`, name, layerIds: [], planNames: [] },
-    ]);
-  };
-
-  const handleFolderRemove = (id: string) => {
-    setFolders((prev) => prev.filter((f) => f.id !== id));
-    if (activeFolderId === id) setActiveFolderId(null);
-  };
-
-  const favoriteLayerIds = new Set(
-    props.favorites.filter((f) => f.type === "layer").map((f) => f.id)
-  );
-  const favoriteMigrashIds = new Set(
-    props.favorites.filter((f) => f.type === "migrash").map((f) => f.id)
-  );
-
-  const handleToggleLayerFavorite = (layerId: string, layerName: string) => {
-    props.onToggleFavorite({ id: layerId, type: "layer", label: layerName });
-  };
-
-  const handleToggleMigrashFavorite = (id: string, label: string) => {
-    props.onToggleFavorite({ id, type: "migrash", label });
-  };
-
-  const renderPanel = () => {
-    switch (activeTab) {
-      case "layers":
-        return (
-          <>
-            <LayerPanel
-              layers={props.layers}
-              categories={props.categories}
-              onToggleVisibility={props.onToggleVisibility}
-              onSetOpacity={props.onSetOpacity}
-              onSetColor={props.onSetColor}
-              onSetStrokeColor={props.onSetStrokeColor}
-              onSetStrokeOpacity={props.onSetStrokeOpacity}
-              onSetFillColor={props.onSetFillColor}
-              onSetFillOpacity={props.onSetFillOpacity}
-              onRemoveLayer={props.onRemoveLayer}
-              onRenameLayer={props.onRenameLayer}
-              onZoomToLayer={props.onZoomToLayer}
-              onReorderLayers={props.onReorderLayers}
-              favorites={favoriteLayerIds}
-              onToggleFavorite={handleToggleLayerFavorite}
-            />
-          </>
-        );
-      case "catalog":
-        return <DataCatalog onLayerAdd={props.onLayerAdd} />;
-      case "plans":
-        return (
-          <PlansPanel
-            onLayerAdd={props.onLayerAdd}
-            onHighlightFeature={props.onHighlightFeature}
-          />
-        );
-      case "migrashim":
-        return (
-          <MigrashimPanel
-            onHighlightFeature={props.onHighlightFeature}
-            favorites={favoriteMigrashIds}
-            onToggleFavorite={handleToggleMigrashFavorite}
-          />
-        );
-      case "blocks":
-        return <BlocksPanel onHighlightFeature={props.onHighlightFeature} />;
-      case "complot":
-        return <ComplotPanel onHighlightFeature={props.onHighlightFeature} />;
-      case "analysis":
-        return <PlanningAnalysisPanel onHighlightFeature={props.onHighlightFeature} />;
-      case "aerial":
-        return (
-          <AerialPanel
-            onReleaseSelect={props.onWaybackSelect}
-            activeReleaseId={props.activeWaybackId}
-          />
-        );
-      case "stats":
-        return <StatsPanel />;
-      case "documents":
-        return (
-          <DocumentPanel
-            documents={props.documents}
-            searchQuery={props.searchQuery}
-            onSearchChange={props.onSearchChange}
-            onRemove={props.onRemoveDocument}
-            onUploadClick={props.onUploadClick}
-          />
-        );
-      case "draw":
-        return <DrawTools onModeChange={() => {}} />;
-      case "search":
-        return (
-          <GlobalSearch
-            onLocationSelect={props.onLocationSelect}
-            onHighlightFeature={props.onHighlightFeature}
-            onNavigateTo={(tab, search) => {
-              const tabMap: Record<string, SidebarTab> = {
-                plans: "plans",
-                migrashim: "migrashim",
-                blocks: "blocks",
-              };
-              if (tabMap[tab]) setActiveTab(tabMap[tab]);
-            }}
-          />
-        );
-      case "favorites":
-        return (
-          <FavoritesPanel
-            favorites={props.favorites}
-            onRemove={props.onRemoveFavorite}
-          />
-        );
-      default:
-        return null;
-    }
-  };
+  const {
+    activeTab,
+    setActiveTab,
+    favoriteLayerIds,
+    favoriteMigrashIds,
+    handleToggleLayerFavorite,
+    handleToggleMigrashFavorite,
+  } = useSidebarState(props.favorites, props.onToggleFavorite);
 
   const sidebarWidth = props.sidebarWidth ?? 320;
   const isPinned = props.sidebarPinned ?? true;
@@ -230,38 +110,11 @@ export default function AppSidebar(props: AppSidebarProps) {
           "--sidebar-width": `${sidebarWidth}px`,
         } as React.CSSProperties}
       >
-        <SidebarHeader className="border-b border-border p-3 bg-background">
-          {!collapsed && (
-            <div className="flex items-center gap-2.5" dir="rtl">
-              <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center shadow-sm">
-                <Map className="h-4.5 w-4.5 text-primary-foreground" />
-              </div>
-              <div className="flex-1">
-                <span className="font-bold text-sm text-foreground">GIS Pro</span>
-                <p className="text-[9px] text-muted-foreground">מערכת מידע גיאוגרפי</p>
-              </div>
-              {/* Pin button */}
-              {props.onTogglePin && (
-                <button
-                  onClick={props.onTogglePin}
-                  className={`h-6 w-6 flex items-center justify-center rounded-md transition-colors ${
-                    isPinned
-                      ? "bg-primary/10 text-primary hover:bg-primary/20"
-                      : "text-muted-foreground hover:bg-accent hover:text-foreground"
-                  }`}
-                  title={isPinned ? "בטל הצמדה (אוטו-הסתר)" : "הצמד סרגל צד"}
-                >
-                  {isPinned ? <Pin className="h-3.5 w-3.5" /> : <PinOff className="h-3.5 w-3.5" />}
-                </button>
-              )}
-            </div>
-          )}
-          {collapsed && (
-            <div className="h-8 w-8 rounded-lg bg-primary flex items-center justify-center mx-auto shadow-sm">
-              <Map className="h-4.5 w-4.5 text-primary-foreground" />
-            </div>
-          )}
-        </SidebarHeader>
+        <AppSidebarHeader 
+          collapsed={collapsed} 
+          isPinned={isPinned} 
+          onTogglePin={props.onTogglePin} 
+        />
 
         <SidebarContent className="bg-background">
           <SidebarGroup>
@@ -291,7 +144,15 @@ export default function AppSidebar(props: AppSidebarProps) {
             <SidebarGroup>
               <SidebarGroupContent>
                 <div className="animate-fade-in" key={activeTab}>
-                  {renderPanel()}
+                  <SidebarPanelRenderer
+                    activeTab={activeTab}
+                    setActiveTab={setActiveTab}
+                    props={props}
+                    favoriteLayerIds={favoriteLayerIds}
+                    favoriteMigrashIds={favoriteMigrashIds}
+                    handleToggleLayerFavorite={handleToggleLayerFavorite}
+                    handleToggleMigrashFavorite={handleToggleMigrashFavorite}
+                  />
                 </div>
               </SidebarGroupContent>
             </SidebarGroup>
