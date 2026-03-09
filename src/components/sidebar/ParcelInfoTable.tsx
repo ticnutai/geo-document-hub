@@ -141,6 +141,10 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
           <Download className="h-3 w-3" />
           CSV
         </Button>
+        <Button variant="outline" size="sm" className="h-7 text-[9px] gap-1" onClick={exportPDF} disabled={isExporting}>
+          <FileDown className="h-3 w-3" />
+          {isExporting ? "מייצא..." : "PDF"}
+        </Button>
       </div>
 
       <select
