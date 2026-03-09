@@ -29,6 +29,19 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
   const [data, setData] = useState<PermitFeature[]>([]);
   const [search, setSearch] = useState("");
   const [settlementFilter, setSettlementFilter] = useState("");
+  const [visibleCount, setVisibleCount] = useState(50);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const lastItemRef = useCallback((node: HTMLDivElement | null) => {
+    if (observerRef.current) observerRef.current.disconnect();
+    observerRef.current = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setVisibleCount((prev) => prev + 50);
+      }
+    });
+    if (node) observerRef.current.observe(node);
+  }, []);
+  const [settlementFilter, setSettlementFilter] = useState("");
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.buildingPermits).then((fc) => {
