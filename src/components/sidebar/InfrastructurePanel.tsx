@@ -1,10 +1,12 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Building, Search, MapPin, GraduationCap, Bus, Landmark, ShoppingBag, Heart, Stethoscope, BookOpen } from "lucide-react";
+import { Loader2, Building, Search, MapPin, GraduationCap, Bus, Landmark, ShoppingBag, Heart, Stethoscope, BookOpen, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
+import type { GeoLayer } from "@/types/gis";
 
 interface InfrastructurePanelProps {
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onLayerAdd?: (layer: GeoLayer) => void;
 }
 
 interface InfraItem {
@@ -30,11 +32,12 @@ const CATEGORIES = [
   { key: "sports", label: "ספורט ונופש", icon: Heart, color: "#06b6d4", file: GISNET_LAYERS.sports, nameField: "USG_SP_NAM" },
 ];
 
-export default function InfrastructurePanel({ onHighlightFeature }: InfrastructurePanelProps) {
+export default function InfrastructurePanel({ onHighlightFeature, onLayerAdd }: InfrastructurePanelProps) {
   const [loading, setLoading] = useState(true);
   const [items, setItems] = useState<InfraItem[]>([]);
   const [search, setSearch] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("");
+  const allFcRef = useRef<GeoJSON.FeatureCollection | null>(null);
 
   useEffect(() => {
     const loadAll = async () => {
@@ -58,6 +61,7 @@ export default function InfrastructurePanel({ onHighlightFeature }: Infrastructu
           } catch {}
         })
       );
+      allFcRef.current = { type: "FeatureCollection", features: allItems.map(i => i.feature) };
       setItems(allItems);
       setLoading(false);
     };
@@ -98,6 +102,16 @@ export default function InfrastructurePanel({ onHighlightFeature }: Infrastructu
         <Building className="h-4 w-4 text-primary shrink-0" />
         <span className="text-xs font-semibold">תשתיות ומוסדות</span>
         <span className="text-[9px] text-muted-foreground mr-auto">{items.length} פריטים</span>
+        {onLayerAdd && allFcRef.current && (
+          <button
+            onClick={() => onLayerAdd({ id: crypto.randomUUID(), name: "תשתיות ומוסדות", type: "geojson", visible: true, opacity: 0.8, color: "#14b8a6", category: "תשתיות", data: allFcRef.current })}
+            className="flex items-center gap-0.5 text-[9px] text-primary hover:underline"
+            title="הצג כשכבה על המפה"
+          >
+            <Layers className="h-3 w-3" />
+            שכבה
+          </button>
+        )}
       </div>
 
       <div className="relative">

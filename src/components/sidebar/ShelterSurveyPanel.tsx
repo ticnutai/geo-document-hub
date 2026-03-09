@@ -1,10 +1,12 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Shield, Search, MapPin, AlertTriangle, CheckCircle } from "lucide-react";
+import { Loader2, Shield, Search, MapPin, AlertTriangle, CheckCircle, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
+import type { GeoLayer } from "@/types/gis";
 
 interface ShelterSurveyPanelProps {
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onLayerAdd?: (layer: GeoLayer) => void;
 }
 
 interface ShelterItem {
@@ -22,7 +24,8 @@ const PROTECTION_COLORS: Record<number, string> = {
   8: "#22c55e", // ממד/ממק
 };
 
-export default function ShelterSurveyPanel({ onHighlightFeature }: ShelterSurveyPanelProps) {
+export default function ShelterSurveyPanel({ onHighlightFeature, onLayerAdd }: ShelterSurveyPanelProps) {
+  const fcRef = useRef<GeoJSON.FeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<ShelterItem[]>([]);
   const [search, setSearch] = useState("");
@@ -30,6 +33,7 @@ export default function ShelterSurveyPanel({ onHighlightFeature }: ShelterSurvey
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.shelterSurvey).then((fc) => {
+      fcRef.current = fc;
       const items = fc.features.map((f) => {
         const p = f.properties || {};
         return {
@@ -84,6 +88,16 @@ export default function ShelterSurveyPanel({ onHighlightFeature }: ShelterSurvey
         <Shield className="h-4 w-4 text-primary shrink-0" />
         <span className="text-xs font-semibold">סקר מיגון</span>
         <span className="text-[9px] text-muted-foreground mr-auto">{data.length} מבנים</span>
+        {onLayerAdd && fcRef.current && (
+          <button
+            onClick={() => onLayerAdd({ id: crypto.randomUUID(), name: "סקר מיגון", type: "geojson", visible: true, opacity: 0.8, color: "#22c55e", category: "תשתיות", data: fcRef.current })}
+            className="flex items-center gap-0.5 text-[9px] text-primary hover:underline"
+            title="הצג כשכבה על המפה"
+          >
+            <Layers className="h-3 w-3" />
+            שכבה
+          </button>
+        )}
       </div>
 
       {/* Summary cards */}

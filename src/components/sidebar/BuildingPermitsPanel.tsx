@@ -1,10 +1,12 @@
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useRef } from "react";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import { Loader2, Hammer, ExternalLink, Search, MapPin } from "lucide-react";
+import { Loader2, Hammer, ExternalLink, Search, MapPin, Layers } from "lucide-react";
 import { loadGisnetLayer, GISNET_LAYERS } from "@/data/gisnet-layers-data";
+import type { GeoLayer } from "@/types/gis";
 
 interface BuildingPermitsPanelProps {
   onHighlightFeature?: (feature: GeoJSON.Feature | GeoJSON.Feature[], color?: string, label?: string) => void;
+  onLayerAdd?: (layer: GeoLayer) => void;
 }
 
 interface PermitFeature {
@@ -21,7 +23,8 @@ interface PermitFeature {
   feature: GeoJSON.Feature;
 }
 
-export default function BuildingPermitsPanel({ onHighlightFeature }: BuildingPermitsPanelProps) {
+export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }: BuildingPermitsPanelProps) {
+  const fcRef = useRef<GeoJSON.FeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<PermitFeature[]>([]);
   const [search, setSearch] = useState("");
@@ -29,6 +32,7 @@ export default function BuildingPermitsPanel({ onHighlightFeature }: BuildingPer
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.buildingPermits).then((fc) => {
+      fcRef.current = fc;
       const permits = fc.features.map((f) => {
         const p = f.properties || {};
         return {
@@ -86,6 +90,16 @@ export default function BuildingPermitsPanel({ onHighlightFeature }: BuildingPer
         <Hammer className="h-4 w-4 text-primary shrink-0" />
         <span className="text-xs font-semibold">היתרי בנייה</span>
         <span className="text-[9px] text-muted-foreground mr-auto">{filtered.length} / {data.length}</span>
+        {onLayerAdd && fcRef.current && (
+          <button
+            onClick={() => onLayerAdd({ id: crypto.randomUUID(), name: "היתרי בנייה", type: "geojson", visible: true, opacity: 0.8, color: "#e74c3c", category: "תכנון", data: fcRef.current })}
+            className="flex items-center gap-0.5 text-[9px] text-primary hover:underline"
+            title="הצג כשכבה על המפה"
+          >
+            <Layers className="h-3 w-3" />
+            שכבה
+          </button>
+        )}
       </div>
 
       <div className="flex gap-1">
