@@ -81,10 +81,10 @@ function WaybackLayer({ releaseId }: { releaseId: string }) {
 
 function HighlightLayer({ highlighted }: { highlighted: HighlightedFeature }) {
   return (
+    // @ts-ignore
     <GeoJSON
       key={highlighted.id}
       data={highlighted.data}
-      {/* @ts-ignore */}
       style={() => ({
         color: highlighted.color,
         weight: 4,
