@@ -80,6 +80,7 @@ interface SidebarGroupNavProps {
   activeFolderId: string | null;
   onFolderSelect: (id: string | null) => void;
   favoritesCount?: number;
+  onGitHubClick?: () => void;
 }
 
 export default function SidebarGroupNav({
