@@ -33,6 +33,7 @@ export default function ShelterSurveyPanel({ onHighlightFeature, onLayerAdd }: S
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.shelterSurvey).then((fc) => {
+      fcRef.current = fc;
       const items = fc.features.map((f) => {
         const p = f.properties || {};
         return {
