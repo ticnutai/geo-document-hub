@@ -54,4 +54,7 @@ export type SidebarTab =
   | "complot"
   | "favorites"
   | "analysis"
+  | "permits"
+  | "infrastructure"
+  | "shelter"
   | "github";
