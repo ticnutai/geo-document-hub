@@ -159,7 +159,7 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
       </select>
 
       {/* Table */}
-      <div className="overflow-x-auto rounded-md border border-border/40">
+      <div className="overflow-x-auto rounded-md border border-border/40" ref={tableRef}>
         <table className="w-full text-[10px]">
           <thead>
             <tr className="bg-muted/50 border-b border-border/40">
