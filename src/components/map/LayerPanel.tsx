@@ -251,10 +251,11 @@ function MenuItem({ icon, label, onClick, className = "" }: {
   return (
     <button
       onClick={onClick}
-      className={`flex items-center gap-2 w-full px-2 py-1.5 rounded-md text-xs hover:bg-accent transition-colors ${className}`}
+      className={`flex items-center gap-2 w-full px-2 py-1.5 rounded-md text-xs text-right hover:bg-accent transition-colors ${className}`}
+      dir="rtl"
     >
       {icon}
-      <span>{label}</span>
+      <span className="flex-1 text-right">{label}</span>
     </button>
   );
 }
