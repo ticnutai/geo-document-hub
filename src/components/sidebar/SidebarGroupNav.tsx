@@ -217,7 +217,13 @@ export default function SidebarGroupNav({
                   return (
                     <button
                       key={tab.id}
-                      onClick={() => onTabChange(tab.id)}
+                      onClick={() => {
+                        if (tab.id === 'github' && onGitHubClick) {
+                          onGitHubClick();
+                        } else {
+                          onTabChange(tab.id);
+                        }
+                      }}
                       className={`flex w-full items-center gap-2 rounded-md px-3 py-1.5 text-[11px] transition-all duration-150 ${
                         isActive
                           ? "bg-primary text-primary-foreground font-medium shadow-sm"
