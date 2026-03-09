@@ -128,6 +128,7 @@ export default function MapView({
 }: MapViewProps) {
   return (
     <MapContainer
+      {/* @ts-ignore */}
       center={center}
       zoom={zoom}
       className="h-full w-full"
