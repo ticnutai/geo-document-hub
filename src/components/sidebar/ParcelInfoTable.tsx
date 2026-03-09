@@ -22,6 +22,8 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
   const [sortKey, setSortKey] = useState<SortKey>("migrash");
   const [sortAsc, setSortAsc] = useState(true);
   const [expandedRow, setExpandedRow] = useState<string | null>(null);
+  const [isExporting, setIsExporting] = useState(false);
+  const tableRef = useRef<HTMLDivElement>(null);
 
   const yeudOptions = useMemo(() => {
     const set = new Set(migrashim.map((m) => m.yeud).filter(Boolean));
