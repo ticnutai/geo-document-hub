@@ -41,7 +41,6 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
     });
     if (node) observerRef.current.observe(node);
   }, []);
-  const [settlementFilter, setSettlementFilter] = useState("");
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.buildingPermits).then((fc) => {
