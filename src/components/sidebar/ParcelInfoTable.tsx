@@ -1,9 +1,11 @@
-import { useState, useMemo } from "react";
-import { Search, Download, ChevronDown, ChevronLeft, Building2, MapPin } from "lucide-react";
+import { useState, useMemo, useRef } from "react";
+import { Search, Download, ChevronDown, ChevronLeft, Building2, MapPin, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { MigrashSummary } from "@/data/plans-data";
 import type { BuildingRightsPlan } from "@/data/building-rights-data";
 import type { HelkaMappingEntry } from "@/data/building-rights-data";
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
 
 interface ParcelInfoTableProps {
   migrashim: MigrashSummary[];
@@ -20,6 +22,8 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
   const [sortKey, setSortKey] = useState<SortKey>("migrash");
   const [sortAsc, setSortAsc] = useState(true);
   const [expandedRow, setExpandedRow] = useState<string | null>(null);
+  const [isExporting, setIsExporting] = useState(false);
+  const tableRef = useRef<HTMLDivElement>(null);
 
   const yeudOptions = useMemo(() => {
     const set = new Set(migrashim.map((m) => m.yeud).filter(Boolean));
@@ -71,6 +75,30 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
     URL.revokeObjectURL(url);
   };
 
+  const exportPDF = async () => {
+    if (!tableRef.current) return;
+    try {
+      setIsExporting(true);
+      const canvas = await html2canvas(tableRef.current, { scale: 2, useCORS: true });
+      const imgData = canvas.toDataURL('image/png');
+      const pdf = new jsPDF({
+        orientation: 'portrait',
+        unit: 'mm',
+        format: 'a4'
+      });
+      
+      const pdfWidth = pdf.internal.pageSize.getWidth();
+      const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
+      
+      pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
+      pdf.save('parcel_analysis.pdf');
+    } catch (error) {
+      console.error('Error generating PDF', error);
+    } finally {
+      setIsExporting(false);
+    }
+  };
+
   const getHelkaInfo = (migrash: string) => {
     return helkaMapping.filter((h) => h.migrash === migrash);
   };
@@ -113,6 +141,10 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
           <Download className="h-3 w-3" />
           CSV
         </Button>
+        <Button variant="outline" size="sm" className="h-7 text-[9px] gap-1" onClick={exportPDF} disabled={isExporting}>
+          <FileDown className="h-3 w-3" />
+          {isExporting ? "מייצא..." : "PDF"}
+        </Button>
       </div>
 
       <select
@@ -127,7 +159,7 @@ export default function ParcelInfoTable({ migrashim, buildingRights, helkaMappin
       </select>
 
       {/* Table */}
-      <div className="overflow-x-auto rounded-md border border-border/40">
+      <div className="overflow-x-auto rounded-md border border-border/40" ref={tableRef}>
         <table className="w-full text-[10px]">
           <thead>
             <tr className="bg-muted/50 border-b border-border/40">
