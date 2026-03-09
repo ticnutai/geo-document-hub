@@ -65,6 +65,7 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
         <ImageOverlay
           url={imageUrl}
           bounds={bounds}
+          {/* @ts-ignore */}
           opacity={layer.opacity}
           interactive
         />
