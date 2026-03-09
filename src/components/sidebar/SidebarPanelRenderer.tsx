@@ -12,6 +12,9 @@ import AerialPanel from "@/components/sidebar/AerialPanel";
 import ComplotPanel from "@/components/sidebar/ComplotPanel";
 import FavoritesPanel from "@/components/sidebar/FavoritesPanel";
 import PlanningAnalysisPanel from "@/components/sidebar/PlanningAnalysisPanel";
+import BuildingPermitsPanel from "@/components/sidebar/BuildingPermitsPanel";
+import InfrastructurePanel from "@/components/sidebar/InfrastructurePanel";
+import ShelterSurveyPanel from "@/components/sidebar/ShelterSurveyPanel";
 import type { AppSidebarProps } from "./AppSidebar";
 
 interface SidebarPanelRendererProps {
