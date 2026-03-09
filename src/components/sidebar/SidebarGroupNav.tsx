@@ -176,8 +176,8 @@ export default function SidebarGroupNav({
           onClick={() => setShowFolderInput(true)}
           className="flex w-full items-center gap-2 rounded-lg px-2.5 py-1.5 text-[10px] text-muted-foreground hover:bg-accent/50 hover:text-foreground transition-all mb-1"
         >
-          <FolderPlus className="h-3.5 w-3.5" />
-          <span>תיקייה חדשה</span>
+          <FolderPlus className="h-3.5 w-3.5 shrink-0" />
+          <span className="flex-1 text-right">תיקייה חדשה</span>
         </button>
       )}
 
