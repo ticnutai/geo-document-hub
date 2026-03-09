@@ -24,7 +24,8 @@ const PROTECTION_COLORS: Record<number, string> = {
   8: "#22c55e", // ממד/ממק
 };
 
-export default function ShelterSurveyPanel({ onHighlightFeature }: ShelterSurveyPanelProps) {
+export default function ShelterSurveyPanel({ onHighlightFeature, onLayerAdd }: ShelterSurveyPanelProps) {
+  const fcRef = useRef<GeoJSON.FeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<ShelterItem[]>([]);
   const [search, setSearch] = useState("");
