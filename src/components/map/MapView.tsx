@@ -66,12 +66,11 @@ function MapRefReporter({ onMapReady }: { onMapReady: (map: L.Map) => void }) {
 
 function WaybackLayer({ releaseId }: { releaseId: string }) {
   return (
+    // @ts-ignore
     <TileLayer
       key={releaseId}
       url={getWaybackTileUrl(releaseId)}
-      {/* @ts-ignore */}
       attribution="&copy; Esri Wayback"
-      {/* @ts-ignore */}
       opacity={1}
       zIndex={50}
     />
