@@ -251,10 +251,11 @@ function MenuItem({ icon, label, onClick, className = "" }: {
   return (
     <button
       onClick={onClick}
-      className={`flex items-center gap-2 w-full px-2 py-1.5 rounded-md text-xs hover:bg-accent transition-colors ${className}`}
+      className={`flex items-center gap-2 w-full px-2 py-1.5 rounded-md text-xs text-right hover:bg-accent transition-colors ${className}`}
+      dir="rtl"
     >
       {icon}
-      <span>{label}</span>
+      <span className="flex-1 text-right">{label}</span>
     </button>
   );
 }
@@ -264,20 +265,20 @@ function StyleRow({ label, color, opacity, onColorChange, onOpacityChange }: {
   onColorChange: (c: string) => void; onOpacityChange: (v: number) => void;
 }) {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2" dir="rtl">
       <input
         type="color" value={color}
         onChange={(e) => onColorChange(e.target.value)}
         className="h-5 w-5 rounded cursor-pointer border border-border/50 p-0 shrink-0"
       />
-      <span className="text-[10px] text-muted-foreground w-8 shrink-0">{label}</span>
+      <span className="text-[10px] text-muted-foreground w-8 shrink-0 text-right">{label}</span>
       <Slider
         value={[opacity]}
         onValueChange={([v]) => onOpacityChange(v)}
         max={100} step={5}
         className="flex-1"
       />
-      <span className="text-[10px] text-muted-foreground w-8 text-left tabular-nums shrink-0">
+      <span className="text-[10px] text-muted-foreground w-8 tabular-nums shrink-0">
         {Math.round(opacity)}%
       </span>
     </div>
