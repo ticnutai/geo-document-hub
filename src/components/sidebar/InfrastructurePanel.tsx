@@ -61,6 +61,7 @@ export default function InfrastructurePanel({ onHighlightFeature, onLayerAdd }: 
           } catch {}
         })
       );
+      allFcRef.current = { type: "FeatureCollection", features: allItems.map(i => i.feature) };
       setItems(allItems);
       setLoading(false);
     };
