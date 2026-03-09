@@ -83,13 +83,12 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
   };
 
   return (
-    // @ts-ignore
     <GeoJSON
       key={layer.id}
-      ref={(ref) => { geoJsonRef.current = ref as any; }}
+      ref={(ref: any) => { geoJsonRef.current = ref as any; }}
       data={layer.data}
       style={() => style}
-      pointToLayer={(feature, latlng) => {
+      pointToLayer={(feature: any, latlng: any) => {
         const props = (feature.properties || {}) as Record<string, unknown>;
         const label = String(
           props.LABEL ?? props.PARCEL_NUM ?? props.LOT_NUM ?? props.Migrash ?? props.migrash ?? props.MIGRASH ?? props.helka ?? props.gush ?? props.NAME ?? props.name ?? props["שם"] ?? ""

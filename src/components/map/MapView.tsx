@@ -127,7 +127,6 @@ export default function MapView({
   onFeatureClick,
 }: MapViewProps) {
   return (
-    // @ts-ignore
     <MapContainer
       center={center}
       zoom={zoom}
