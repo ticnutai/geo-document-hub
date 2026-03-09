@@ -82,11 +82,11 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
   };
 
   return (
+    // @ts-ignore
     <GeoJSON
       key={layer.id}
       ref={(ref) => { geoJsonRef.current = ref as any; }}
       data={layer.data}
-      {/* @ts-ignore */}
       style={() => style}
       pointToLayer={(feature, latlng) => {
         const props = (feature.properties || {}) as Record<string, unknown>;
