@@ -12,6 +12,9 @@ import AerialPanel from "@/components/sidebar/AerialPanel";
 import ComplotPanel from "@/components/sidebar/ComplotPanel";
 import FavoritesPanel from "@/components/sidebar/FavoritesPanel";
 import PlanningAnalysisPanel from "@/components/sidebar/PlanningAnalysisPanel";
+import BuildingPermitsPanel from "@/components/sidebar/BuildingPermitsPanel";
+import InfrastructurePanel from "@/components/sidebar/InfrastructurePanel";
+import ShelterSurveyPanel from "@/components/sidebar/ShelterSurveyPanel";
 import type { AppSidebarProps } from "./AppSidebar";
 
 interface SidebarPanelRendererProps {
@@ -77,6 +80,12 @@ export function SidebarPanelRenderer({
       return <ComplotPanel onHighlightFeature={props.onHighlightFeature} />;
     case "analysis":
       return <PlanningAnalysisPanel onHighlightFeature={props.onHighlightFeature} />;
+    case "permits":
+      return <BuildingPermitsPanel onHighlightFeature={props.onHighlightFeature} />;
+    case "infrastructure":
+      return <InfrastructurePanel onHighlightFeature={props.onHighlightFeature} />;
+    case "shelter":
+      return <ShelterSurveyPanel onHighlightFeature={props.onHighlightFeature} />;
     case "aerial":
       return (
         <AerialPanel

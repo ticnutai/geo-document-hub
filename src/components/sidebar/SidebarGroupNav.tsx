@@ -6,6 +6,7 @@ import {
   BarChart3, FileText, Star, TrendingUp,
   ChevronDown, ChevronLeft,
   FolderPlus, Folder, X,
+  Hammer, Building, Shield,
 } from "lucide-react";
 import type { SidebarTab } from "@/types/gis";
 import { Button } from "@/components/ui/button";
@@ -37,7 +38,17 @@ export const TAB_GROUPS: TabGroup[] = [
       { id: "migrashim", label: "מגרשים", icon: Grid3X3 },
       { id: "blocks", label: "גושים", icon: Landmark },
       { id: "complot", label: "קומפלוט", icon: MapPinned },
+      { id: "permits", label: "היתרי בנייה", icon: Hammer },
       { id: "analysis", label: "ניתוח", icon: TrendingUp },
+    ],
+  },
+  {
+    id: "field",
+    label: "תשתיות ומיגון",
+    icon: Shield,
+    tabs: [
+      { id: "infrastructure", label: "תשתיות ומוסדות", icon: Building },
+      { id: "shelter", label: "סקר מיגון", icon: Shield },
     ],
   },
   {
