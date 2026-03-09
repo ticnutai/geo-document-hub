@@ -1,9 +1,11 @@
-import { useState, useMemo } from "react";
-import { Search, Download, ChevronDown, ChevronLeft, Building2, MapPin } from "lucide-react";
+import { useState, useMemo, useRef } from "react";
+import { Search, Download, ChevronDown, ChevronLeft, Building2, MapPin, FileDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { MigrashSummary } from "@/data/plans-data";
 import type { BuildingRightsPlan } from "@/data/building-rights-data";
 import type { HelkaMappingEntry } from "@/data/building-rights-data";
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
 
 interface ParcelInfoTableProps {
   migrashim: MigrashSummary[];
