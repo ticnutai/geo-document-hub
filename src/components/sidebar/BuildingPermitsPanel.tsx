@@ -145,9 +145,10 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
 
       <ScrollArea className="h-[calc(100vh-260px)]">
         <div className="space-y-1">
-          {filtered.slice(0, 100).map((p) => (
+          {visibleItems.map((p, idx) => (
             <div
               key={p.id}
+              ref={idx === visibleItems.length - 1 ? lastItemRef : undefined}
               className="rounded-lg border border-border/60 bg-card p-2 hover:bg-accent/30 transition-colors cursor-pointer"
               onClick={() => onHighlightFeature?.(p.feature, "#e74c3c", `היתר: ${p.gushParcel}`)}
             >
@@ -190,9 +191,10 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
               </div>
             </div>
           ))}
-          {filtered.length > 100 && (
-            <div className="text-center text-[9px] text-muted-foreground py-2">
-              מציג 100 מתוך {filtered.length} תוצאות. צמצם את החיפוש.
+          {visibleCount < filtered.length && (
+            <div className="flex items-center justify-center py-2">
+              <Loader2 className="h-3 w-3 animate-spin text-muted-foreground" />
+              <span className="text-[9px] text-muted-foreground mr-1">טוען עוד...</span>
             </div>
           )}
           {filtered.length === 0 && (
