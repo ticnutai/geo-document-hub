@@ -32,6 +32,7 @@ export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }:
 
   useEffect(() => {
     loadGisnetLayer(GISNET_LAYERS.buildingPermits).then((fc) => {
+      fcRef.current = fc;
       const permits = fc.features.map((f) => {
         const p = f.properties || {};
         return {
