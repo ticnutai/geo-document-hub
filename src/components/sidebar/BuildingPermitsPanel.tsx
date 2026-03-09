@@ -23,7 +23,8 @@ interface PermitFeature {
   feature: GeoJSON.Feature;
 }
 
-export default function BuildingPermitsPanel({ onHighlightFeature }: BuildingPermitsPanelProps) {
+export default function BuildingPermitsPanel({ onHighlightFeature, onLayerAdd }: BuildingPermitsPanelProps) {
+  const fcRef = useRef<GeoJSON.FeatureCollection | null>(null);
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState<PermitFeature[]>([]);
   const [search, setSearch] = useState("");
