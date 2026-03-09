@@ -64,7 +64,6 @@ export default function LayerRenderer({ layer, onFeatureClick }: LayerRendererPr
     const { imageUrl, bounds } = georefFeature.properties as any;
     if (imageUrl && bounds) {
       return layer.visible ? (
-        // @ts-ignore
         <ImageOverlay
           url={imageUrl}
           bounds={bounds}
